@@ -1,0 +1,268 @@
+Grammar fold types:
+#BASE (<Input-Sub-Sequence-Type>)
+#EMPTY (void)
+#LOC (<Input-Sub-Sequence-Type>)
+#REGION (<Input-Sub-Sequence-Type>)
+closed ([Sig comp]) = [Sig comp]{ [Sig comp] | [Sig comp] | [Sig comp] | [Sig comp] | [Sig comp] | [Sig comp] | }  |
+   	# h [Sig comp]
+
+
+dangle ([Sig comp]) = [Sig comp] dlr(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+hairpin ([Sig comp]) = [Sig comp] hl(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type>{ <Input-Sub-Sequence-Type> | }  >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+iloop ([Sig comp]) = [Sig comp] il(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h [Sig comp]
+
+
+leftB ([Sig comp]) = [Sig comp] bl(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h [Sig comp]
+
+
+ml_comps ([Sig cmpl]) = [Sig cmpl] sadd(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] append(Sig cmpl< [Sig cmpl]{ [Sig cmpl] ul(Sig comp< [Sig comp] >, ) | }  >, Sig cmpl< [Sig cmpl] >, ) |
+   	# h_l [Sig cmpl]
+
+
+ml_comps1 ([Sig cmpl]) = [Sig cmpl] sadd(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] append(Sig cmpl< [Sig cmpl] ul(Sig comp< [Sig comp] >, ) >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] ul(Sig comp< [Sig comp] >, ) |
+   [Sig cmpl] addss(Sig cmpl< [Sig cmpl] ul(Sig comp< [Sig comp] >, ) >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h_l [Sig cmpl]
+
+
+multiloop ([Sig comp]) = [Sig comp] ml(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+rightB ([Sig comp]) = [Sig comp] br(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h [Sig comp]
+
+
+stack ([Sig comp]) = [Sig comp] sr(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+struct ([Sig cmpl]) = [Sig cmpl] sadd(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] cadd(Sig comp< [Sig comp] >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] nil(void< void >, ) |
+   	# h_s [Sig cmpl]
+
+
+
+List elimination iteration: 0
+
+Grammar fold types:
+#BASE (<Input-Sub-Sequence-Type>)
+#EMPTY (void)
+#LOC (<Input-Sub-Sequence-Type>)
+#REGION (<Input-Sub-Sequence-Type>)
+closed ([Sig comp]) = [Sig comp]{ [Sig comp] | [Sig comp] | [Sig comp] | [Sig comp] | [Sig comp] | [Sig comp] | }  |
+   	# h [Sig comp]
+
+
+dangle ([Sig comp]) = [Sig comp] dlr(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+hairpin (Sig comp) = Sig comp hl(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type>{ <Input-Sub-Sequence-Type> | }  >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+iloop ([Sig comp]) = [Sig comp] il(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h [Sig comp]
+
+
+leftB ([Sig comp]) = [Sig comp] bl(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h [Sig comp]
+
+
+ml_comps ([Sig cmpl]) = [Sig cmpl] sadd(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] append(Sig cmpl< [Sig cmpl]{ [Sig cmpl] ul(Sig comp< [Sig comp] >, ) | }  >, Sig cmpl< [Sig cmpl] >, ) |
+   	# h_l [Sig cmpl]
+
+
+ml_comps1 ([Sig cmpl]) = [Sig cmpl] sadd(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] append(Sig cmpl< [Sig cmpl] ul(Sig comp< [Sig comp] >, ) >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] ul(Sig comp< [Sig comp] >, ) |
+   [Sig cmpl] addss(Sig cmpl< [Sig cmpl] ul(Sig comp< [Sig comp] >, ) >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h_l [Sig cmpl]
+
+
+multiloop ([Sig comp]) = [Sig comp] ml(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+rightB ([Sig comp]) = [Sig comp] br(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h [Sig comp]
+
+
+stack ([Sig comp]) = [Sig comp] sr(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+struct ([Sig cmpl]) = [Sig cmpl] sadd(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] cadd(Sig comp< [Sig comp] >, Sig cmpl< [Sig cmpl] >, ) |
+   Sig cmpl nil(void< void >, ) |
+   	# h_s [Sig cmpl]
+
+
+
+List elimination iteration: 1
+
+Grammar fold types:
+#BASE (<Input-Sub-Sequence-Type>)
+#EMPTY (void)
+#LOC (<Input-Sub-Sequence-Type>)
+#REGION (<Input-Sub-Sequence-Type>)
+closed ([Sig comp]) = [Sig comp]{ [Sig comp] | Sig comp | [Sig comp] | [Sig comp] | [Sig comp] | [Sig comp] | }  |
+   	# h [Sig comp]
+
+
+dangle ([Sig comp]) = [Sig comp] dlr(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+hairpin (Sig comp) = Sig comp hl(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type>{ <Input-Sub-Sequence-Type> | }  >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+iloop ([Sig comp]) = [Sig comp] il(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h [Sig comp]
+
+
+leftB ([Sig comp]) = [Sig comp] bl(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h [Sig comp]
+
+
+ml_comps ([Sig cmpl]) = [Sig cmpl] sadd(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] append(Sig cmpl< [Sig cmpl]{ [Sig cmpl] ul(Sig comp< [Sig comp] >, ) | }  >, Sig cmpl< [Sig cmpl] >, ) |
+   	# h_l [Sig cmpl]
+
+
+ml_comps1 ([Sig cmpl]) = [Sig cmpl] sadd(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] append(Sig cmpl< [Sig cmpl] ul(Sig comp< [Sig comp] >, ) >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] ul(Sig comp< [Sig comp] >, ) |
+   [Sig cmpl] addss(Sig cmpl< [Sig cmpl] ul(Sig comp< [Sig comp] >, ) >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h_l [Sig cmpl]
+
+
+multiloop ([Sig comp]) = [Sig comp] ml(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+rightB ([Sig comp]) = [Sig comp] br(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h [Sig comp]
+
+
+stack ([Sig comp]) = [Sig comp] sr(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+struct ([Sig cmpl]) = [Sig cmpl] sadd(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] cadd(Sig comp< [Sig comp] >, Sig cmpl< [Sig cmpl] >, ) |
+   Sig cmpl nil(void< void >, ) |
+   	# h_s [Sig cmpl]
+
+
+
+List elimination iteration: 2
+
+Grammar fold types:
+#BASE (<Input-Sub-Sequence-Type>)
+#EMPTY (void)
+#LOC (<Input-Sub-Sequence-Type>)
+#REGION (<Input-Sub-Sequence-Type>)
+closed ([Sig comp]) = [Sig comp]{ [Sig comp] | Sig comp | [Sig comp] | [Sig comp] | [Sig comp] | [Sig comp] | }  |
+   	# h [Sig comp]
+
+
+dangle ([Sig comp]) = [Sig comp] dlr(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+hairpin (Sig comp) = Sig comp hl(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type>{ <Input-Sub-Sequence-Type> | }  >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+iloop ([Sig comp]) = [Sig comp] il(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h [Sig comp]
+
+
+leftB ([Sig comp]) = [Sig comp] bl(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h [Sig comp]
+
+
+ml_comps ([Sig cmpl]) = [Sig cmpl] sadd(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] append(Sig cmpl< [Sig cmpl]{ [Sig cmpl] ul(Sig comp< [Sig comp] >, ) | }  >, Sig cmpl< [Sig cmpl] >, ) |
+   	# h_l [Sig cmpl]
+
+
+ml_comps1 ([Sig cmpl]) = [Sig cmpl] sadd(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] append(Sig cmpl< [Sig cmpl] ul(Sig comp< [Sig comp] >, ) >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] ul(Sig comp< [Sig comp] >, ) |
+   [Sig cmpl] addss(Sig cmpl< [Sig cmpl] ul(Sig comp< [Sig comp] >, ) >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h_l [Sig cmpl]
+
+
+multiloop ([Sig comp]) = [Sig comp] ml(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+rightB ([Sig comp]) = [Sig comp] br(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h [Sig comp]
+
+
+stack ([Sig comp]) = [Sig comp] sr(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+struct ([Sig cmpl]) = [Sig cmpl] sadd(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] cadd(Sig comp< [Sig comp] >, Sig cmpl< [Sig cmpl] >, ) |
+   Sig cmpl nil(void< void >, ) |
+   	# h_s [Sig cmpl]
+
+
+
+List elimination iteration: 3
+
+Grammar fold types:
+#BASE (<Input-Sub-Sequence-Type>)
+#EMPTY (void)
+#LOC (<Input-Sub-Sequence-Type>)
+#REGION (<Input-Sub-Sequence-Type>)
+closed ([Sig comp]) = [Sig comp]{ [Sig comp] | Sig comp | [Sig comp] | [Sig comp] | [Sig comp] | [Sig comp] | }  |
+   	# h [Sig comp]
+
+
+dangle ([Sig comp]) = [Sig comp] dlr(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+hairpin (Sig comp) = Sig comp hl(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type>{ <Input-Sub-Sequence-Type> | }  >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+iloop ([Sig comp]) = [Sig comp] il(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h [Sig comp]
+
+
+leftB ([Sig comp]) = [Sig comp] bl(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h [Sig comp]
+
+
+ml_comps ([Sig cmpl]) = [Sig cmpl] sadd(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] append(Sig cmpl< [Sig cmpl]{ [Sig cmpl] ul(Sig comp< [Sig comp] >, ) | }  >, Sig cmpl< [Sig cmpl] >, ) |
+   	# h_l [Sig cmpl]
+
+
+ml_comps1 ([Sig cmpl]) = [Sig cmpl] sadd(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] append(Sig cmpl< [Sig cmpl] ul(Sig comp< [Sig comp] >, ) >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] ul(Sig comp< [Sig comp] >, ) |
+   [Sig cmpl] addss(Sig cmpl< [Sig cmpl] ul(Sig comp< [Sig comp] >, ) >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h_l [Sig cmpl]
+
+
+multiloop ([Sig comp]) = [Sig comp] ml(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+rightB ([Sig comp]) = [Sig comp] br(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   	# h [Sig comp]
+
+
+stack ([Sig comp]) = [Sig comp] sr(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig comp< [Sig comp] >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+struct ([Sig cmpl]) = [Sig cmpl] sadd(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig cmpl< [Sig cmpl] >, ) |
+   [Sig cmpl] cadd(Sig comp< [Sig comp] >, Sig cmpl< [Sig cmpl] >, ) |
+   Sig cmpl nil(void< void >, ) |
+   	# h_s [Sig cmpl]
+
+
+

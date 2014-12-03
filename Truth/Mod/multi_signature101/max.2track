@@ -1,0 +1,9 @@
+Error: 
+  A = foo ( < P, Q > )  with < maxsize(23), maxsize(42) > ;
+      ^-^
+max.2track:11.7-9: Function foo is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+max.2track:3.1-13: in signature Foo.
+Return: 0

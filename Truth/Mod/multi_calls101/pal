@@ -1,0 +1,20 @@
+NT inner: -> REGION (1)
+ -> pal (1)
+
+
+NT match: -> CHAR (1) -> inner (1) -> CHAR (1)
+
+
+NT pal: -> match (1)
+ -> CHAR (1) -> skipl (1)
+ -> skipr (1) -> CHAR (1)
+
+
+NT skipl: -> match (1)
+ -> CHAR (1) -> skipl (1)
+
+
+NT skipr: -> match (1)
+ -> skipr (1) -> CHAR (1)
+
+

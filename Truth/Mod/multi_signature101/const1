@@ -1,0 +1,17 @@
+Error: 
+foo = x(CHAR, bar, CHAR) ;
+      ^
+const1:11.7: Function x is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+const1:1.1-13: in signature Foo.
+Error: 
+start = x(CHAR, foo, CHAR) ;
+        ^
+const1:9.9: Function x is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+const1:1.1-13: in signature Foo.
+Return: 0

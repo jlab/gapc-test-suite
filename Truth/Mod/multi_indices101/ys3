@@ -1,0 +1,23 @@
+
+
+b [ < (t_0_left_most, t_0_right_most) > ] = f( CHAR, )
+f( \t_0_left_most ,(t_0_left_most + 1)/, )
+
+ | 
+	f( CHAR, CHAR, )
+f( \t_0_left_most ,(t_0_left_most + 1)/, \(t_0_left_most + 1) ,((t_0_left_most + 1) + 1)/, )
+
+ | 
+	f( CHAR, CHAR, CHAR, )
+f( \t_0_left_most ,(t_0_left_most + 1)/, \(t_0_left_most + 1) ,((t_0_left_most + 1) + 1)/, \(t_0_left_most + 2) ,((t_0_left_most + 2) + 1)/, )
+
+ | 
+	
+
+
+start [ < (t_0_left_most, t_0_right_most) > ] = f( REGION, )
+f( \t_0_left_most ,t_0_right_most/, )
+
+ | 
+	 | 
+	

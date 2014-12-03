@@ -1,0 +1,10 @@
+NT A: -> P (n^2 ) -> A (n^2 ) -> Q (n^2 )
+ -> CHAR (1)
+
+
+NT P: -> STRING (1)
+
+
+NT Q: -> STRING (1)
+
+

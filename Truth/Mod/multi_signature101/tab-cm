@@ -1,0 +1,76 @@
+Error: 
+  d_10 = f_il_11(BASE, il_11) |
+         ^-----^
+tab-cm:68.10-16: Function f_il_11 is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab-cm:1.1-13: in signature Foo.
+Error: 
+    f_ml_12(BASE, ml_12) |
+    ^-----^
+tab-cm:69.5-11: Function f_ml_12 is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab-cm:1.1-13: in signature Foo.
+Error: 
+    f_d_13(d_13) 
+    ^----^
+tab-cm:70.5-10: Function f_d_13 is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab-cm:1.1-13: in signature Foo.
+Error: 
+  d_13 = f_il_14(BASE, il_14) |
+         ^-----^
+tab-cm:86.10-16: Function f_il_14 is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab-cm:1.1-13: in signature Foo.
+Error: 
+    f_ml_15(BASE, ml_15) |
+    ^-----^
+tab-cm:87.5-11: Function f_ml_15 is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab-cm:1.1-13: in signature Foo.
+Error: 
+    f_d_16(d_16) 
+    ^----^
+tab-cm:88.5-10: Function f_d_16 is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab-cm:1.1-13: in signature Foo.
+Error: 
+  d_16 = f_il_17(BASE, il_17) |
+         ^-----^
+tab-cm:104.10-16: Function f_il_17 is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab-cm:1.1-13: in signature Foo.
+Error: 
+    f_ml_18(BASE, ml_18) |
+    ^-----^
+tab-cm:105.5-11: Function f_ml_18 is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab-cm:1.1-13: in signature Foo.
+Error: 
+    f_d_19(d_19) 
+    ^----^
+tab-cm:106.5-10: Function f_d_19 is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab-cm:1.1-13: in signature Foo.
+Error: 
+  d_19 = f_il_20(BASE, il_20) |
+         ^-----^
+tab-cm:122.10-16: Function f_il_20 is not defined

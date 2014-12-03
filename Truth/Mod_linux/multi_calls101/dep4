@@ -1,0 +1,7 @@
+NT foo: -> REGION (1)
+
+
+NT start: -> foo (41) -> REGION (41)
+ -> REGION (n) -> foo (n)
+
+

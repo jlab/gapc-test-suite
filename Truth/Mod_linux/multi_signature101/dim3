@@ -1,0 +1,17 @@
+Error: 
+  bar = x(CHAR, bar) | CHAR;
+        ^
+dim3:13.9: Function x is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+dim3:1.1-13: in signature Foo.
+Error: 
+  foo = x(foo, CHAR) | bar ;
+        ^
+dim3:11.9: Function x is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+dim3:1.1-13: in signature Foo.
+Return: 0

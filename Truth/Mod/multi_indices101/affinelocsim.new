@@ -1,0 +1,51 @@
+
+
+alignment [ < (t_0_i, t_0_j) > ] = nil( STRING, )
+nil( \t_0_i ,t_0_j/, )
+
+ | 
+	d( CHAR, xDel, )
+d( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,t_0_j/, )
+
+ | 
+	i( xIns, CHAR, )
+i( \t_0_i ,(t_0_j - 1)/, \(t_0_j - 1) ,t_0_j/, )
+
+ | 
+	r( CHAR, alignment, CHAR, )
+r( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,(t_0_j - 1)/, \(t_0_j - 1) ,t_0_j/, )
+
+ | 
+	
+
+
+skipL [ < (t_0_i, t_0_j) > ] = skip_left( CHAR, skipL, )
+skip_left( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,t_0_j/, )
+
+ | 
+	 | 
+	
+
+
+skipR [ < (t_0_left_most, t_0_j) > ] = skip_right( skipR, CHAR, )
+skip_right( \t_0_left_most ,(t_0_j - 1)/, \(t_0_j - 1) ,t_0_j/, )
+
+ | 
+	 | 
+	
+
+
+xDel [ < (t_0_i, t_0_j) > ] =  | 
+	dx( CHAR, xDel, )
+dx( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,t_0_j/, )
+
+ | 
+	
+
+
+xIns [ < (t_0_i, t_0_j) > ] =  | 
+	ix( xIns, CHAR, )
+ix( \t_0_i ,(t_0_j - 1)/, \(t_0_j - 1) ,t_0_j/, )
+
+ | 
+	

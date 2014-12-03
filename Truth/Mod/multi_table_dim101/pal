@@ -1,0 +1,5 @@
+pal [(quadratic)]
+skipl [(quadratic)]
+skipr [(quadratic)]
+match [(quadratic)]
+inner [(quadratic)]

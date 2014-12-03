@@ -1,0 +1,9 @@
+NT bar: -> REGION (1)
+
+
+NT foo: -> REGION (1)
+
+
+NT start: -> REGION (n^4 ) -> REGION (n^4 ) -> REGION (n^4 ) -> foo (n^4 ) -> bar (n^3 ) -> REGION (n^4 )
+
+

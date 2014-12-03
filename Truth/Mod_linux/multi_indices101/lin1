@@ -1,0 +1,16 @@
+
+
+foo [ < (t_0_left_most, t_0_j) > ] =  | 
+	
+
+
+start [ < (t_0_left_most, t_0_j) > ] = x( start, CHAR, )
+x( \t_0_left_most ,(t_0_j - 1)/, \(t_0_j - 1) ,t_0_j/, )
+
+ | 
+	x( start, CHAR, CHAR, )
+x( \t_0_left_most ,(t_0_j - 2)/, \(t_0_j - 2) ,(t_0_j - 1)/, \(t_0_j - 1) ,t_0_j/, )
+
+ | 
+	 | 
+	

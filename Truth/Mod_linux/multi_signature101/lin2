@@ -1,0 +1,25 @@
+Error: 
+foo = x(foo, CHAR) | REGION ;
+      ^
+lin2:12.7: Function x is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+lin2:1.1-13: in signature Foo.
+Error: 
+start = x(foo) |
+        ^
+lin2:9.9: Function x is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+lin2:1.1-13: in signature Foo.
+Error: 
+        x(CHAR, foo) ;
+        ^
+lin2:10.9: Function x is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+lin2:1.1-13: in signature Foo.
+Return: 0

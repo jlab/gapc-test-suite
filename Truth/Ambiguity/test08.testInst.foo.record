@@ -1,0 +1,5 @@
+Error: gap-00178: recursive function call of function 'extraFun'
+Stack trace:
+	'extraFunny' called by
+	'extraFun' called by
+	'right'

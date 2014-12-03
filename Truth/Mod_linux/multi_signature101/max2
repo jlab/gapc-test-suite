@@ -1,0 +1,9 @@
+Error: 
+  A = foo(P with maxsize(10), Q with maxsize(13));
+      ^-^
+max2:9.7-9: Function foo is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+max2:1.1-13: in signature Foo.
+Return: 0

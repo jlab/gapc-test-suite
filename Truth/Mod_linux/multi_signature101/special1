@@ -1,0 +1,25 @@
+Error: 
+   a         = g(c, a) |
+               ^
+special1:13.16: Function g is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+special1:1.1-13: in signature Foo.
+Error: 
+   b         = h (REGION , REGION  ,REGION) ;
+               ^
+special1:16.16: Function h has 3 arguments, but
+Error: 
+  choice [answer] h([answer]);
+                  ^
+special1:2.19: it is defined with 1 arguments here.
+Error: 
+   start =  f(a,b) ;
+            ^
+special1:11.13: Function f is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+special1:1.1-13: in signature Foo.
+Return: 0

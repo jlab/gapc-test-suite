@@ -1,0 +1,19 @@
+Iteration: 0
+Grammar special9 types:
+#CHAR (char)
+start ([Sig answer]) = [Sig answer] x(char< char >, Sig answer< [Sig answer] >, ) |
+   [Sig answer] w(char< char >, ) |
+   	# h [Sig answer]
+
+
+
+Iteration: 1
+Grammar special9 types:
+#CHAR (char)
+start ([Sig answer]) = [Sig answer] x(char< char >, Sig answer< [Sig answer] >, ) |
+   [Sig answer] w(char< char >, ) |
+   	# h [Sig answer]
+
+
+
+Return: 1

@@ -1,0 +1,38 @@
+Grammar special9 types:
+#CHAR (char)
+start ([Sig answer]) = [Sig answer] x(char< char >, Sig answer< [Sig answer] >, ) |
+   [Sig answer] w(char< char >, ) |
+   	# h [Sig answer]
+
+
+
+List elimination iteration: 0
+
+Grammar special9 types:
+#CHAR (char)
+start ([Sig answer]) = [Sig answer] x(char< char >, Sig answer< [Sig answer] >, ) |
+   Sig answer w(char< char >, ) |
+   	# h [Sig answer]
+
+
+
+List elimination iteration: 1
+
+Grammar special9 types:
+#CHAR (char)
+start ([Sig answer]) = [Sig answer] x(char< char >, Sig answer< [Sig answer] >, ) |
+   Sig answer w(char< char >, ) |
+   	# h [Sig answer]
+
+
+
+List elimination iteration: 2
+
+Grammar special9 types:
+#CHAR (char)
+start ([Sig answer]) = [Sig answer] x(char< char >, Sig answer< [Sig answer] >, ) |
+   Sig answer w(char< char >, ) |
+   	# h [Sig answer]
+
+
+

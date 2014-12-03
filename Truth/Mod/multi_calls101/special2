@@ -1,0 +1,13 @@
+NT a: -> c (n^2 ) -> a (n^2 ) -> REGION (n^2 )
+ -> c (1)
+
+
+NT b: -> REGION (n^2 ) -> REGION (n^2 ) -> REGION (n^2 )
+
+
+NT c: -> REGION (1)
+
+
+NT start: -> a (n) -> b (n)
+
+

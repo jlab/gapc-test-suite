@@ -1,0 +1,57 @@
+Error: 
+   a         = x(CHAR ,a)          |
+               ^
+special9:13.16: Function x is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+special9:1.1-13: in signature Foo.
+Error: 
+   b         = x(CHAR ,b)          |
+               ^
+special9:16.16: Function x is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+special9:1.1-13: in signature Foo.
+Error: 
+               x(CHAR ,c)          |
+               ^
+special9:17.16: Function x is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+special9:1.1-13: in signature Foo.
+Error: 
+               x(c , CHAR ) ;
+               ^
+special9:18.16: Function x is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+special9:1.1-13: in signature Foo.
+Error: 
+   c         = x( REGION ,d ) ;
+               ^
+special9:20.16: Function x is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+special9:1.1-13: in signature Foo.
+Error: 
+   d         = x (REGION ,REGION ) ;
+               ^
+special9:22.16: Function x is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+special9:1.1-13: in signature Foo.
+Error: 
+   start = x(CHAR ,start) |
+           ^
+special9:10.12: Function x is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+special9:1.1-13: in signature Foo.
+Return: 0

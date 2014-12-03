@@ -1,0 +1,16 @@
+Answer: 
+add( f( 1 ) + add( mult( f( 2 ) * mult( f( 3 ) * f( 4 ) ) ) + f( 5 ) ) )
+add( f( 1 ) + add( mult( mult( f( 2 ) * f( 3 ) ) * f( 4 ) ) + f( 5 ) ) )
+add( f( 1 ) + mult( f( 2 ) * add( mult( f( 3 ) * f( 4 ) ) + f( 5 ) ) ) )
+add( f( 1 ) + mult( f( 2 ) * mult( f( 3 ) * add( f( 4 ) + f( 5 ) ) ) ) )
+add( f( 1 ) + mult( mult( f( 2 ) * f( 3 ) ) * add( f( 4 ) + f( 5 ) ) ) )
+add( add( f( 1 ) + mult( f( 2 ) * mult( f( 3 ) * f( 4 ) ) ) ) + f( 5 ) )
+add( add( f( 1 ) + mult( mult( f( 2 ) * f( 3 ) ) * f( 4 ) ) ) + f( 5 ) )
+add( mult( add( f( 1 ) + f( 2 ) ) * mult( f( 3 ) * f( 4 ) ) ) + f( 5 ) )
+add( mult( add( f( 1 ) + mult( f( 2 ) * f( 3 ) ) ) * f( 4 ) ) + f( 5 ) )
+add( mult( mult( add( f( 1 ) + f( 2 ) ) * f( 3 ) ) * f( 4 ) ) + f( 5 ) )
+mult( add( f( 1 ) + f( 2 ) ) * add( mult( f( 3 ) * f( 4 ) ) + f( 5 ) ) )
+mult( add( f( 1 ) + f( 2 ) ) * mult( f( 3 ) * add( f( 4 ) + f( 5 ) ) ) )
+mult( add( f( 1 ) + mult( f( 2 ) * f( 3 ) ) ) * add( f( 4 ) + f( 5 ) ) )
+mult( mult( add( f( 1 ) + f( 2 ) ) * f( 3 ) ) * add( f( 4 ) + f( 5 ) ) )
+

@@ -1,0 +1,9 @@
+NT A: -> P (11) -> Q (11)
+
+
+NT P: -> STRING (1)
+
+
+NT Q: -> STRING (1)
+
+

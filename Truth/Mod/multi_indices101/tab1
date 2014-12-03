@@ -1,0 +1,15 @@
+
+
+start [ < (t_0_i, t_0_right_most) > ] = f( REGION, start, )
+f( \t_0_i ,t_0_k_0/, \t_0_k_0 ,t_0_right_most/, )
+for(size t_0_k_0 = (t_0_i + 1); (t_0_k_0 <= (t_0_right_most - 1)); ++t_0_k_0)
+{
+}
+
+
+ | 
+	g( CHAR, )
+g( \t_0_i ,(t_0_i + 1)/, )
+
+ | 
+	

@@ -1,0 +1,4 @@
+     start in                              1      out                             4n
+         a in                          n + 1      out                              3
+         b in                          n + 1      out                              3
+         c in                         2n + 2      out                              1

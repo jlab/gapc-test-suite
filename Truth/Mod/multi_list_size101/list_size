@@ -1,0 +1,156 @@
+Grammar special9 types:
+#CHAR (char)
+#REGION (<Input-Sub-Sequence-Type>)
+a ([Sig answer]) = [Sig answer] x(char< char >, Sig answer< [Sig answer] >, ) |
+   [Sig answer] |
+   
+
+b ([Sig answer]) = [Sig answer] x(char< char >, Sig answer< [Sig answer] >, ) |
+   [Sig answer] x(char< char >, Sig answer< [Sig answer] >, ) |
+   [Sig answer] y(Sig answer< [Sig answer] >, char< char >, ) |
+   
+
+c ([Sig answer]) = [Sig answer] u(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, Sig answer< [Sig answer] >, ) |
+   
+
+d ([Sig answer]) = [Sig answer] v(<Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, <Input-Sub-Sequence-Type>< <Input-Sub-Sequence-Type> >, ) |
+   
+
+start ([Sig answer]) = [Sig answer] x(char< char >, Sig answer< [Sig answer] >, ) |
+   [Sig answer] |
+   
+
+
+
+
+Const list annotation iteration: 0
+
+#CHAR [1]
+
+#REGION [1]
+
+
+
+a [0] = [0]x(|1|<1 CHAR>, |0|<0 a>, ) | <0 b> | 
+
+b [0] = [0]x(|1|<1 CHAR>, |0|<0 b>, ) | [0]x(|1|<1 CHAR>, |0|<0 c>, ) | [0]y(|0|<0 c>, |1|<1 CHAR>, ) | 
+
+c [n] = [n]u(|1|<1 REGION>, |0|<0 d>, ) | 
+
+d [n] = [n]v(|1|<1 REGION>, |1|<1 REGION>, ) | 
+
+start [0] = [0]x(|1|<1 CHAR>, |0|<0 start>, ) | <0 a> | 
+
+
+Const list annotation iteration: 1
+
+#CHAR [1]
+
+#REGION [1]
+
+
+
+a [0] = [0]x(|1|<1 CHAR>, |0|<0 a>, ) | <0 b> | 
+
+b [n] = [0]x(|1|<1 CHAR>, |0|<0 b>, ) | [n]x(|1|<1 CHAR>, |n|<n c>, ) | [n]y(|n|<n c>, |1|<1 CHAR>, ) | 
+
+c [n] = [n]u(|1|<1 REGION>, |n|<n d>, ) | 
+
+d [n] = [n]v(|1|<1 REGION>, |1|<1 REGION>, ) | 
+
+start [0] = [0]x(|1|<1 CHAR>, |0|<0 start>, ) | <0 a> | 
+
+
+Const list annotation iteration: 2
+
+#CHAR [1]
+
+#REGION [1]
+
+
+
+a [n] = [0]x(|1|<1 CHAR>, |0|<0 a>, ) | <n b> | 
+
+b [n] = [n]x(|1|<1 CHAR>, |n|<n b>, ) | [n]x(|1|<1 CHAR>, |n|<n c>, ) | [n]y(|n|<n c>, |1|<1 CHAR>, ) | 
+
+c [n] = [n]u(|1|<1 REGION>, |n|<n d>, ) | 
+
+d [n] = [n]v(|1|<1 REGION>, |1|<1 REGION>, ) | 
+
+start [n] = [0]x(|1|<1 CHAR>, |0|<0 start>, ) | <n a> | 
+
+
+Const list annotation iteration: 3
+
+#CHAR [1]
+
+#REGION [1]
+
+
+
+a [n] = [n]x(|1|<1 CHAR>, |n|<n a>, ) | <n b> | 
+
+b [n] = [n]x(|1|<1 CHAR>, |n|<n b>, ) | [n]x(|1|<1 CHAR>, |n|<n c>, ) | [n]y(|n|<n c>, |1|<1 CHAR>, ) | 
+
+c [n] = [n]u(|1|<1 REGION>, |n|<n d>, ) | 
+
+d [n] = [n]v(|1|<1 REGION>, |1|<1 REGION>, ) | 
+
+start [n] = [n]x(|1|<1 CHAR>, |n|<n start>, ) | <n a> | 
+
+
+Const list annotation iteration: 4
+
+#CHAR [1]
+
+#REGION [1]
+
+
+
+a [n] = [n]x(|1|<1 CHAR>, |n|<n a>, ) | <n b> | 
+
+b [n] = [n]x(|1|<1 CHAR>, |n|<n b>, ) | [n]x(|1|<1 CHAR>, |n|<n c>, ) | [n]y(|n|<n c>, |1|<1 CHAR>, ) | 
+
+c [n] = [n]u(|1|<1 REGION>, |n|<n d>, ) | 
+
+d [n] = [n]v(|1|<1 REGION>, |1|<1 REGION>, ) | 
+
+start [n] = [n]x(|1|<1 CHAR>, |n|<n start>, ) | <n a> | 
+
+
+Const list annotation iteration: 5
+
+#CHAR [1]
+
+#REGION [1]
+
+
+
+a [n] = [n]x(|1|<1 CHAR>, |n|<n a>, ) | <n b> | 
+
+b [n] = [n]x(|1|<1 CHAR>, |n|<n b>, ) | [n]x(|1|<1 CHAR>, |n|<n c>, ) | [n]y(|n|<n c>, |1|<1 CHAR>, ) | 
+
+c [n] = [n]u(|1|<1 REGION>, |n|<n d>, ) | 
+
+d [n] = [n]v(|1|<1 REGION>, |1|<1 REGION>, ) | 
+
+start [n] = [n]x(|1|<1 CHAR>, |n|<n start>, ) | <n a> | 
+
+
+Const list post: 6
+
+#CHAR [1]
+
+#REGION [1]
+
+
+
+a [n] = [n]x(|1|<1 CHAR>, |n|<n a>, ) | <n b> | 
+
+b [n] = [n]x(|1|<1 CHAR>, |n|<n b>, ) | [n]x(|1|<1 CHAR>, |n|<n c>, ) | [n]y(|n|<n c>, |1|<1 CHAR>, ) | 
+
+c [n] = [n]u(|1|<1 REGION>, |n|<n d>, ) | 
+
+d [n] = [n]v(|1|<1 REGION>, |1|<1 REGION>, ) | 
+
+start [n] = [n]x(|1|<1 CHAR>, |n|<n start>, ) | <n a> | 

@@ -1,0 +1,30 @@
+
+
+a [ < (t_0_i, t_0_j) > ] = x( REGION, b, )
+x( \t_0_i ,t_0_k_0/, \t_0_k_0 ,t_0_j/, )
+for(size t_0_k_0 = (t_0_i + 1); (t_0_k_0 <= (t_0_j - 1)); ++t_0_k_0)
+{
+}
+
+
+ | 
+	
+
+
+b [ < (t_0_i, t_0_j) > ] =  | 
+	
+
+
+start [ < (t_0_left_most, t_0_right_most) > ] = x( CHAR, a, )
+x( \t_0_left_most ,(t_0_left_most + 1)/, \(t_0_left_most + 1) ,t_0_right_most/, )
+
+ | 
+	x( a, CHAR, )
+x( \t_0_left_most ,(t_0_right_most - 1)/, \(t_0_right_most - 1) ,t_0_right_most/, )
+
+ | 
+	x( CHAR, a, CHAR, )
+x( \t_0_left_most ,(t_0_left_most + 1)/, \(t_0_left_most + 1) ,(t_0_right_most - 1)/, \(t_0_right_most - 1) ,t_0_right_most/, )
+
+ | 
+	

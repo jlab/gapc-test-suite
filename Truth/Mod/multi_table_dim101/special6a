@@ -1,0 +1,4 @@
+start [(const,left:(0, 0),right:(0, 0))]
+a [(linear,right(1),right:(0, 0))]
+b [(linear,right(1),right:(0, 0))]
+c [(quadratic)]

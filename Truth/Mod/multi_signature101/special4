@@ -1,0 +1,49 @@
+Error: 
+                 f3 ( CHAR ,start)  |
+                 ^^
+special4:19.18-19: Function f3 is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+special4:1.1-13: in signature Foo.
+Error: 
+                 nil ( EMPTY );
+                 ^-^
+special4:20.18-20: Function nil is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+special4:1.1-13: in signature Foo.
+Error: 
+                 f3 ( CHAR ,start)  |
+                 ^^
+special4:23.18-19: Function f3 is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+special4:1.1-13: in signature Foo.
+Error: 
+                 nil ( EMPTY );
+                 ^-^
+special4:24.18-20: Function nil is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+special4:1.1-13: in signature Foo.
+Error: 
+                 f1 ( CHAR ,b)         |
+                 ^^
+special4:15.18-19: Function f1 is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+special4:1.1-13: in signature Foo.
+Error: 
+                 f2 ( CHAR ,c );
+                 ^^
+special4:16.18-19: Function f2 is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+special4:1.1-13: in signature Foo.
+Return: 0

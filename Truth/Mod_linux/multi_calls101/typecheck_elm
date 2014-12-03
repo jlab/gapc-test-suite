@@ -1,0 +1,15 @@
+NT formula: -> number (1)
+ -> formula (n^4 ) -> plus (n^4 ) -> formula (n^4 ) -> plus (n^4 ) -> formula (n^4 )
+ -> formula (n) -> times (n) -> formula (n)
+
+
+NT number: -> INT (1)
+
+
+NT plus: -> formula (n^2 ) -> plus (n^2 ) -> formula (n^2 )
+
+
+
+NT times:
+
+

@@ -1,0 +1,12 @@
+NT A: <  -> B (902n^2 ),  -> REGION (902n^2 ),  >  -> A (902n^2 ) <  -> REGION (902n^2 ),  -> B_1 (902n^2 ),  > 
+ <  -> CHAR (1),  -> CHAR (1),  > 
+
+
+NT B: -> CHAR (20) -> B (20) -> REGION (20)
+ -> REGION (4)
+
+
+NT B_1: -> CHAR (39) -> B_1 (39) -> REGION (39)
+ -> REGION (6)
+
+

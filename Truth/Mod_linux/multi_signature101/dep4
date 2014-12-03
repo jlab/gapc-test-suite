@@ -1,0 +1,17 @@
+Error: 
+start = x(foo with maxsize(42), REGION) | x(REGION, foo) ;
+        ^
+dep4:9.9: Function x is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+dep4:1.1-13: in signature Foo.
+Error: 
+start = x(foo with maxsize(42), REGION) | x(REGION, foo) ;
+                                          ^
+dep4:9.43: Function x is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+dep4:1.1-13: in signature Foo.
+Return: 0

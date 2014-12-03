@@ -1,0 +1,9 @@
+NT a: -> REGION (1)
+
+
+NT b: -> REGION (1)
+
+
+NT start: -> a (n) -> b (n)
+
+

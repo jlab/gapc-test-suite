@@ -1,0 +1,53 @@
+
+
+a [ < (t_0_i, t_0_right_most) > ] = x( CHAR, a, )
+x( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,t_0_right_most/, )
+
+ | 
+	 | 
+	
+
+
+b [ < (t_0_i, t_0_right_most) > ] = x( CHAR, b, )
+x( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,t_0_right_most/, )
+
+ | 
+	x( CHAR, c, )
+x( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,t_0_right_most/, )
+
+ | 
+	y( c, CHAR, )
+y( \t_0_i ,(t_0_right_most - 1)/, \(t_0_right_most - 1) ,t_0_right_most/, )
+
+ | 
+	
+
+
+c [ < (t_0_i, t_0_j) > ] = u( REGION, d, )
+u( \t_0_i ,t_0_k_0/, \t_0_k_0 ,t_0_j/, )
+for(size t_0_k_0 = (t_0_i + 1); (t_0_k_0 <= (t_0_j - 2)); ++t_0_k_0)
+{
+}
+
+
+ | 
+	
+
+
+d [ < (t_0_i, t_0_j) > ] = v( REGION, REGION, )
+v( \t_0_i ,t_0_k_0/, \t_0_k_0 ,t_0_j/, )
+for(size t_0_k_0 = (t_0_i + 1); (t_0_k_0 <= (t_0_j - 1)); ++t_0_k_0)
+{
+}
+
+
+ | 
+	
+
+
+start [ < (t_0_i, t_0_right_most) > ] = x( CHAR, start, )
+x( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,t_0_right_most/, )
+
+ | 
+	 | 
+	

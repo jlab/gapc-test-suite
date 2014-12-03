@@ -1,0 +1,35 @@
+
+
+a [ < (t_0_i, t_0_right_most) > ] = x( CHAR, a, )
+x( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,t_0_right_most/, )
+
+ | 
+	 | 
+	
+
+
+b [ < (t_0_i, t_0_right_most) > ] = x( CHAR, b, )
+x( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,t_0_right_most/, )
+
+ | 
+	x( CHAR, c, )
+x( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,t_0_right_most/, )
+
+ | 
+	x( c, CHAR, )
+x( \t_0_i ,(t_0_right_most - 1)/, \(t_0_right_most - 1) ,t_0_right_most/, )
+
+ | 
+	
+
+
+c [ < (t_0_i, t_0_j) > ] =  | 
+	
+
+
+start [ < (t_0_i, t_0_right_most) > ] = x( CHAR, start, )
+x( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,t_0_right_most/, )
+
+ | 
+	 | 
+	

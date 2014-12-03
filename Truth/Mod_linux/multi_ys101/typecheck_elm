@@ -1,0 +1,4 @@
+formula {(1, n)}
+number {(1, n)}
+plus {(1, n)}
+times {(1, 1)}

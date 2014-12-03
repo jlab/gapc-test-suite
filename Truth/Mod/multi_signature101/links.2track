@@ -1,0 +1,49 @@
+Error: 
+  A = f ( <B, REGION> with < maxsize(23), all > , A,
+      ^
+links.2track:11.7: Function f is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+links.2track:3.1-13: in signature Foo.
+Error: 
+      f ( <CHAR, CHAR>) ;
+      ^
+links.2track:13.7: Function f is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+links.2track:3.1-13: in signature Foo.
+Error: 
+  B = f (CHAR, B, REGION) |
+      ^
+links.2track:15.7: Function f is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+links.2track:3.1-13: in signature Foo.
+Error: 
+      f (REGION) ;
+      ^
+links.2track:16.7: Function f is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+links.2track:3.1-13: in signature Foo.
+Error: 
+  B = f (CHAR, B, REGION) |
+      ^
+links.2track:15.7: Function f is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+links.2track:3.1-13: in signature Foo.
+Error: 
+      f (REGION) ;
+      ^
+links.2track:16.7: Function f is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+links.2track:3.1-13: in signature Foo.
+Return: 0

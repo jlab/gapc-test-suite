@@ -1,0 +1,15 @@
+
+
+A [ < (t_0_left_most, t_0_right_most), (t_1_left_most, t_1_right_most) > ] = foo(  < P, Q > , )
+foo(  < \t_0_left_most, t_0_right_most/, \t_1_left_most, t_1_right_most/,  >, )
+
+ | 
+	
+
+
+P [ < (t_0_left_most, t_0_right_most) > ] =  | 
+	
+
+
+Q [ < (t_1_left_most, t_1_right_most) > ] =  | 
+	

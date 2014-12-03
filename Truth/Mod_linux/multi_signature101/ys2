@@ -1,0 +1,31 @@
+Iteration: 0
+Grammar bill types:
+#INT (int)
+formula ([Sig answer]) = NULL |
+   [Sig answer] add(Sig answer< NULL >, Sig answer< NULL >, Sig answer< NULL >, ) |
+   
+
+number ([Sig answer]) = [Sig answer] f(int< int >, ) |
+   
+
+plus ([Sig answer]) = [Sig answer] add(Sig answer< [Sig answer] >, Sig answer< NULL >, Sig answer< [Sig answer] >, ) |
+   [Sig answer] f(int< int >, ) |
+   
+
+
+Iteration: 1
+Grammar bill types:
+#INT (int)
+formula ([Sig answer]) = [Sig answer] |
+   [Sig answer] add(Sig answer< [Sig answer] >, Sig answer< [Sig answer] >, Sig answer< [Sig answer] >, ) |
+   
+
+number ([Sig answer]) = [Sig answer] f(int< int >, ) |
+   
+
+plus ([Sig answer]) = [Sig answer] add(Sig answer< [Sig answer] >, Sig answer< [Sig answer] >, Sig answer< [Sig answer] >, ) |
+   [Sig answer] f(int< int >, ) |
+   
+
+
+Return: 1

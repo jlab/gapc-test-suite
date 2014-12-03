@@ -1,0 +1,16 @@
+NT honk: -> CHAR (1) -> honk (1) -> CHAR (1)
+ -> CHAR (1) -> plotz (1) -> CHAR (1)
+ -> EMPTY (1)
+
+
+NT plotz: -> CHAR (n^2 ) -> vail (n^2 ) -> honk (n^2 ) -> vail (n^2 )
+
+
+NT vail: -> warg (n) -> honk (n)
+ -> plotz (n^2 ) -> vail (n^2 ) -> honk (n^2 )
+
+
+NT warg: -> honk (n) -> CHAR (n) -> vail (n)
+ -> EMPTY (1)
+
+

@@ -1,0 +1,6 @@
+formula [(quadratic)]
+foo [(quadratic)]
+bar [(quadratic)]
+number [(quadratic)]
+plus [(quadratic)]
+times [(quadratic)]

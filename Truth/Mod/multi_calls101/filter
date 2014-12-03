@@ -1,0 +1,15 @@
+NT formula: -> number (1)
+ -> formula (47) -> plus (47) -> formula (47)
+ -> number (1)
+ -> formula (48) -> times (48) -> formula (48)
+
+
+NT number: -> INT (1)
+
+
+NT plus:
+
+
+NT times:
+
+

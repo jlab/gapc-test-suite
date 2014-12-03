@@ -1,0 +1,4 @@
+     start in                              1      out                             2n
+         a in                       n^2  + n      out                      3n^2  + 1
+         b in                              n      out                          3n^2 
+         c in                       n^2  + 1      out                              1

@@ -1,0 +1,25 @@
+Error: 
+   start =  f(CHAR, start) |
+            ^
+tab2:10.13: Function f is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab2:1.1-13: in signature Foo.
+Error: 
+            f(CHAR, CHAR, start) |
+            ^
+tab2:11.13: Function f is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab2:1.1-13: in signature Foo.
+Error: 
+            g(REGION) ;
+            ^
+tab2:12.13: Function g is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab2:1.1-13: in signature Foo.
+Return: 0

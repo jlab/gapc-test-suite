@@ -1,0 +1,44 @@
+Grammar special9 types:
+#CHAR (char)
+start ([Sig answer]) = [Sig answer] x(char< char >, Sig answer< [Sig answer] >, ) |
+   [Sig answer] w(char< char >, ) |
+   	# h [Sig answer]
+
+
+
+
+
+Const list annotation iteration: 0
+
+#CHAR [1]
+
+
+
+start [1] = [1]x(|1|<1 CHAR>, |1|<1 start>, ) | [1]w(|1|<1 CHAR>, ) | 
+
+
+Const list annotation iteration: 1
+
+#CHAR [1]
+
+
+
+start [1] = [1]x(|1|<1 CHAR>, |1|<1 start>, ) | [1]w(|1|<1 CHAR>, ) | 
+
+
+Const list annotation iteration: 2
+
+#CHAR [1]
+
+
+
+start [1] = [1]x(|1|<1 CHAR>, |1|<1 start>, ) | [1]w(|1|<1 CHAR>, ) | 
+
+
+Const list post: 3
+
+#CHAR [1]
+
+
+
+start [1] = [1]x(|1|<1 CHAR>, |1|<1 start>, ) | [1]w(|1|<1 CHAR>, ) | 

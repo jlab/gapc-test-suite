@@ -1,0 +1,65 @@
+Error: 
+   honk = f(CHAR, honk, CHAR) |
+          ^
+tab:20.11: Function f is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab:1.1-13: in signature Foo.
+Error: 
+          f(CHAR, plotz, CHAR) |
+          ^
+tab:21.11: Function f is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab:1.1-13: in signature Foo.
+Error: 
+          f(EMPTY) ;
+          ^
+tab:22.11: Function f is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab:1.1-13: in signature Foo.
+Error: 
+   plotz = f(CHAR, vail, honk, vail) ;
+           ^
+tab:24.12: Function f is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab:1.1-13: in signature Foo.
+Error: 
+   vail = f(warg, honk) |
+          ^
+tab:14.11: Function f is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab:1.1-13: in signature Foo.
+Error: 
+          f(plotz, vail, honk) ;
+          ^
+tab:15.11: Function f is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab:1.1-13: in signature Foo.
+Error: 
+   warg = f(honk, CHAR, vail) |
+          ^
+tab:17.11: Function f is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab:1.1-13: in signature Foo.
+Error: 
+          f(EMPTY) ;
+          ^
+tab:18.11: Function f is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+tab:1.1-13: in signature Foo.
+Return: 0

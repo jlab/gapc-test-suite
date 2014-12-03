@@ -1,0 +1,12 @@
+NT bar: -> CHAR (1) -> bar (1)
+ -> CHAR (1)
+
+
+NT foo: -> foo (1) -> CHAR (1)
+ -> bar (1)
+
+
+NT start: -> bar (1)
+ -> foo (1)
+
+

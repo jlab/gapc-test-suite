@@ -1,0 +1,18 @@
+
+
+bar [ < (t_0_i, t_0_j) > ] =  | 
+	
+
+
+foo [ < (t_0_i, t_0_j) > ] = x( CHAR, bar, CHAR, )
+x( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,(t_0_j - 1)/, \(t_0_j - 1) ,t_0_j/, )
+
+ | 
+	
+
+
+start [ < (t_0_left_most, t_0_right_most) > ] = x( CHAR, foo, CHAR, )
+x( \t_0_left_most ,(t_0_left_most + 1)/, \(t_0_left_most + 1) ,(t_0_right_most - 1)/, \(t_0_right_most - 1) ,t_0_right_most/, )
+
+ | 
+	

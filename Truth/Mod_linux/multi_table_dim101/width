@@ -1,0 +1,5 @@
+skipR [(linear,left(1),left:(0, 0))]
+skipL [(quadratic)]
+alignment [(quadratic)]
+xDel [(quadratic)]
+xIns [(quadratic)]

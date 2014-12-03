@@ -1,0 +1,16 @@
+NT a: -> CHAR (1) -> a (1)
+ -> b (1)
+
+
+NT b: -> CHAR (1) -> b (1)
+ -> CHAR (1) -> c (1)
+ -> c (1) -> CHAR (1)
+
+
+NT c: -> REGION (1)
+
+
+NT start: -> CHAR (1) -> start (1)
+ -> a (1)
+
+

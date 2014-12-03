@@ -1,0 +1,9 @@
+Error: 
+  A = foo(P, A, Q) | <CHAR, CHAR> ;
+      ^-^
+loop.2track:13.7-9: Function foo is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+loop.2track:4.1-13: in signature Foo.
+Return: 0

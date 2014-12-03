@@ -1,0 +1,27 @@
+
+
+bar [ < (t_0_left_most, t_0_right_most) > ] = y( CHAR, )
+y( \t_0_left_most ,(t_0_left_most + 1)/, )
+
+ | 
+	x( REGION, CHAR, )
+x( \t_0_left_most ,(t_0_right_most - 1)/, \(t_0_right_most - 1) ,t_0_right_most/, )
+
+ | 
+	
+
+
+foo [ < (t_0_left_most, t_0_right_most) > ] = x( CHAR, REGION, )
+x( \t_0_left_most ,(t_0_left_most + 1)/, \(t_0_left_most + 1) ,t_0_right_most/, )
+
+ | 
+	y( CHAR, )
+y( \t_0_left_most ,(t_0_left_most + 1)/, )
+
+ | 
+	
+
+
+start [ < (t_0_left_most, t_0_right_most) > ] =  | 
+	 | 
+	

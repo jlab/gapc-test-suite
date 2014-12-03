@@ -1,0 +1,39 @@
+
+
+a [ < (t_0_i, t_0_right_most) > ] = g( CHAR, a, )
+g( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,t_0_right_most/, )
+
+ | 
+	 | 
+	
+
+
+b [ < (t_0_i, t_0_right_most) > ] = g( CHAR, b, )
+g( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,t_0_right_most/, )
+
+ | 
+	 | 
+	
+
+
+c [ < (t_0_i, t_0_j) > ] =  | 
+	
+
+
+start [ < (t_0_left_most, t_0_right_most) > ] = f( c, a, )
+f( \t_0_left_most ,t_0_k_0/, \t_0_k_0 ,t_0_right_most/, )
+for(size t_0_k_0 = (t_0_left_most + 1); (t_0_k_0 <= (t_0_right_most - 1)); ++t_0_k_0)
+{
+}
+
+
+ | 
+	f( c, b, )
+f( \t_0_left_most ,t_0_k_1/, \t_0_k_1 ,t_0_right_most/, )
+for(size t_0_k_1 = (t_0_left_most + 1); (t_0_k_1 <= (t_0_right_most - 1)); ++t_0_k_1)
+{
+}
+
+
+ | 
+	

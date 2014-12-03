@@ -1,0 +1,6 @@
+NT A: -> B (1)
+
+
+NT B: -> CHAR (1) -> REGION (1) -> CHAR (1)
+
+

@@ -1,0 +1,23 @@
+ rnastruct in                              2      out                         2n + 2
+structstart in                              n      out                             2n
+    motif0 in                              n      out                              3
+     stem0 in                              1      out                              7
+  maxstem0 in                              1      out                             33
+    motif1 in                             11      out                              1
+  hairpin1 in                              1      out                              3
+     tail0 in                              n      out                             2n
+    motif2 in                              n      out                              1
+     tail1 in                              n      out                             2n
+    motif3 in                              n      out                              3
+     stem3 in                              1      out                              3
+  maxstem3 in                              1      out                             72
+    motif4 in                             24      out                              1
+  hairpin4 in                              1      out                              3
+     tail2 in                              n      out                             2n
+    motif5 in                              n      out                              1
+     tail3 in                              n      out                              1
+    motif6 in                              1      out                              3
+     stem6 in                              1      out                              5
+  maxstem6 in                              1      out                             84
+    motif7 in                             28      out                              1
+  hairpin7 in                              1      out                              3

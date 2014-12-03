@@ -1,0 +1,42 @@
+Grammar special9 types:
+#CHAR (char)
+start ([Sig answer]) = [Sig answer] x(char< char >, Sig answer< [Sig answer] >, ) |
+   [Sig answer] w(char< char >, ) |
+   	# h [Sig answer]
+
+
+
+Warning: 
+  choice [answer] h([answer] b) { return a; }
+                  ^
+list_size3:19.19: Return does not call a function - cannot eliminate list.
+List elimination iteration: 0
+
+Grammar special9 types:
+#CHAR (char)
+start (Sig answer) = [Sig answer] x(char< char >, Sig answer< [Sig answer] >, ) |
+   Sig answer w(char< char >, ) |
+   	# h Sig answer
+
+
+
+List elimination iteration: 1
+
+Grammar special9 types:
+#CHAR (char)
+start (Sig answer) = Sig answer x(char< char >, Sig answer< Sig answer >, ) |
+   Sig answer w(char< char >, ) |
+   	# h Sig answer
+
+
+
+List elimination iteration: 2
+
+Grammar special9 types:
+#CHAR (char)
+start (Sig answer) = Sig answer x(char< char >, Sig answer< Sig answer >, ) |
+   Sig answer w(char< char >, ) |
+   	# h Sig answer
+
+
+

@@ -1,0 +1,68 @@
+
+
+honk [ < (t_0_i, t_0_j) > ] = f( CHAR, honk, CHAR, )
+f( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,(t_0_j - 1)/, \(t_0_j - 1) ,t_0_j/, )
+
+ | 
+	f( CHAR, plotz, CHAR, )
+f( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,(t_0_j - 1)/, \(t_0_j - 1) ,t_0_j/, )
+
+ | 
+	f( EMPTY, )
+f( \t_0_i ,t_0_i/, )
+
+ | 
+	
+
+
+plotz [ < (t_0_i, t_0_j) > ] = f( CHAR, vail, honk, vail, )
+f( \t_0_i ,(t_0_i + 1)/, \(t_0_i + 1) ,t_0_k_0/, \t_0_k_0 ,t_0_k_1/, \t_0_k_1 ,t_0_j/, )
+for(size t_0_k_0 = (t_0_i + 1); (t_0_k_0 <= t_0_j); ++t_0_k_0)
+{
+}
+
+for(size t_0_k_1 = t_0_k_0; (t_0_k_1 <= t_0_j); ++t_0_k_1)
+{
+}
+
+
+ | 
+	
+
+
+vail [ < (t_0_i, t_0_j) > ] = f( warg, honk, )
+f( \t_0_i ,t_0_k_0/, \t_0_k_0 ,t_0_j/, )
+for(size t_0_k_0 = t_0_i; (t_0_k_0 <= t_0_j); ++t_0_k_0)
+{
+}
+
+
+ | 
+	f( plotz, vail, honk, )
+f( \t_0_i ,t_0_k_1/, \t_0_k_1 ,t_0_k_2/, \t_0_k_2 ,t_0_j/, )
+for(size t_0_k_1 = (t_0_i + 1); (t_0_k_1 <= t_0_j); ++t_0_k_1)
+{
+}
+
+for(size t_0_k_2 = t_0_k_1; (t_0_k_2 <= t_0_j); ++t_0_k_2)
+{
+}
+
+
+ | 
+	
+
+
+warg [ < (t_0_i, t_0_j) > ] = f( honk, CHAR, vail, )
+f( \t_0_i ,t_0_k_0/, \t_0_k_0 ,(t_0_k_0 + 1)/, \(t_0_k_0 + 1) ,t_0_j/, )
+for(size t_0_k_0 = t_0_i; (t_0_k_0 <= (t_0_j - 1)); ++t_0_k_0)
+{
+}
+
+
+ | 
+	f( EMPTY, )
+f( \t_0_i ,t_0_i/, )
+
+ | 
+	

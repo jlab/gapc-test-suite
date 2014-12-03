@@ -1,0 +1,4 @@
+Answer: 
+( add( f( 1 ) + mult( f( 2 ) * f( 3 ) ) ) , add( f( 1 ) + mult( f( 2 ) * f( 3 ) ) ) )
+( mult( add( f( 1 ) + f( 2 ) ) * f( 3 ) ) , mult( add( f( 1 ) + f( 2 ) ) * f( 3 ) ) )
+

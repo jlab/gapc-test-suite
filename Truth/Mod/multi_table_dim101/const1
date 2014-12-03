@@ -1,0 +1,3 @@
+start [(const,left:(0, 0),right:(0, 0))]
+foo [(const,left:(1, 1),right:(1, 1))]
+bar [(const,left:(2, 2),right:(2, 2))]

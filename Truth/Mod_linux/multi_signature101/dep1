@@ -1,0 +1,9 @@
+Error: 
+start = x(REGION, REGION, { y(REGION, foo) | bar } ) ;
+        ^
+dep1:9.9: Function x is not defined
+Error: 
+signature Foo(alphabet, answer) {
+^-----------^
+dep1:1.1-13: in signature Foo.
+Return: 0

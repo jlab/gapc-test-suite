@@ -1,0 +1,8 @@
+NT A: -> REGION (41n) -> A (41n) -> B (41n)
+ -> CHAR (1) -> CHAR (1)
+
+
+NT B: -> CHAR (39) -> B (39) -> REGION (39)
+ -> REGION (6)
+
+

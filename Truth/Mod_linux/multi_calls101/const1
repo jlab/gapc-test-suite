@@ -1,0 +1,9 @@
+NT bar: -> REGION (1)
+
+
+NT foo: -> CHAR (1) -> bar (1) -> CHAR (1)
+
+
+NT start: -> CHAR (1) -> foo (1) -> CHAR (1)
+
+

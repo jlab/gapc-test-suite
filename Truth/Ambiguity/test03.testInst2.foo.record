@@ -1,0 +1,3 @@
+Error: gap-00178: recursive function call of function 'cons'
+Stack trace:
+	'cons'
