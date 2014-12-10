@@ -1,9 +1,1 @@
-How to run tests and install gapc on diverse architectures:
-
-- First, you have to install all dependencies, e.g. boost, bison, ... have a look at INSTALL.cebitec_*
-- If you read this file, you already cloned the test-suite repository. To automatically run the tests for gapc type
-	bash run.sh *** notimestamp
-  where *** is the configuration file you want to use from the repository "main" subdirectory "config". E.g. for CeBiTec machine "waldorf", which has a solaris architecture. use "cebitec_solarisgcc" (without the .mf)
-  The "main" repository of gapc will automatically be cloned and saved under "workdir_***".
-- If the run.sh returns without an error message (a detailed log is in subdir "log") everything is OK, you are ready to install gapc.
-- for installation, change to the "workdir_***" and type "make install"
+runs as: ./run.sh [name of job] [path to config file] [number of cpus]

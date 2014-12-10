@@ -28,7 +28,7 @@ LOG=$script_dir/log/$1.log
 WORKDIR=$script_dir/$1
 
 # where to load sources from
-SRC=ssh://hg@hg.cebitec.uni-bielefeld.de/pi/software/gapc/main_pretest
+SRC=ssh://hg@hg.cebitec.uni-bielefeld.de/pi/software/gapc/main_reconstruct
 
 
 if ( set -o noclobber; echo "$$" > "$lockfile") 2> /dev/null; then
@@ -84,96 +84,3 @@ fi
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-echo %%% Started cron job at: `date` >> $LOG
-
-if [ ! -d $WORKDIR ]; then
-  hg clone $SRC $WORKDIR >> $LOG
-fi
-
-cd $WORKDIR
-hg pull -u >> $LOG
-
-if [ $# -eq 1 ]; then
-if [ ! .hg/dirstate -ot $STAMP -a ! .hg/dirstate -nt $STAMP ]; then
-  rm $LOCK
-  exit 0
-fi
-fi
-
-cd $PREFIX
-hg up >> $LOG
-cd $WORKDIR
-
-# FIXME remove this test output
-echo new
-
-rm -f config.mf
-ln -s config/$1.mf config.mf
-make clean >> $LOG 2>&1
-rm -rf paraltest/temp
-
-echo %%% Start parallel testing >> $LOG
-set +e
-make -j 16 >> $LOG 2>&1
-r=$?
-touch -r .hg/dirstate $PREFIX/temp-stamp_$1
-make -j 16 test-unit >> $LOG 2>&1
-rrr=$?
-make -j 16 test-mod  >> $LOG 2>&1
-rrrr=$?
-make test-paral test-regress >> $LOG 2>&1
-make test-regress >> $LOG 2>&1
-rr=$?
-make test-ambiguity >> $LOG 2>&1
-ambitestresult=$?
-
-if [ $r -ne 0 -o $rr -ne 0 -o $rrr -ne 0 -o $rrrr -ne 0 -o $ambitestresult -ne 0 ]; then
-  echo %%% make returned error - log file is:
-  echo $LOG
-  echo %%% exiting
-  touch -r $PREFIX/temp-stamp_$1 $STAMP
-  rm $LOCK
-  exit 23
-fi
-set -e
-
-touch -r $PREFIX/temp-stamp_$1 $STAMP
-
-
-rm $LOCK
-exit 0
