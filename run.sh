@@ -8,15 +8,15 @@
 # $3 number of CPUs used
 
 
-# this needed?
-PATH=/vol/gapc/bin:/vol/gnu/bin:/usr/bin:/vol/pi/bin/GHC/m64/bin:/vol/pi/bin:$PATH
-if [ `uname -s` = "Linux" ]; then
-        export PATH=/vol/pi/share/Installs/Linux/bin:$PATH #for own installations in Linux, whose installers could not be convinced not to install libs into $PREFIX/lib64
-        export PATH=$PATH:/vol/pi/share/Installs/Linux/lib64/python2.6/site-packages/hgext #for mercurial extension under Linux nodes ... 
-else
-        export PATH=$PATH:/vol/mercurial/lib/python2.7/site-packages/hgext #... and architecture with correctly installed mercurial
-fi
-export PATH
+# this needed? Not any longer, since linux nodes at CeBiTec clusters now have mercurial (S.J.)
+#~ PATH=/vol/gapc/bin:/vol/gnu/bin:/usr/bin:/vol/pi/bin/GHC/m64/bin:/vol/pi/bin:$PATH
+#~ if [ `uname -s` = "Linux" ]; then
+        #~ export PATH=/vol/pi/share/Installs/Linux/bin:$PATH #for own installations in Linux, whose installers could not be convinced not to install libs into $PREFIX/lib64
+        #~ export PATH=$PATH:/vol/pi/share/Installs/Linux/lib64/python2.6/site-packages/hgext #for mercurial extension under Linux nodes ... 
+#~ else
+        #~ export PATH=$PATH:/vol/mercurial/lib/python2.7/site-packages/hgext #... and architecture with correctly installed mercurial
+#~ fi
+#~ export PATH
 
 
 # get path to script
