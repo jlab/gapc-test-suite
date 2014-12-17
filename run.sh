@@ -38,7 +38,7 @@ if ( set -o noclobber; echo "$$" > "$lockfile") 2> /dev/null; then
 	# get config file
 	cp "$2" "$WORKDIR/config.mf"
 	
-	sesed -i "s|^\s*PREFIX.*$|PREFIX="$WORKDIR"/install|" "$WORKDIR/config.mf"
+	sed -i "s|^\s*PREFIX.*$|PREFIX="$WORKDIR"/install|" "$WORKDIR/config.mf"
 	
 	PATH="$WORKDIR/install":$PATH
 
@@ -47,7 +47,7 @@ if ( set -o noclobber; echo "$$" > "$lockfile") 2> /dev/null; then
 	make -j $3 >> "$LOG" 2>&1
 	ISmake=$?
 	make -j $3 install >> "$LOG" 2>&1
-	ISmake=$?
+	ISmakeInstall=$?
 	make -j $3 test-unit >> "$LOG" 2>&1
 	ISunit=$?
 	make -j $3 test-mod  >> "$LOG" 2>&1
@@ -59,7 +59,7 @@ if ( set -o noclobber; echo "$$" > "$lockfile") 2> /dev/null; then
 	make test-ambiguity >> "$LOG" 2>&1
 	ISambi=$?
 	
-	if [ $ISmake -ne 0 -o $ISunit -ne 0 -o $ISmod -ne 0 -o $ISparal -ne 0 -o $ISambi -ne 0 ]; then
+	if [ $ISmake -ne 0 -o $ISunit -ne 0 -o $ISmod -ne 0 -o $ISparal -ne 0 -o $ISambi -ne 0 -o $ISmakeInstall -ne 0]; then
 	  echo %%% Test returned errors - log file is:
 	  echo $LOG
 	  echo %%% exiting
