@@ -38,9 +38,15 @@ if ( set -o noclobber; echo "$$" > "$lockfile") 2> /dev/null; then
 	# get config file
 	cp "$2" "$WORKDIR/config.mf"
 	
+	sesed -i "s|^\s*PREFIX.*$|PREFIX="$WORKDIR"/install|" "$WORKDIR/config.mf"
+	
+	PATH="$WORKDIR/install":$PATH
+
 	cd "$WORKDIR"
 	#execute all tests
 	make -j $3 >> "$LOG" 2>&1
+	ISmake=$?
+	make -j $3 install >> "$LOG" 2>&1
 	ISmake=$?
 	make -j $3 test-unit >> "$LOG" 2>&1
 	ISunit=$?
