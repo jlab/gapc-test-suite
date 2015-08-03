@@ -6,6 +6,8 @@
 # $1 name of the test
 # $2 path to config file to be used
 # $3 number of CPUs used
+# $4 set to 1 to update only
+# $5 system-suffix for tests
 
 
 # get path to script
@@ -16,6 +18,7 @@ LOG=$script_dir/log/$1.log
 # the folder that is generated
 WORKDIR=$script_dir/$1
 
+
 # where to load sources from
 SRC=ssh://hg@hg.cebitec.uni-bielefeld.de/pi/software/gapc/main_reconstruct
 
@@ -25,21 +28,29 @@ if ( set -o noclobber; echo "$$" > "$lockfile") 2> /dev/null; then
 	# set trap for interruptions
         trap 'rm -f "$lockfile"; exit $?' INT TERM EXIT
 
-        # if old workdir exists remove it
-	if [ -e "$WORKDIR" ]; then
-		rm -rf "$WORKDIR"
-	fi
-	# create workdir
-	mkdir -p "$WORKDIR"
+	if [ "$#" -le 3 -o "$4" -ne "1" ]; then
+		# if old workdir exists remove it
+		if [ -e "$WORKDIR" ]; then
+			rm -rf "$WORKDIR"
+		fi
+		# create workdir
+		mkdir -p "$WORKDIR"
 
-	hg clone $SRC "$WORKDIR" >> "$LOG"
-  	echo "cloned"
+		hg clone $SRC "$WORKDIR" >> "$LOG"
+	  	echo "cloned"
+	else 
+		# create workdir
+		mkdir -p "$WORKDIR"
+	fi
 
 	# get config file
 	cp "$2" "$WORKDIR/config.mf"
 	
 	sed -i "s|^\s*PREFIX.*$|PREFIX="$WORKDIR"/install|" "$WORKDIR/config.mf"
 	
+	echo "TRUTH_DIR=$script_dir/Truth" >> "$WORKDIR/config.mf"	
+	echo "TRUTH_SUFFIX=$5" >> "$WORKDIR/config.mf"
+
 	PATH="$WORKDIR/install":$PATH
 
 	cd "$WORKDIR"
@@ -59,7 +70,7 @@ if ( set -o noclobber; echo "$$" > "$lockfile") 2> /dev/null; then
 	make test-ambiguity >> "$LOG" 2>&1
 	ISambi=$?
 	
-	if [ $ISmake -ne 0 -o $ISunit -ne 0 -o $ISmod -ne 0 -o $ISparal -ne 0 -o $ISambi -ne 0 -o $ISmakeInstall -ne 0]; then
+	if [ $ISmake -ne 0 -o $ISunit -ne 0 -o $ISmod -ne 0 -o $ISparal -ne 0 -o $ISambi -ne 0 -o $ISmakeInstall -ne 0 ]; then
 	  echo %%% Test returned errors - log file is:
 	  echo $LOG
 	  echo %%% exiting
