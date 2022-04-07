@@ -95,8 +95,8 @@ node_37 -> node_49 [ arrowhead=none ];
 node_50 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_7 - 1)</font></td><td>BASE</td><td><font point-size='8' color='#555555'>t_0_k_7</font></td></tr></table>>, color="blue" ];
 node_37 -> node_50 [ arrowhead=none ];
 node_22 -> node_37;
-node_51 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>nil</td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
-node_52 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>LOC</td><td><font point-size='8' color='#555555'>t_0_i</font></td></tr></table>>, color="blue" ];
-node_51 -> node_52 [ arrowhead=none ];
+node_51 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + t_0_j)</font></td><td>struct</td><td><font point-size='8' color='#555555'>(t_0_j - t_0_i)</font></td></tr></table>>, color="black" ];
+node_52 [ label="complete_track" , fontcolor="magenta" , shape=none ];
+node_51 -> node_52 [ arrowhead=none, color="magenta" ];
 node_22 -> node_51;
 }
