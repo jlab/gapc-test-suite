@@ -48,7 +48,7 @@ node_26 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>
 node_18 -> node_26 [ arrowhead=none ];
 node_17 -> node_18;
 node_27 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + t_0_j)</font></td><td>struct</td><td><font point-size='8' color='#555555'>(t_0_j - t_0_i)</font></td></tr></table>>, color="black" ];
-node_28 [ label="complete_track" , fontcolor="magenta" , shape=none ];
+node_28 [ label=<<table border='0'><tr><td>complete_track</td></tr></table>>, fontcolor="magenta", shape=none ];
 node_27 -> node_28 [ arrowhead=none, color="magenta" ];
 node_17 -> node_27;
 }

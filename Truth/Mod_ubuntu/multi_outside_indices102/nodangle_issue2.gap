@@ -72,7 +72,7 @@ node_36 -> node_38 [ arrowhead=none ];
 node_34 -> node_36 [ arrowhead=none ];
 node_25 -> node_34;
 node_39 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + t_0_j)</font></td><td>struct</td><td><font point-size='8' color='#555555'>(t_0_j - t_0_i)</font></td></tr></table>>, color="black" ];
-node_40 [ label="complete_track" , fontcolor="magenta" , shape=none ];
+node_40 [ label=<<table border='0'><tr><td>complete_track</td></tr></table>>, fontcolor="magenta", shape=none ];
 node_39 -> node_40 [ arrowhead=none, color="magenta" ];
 node_25 -> node_39;
 node_41 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_left_most</font></td><td>outside_axioms</td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr></table>>, color="black", shape="box", penwidth=3 ];

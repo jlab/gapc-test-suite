@@ -80,7 +80,7 @@ node_43 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>
 node_40 -> node_43 [ arrowhead=none ];
 node_35 -> node_40;
 node_44 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + t_0_right_most)</font></td><td>struct</td><td><font point-size='8' color='#555555'>(t_0_right_most - t_0_i)</font></td></tr></table>>, color="black" ];
-node_45 [ label="complete_track" , fontcolor="magenta" , shape=none ];
+node_45 [ label=<<table border='0'><tr><td>complete_track</td></tr></table>>, fontcolor="magenta", shape=none ];
 node_44 -> node_45 [ arrowhead=none, color="magenta" ];
 node_35 -> node_44;
 node_46 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_left_most</font></td><td>outside_axioms</td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr></table>>, color="black", shape="box", penwidth=3 ];

@@ -75,7 +75,7 @@ node_39 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>
 node_37 -> node_39 [ arrowhead=none ];
 node_33 -> node_37;
 node_40 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + t_0_right_most)</font></td><td>struct</td><td><font point-size='8' color='#555555'>(t_0_right_most - t_0_i)</font></td></tr></table>>, color="black" ];
-node_41 [ label="complete_track" , fontcolor="magenta" , shape=none ];
+node_41 [ label=<<table border='0'><tr><td>complete_track</td></tr></table>>, fontcolor="magenta", shape=none ];
 node_40 -> node_41 [ arrowhead=none, color="magenta" ];
 node_33 -> node_40;
 node_42 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>outside_weak</td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black", shape="box" ];

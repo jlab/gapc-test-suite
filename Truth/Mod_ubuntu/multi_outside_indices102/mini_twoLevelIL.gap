@@ -102,7 +102,7 @@ node_53 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>
 node_39 -> node_53 [ arrowhead=none ];
 node_23 -> node_39;
 node_54 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + t_0_j)</font></td><td>struct</td><td><font point-size='8' color='#555555'>(t_0_j - t_0_i)</font></td></tr></table>>, color="black" ];
-node_55 [ label="complete_track" , fontcolor="magenta" , shape=none ];
+node_55 [ label=<<table border='0'><tr><td>complete_track</td></tr></table>>, fontcolor="magenta", shape=none ];
 node_54 -> node_55 [ arrowhead=none, color="magenta" ];
 node_23 -> node_54;
 }
