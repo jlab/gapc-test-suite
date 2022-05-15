@@ -18,7 +18,7 @@ node_8 -> node_9 [ arrowhead=none ];
 node_1 -> node_8;
 node_10 [ label=h, fontcolor="purple" , shape=none ];
 node_1 -> node_10 [ arrowhead=none, color="purple" ];
-node_11 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>dangle</td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_11 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>dangle</td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black", shape="box" ];
 node_12 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>dlr</td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
 node_13 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>LOC</td><td><font point-size='8' color='#555555'>t_0_i</font></td></tr></table>>, color="blue" ];
 node_12 -> node_13 [ arrowhead=none ];
