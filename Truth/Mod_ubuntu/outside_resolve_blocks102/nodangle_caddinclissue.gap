@@ -20,7 +20,7 @@ node_10 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>
 node_11 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>LOC<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_i</font></td></tr></table>>, color="blue" ];
 node_10 -> node_11 [ arrowhead=none ];
 node_1 -> node_10;
-node_12 [ label=h, fontcolor="purple" , shape=none ];
+node_12 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple" , shape=none ];
 node_1 -> node_12 [ arrowhead=none, color="purple" ];
 node_13 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>dangle<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_14 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>drem<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
@@ -31,7 +31,7 @@ node_14 -> node_16 [ arrowhead=none ];
 node_17 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_j</font></td><td>LOC<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="blue" ];
 node_14 -> node_17 [ arrowhead=none ];
 node_13 -> node_14;
-node_18 [ label=h, fontcolor="purple" , shape=none ];
+node_18 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple" , shape=none ];
 node_13 -> node_18 [ arrowhead=none, color="purple" ];
 node_19 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>hairpin<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_20 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>hl<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
@@ -48,6 +48,6 @@ node_20 -> node_23 [ arrowhead=none ];
 node_26 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="blue" ];
 node_20 -> node_26 [ arrowhead=none ];
 node_19 -> node_20;
-node_27 [ label=h, fontcolor="purple" , shape=none ];
+node_27 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple" , shape=none ];
 node_19 -> node_27 [ arrowhead=none, color="purple" ];
 }

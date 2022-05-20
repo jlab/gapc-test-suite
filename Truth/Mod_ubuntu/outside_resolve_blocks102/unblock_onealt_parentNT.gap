@@ -10,6 +10,6 @@ node_4 -> node_5 [ arrowhead=none ];
 node_6 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td><td>struct<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr></table>>, color="black" ];
 node_4 -> node_6 [ arrowhead=none ];
 node_1 -> node_4;
-node_7 [ label=h, fontcolor="purple" , shape=none ];
+node_7 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple" , shape=none ];
 node_1 -> node_7 [ arrowhead=none, color="purple" ];
 }

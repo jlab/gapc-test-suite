@@ -6,7 +6,7 @@ node_2 -> node_3 [ arrowhead=none ];
 node_1 -> node_2;
 node_4 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>iloop<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
 node_1 -> node_4;
-node_5 [ label=h, fontcolor="purple" , shape=none ];
+node_5 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple" , shape=none ];
 node_1 -> node_5 [ arrowhead=none, color="purple" ];
 node_6 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>iloop<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black", shape="box" ];
 node_7 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>il<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
@@ -37,6 +37,6 @@ node_7 -> node_19 [ arrowhead=none ];
 node_20 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="blue" ];
 node_7 -> node_20 [ arrowhead=none ];
 node_6 -> node_7;
-node_21 [ label=h, fontcolor="purple" , shape=none ];
+node_21 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple" , shape=none ];
 node_6 -> node_21 [ arrowhead=none, color="purple" ];
 }

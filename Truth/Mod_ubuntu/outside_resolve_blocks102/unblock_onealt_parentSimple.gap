@@ -10,6 +10,6 @@ node_5 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t
 node_6 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>LOC<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_i</font></td></tr></table>>, color="blue" ];
 node_5 -> node_6 [ arrowhead=none ];
 node_1 -> node_5;
-node_7 [ label=h, fontcolor="purple" , shape=none ];
+node_7 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple" , shape=none ];
 node_1 -> node_7 [ arrowhead=none, color="purple" ];
 }

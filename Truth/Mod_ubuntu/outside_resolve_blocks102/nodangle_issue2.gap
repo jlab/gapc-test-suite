@@ -24,7 +24,7 @@ node_13 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>
 node_11 -> node_13 [ arrowhead=none ];
 node_9 -> node_11 [ arrowhead=none ];
 node_1 -> node_9;
-node_14 [ label=h, fontcolor="purple" , shape=none ];
+node_14 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple" , shape=none ];
 node_1 -> node_14 [ arrowhead=none, color="purple" ];
 node_15 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>hairpin<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_16 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>hl<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
@@ -41,6 +41,6 @@ node_16 -> node_19 [ arrowhead=none ];
 node_22 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="blue" ];
 node_16 -> node_22 [ arrowhead=none ];
 node_15 -> node_16;
-node_23 [ label=h, fontcolor="purple" , shape=none ];
+node_23 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple" , shape=none ];
 node_15 -> node_23 [ arrowhead=none, color="purple" ];
 }

@@ -12,7 +12,7 @@ node_6 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t
 node_7 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>LOC<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_i</font></td></tr></table>>, color="blue" ];
 node_6 -> node_7 [ arrowhead=none ];
 node_1 -> node_6;
-node_8 [ label=h, fontcolor="purple" , shape=none ];
+node_8 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple" , shape=none ];
 node_1 -> node_8 [ arrowhead=none, color="purple" ];
 node_9 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>outside_struct<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr></table>>, color="black", shape="box", penwidth=3 ];
 node_10 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 1)</font></td><td>sadd<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr></table>>, color="green" ];
@@ -25,6 +25,6 @@ node_13 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>
 node_14 [ label=<<table border='0'><tr><td>complete_track</td></tr></table>>, fontcolor="magenta", shape=none ];
 node_13 -> node_14 [ arrowhead=none, color="magenta" ];
 node_9 -> node_13;
-node_15 [ label=h, fontcolor="purple" , shape=none ];
+node_15 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple" , shape=none ];
 node_9 -> node_15 [ arrowhead=none, color="purple" ];
 }
