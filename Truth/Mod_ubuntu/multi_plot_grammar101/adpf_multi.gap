@@ -2,7 +2,7 @@ digraph fold {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_0x5601d4fa9a40{
+subgraph cluster_fold{
 node_1 [ label=<<table border='0'><tr><td>struct</td></tr></table>>, color="black", shape="box", penwidth=3 ];
 node_2 [ label=<<table border='0'><tr><td>sadd</td></tr></table>>, color="green" ];
 node_3 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -32,7 +32,7 @@ node_11[label = struct, shape="box", style=invis];
 node_10 -> node_11[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 node_2_5 node_5 node_5_8 node_8 }
 }
-subgraph cluster_0x5601d4fa9a60{
+subgraph cluster_fold{
 node_12 [ label=<<table border='0'><tr><td>dangle</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_13 [ label=<<table border='0'><tr><td>dlr</td></tr></table>>, color="green" ];
 node_14 [ label=<<table border='0'><tr><td>LOC</td></tr></table>>, color="blue" ];
@@ -51,7 +51,7 @@ node_17 -> node_18[weight = 99, style = invis];
 { rank=same node_12 node_12_13 node_13 }
 }
 node_11 -> node_12 [ style = invis];
-subgraph cluster_0x5601d4fa9a80{
+subgraph cluster_fold{
 node_19 [ label=<<table border='0'><tr><td>closed</td></tr></table>>, color="black", shape="box" ];
 node_20 [ label=<<table border='0'><tr><td>a block</td></tr></table>>, color="gray" ];
 node_21 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -78,7 +78,7 @@ node_28 -> node_29[weight = 99, style = invis];
 { rank=same node_19 node_19_20 node_20 }
 }
 node_18 -> node_19 [ style = invis];
-subgraph cluster_0x5601d4fa9aa0{
+subgraph cluster_fold{
 node_30 [ label=<<table border='0'><tr><td>stack</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_31 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="green" ];
 node_32 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -97,7 +97,7 @@ node_35 -> node_36[weight = 99, style = invis];
 { rank=same node_30 node_30_31 node_31 }
 }
 node_29 -> node_30 [ style = invis];
-subgraph cluster_0x5601d4fa9b10{
+subgraph cluster_fold{
 node_37 [ label=<<table border='0'><tr><td>hairpin</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_38 [ label=<<table border='0'><tr><td>hl</td></tr></table>>, color="green" ];
 node_39 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -126,7 +126,7 @@ node_47 -> node_48[weight = 99, style = invis];
 { rank=same node_37 node_37_38 node_38 }
 }
 node_36 -> node_37 [ style = invis];
-subgraph cluster_0x5601d4fa9b80{
+subgraph cluster_fold{
 node_49 [ label=<<table border='0'><tr><td>leftB</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_50 [ label=<<table border='0'><tr><td>bl</td></tr></table>>, color="green" ];
 node_51 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -153,7 +153,7 @@ node_58 -> node_59[weight = 99, style = invis];
 { rank=same node_49 node_49_50 node_50 }
 }
 node_48 -> node_49 [ style = invis];
-subgraph cluster_0x5601d4fa9bf0{
+subgraph cluster_fold{
 node_60 [ label=<<table border='0'><tr><td>rightB</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_61 [ label=<<table border='0'><tr><td>br</td></tr></table>>, color="green" ];
 node_62 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -180,7 +180,7 @@ node_69 -> node_70[weight = 99, style = invis];
 { rank=same node_60 node_60_61 node_61 }
 }
 node_59 -> node_60 [ style = invis];
-subgraph cluster_0x5601d4fa9c60{
+subgraph cluster_fold{
 node_71 [ label=<<table border='0'><tr><td>iloop</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_72 [ label=<<table border='0'><tr><td>il</td></tr></table>>, color="green" ];
 node_73 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -211,7 +211,7 @@ node_82 -> node_83[weight = 99, style = invis];
 { rank=same node_71 node_71_72 node_72 }
 }
 node_70 -> node_71 [ style = invis];
-subgraph cluster_0x5601d4fa9cd0{
+subgraph cluster_fold{
 node_84 [ label=<<table border='0'><tr><td>multiloop</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_85 [ label=<<table border='0'><tr><td>ml</td></tr></table>>, color="green" ];
 node_86 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -234,7 +234,7 @@ node_91 -> node_92[weight = 99, style = invis];
 { rank=same node_84 node_84_85 node_85 }
 }
 node_83 -> node_84 [ style = invis];
-subgraph cluster_0x5601d4fa9d40{
+subgraph cluster_fold{
 node_93 [ label=<<table border='0'><tr><td>ml_comps</td></tr></table>>, color="black", shape="box" ];
 node_94 [ label=<<table border='0'><tr><td>sadd</td></tr></table>>, color="green" ];
 node_95 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -267,7 +267,7 @@ node_104 -> node_105[weight = 99, style = invis];
 { rank=same node_93 node_93_94 node_94 node_94_97 node_97 }
 }
 node_92 -> node_93 [ style = invis];
-subgraph cluster_0x5601d4fa9db0{
+subgraph cluster_fold{
 node_106 [ label=<<table border='0'><tr><td>ml_comps1</td></tr></table>>, color="black", shape="box" ];
 node_107 [ label=<<table border='0'><tr><td>sadd</td></tr></table>>, color="green" ];
 node_108 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];

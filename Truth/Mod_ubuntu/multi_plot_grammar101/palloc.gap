@@ -2,7 +2,7 @@ digraph pal {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_0x55f87c050210{
+subgraph cluster_pal{
 node_1 [ label=<<table border='0'><tr><td>sl</td></tr></table>>, color="black", shape="box", penwidth=3, style="dotted" ];
 node_2 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="black" ];
 node_1_2[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -22,7 +22,7 @@ node_7[label = sl, shape="box", style=invis];
 node_6 -> node_7[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 node_2_3 node_3 }
 }
-subgraph cluster_0x55f87c050280{
+subgraph cluster_pal{
 node_8 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_9 [ label=<<table border='0'><tr><td>skipr</td></tr></table>>, color="green" ];
 node_10 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="black" ];
@@ -43,7 +43,7 @@ node_13 -> node_14[weight = 99, style = invis];
 { rank=same node_8 node_8_9 node_9 node_9_12 node_12 }
 }
 node_7 -> node_8 [ style = invis];
-subgraph cluster_0x55f87c0502f0{
+subgraph cluster_pal{
 node_15 [ label=<<table border='0'><tr><td>pl</td></tr></table>>, color="black", shape="box" ];
 node_16 [ label=<<table border='0'><tr><td>match</td></tr></table>>, color="green" ];
 node_17 [ label="equal" , fontcolor="magenta" , shape=none ];

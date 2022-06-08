@@ -2,7 +2,7 @@ digraph gra_macrostate {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_0x55a3522c5ff0{
+subgraph cluster_gra_macrostate{
 node_1 [ label=<<table border='0'><tr><td>struct</td></tr></table>>, color="black", shape="box", penwidth=3, style="dotted" ];
 node_2 [ label=<<table border='0'><tr><td>left_dangle</td></tr></table>>, color="black" ];
 node_1_2[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -24,7 +24,7 @@ node_7[label = struct, shape="box", style=invis];
 node_6 -> node_7[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 node_2_3 node_3 node_3_5 node_5 }
 }
-subgraph cluster_0x55a3522c6060{
+subgraph cluster_gra_macrostate{
 node_8 [ label=<<table border='0'><tr><td>left_unpaired</td></tr></table>>, color="black", shape="box" ];
 node_9 [ label=<<table border='0'><tr><td>sadd</td></tr></table>>, color="green" ];
 node_10 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -49,7 +49,7 @@ node_15 -> node_16[weight = 99, style = invis];
 { rank=same node_8 node_8_9 node_9 node_9_12 node_12 }
 }
 node_7 -> node_8 [ style = invis];
-subgraph cluster_0x55a3522c60d0{
+subgraph cluster_gra_macrostate{
 node_17 [ label=<<table border='0'><tr><td>left_dangle</td></tr></table>>, color="black", shape="box" ];
 node_18 [ label=<<table border='0'><tr><td>ambd</td></tr></table>>, color="green" ];
 node_19 [ label=<<table border='0'><tr><td>edanglel</td></tr></table>>, color="black" ];
@@ -104,7 +104,7 @@ node_37 -> node_38[weight = 99, style = invis];
 { rank=same node_17 node_17_18 node_18 node_18_22 node_22 node_22_28 node_28 node_28_33 node_33 }
 }
 node_16 -> node_17 [ style = invis];
-subgraph cluster_0x55a3522c6140{
+subgraph cluster_gra_macrostate{
 node_39 [ label=<<table border='0'><tr><td>noleft_dangle</td></tr></table>>, color="black", shape="box" ];
 node_40 [ label=<<table border='0'><tr><td>cadd_Pr_Pr</td></tr></table>>, color="green" ];
 node_41 [ label=<<table border='0'><tr><td>edangler</td></tr></table>>, color="black" ];
@@ -153,7 +153,7 @@ node_57 -> node_58[weight = 99, style = invis];
 { rank=same node_39 node_39_40 node_40 node_40_45 node_45 node_45_51 node_51 }
 }
 node_38 -> node_39 [ style = invis];
-subgraph cluster_0x55a3522c61b0{
+subgraph cluster_gra_macrostate{
 node_59 [ label=<<table border='0'><tr><td>edanglel</td></tr></table>>, color="black", shape="box" ];
 node_60 [ label=<<table border='0'><tr><td>edl</td></tr></table>>, color="green" ];
 node_61 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -172,7 +172,7 @@ node_64 -> node_65[weight = 99, style = invis];
 { rank=same node_59 node_59_60 node_60 }
 }
 node_58 -> node_59 [ style = invis];
-subgraph cluster_0x55a3522c6220{
+subgraph cluster_gra_macrostate{
 node_66 [ label=<<table border='0'><tr><td>edangler</td></tr></table>>, color="black", shape="box" ];
 node_67 [ label=<<table border='0'><tr><td>edr</td></tr></table>>, color="green" ];
 node_68 [ label=<<table border='0'><tr><td>LOC</td></tr></table>>, color="blue" ];
@@ -191,7 +191,7 @@ node_71 -> node_72[weight = 99, style = invis];
 { rank=same node_66 node_66_67 node_67 }
 }
 node_65 -> node_66 [ style = invis];
-subgraph cluster_0x55a3522c6290{
+subgraph cluster_gra_macrostate{
 node_73 [ label=<<table border='0'><tr><td>edanglelr</td></tr></table>>, color="black", shape="box" ];
 node_74 [ label=<<table border='0'><tr><td>edlr</td></tr></table>>, color="green" ];
 node_75 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -210,7 +210,7 @@ node_78 -> node_79[weight = 99, style = invis];
 { rank=same node_73 node_73_74 node_74 }
 }
 node_72 -> node_73 [ style = invis];
-subgraph cluster_0x55a3522c6300{
+subgraph cluster_gra_macrostate{
 node_80 [ label=<<table border='0'><tr><td>nodangle</td></tr></table>>, color="black", shape="box" ];
 node_81 [ label=<<table border='0'><tr><td>drem</td></tr></table>>, color="green" ];
 node_82 [ label=<<table border='0'><tr><td>LOC</td></tr></table>>, color="blue" ];
@@ -229,7 +229,7 @@ node_85 -> node_86[weight = 99, style = invis];
 { rank=same node_80 node_80_81 node_81 }
 }
 node_79 -> node_80 [ style = invis];
-subgraph cluster_0x55a3522c6370{
+subgraph cluster_gra_macrostate{
 node_87 [ label=<<table border='0'><tr><td>strong</td></tr></table>>, color="black", shape="box" ];
 node_88 [ label=<<table border='0'><tr><td>a block</td></tr></table>>, color="gray" ];
 node_89 [ label="allowLonelyBasepairs(false)" , fontcolor="magenta" , shape=none ];
@@ -264,7 +264,7 @@ node_99 -> node_100[weight = 99, style = invis];
 { rank=same node_87 node_87_88 node_88 node_88_95 node_95 }
 }
 node_86 -> node_87 [ style = invis];
-subgraph cluster_0x55a3522c63e0{
+subgraph cluster_gra_macrostate{
 node_101 [ label=<<table border='0'><tr><td>weak</td></tr></table>>, color="black", shape="box" ];
 node_102 [ label=<<table border='0'><tr><td>stack</td></tr></table>>, color="black" ];
 node_101_102[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -295,7 +295,7 @@ node_101 -> node_108 [ arrowhead=none, color="purple" , weight=99];
 { rank=same node_101 node_101_102 node_102 node_102_103 node_103 node_103_104 node_104 node_104_105 node_105 node_105_106 node_106 node_106_107 node_107 }
 }
 node_100 -> node_101 [ style = invis];
-subgraph cluster_0x55a3522c6450{
+subgraph cluster_gra_macrostate{
 node_109 [ label=<<table border='0'><tr><td>multiloop</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_110 [ label=<<table border='0'><tr><td>a block</td></tr></table>>, color="gray" ];
 node_111 [ label=<<table border='0'><tr><td>mldl</td></tr></table>>, color="green" ];
@@ -424,7 +424,7 @@ node_169 -> node_170[weight = 99, style = invis];
 { rank=same node_109 node_109_110 node_110 }
 }
 node_108 -> node_109 [ style = invis];
-subgraph cluster_0x55a3522c64c0{
+subgraph cluster_gra_macrostate{
 node_171 [ label=<<table border='0'><tr><td>ml_comps1</td></tr></table>>, color="black", shape="box" ];
 node_172 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_173 [ label=<<table border='0'><tr><td>block_dl</td></tr></table>>, color="black" ];
@@ -459,7 +459,7 @@ node_182 -> node_183[weight = 99, style = invis];
 { rank=same node_171 node_171_172 node_172 node_172_175 node_175 node_175_178 node_178 }
 }
 node_170 -> node_171 [ style = invis];
-subgraph cluster_0x55a3522c6530{
+subgraph cluster_gra_macrostate{
 node_184 [ label=<<table border='0'><tr><td>ml_comps2</td></tr></table>>, color="black", shape="box" ];
 node_185 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_186 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
@@ -502,7 +502,7 @@ node_199 -> node_200[weight = 99, style = invis];
 { rank=same node_184 node_184_185 node_185 node_185_189 node_189 node_189_193 node_193 }
 }
 node_183 -> node_184 [ style = invis];
-subgraph cluster_0x55a3522c65a0{
+subgraph cluster_gra_macrostate{
 node_201 [ label=<<table border='0'><tr><td>ml_comps3</td></tr></table>>, color="black", shape="box" ];
 node_202 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_203 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
@@ -545,7 +545,7 @@ node_216 -> node_217[weight = 99, style = invis];
 { rank=same node_201 node_201_202 node_202 node_202_206 node_206 node_206_210 node_210 }
 }
 node_200 -> node_201 [ style = invis];
-subgraph cluster_0x55a3522c6610{
+subgraph cluster_gra_macrostate{
 node_218 [ label=<<table border='0'><tr><td>ml_comps4</td></tr></table>>, color="black", shape="box" ];
 node_219 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_220 [ label=<<table border='0'><tr><td>block_dl</td></tr></table>>, color="black" ];
@@ -580,7 +580,7 @@ node_229 -> node_230[weight = 99, style = invis];
 { rank=same node_218 node_218_219 node_219 node_219_222 node_222 node_222_225 node_225 }
 }
 node_217 -> node_218 [ style = invis];
-subgraph cluster_0x55a3522c6680{
+subgraph cluster_gra_macrostate{
 node_231 [ label=<<table border='0'><tr><td>block_dl</td></tr></table>>, color="black", shape="box" ];
 node_232 [ label=<<table border='0'><tr><td>ssadd</td></tr></table>>, color="green" ];
 node_233 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" ];
@@ -603,7 +603,7 @@ node_237 -> node_238[weight = 99, style = invis];
 { rank=same node_231 node_231_232 node_232 node_232_235 node_235 }
 }
 node_230 -> node_231 [ style = invis];
-subgraph cluster_0x55a3522c66f0{
+subgraph cluster_gra_macrostate{
 node_239 [ label=<<table border='0'><tr><td>block_dlr</td></tr></table>>, color="black", shape="box" ];
 node_240 [ label=<<table border='0'><tr><td>ssadd</td></tr></table>>, color="green" ];
 node_241 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" ];
@@ -626,7 +626,7 @@ node_245 -> node_246[weight = 99, style = invis];
 { rank=same node_239 node_239_240 node_240 node_240_243 node_243 }
 }
 node_238 -> node_239 [ style = invis];
-subgraph cluster_0x55a3522c6760{
+subgraph cluster_gra_macrostate{
 node_247 [ label=<<table border='0'><tr><td>no_dl_no_ss_end</td></tr></table>>, color="black", shape="box" ];
 node_248 [ label=<<table border='0'><tr><td>ml_comps2</td></tr></table>>, color="black" ];
 node_247_248[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -645,7 +645,7 @@ node_251 -> node_252[weight = 99, style = invis];
 { rank=same node_247 node_247_248 node_248 node_248_249 node_249 }
 }
 node_246 -> node_247 [ style = invis];
-subgraph cluster_0x55a3522c67f0{
+subgraph cluster_gra_macrostate{
 node_253 [ label=<<table border='0'><tr><td>dl_or_ss_left_no_ss_end</td></tr></table>>, color="black", shape="box" ];
 node_254 [ label=<<table border='0'><tr><td>ml_comps1</td></tr></table>>, color="black" ];
 node_253_254[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -660,7 +660,7 @@ node_253 -> node_256 [ arrowhead=none, color="purple" , weight=99];
 { rank=same node_253 node_253_254 node_254 node_254_255 node_255 }
 }
 node_252 -> node_253 [ style = invis];
-subgraph cluster_0x55a3522c6860{
+subgraph cluster_gra_macrostate{
 node_257 [ label=<<table border='0'><tr><td>no_dl_ss_end</td></tr></table>>, color="black", shape="box" ];
 node_258 [ label=<<table border='0'><tr><td>ml_comps3</td></tr></table>>, color="black" ];
 node_257_258[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -691,7 +691,7 @@ node_266 -> node_267[weight = 99, style = invis];
 { rank=same node_257 node_257_258 node_258 node_258_259 node_259 node_259_261 node_261 }
 }
 node_256 -> node_257 [ style = invis];
-subgraph cluster_0x55a3522c68f0{
+subgraph cluster_gra_macrostate{
 node_268 [ label=<<table border='0'><tr><td>dl_or_ss_left_ss_end</td></tr></table>>, color="black", shape="box" ];
 node_269 [ label=<<table border='0'><tr><td>ml_comps4</td></tr></table>>, color="black" ];
 node_268_269[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -716,7 +716,7 @@ node_274 -> node_275[weight = 99, style = invis];
 { rank=same node_268 node_268_269 node_269 node_269_270 node_270 node_270_271 node_271 }
 }
 node_267 -> node_268 [ style = invis];
-subgraph cluster_0x55a3522c6960{
+subgraph cluster_gra_macrostate{
 node_276 [ label=<<table border='0'><tr><td>stack</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_277 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="green" ];
 node_278 [ label="basepair" , fontcolor="magenta" , shape=none ];
@@ -737,7 +737,7 @@ node_282 -> node_283[weight = 99, style = invis];
 { rank=same node_276 node_276_277 node_277 }
 }
 node_275 -> node_276 [ style = invis];
-subgraph cluster_0x55a3522c69d0{
+subgraph cluster_gra_macrostate{
 node_284 [ label=<<table border='0'><tr><td>hairpin</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_285 [ label=<<table border='0'><tr><td>hl</td></tr></table>>, color="green" ];
 node_286 [ label="basepair" , fontcolor="magenta" , shape=none ];
@@ -760,7 +760,7 @@ node_291 -> node_292[weight = 99, style = invis];
 { rank=same node_284 node_284_285 node_285 }
 }
 node_283 -> node_284 [ style = invis];
-subgraph cluster_0x55a3522c6a40{
+subgraph cluster_gra_macrostate{
 node_293 [ label=<<table border='0'><tr><td>leftB</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_294 [ label=<<table border='0'><tr><td>bl</td></tr></table>>, color="green" ];
 node_295 [ label="basepair" , fontcolor="magenta" , shape=none ];
@@ -785,7 +785,7 @@ node_301 -> node_302[weight = 99, style = invis];
 { rank=same node_293 node_293_294 node_294 }
 }
 node_292 -> node_293 [ style = invis];
-subgraph cluster_0x55a3522c6ab0{
+subgraph cluster_gra_macrostate{
 node_303 [ label=<<table border='0'><tr><td>rightB</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_304 [ label=<<table border='0'><tr><td>br</td></tr></table>>, color="green" ];
 node_305 [ label="basepair" , fontcolor="magenta" , shape=none ];
@@ -810,7 +810,7 @@ node_311 -> node_312[weight = 99, style = invis];
 { rank=same node_303 node_303_304 node_304 }
 }
 node_302 -> node_303 [ style = invis];
-subgraph cluster_0x55a3522c6b20{
+subgraph cluster_gra_macrostate{
 node_313 [ label=<<table border='0'><tr><td>iloop</td></tr></table>>, color="black", shape="box" ];
 node_314 [ label=<<table border='0'><tr><td>il</td></tr></table>>, color="green" ];
 node_315 [ label="basepair" , fontcolor="magenta" , shape=none ];

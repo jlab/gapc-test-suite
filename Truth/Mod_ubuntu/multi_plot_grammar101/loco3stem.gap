@@ -2,7 +2,7 @@ digraph tdm {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_0x561b526c53f0{
+subgraph cluster_tdm{
 node_1 [ label=<<table border='0'><tr><td>rnastruct</td></tr></table>>, color="black", shape="box", penwidth=3 ];
 node_2 [ label=<<table border='0'><tr><td>sadd</td></tr></table>>, color="green" ];
 node_3 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -26,7 +26,7 @@ node_9[label = rnastruct, shape="box", style=invis];
 node_8 -> node_9[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 node_2_5 node_5 }
 }
-subgraph cluster_0x561b526c5410{
+subgraph cluster_tdm{
 node_10 [ label=<<table border='0'><tr><td>structstart</td></tr></table>>, color="black", shape="box" ];
 node_11 [ label=<<table border='0'><tr><td>cadd</td></tr></table>>, color="green" ];
 node_12 [ label=<<table border='0'><tr><td>motif0</td></tr></table>>, color="black" ];
@@ -43,7 +43,7 @@ node_14 -> node_15[weight = 99, style = invis];
 { rank=same node_10 node_10_11 node_11 }
 }
 node_9 -> node_10 [ style = invis];
-subgraph cluster_0x561b526c5430{
+subgraph cluster_tdm{
 node_16 [ label=<<table border='0'><tr><td>motif0</td></tr></table>>, color="black", shape="box" ];
 node_17 [ label=<<table border='0'><tr><td>dlr</td></tr></table>>, color="green" ];
 node_18 [ label=<<table border='0'><tr><td>LOC</td></tr></table>>, color="blue" ];
@@ -62,7 +62,7 @@ node_21 -> node_22[weight = 99, style = invis];
 { rank=same node_16 node_16_17 node_17 }
 }
 node_15 -> node_16 [ style = invis];
-subgraph cluster_0x561b526c5450{
+subgraph cluster_tdm{
 node_23 [ label=<<table border='0'><tr><td>stem0</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_24 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="green" ];
 node_25 [ label="basepairing" , fontcolor="magenta" , shape=none ];
@@ -103,7 +103,7 @@ node_39 -> node_40[weight = 99, style = invis];
 { rank=same node_23 node_23_24 node_24 }
 }
 node_22 -> node_23 [ style = invis];
-subgraph cluster_0x561b526c5470{
+subgraph cluster_tdm{
 node_41 [ label=<<table border='0'><tr><td>maxstem0</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_42 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="green" ];
 node_43 [ label="basepairing" , fontcolor="magenta" , shape=none ];
@@ -284,7 +284,7 @@ node_127 -> node_128[weight = 99, style = invis];
 { rank=same node_41 node_41_42 node_42 }
 }
 node_40 -> node_41 [ style = invis];
-subgraph cluster_0x561b526c5490{
+subgraph cluster_tdm{
 node_129 [ label=<<table border='0'><tr><td>motif1</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_130 [ label=<<table border='0'><tr><td>hairpin1</td></tr></table>>, color="black" ];
 node_129_130[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -295,7 +295,7 @@ node_129 -> node_131 [ arrowhead=none, color="purple" , weight=99];
 { rank=same node_129 node_129_130 node_130 }
 }
 node_128 -> node_129 [ style = invis];
-subgraph cluster_0x561b526c54b0{
+subgraph cluster_tdm{
 node_132 [ label=<<table border='0'><tr><td>hairpin1</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_133 [ label=<<table border='0'><tr><td>hl</td></tr></table>>, color="green" ];
 node_134 [ label="basepairing" , fontcolor="magenta" , shape=none ];
@@ -318,7 +318,7 @@ node_139 -> node_140[weight = 99, style = invis];
 { rank=same node_132 node_132_133 node_133 }
 }
 node_131 -> node_132 [ style = invis];
-subgraph cluster_0x561b526c54d0{
+subgraph cluster_tdm{
 node_141 [ label=<<table border='0'><tr><td>tail0</td></tr></table>>, color="black", shape="box" ];
 node_142 [ label=<<table border='0'><tr><td>cadd</td></tr></table>>, color="green" ];
 node_143 [ label=<<table border='0'><tr><td>motif2</td></tr></table>>, color="black" ];
@@ -335,7 +335,7 @@ node_145 -> node_146[weight = 99, style = invis];
 { rank=same node_141 node_141_142 node_142 }
 }
 node_140 -> node_141 [ style = invis];
-subgraph cluster_0x561b526c54f0{
+subgraph cluster_tdm{
 node_147 [ label=<<table border='0'><tr><td>motif2</td></tr></table>>, color="black", shape="box" ];
 node_148 [ label=<<table border='0'><tr><td>ss</td></tr></table>>, color="green" ];
 node_149 [ label=<<table border='0'><tr><td>UREGION</td></tr></table>>, color="blue" ];
@@ -350,7 +350,7 @@ node_150 -> node_151[weight = 99, style = invis];
 { rank=same node_147 node_147_148 node_148 }
 }
 node_146 -> node_147 [ style = invis];
-subgraph cluster_0x561b526c5510{
+subgraph cluster_tdm{
 node_152 [ label=<<table border='0'><tr><td>tail1</td></tr></table>>, color="black", shape="box" ];
 node_153 [ label=<<table border='0'><tr><td>cadd</td></tr></table>>, color="green" ];
 node_154 [ label=<<table border='0'><tr><td>motif3</td></tr></table>>, color="black" ];
@@ -367,7 +367,7 @@ node_156 -> node_157[weight = 99, style = invis];
 { rank=same node_152 node_152_153 node_153 }
 }
 node_151 -> node_152 [ style = invis];
-subgraph cluster_0x561b526c5580{
+subgraph cluster_tdm{
 node_158 [ label=<<table border='0'><tr><td>motif3</td></tr></table>>, color="black", shape="box" ];
 node_159 [ label=<<table border='0'><tr><td>dlr</td></tr></table>>, color="green" ];
 node_160 [ label=<<table border='0'><tr><td>LOC</td></tr></table>>, color="blue" ];
@@ -386,7 +386,7 @@ node_163 -> node_164[weight = 99, style = invis];
 { rank=same node_158 node_158_159 node_159 }
 }
 node_157 -> node_158 [ style = invis];
-subgraph cluster_0x561b526c55f0{
+subgraph cluster_tdm{
 node_165 [ label=<<table border='0'><tr><td>stem3</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_166 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="green" ];
 node_167 [ label="basepairing" , fontcolor="magenta" , shape=none ];
@@ -407,7 +407,7 @@ node_171 -> node_172[weight = 99, style = invis];
 { rank=same node_165 node_165_166 node_166 }
 }
 node_164 -> node_165 [ style = invis];
-subgraph cluster_0x561b526c5660{
+subgraph cluster_tdm{
 node_173 [ label=<<table border='0'><tr><td>maxstem3</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_174 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="green" ];
 node_175 [ label="basepairing" , fontcolor="magenta" , shape=none ];
@@ -796,7 +796,7 @@ node_363 -> node_364[weight = 99, style = invis];
 { rank=same node_173 node_173_174 node_174 }
 }
 node_172 -> node_173 [ style = invis];
-subgraph cluster_0x561b526c56d0{
+subgraph cluster_tdm{
 node_365 [ label=<<table border='0'><tr><td>motif4</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_366 [ label=<<table border='0'><tr><td>hairpin4</td></tr></table>>, color="black" ];
 node_365_366[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -807,7 +807,7 @@ node_365 -> node_367 [ arrowhead=none, color="purple" , weight=99];
 { rank=same node_365 node_365_366 node_366 }
 }
 node_364 -> node_365 [ style = invis];
-subgraph cluster_0x561b526c5740{
+subgraph cluster_tdm{
 node_368 [ label=<<table border='0'><tr><td>hairpin4</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_369 [ label=<<table border='0'><tr><td>hl</td></tr></table>>, color="green" ];
 node_370 [ label="basepairing" , fontcolor="magenta" , shape=none ];
@@ -830,7 +830,7 @@ node_375 -> node_376[weight = 99, style = invis];
 { rank=same node_368 node_368_369 node_369 }
 }
 node_367 -> node_368 [ style = invis];
-subgraph cluster_0x561b526c57b0{
+subgraph cluster_tdm{
 node_377 [ label=<<table border='0'><tr><td>tail2</td></tr></table>>, color="black", shape="box" ];
 node_378 [ label=<<table border='0'><tr><td>cadd</td></tr></table>>, color="green" ];
 node_379 [ label=<<table border='0'><tr><td>motif5</td></tr></table>>, color="black" ];
@@ -847,7 +847,7 @@ node_381 -> node_382[weight = 99, style = invis];
 { rank=same node_377 node_377_378 node_378 }
 }
 node_376 -> node_377 [ style = invis];
-subgraph cluster_0x561b526c5820{
+subgraph cluster_tdm{
 node_383 [ label=<<table border='0'><tr><td>motif5</td></tr></table>>, color="black", shape="box" ];
 node_384 [ label=<<table border='0'><tr><td>ss</td></tr></table>>, color="green" ];
 node_385 [ label=<<table border='0'><tr><td>UREGION</td></tr></table>>, color="blue" ];
@@ -862,7 +862,7 @@ node_386 -> node_387[weight = 99, style = invis];
 { rank=same node_383 node_383_384 node_384 }
 }
 node_382 -> node_383 [ style = invis];
-subgraph cluster_0x561b526c5890{
+subgraph cluster_tdm{
 node_388 [ label=<<table border='0'><tr><td>tail3</td></tr></table>>, color="black", shape="box" ];
 node_389 [ label=<<table border='0'><tr><td>motif6</td></tr></table>>, color="black" ];
 node_388_389[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -873,7 +873,7 @@ node_388 -> node_390 [ arrowhead=none, color="purple" , style=invis, weight=99];
 { rank=same node_388 node_388_389 node_389 }
 }
 node_387 -> node_388 [ style = invis];
-subgraph cluster_0x561b526c5900{
+subgraph cluster_tdm{
 node_391 [ label=<<table border='0'><tr><td>motif6</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_392 [ label=<<table border='0'><tr><td>dlr</td></tr></table>>, color="green" ];
 node_393 [ label=<<table border='0'><tr><td>LOC</td></tr></table>>, color="blue" ];
@@ -892,7 +892,7 @@ node_396 -> node_397[weight = 99, style = invis];
 { rank=same node_391 node_391_392 node_392 }
 }
 node_390 -> node_391 [ style = invis];
-subgraph cluster_0x561b526c5970{
+subgraph cluster_tdm{
 node_398 [ label=<<table border='0'><tr><td>stem6</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_399 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="green" ];
 node_400 [ label="basepairing" , fontcolor="magenta" , shape=none ];
@@ -923,7 +923,7 @@ node_409 -> node_410[weight = 99, style = invis];
 { rank=same node_398 node_398_399 node_399 }
 }
 node_397 -> node_398 [ style = invis];
-subgraph cluster_0x561b526c59e0{
+subgraph cluster_tdm{
 node_411 [ label=<<table border='0'><tr><td>maxstem6</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_412 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="green" ];
 node_413 [ label="basepairing" , fontcolor="magenta" , shape=none ];
@@ -1376,7 +1376,7 @@ node_633 -> node_634[weight = 99, style = invis];
 { rank=same node_411 node_411_412 node_412 }
 }
 node_410 -> node_411 [ style = invis];
-subgraph cluster_0x561b526c5a50{
+subgraph cluster_tdm{
 node_635 [ label=<<table border='0'><tr><td>motif7</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_636 [ label=<<table border='0'><tr><td>hairpin7</td></tr></table>>, color="black" ];
 node_635_636[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -1387,7 +1387,7 @@ node_635 -> node_637 [ arrowhead=none, color="purple" , weight=99];
 { rank=same node_635 node_635_636 node_636 }
 }
 node_634 -> node_635 [ style = invis];
-subgraph cluster_0x561b526c5ac0{
+subgraph cluster_tdm{
 node_638 [ label=<<table border='0'><tr><td>hairpin7</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_639 [ label=<<table border='0'><tr><td>hl</td></tr></table>>, color="green" ];
 node_640 [ label="basepairing" , fontcolor="magenta" , shape=none ];

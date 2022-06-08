@@ -2,7 +2,7 @@ digraph pknotsRG {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_0x556aeea4ba10{
+subgraph cluster_pknotsRG{
 node_1 [ label=<<table border='0'><tr><td>struct</td></tr></table>>, color="black", shape="box", penwidth=3 ];
 node_2 [ label=<<table border='0'><tr><td>sadd</td></tr></table>>, color="green" ];
 node_3 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -32,7 +32,7 @@ node_11[label = struct, shape="box", style=invis];
 node_10 -> node_11[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 node_2_5 node_5 node_5_8 node_8 }
 }
-subgraph cluster_0x556aeea4ba80{
+subgraph cluster_pknotsRG{
 node_12 [ label=<<table border='0'><tr><td>dangle_Pr</td></tr></table>>, color="black", shape="box" ];
 node_13 [ label=<<table border='0'><tr><td>dangle</td></tr></table>>, color="black" ];
 node_12_13[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -47,7 +47,7 @@ node_12 -> node_15 [ arrowhead=none, color="purple" , weight=99];
 { rank=same node_12 node_12_13 node_13 node_13_14 node_14 }
 }
 node_11 -> node_12 [ style = invis];
-subgraph cluster_0x556aeea4baf0{
+subgraph cluster_pknotsRG{
 node_16 [ label=<<table border='0'><tr><td>dangle</td></tr></table>>, color="black", shape="box" ];
 node_17 [ label=<<table border='0'><tr><td>is</td></tr></table>>, color="green" ];
 node_18 [ label=<<table border='0'><tr><td>LOC</td></tr></table>>, color="blue" ];
@@ -96,7 +96,7 @@ node_33 -> node_34[weight = 99, style = invis];
 { rank=same node_16 node_16_17 node_17 node_17_21 node_21 node_21_25 node_25 node_25_29 node_29 }
 }
 node_15 -> node_16 [ style = invis];
-subgraph cluster_0x556aeea4bb60{
+subgraph cluster_pknotsRG{
 node_35 [ label=<<table border='0'><tr><td>dangleknot</td></tr></table>>, color="black", shape="box" ];
 node_36 [ label=<<table border='0'><tr><td>pk</td></tr></table>>, color="green" ];
 node_37 [ label=<<table border='0'><tr><td>knot</td></tr></table>>, color="black" ];
@@ -137,7 +137,7 @@ node_48 -> node_49[weight = 99, style = invis];
 { rank=same node_35 node_35_36 node_36 node_36_38 node_38 node_38_41 node_41 node_41_44 node_44 }
 }
 node_34 -> node_35 [ style = invis];
-subgraph cluster_0x556aeea4bbd0{
+subgraph cluster_pknotsRG{
 node_50 [ label=<<table border='0'><tr><td>closed</td></tr></table>>, color="black", shape="box" ];
 node_51 [ label=<<table border='0'><tr><td>a block</td></tr></table>>, color="gray" ];
 node_52 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -164,7 +164,7 @@ node_59 -> node_60[weight = 99, style = invis];
 { rank=same node_50 node_50_51 node_51 }
 }
 node_49 -> node_50 [ style = invis];
-subgraph cluster_0x556aeea4bc40{
+subgraph cluster_pknotsRG{
 node_61 [ label=<<table border='0'><tr><td>stack</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_62 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="green" ];
 node_63 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -183,7 +183,7 @@ node_66 -> node_67[weight = 99, style = invis];
 { rank=same node_61 node_61_62 node_62 }
 }
 node_60 -> node_61 [ style = invis];
-subgraph cluster_0x556aeea4bcb0{
+subgraph cluster_pknotsRG{
 node_68 [ label=<<table border='0'><tr><td>hairpin</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_69 [ label=<<table border='0'><tr><td>hl</td></tr></table>>, color="green" ];
 node_70 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -212,7 +212,7 @@ node_78 -> node_79[weight = 99, style = invis];
 { rank=same node_68 node_68_69 node_69 }
 }
 node_67 -> node_68 [ style = invis];
-subgraph cluster_0x556aeea4bd20{
+subgraph cluster_pknotsRG{
 node_80 [ label=<<table border='0'><tr><td>leftB</td></tr></table>>, color="black", shape="box" ];
 node_81 [ label=<<table border='0'><tr><td>bl</td></tr></table>>, color="green" ];
 node_82 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -239,7 +239,7 @@ node_89 -> node_90[weight = 99, style = invis];
 { rank=same node_80 node_80_81 node_81 }
 }
 node_79 -> node_80 [ style = invis];
-subgraph cluster_0x556aeea4bd90{
+subgraph cluster_pknotsRG{
 node_91 [ label=<<table border='0'><tr><td>rightB</td></tr></table>>, color="black", shape="box" ];
 node_92 [ label=<<table border='0'><tr><td>br</td></tr></table>>, color="green" ];
 node_93 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -266,7 +266,7 @@ node_100 -> node_101[weight = 99, style = invis];
 { rank=same node_91 node_91_92 node_92 }
 }
 node_90 -> node_91 [ style = invis];
-subgraph cluster_0x556aeea4be00{
+subgraph cluster_pknotsRG{
 node_102 [ label=<<table border='0'><tr><td>iloop</td></tr></table>>, color="black", shape="box" ];
 node_103 [ label=<<table border='0'><tr><td>il</td></tr></table>>, color="green" ];
 node_104 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -297,7 +297,7 @@ node_113 -> node_114[weight = 99, style = invis];
 { rank=same node_102 node_102_103 node_103 }
 }
 node_101 -> node_102 [ style = invis];
-subgraph cluster_0x556aeea4be70{
+subgraph cluster_pknotsRG{
 node_115 [ label=<<table border='0'><tr><td>multiloop</td></tr></table>>, color="black", shape="box" ];
 node_116 [ label=<<table border='0'><tr><td>a block</td></tr></table>>, color="gray" ];
 node_117 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -370,7 +370,7 @@ node_147 -> node_148[weight = 99, style = invis];
 { rank=same node_115 node_115_116 node_116 }
 }
 node_114 -> node_115 [ style = invis];
-subgraph cluster_0x556aeea4bee0{
+subgraph cluster_pknotsRG{
 node_149 [ label=<<table border='0'><tr><td>ml_comps1</td></tr></table>>, color="black", shape="box" ];
 node_150 [ label=<<table border='0'><tr><td>sadd</td></tr></table>>, color="green" ];
 node_151 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -407,7 +407,7 @@ node_161 -> node_162[weight = 99, style = invis];
 { rank=same node_149 node_149_150 node_150 node_150_153 node_153 node_153_156 node_156 }
 }
 node_148 -> node_149 [ style = invis];
-subgraph cluster_0x556aeea4bf50{
+subgraph cluster_pknotsRG{
 node_163 [ label=<<table border='0'><tr><td>ml_comps</td></tr></table>>, color="black", shape="box" ];
 node_164 [ label=<<table border='0'><tr><td>sadd</td></tr></table>>, color="green" ];
 node_165 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -440,7 +440,7 @@ node_173 -> node_174[weight = 99, style = invis];
 { rank=same node_163 node_163_164 node_164 node_164_167 node_167 node_167_170 node_170 }
 }
 node_162 -> node_163 [ style = invis];
-subgraph cluster_0x556aeea4bfc0{
+subgraph cluster_pknotsRG{
 node_175 [ label=<<table border='0'><tr><td>mldangle</td></tr></table>>, color="black", shape="box" ];
 node_176 [ label=<<table border='0'><tr><td>mlstem</td></tr></table>>, color="green" ];
 node_177 [ label=<<table border='0'><tr><td>dangle</td></tr></table>>, color="black" ];
@@ -461,7 +461,7 @@ node_180 -> node_181[weight = 99, style = invis];
 { rank=same node_175 node_175_176 node_176 node_176_178 node_178 }
 }
 node_174 -> node_175 [ style = invis];
-subgraph cluster_0x556aeea4c030{
+subgraph cluster_pknotsRG{
 node_182 [ label=<<table border='0'><tr><td>knot</td></tr></table>>, color="black", shape="box" ];
 node_183 [ label=<<table border='0'><tr><td>help_pknot</td></tr></table>>, color="black" ];
 node_182_183[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -472,7 +472,7 @@ node_182 -> node_184 [ arrowhead=none, color="purple" , weight=99];
 { rank=same node_182 node_182_183 node_183 }
 }
 node_181 -> node_182 [ style = invis];
-subgraph cluster_0x556aeea4c0a0{
+subgraph cluster_pknotsRG{
 node_185 [ label=<<table border='0'><tr><td>help_pknot</td></tr></table>>, color="black", shape="box" ];
 node_186 [ label=<<table border='0'><tr><td>.[ pknot ].</td></tr></table>>, color="green" , shape="polygon", sides=8];
 node_187 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" , shape="polygon", sides=8];
@@ -499,7 +499,7 @@ node_194 -> node_195[weight = 99, style = invis];
 { rank=same node_185 node_185_186 node_186 }
 }
 node_184 -> node_185 [ style = invis];
-subgraph cluster_0x556aeea4c180{
+subgraph cluster_pknotsRG{
 node_196 [ label=<<table border='0'><tr><td>front</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_197 [ label=<<table border='0'><tr><td>front_Pr</td></tr></table>>, color="black" ];
 node_196_197[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -520,7 +520,7 @@ node_201 -> node_202[weight = 99, style = invis];
 { rank=same node_196 node_196_197 node_197 node_197_198 node_198 }
 }
 node_195 -> node_196 [ style = invis];
-subgraph cluster_0x556aeea4c1f0{
+subgraph cluster_pknotsRG{
 node_203 [ label=<<table border='0'><tr><td>front_Pr</td></tr></table>>, color="black", shape="box" ];
 node_204 [ label=<<table border='0'><tr><td>ul</td></tr></table>>, color="green" ];
 node_205 [ label=<<table border='0'><tr><td>emptystrand</td></tr></table>>, color="black" ];
@@ -539,7 +539,7 @@ node_207 -> node_208[weight = 99, style = invis];
 { rank=same node_203 node_203_204 node_204 node_204_206 node_206 }
 }
 node_202 -> node_203 [ style = invis];
-subgraph cluster_0x556aeea4c260{
+subgraph cluster_pknotsRG{
 node_209 [ label=<<table border='0'><tr><td>middle</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_210 [ label=<<table border='0'><tr><td>emptymid</td></tr></table>>, color="green" ];
 node_211 [ label="minsize(0)" , fontcolor="magenta" , shape=none ];
@@ -610,7 +610,7 @@ node_234 -> node_235[weight = 99, style = invis];
 { rank=same node_209 node_209_210 node_210 node_210_214 node_214 node_214_218 node_218 node_218_222 node_222 node_222_224 node_224 node_224_227 node_227 node_227_230 node_230 }
 }
 node_208 -> node_209 [ style = invis];
-subgraph cluster_0x556aeea4c3f0{
+subgraph cluster_pknotsRG{
 node_236 [ label=<<table border='0'><tr><td>mid</td></tr></table>>, color="black", shape="box" ];
 node_237 [ label=<<table border='0'><tr><td>ul</td></tr></table>>, color="green" ];
 node_238 [ label=<<table border='0'><tr><td>singlestrand</td></tr></table>>, color="black" ];
@@ -629,7 +629,7 @@ node_240 -> node_241[weight = 99, style = invis];
 { rank=same node_236 node_236_237 node_237 node_237_239 node_239 }
 }
 node_235 -> node_236 [ style = invis];
-subgraph cluster_0x556aeea4c460{
+subgraph cluster_pknotsRG{
 node_242 [ label=<<table border='0'><tr><td>back</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_243 [ label=<<table border='0'><tr><td>back_Pr</td></tr></table>>, color="black" ];
 node_242_243[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -650,7 +650,7 @@ node_247 -> node_248[weight = 99, style = invis];
 { rank=same node_242 node_242_243 node_243 node_243_244 node_244 }
 }
 node_241 -> node_242 [ style = invis];
-subgraph cluster_0x556aeea4c4d0{
+subgraph cluster_pknotsRG{
 node_249 [ label=<<table border='0'><tr><td>back_Pr</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_250 [ label=<<table border='0'><tr><td>ul</td></tr></table>>, color="green" ];
 node_251 [ label=<<table border='0'><tr><td>emptystrand</td></tr></table>>, color="black" ];
@@ -669,7 +669,7 @@ node_253 -> node_254[weight = 99, style = invis];
 { rank=same node_249 node_249_250 node_250 node_250_252 node_252 }
 }
 node_248 -> node_249 [ style = invis];
-subgraph cluster_0x556aeea4c540{
+subgraph cluster_pknotsRG{
 node_255 [ label=<<table border='0'><tr><td>pk_comps</td></tr></table>>, color="black", shape="box" ];
 node_256 [ label=<<table border='0'><tr><td>cadd</td></tr></table>>, color="green" ];
 node_257 [ label=<<table border='0'><tr><td>singlestrand</td></tr></table>>, color="black" ];
@@ -706,7 +706,7 @@ node_267 -> node_268[weight = 99, style = invis];
 { rank=same node_255 node_255_256 node_256 node_256_259 node_259 node_259_262 node_262 }
 }
 node_254 -> node_255 [ style = invis];
-subgraph cluster_0x556aeea4c5b0{
+subgraph cluster_pknotsRG{
 node_269 [ label=<<table border='0'><tr><td>singlestrand</td></tr></table>>, color="black", shape="box" ];
 node_270 [ label=<<table border='0'><tr><td>pss</td></tr></table>>, color="green" ];
 node_271 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" ];
@@ -721,7 +721,7 @@ node_272 -> node_273[weight = 99, style = invis];
 { rank=same node_269 node_269_270 node_270 }
 }
 node_268 -> node_269 [ style = invis];
-subgraph cluster_0x556aeea4c620{
+subgraph cluster_pknotsRG{
 node_274 [ label=<<table border='0'><tr><td>emptystrand</td></tr></table>>, color="black", shape="box" ];
 node_275 [ label=<<table border='0'><tr><td>pss</td></tr></table>>, color="green" ];
 node_276 [ label=<<table border='0'><tr><td>REGION0</td></tr></table>>, color="blue" ];

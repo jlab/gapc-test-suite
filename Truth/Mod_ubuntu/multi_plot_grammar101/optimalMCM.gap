@@ -2,7 +2,7 @@ digraph matrixmult {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_0x55b4244ad6a0{
+subgraph cluster_matrixmult{
 node_1 [ label=<<table border='0'><tr><td>matrices</td></tr></table>>, color="black", shape="box", penwidth=3 ];
 node_2 [ label=<<table border='0'><tr><td>single</td></tr></table>>, color="green" ];
 node_3 [ label=<<table border='0'><tr><td>boxl</td></tr></table>>, color="black" ];
@@ -34,7 +34,7 @@ node_13[label = matrices, shape="box", style=invis];
 node_12 -> node_13[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 node_2_8 node_8 }
 }
-subgraph cluster_0x55b4244ad710{
+subgraph cluster_matrixmult{
 node_14 [ label=<<table border='0'><tr><td>boxl</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_15 [ label=<<table border='0'><tr><td>CHAR('[')</td></tr></table>>, color="blue" ];
 node_14_15[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -47,7 +47,7 @@ node_16 -> node_17[weight = 99, style = invis];
 { rank=same node_14 node_14_15 node_15 }
 }
 node_13 -> node_14 [ style = invis];
-subgraph cluster_0x55b4244ad780{
+subgraph cluster_matrixmult{
 node_18 [ label=<<table border='0'><tr><td>boxr</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_19 [ label=<<table border='0'><tr><td>CHAR(']')</td></tr></table>>, color="blue" ];
 node_18_19[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -60,7 +60,7 @@ node_20 -> node_21[weight = 99, style = invis];
 { rank=same node_18 node_18_19 node_19 }
 }
 node_17 -> node_18 [ style = invis];
-subgraph cluster_0x55b4244ad7f0{
+subgraph cluster_matrixmult{
 node_22 [ label=<<table border='0'><tr><td>by</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_23 [ label=<<table border='0'><tr><td>CHAR('x')</td></tr></table>>, color="blue" ];
 node_22_23[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -73,7 +73,7 @@ node_24 -> node_25[weight = 99, style = invis];
 { rank=same node_22 node_22_23 node_23 }
 }
 node_21 -> node_22 [ style = invis];
-subgraph cluster_0x55b4244ad860{
+subgraph cluster_matrixmult{
 node_26 [ label=<<table border='0'><tr><td>times</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_27 [ label=<<table border='0'><tr><td>CHAR('*')</td></tr></table>>, color="blue" ];
 node_26_27[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];

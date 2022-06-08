@@ -2,7 +2,7 @@ digraph nussinov {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_0x555d945a2e30{
+subgraph cluster_nussinov{
 node_1 [ label=<<table border='0'><tr><td>struct</td></tr></table>>, color="black", shape="box", penwidth=3 ];
 node_2 [ label=<<table border='0'><tr><td>nil</td></tr></table>>, color="green" ];
 subgraph cluster_node_3 {
@@ -10,7 +10,7 @@ node_4 [ label=<<table border='0'><tr><td>EMPTY</td></tr></table>>, color="blue"
 node_5 [ label=<<table border='0'><tr><td>EMPTY</td></tr></table>>, color="blue" ];
 node_4 -> node_5 [ style="invis" ];
 };
-node_2 -> node_4 [ arrowhead=none , lhead=cluster_node_0x555d945cb72c ];
+node_2 -> node_4 [ arrowhead=none , lhead=cluster_node_0x55acf9bbb72c ];
 node_1_2[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_1 -> node_1_2[style= invis, weight=99];
 node_1_2 -> node_2[style= invis];
@@ -22,7 +22,7 @@ node_9 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" 
 node_10 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_9 -> node_10 [ style="invis" ];
 };
-node_6 -> node_9 [ arrowhead=none , lhead=cluster_node_0x555d945ce76c ];
+node_6 -> node_9 [ arrowhead=none , lhead=cluster_node_0x55acf9bbe76c ];
 node_2_6[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
 node_2 -> node_2_6[style= invis];
 node_2_6 -> node_6[style= invis];
@@ -42,7 +42,7 @@ node_16[label = struct, shape="box", style=invis];
 node_15 -> node_16[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 node_2_6 node_6 node_6_11 node_11 }
 }
-subgraph cluster_0x555d945a2ea0{
+subgraph cluster_nussinov{
 node_17 [ label=<<table border='0'><tr><td>bp</td></tr></table>>, color="black", shape="box" ];
 node_18 [ label=<<table border='0'><tr><td>pair</td></tr></table>>, color="green" ];
 node_19 [ label=<<table border='0'><tr><td>char_basepairing</td></tr><tr><td>char_basepairing</td></tr></table>>, fontcolor="magenta", shape=none ];
@@ -52,7 +52,7 @@ node_21 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue"
 node_22 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_21 -> node_22 [ style="invis" ];
 };
-node_18 -> node_21 [ arrowhead=none , lhead=cluster_node_0x555d945ce90c ];
+node_18 -> node_21 [ arrowhead=none , lhead=cluster_node_0x55acf9bbe90c ];
 node_23 [ label=<<table border='0'><tr><td>struct</td></tr></table>>, color="black" ];
 node_18 -> node_23 [ arrowhead=none ];
 subgraph cluster_node_24 {
@@ -60,7 +60,7 @@ node_25 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue"
 node_26 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_25 -> node_26 [ style="invis" ];
 };
-node_18 -> node_25 [ arrowhead=none , lhead=cluster_node_0x555d945ce9cc ];
+node_18 -> node_25 [ arrowhead=none , lhead=cluster_node_0x55acf9bbe9cc ];
 node_17_18[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_17 -> node_17_18[style= invis, weight=99];
 node_17_18 -> node_18[style= invis];

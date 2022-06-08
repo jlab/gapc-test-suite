@@ -2,7 +2,7 @@ digraph special9 {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_0x5582982fa620{
+subgraph cluster_special9{
 node_1 [ label=<<table border='0'><tr><td>start</td></tr></table>>, color="black", shape="box", penwidth=3, style="dotted" ];
 node_2 [ label=<<table border='0'><tr><td>x</td></tr></table>>, color="green" ];
 node_3 [ label=<<table border='0'><tr><td>CHAR</td></tr></table>>, color="blue" ];

@@ -2,7 +2,7 @@ digraph mopt {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_0x55a0264f6d00{
+subgraph cluster_mopt{
 node_1 [ label=<<table border='0'><tr><td>matrix</td></tr></table>>, color="black", shape="box", penwidth=3 ];
 node_2 [ label=<<table border='0'><tr><td>single</td></tr></table>>, color="green" ];
 node_3 [ label=<<table border='0'><tr><td>INT</td></tr></table>>, color="blue" ];

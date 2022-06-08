@@ -2,7 +2,7 @@ digraph stefansDangle {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_0x56070d9c85b0{
+subgraph cluster_stefansDangle{
 node_1 [ label=<<table border='0'><tr><td>struct</td></tr></table>>, color="black", shape="box", penwidth=3, style="dotted" ];
 node_2 [ label=<<table border='0'><tr><td>root</td></tr></table>>, color="green" ];
 node_3 [ label=<<table border='0'><tr><td>hlcons</td></tr></table>>, color="black" ];
@@ -22,7 +22,7 @@ node_7[label = struct, shape="box", style=invis];
 node_6 -> node_7[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 node_2_4 node_4 }
 }
-subgraph cluster_0x56070d9c8620{
+subgraph cluster_stefansDangle{
 node_8 [ label=<<table border='0'><tr><td>hlcons</td></tr></table>>, color="black", shape="box" ];
 node_9 [ label=<<table border='0'><tr><td>lasthlnoss</td></tr></table>>, color="green" ];
 node_10 [ label=<<table border='0'><tr><td>component</td></tr></table>>, color="black" ];
@@ -53,7 +53,7 @@ node_17 -> node_18[weight = 99, style = invis];
 { rank=same node_8 node_8_9 node_9 node_9_11 node_11 node_11_14 node_14 }
 }
 node_7 -> node_8 [ style = invis];
-subgraph cluster_0x56070d9c8690{
+subgraph cluster_stefansDangle{
 node_19 [ label=<<table border='0'><tr><td>mlcons</td></tr></table>>, color="black", shape="box" ];
 node_20 [ label=<<table border='0'><tr><td>lastmlnoss</td></tr></table>>, color="green" ];
 node_21 [ label=<<table border='0'><tr><td>component</td></tr></table>>, color="black" ];
@@ -88,7 +88,7 @@ node_30 -> node_31[weight = 99, style = invis];
 { rank=same node_19 node_19_20 node_20 node_20_23 node_23 node_23_27 node_27 }
 }
 node_18 -> node_19 [ style = invis];
-subgraph cluster_0x56070d9c8700{
+subgraph cluster_stefansDangle{
 node_32 [ label=<<table border='0'><tr><td>component</td></tr></table>>, color="black", shape="box" ];
 node_33 [ label=<<table border='0'><tr><td>addRegion</td></tr></table>>, color="green" ];
 node_34 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" ];
@@ -111,7 +111,7 @@ node_38 -> node_39[weight = 99, style = invis];
 { rank=same node_32 node_32_33 node_33 node_33_36 node_36 }
 }
 node_31 -> node_32 [ style = invis];
-subgraph cluster_0x56070d9c8770{
+subgraph cluster_stefansDangle{
 node_40 [ label=<<table border='0'><tr><td>initstem</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_41 [ label=<<table border='0'><tr><td>drem</td></tr></table>>, color="green" ];
 node_42 [ label=<<table border='0'><tr><td>LOC</td></tr></table>>, color="blue" ];
@@ -160,7 +160,7 @@ node_57 -> node_58[weight = 99, style = invis];
 { rank=same node_40 node_40_41 node_41 node_41_45 node_45 node_45_49 node_49 node_49_53 node_53 }
 }
 node_39 -> node_40 [ style = invis];
-subgraph cluster_0x56070d9c87e0{
+subgraph cluster_stefansDangle{
 node_59 [ label=<<table border='0'><tr><td>stem</td></tr></table>>, color="black", shape="box" ];
 node_60 [ label=<<table border='0'><tr><td>a block</td></tr></table>>, color="gray" ];
 node_61 [ label=<<table border='0'><tr><td>stack</td></tr></table>>, color="green" ];

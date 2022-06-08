@@ -2,7 +2,7 @@ digraph nussinov {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_0x55f3b4bb9ea0{
+subgraph cluster_nussinov{
 node_1 [ label=<<table border='0'><tr><td>start</td></tr></table>>, color="black", shape="box", penwidth=3 ];
 node_2 [ label=<<table border='0'><tr><td>nil</td></tr></table>>, color="green" ];
 node_3 [ label=<<table border='0'><tr><td>EMPTY</td></tr></table>>, color="blue" ];

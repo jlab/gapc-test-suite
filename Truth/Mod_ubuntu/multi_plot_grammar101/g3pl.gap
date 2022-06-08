@@ -2,7 +2,7 @@ digraph g3 {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_0x56050d205870{
+subgraph cluster_g3{
 node_1 [ label=<<table border='0'><tr><td>struct</td></tr></table>>, color="black", shape="box", penwidth=3 ];
 node_2 [ label=<<table border='0'><tr><td>s1</td></tr></table>>, color="green" ];
 node_3 [ label=<<table border='0'><tr><td>LOC</td></tr></table>>, color="blue" ];
@@ -54,7 +54,7 @@ node_21[label = struct, shape="box", style=invis];
 node_20 -> node_21[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 node_2_7 node_7 node_7_12 node_12 node_12_16 node_16 }
 }
-subgraph cluster_0x56050d2058e0{
+subgraph cluster_g3{
 node_22 [ label=<<table border='0'><tr><td>pair</td></tr></table>>, color="black", shape="box" ];
 node_23 [ label=<<table border='0'><tr><td>a block</td></tr></table>>, color="gray" ];
 node_24 [ label="basepairing" , fontcolor="magenta" , shape=none ];
@@ -95,7 +95,7 @@ node_38 -> node_39[weight = 99, style = invis];
 { rank=same node_22 node_22_23 node_23 }
 }
 node_21 -> node_22 [ style = invis];
-subgraph cluster_0x56050d205950{
+subgraph cluster_g3{
 node_40 [ label=<<table border='0'><tr><td>r</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_41 [ label=<<table border='0'><tr><td>r1</td></tr></table>>, color="green" ];
 node_42 [ label=<<table border='0'><tr><td>LOC</td></tr></table>>, color="blue" ];
@@ -128,7 +128,7 @@ node_51 -> node_52[weight = 99, style = invis];
 { rank=same node_40 node_40_41 node_41 node_41_46 node_46 }
 }
 node_39 -> node_40 [ style = invis];
-subgraph cluster_0x56050d2059c0{
+subgraph cluster_g3{
 node_53 [ label=<<table border='0'><tr><td>t</td></tr></table>>, color="black", shape="box" ];
 node_54 [ label=<<table border='0'><tr><td>t1</td></tr></table>>, color="green" ];
 node_55 [ label=<<table border='0'><tr><td>LOC</td></tr></table>>, color="blue" ];

@@ -2,7 +2,7 @@ digraph readStructure {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_0x55e8c6017e40{
+subgraph cluster_readStructure{
 node_1 [ label=<<table border='0'><tr><td>struct</td></tr></table>>, color="black", shape="box", penwidth=3 ];
 node_2 [ label=<<table border='0'><tr><td>sadd</td></tr></table>>, color="green" ];
 node_3 [ label=<<table border='0'><tr><td>CHAR('.')</td></tr></table>>, color="blue" ];
@@ -34,7 +34,7 @@ node_12[label = struct, shape="box", style=invis];
 node_11 -> node_12[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 node_2_5 node_5 node_5_8 node_8 }
 }
-subgraph cluster_0x55e8c6017eb0{
+subgraph cluster_readStructure{
 node_13 [ label=<<table border='0'><tr><td>closed</td></tr></table>>, color="black", shape="box" ];
 node_14 [ label=<<table border='0'><tr><td>hairpin</td></tr></table>>, color="green" ];
 node_15 [ label=<<table border='0'><tr><td>CHAR('(')</td></tr></table>>, color="blue" ];
@@ -149,7 +149,7 @@ node_61 -> node_62[weight = 99, style = invis];
 { rank=same node_13 node_13_14 node_14 node_14_22 node_22 node_22_26 node_26 node_26_34 node_34 node_34_42 node_42 node_42_54 node_54 }
 }
 node_12 -> node_13 [ style = invis];
-subgraph cluster_0x55e8c6017f20{
+subgraph cluster_readStructure{
 node_63 [ label=<<table border='0'><tr><td>ml_components</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_64 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_65 [ label=<<table border='0'><tr><td>block</td></tr></table>>, color="black" ];
@@ -166,7 +166,7 @@ node_67 -> node_68[weight = 99, style = invis];
 { rank=same node_63 node_63_64 node_64 }
 }
 node_62 -> node_63 [ style = invis];
-subgraph cluster_0x55e8c6017f90{
+subgraph cluster_readStructure{
 node_69 [ label=<<table border='0'><tr><td>block</td></tr></table>>, color="black", shape="box" ];
 node_70 [ label=<<table border='0'><tr><td>closed</td></tr></table>>, color="black" ];
 node_69_70[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -189,7 +189,7 @@ node_75 -> node_76[weight = 99, style = invis];
 { rank=same node_69 node_69_70 node_70 node_70_71 node_71 }
 }
 node_68 -> node_69 [ style = invis];
-subgraph cluster_0x55e8c6018000{
+subgraph cluster_readStructure{
 node_77 [ label=<<table border='0'><tr><td>comps</td></tr></table>>, color="black", shape="box" ];
 node_78 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_79 [ label=<<table border='0'><tr><td>block</td></tr></table>>, color="black" ];
