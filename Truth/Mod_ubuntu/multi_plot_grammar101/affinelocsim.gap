@@ -2,7 +2,7 @@ digraph affinelocsim {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_affinelocsim{
+subgraph cluster_1{
 node_1 [ label=<<table border='0'><tr><td>skipR</td></tr></table>>, color="black", shape="box", penwidth=3, style="dotted" ];
 node_2 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="green" ];
 node_3 [ label=<<table border='0'><tr><td>skipR</td></tr></table>>, color="black" ];
@@ -22,7 +22,7 @@ node_7[label = skipR, shape="box", style=invis];
 node_6 -> node_7[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 node_2_5 node_5 }
 }
-subgraph cluster_affinelocsim{
+subgraph cluster_2{
 node_8 [ label=<<table border='0'><tr><td>skipL</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_9 [ label=<<table border='0'><tr><td>sl</td></tr></table>>, color="green" ];
 node_10 [ label=<<table border='0'><tr><td>CHAR_SEP</td></tr></table>>, color="blue" ];
@@ -43,7 +43,7 @@ node_13 -> node_14[weight = 99, style = invis];
 { rank=same node_8 node_8_9 node_9 node_9_12 node_12 }
 }
 node_7 -> node_8 [ style = invis];
-subgraph cluster_affinelocsim{
+subgraph cluster_3{
 node_15 [ label=<<table border='0'><tr><td>alignment</td></tr></table>>, color="black", shape="box" ];
 node_16 [ label=<<table border='0'><tr><td>nil</td></tr></table>>, color="green" ];
 node_17 [ label=<<table border='0'><tr><td>SEQ</td></tr></table>>, color="blue" ];
@@ -84,7 +84,7 @@ node_28 -> node_29[weight = 99, style = invis];
 { rank=same node_15 node_15_16 node_16 node_16_18 node_18 node_18_21 node_21 node_21_24 node_24 }
 }
 node_14 -> node_15 [ style = invis];
-subgraph cluster_affinelocsim{
+subgraph cluster_4{
 node_30 [ label=<<table border='0'><tr><td>xDel</td></tr></table>>, color="black", shape="box" ];
 node_31 [ label=<<table border='0'><tr><td>alignment</td></tr></table>>, color="black" ];
 node_30_31[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -105,7 +105,7 @@ node_35 -> node_36[weight = 99, style = invis];
 { rank=same node_30 node_30_31 node_31 node_31_32 node_32 }
 }
 node_29 -> node_30 [ style = invis];
-subgraph cluster_affinelocsim{
+subgraph cluster_5{
 node_37 [ label=<<table border='0'><tr><td>xIns</td></tr></table>>, color="black", shape="box" ];
 node_38 [ label=<<table border='0'><tr><td>alignment</td></tr></table>>, color="black" ];
 node_37_38[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];

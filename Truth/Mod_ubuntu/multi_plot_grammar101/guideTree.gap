@@ -2,7 +2,7 @@ digraph guideTree {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_guideTree{
+subgraph cluster_1{
 node_1 [ label=<<table border='0'><tr><td>start</td></tr></table>>, color="black", shape="box", penwidth=3, style="dotted" ];
 node_2 [ label=<<table border='0'><tr><td>Root</td></tr></table>>, color="green" ];
 node_3 [ label=<<table border='0'><tr><td>s</td></tr></table>>, color="black" ];
@@ -16,7 +16,7 @@ node_5[label = start, shape="box", style=invis];
 node_4 -> node_5[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 }
 }
-subgraph cluster_guideTree{
+subgraph cluster_2{
 node_6 [ label=<<table border='0'><tr><td>s</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_7 [ label=<<table border='0'><tr><td>p</td></tr></table>>, color="black" ];
 node_6_7[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -35,7 +35,7 @@ node_10 -> node_11[weight = 99, style = invis];
 { rank=same node_6 node_6_7 node_7 node_7_8 node_8 }
 }
 node_5 -> node_6 [ style = invis];
-subgraph cluster_guideTree{
+subgraph cluster_3{
 node_12 [ label=<<table border='0'><tr><td>p</td></tr></table>>, color="black", shape="box" ];
 node_13 [ label=<<table border='0'><tr><td>MatP</td></tr></table>>, color="green" ];
 node_14 [ label=<<table border='0'><tr><td>CHAR('(')</td></tr></table>>, color="blue" ];

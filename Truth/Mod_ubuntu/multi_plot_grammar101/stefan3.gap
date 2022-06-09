@@ -2,7 +2,7 @@ digraph canonicals_nonamb {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_1{
 node_1 [ label=<<table border='0'><tr><td>struc</td></tr></table>>, color="black", shape="box", penwidth=3, style="dotted" ];
 node_2 [ label=<<table border='0'><tr><td>left_dangle1</td></tr></table>>, color="black" ];
 node_1_2[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -24,7 +24,7 @@ node_7[label = struc, shape="box", style=invis];
 node_6 -> node_7[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 node_2_3 node_3 node_3_5 node_5 }
 }
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_2{
 node_8 [ label=<<table border='0'><tr><td>left_unpaired1</td></tr></table>>, color="black", shape="box" ];
 node_9 [ label=<<table border='0'><tr><td>sadd</td></tr></table>>, color="green" ];
 node_10 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -49,7 +49,7 @@ node_15 -> node_16[weight = 99, style = invis];
 { rank=same node_8 node_8_9 node_9 node_9_12 node_12 }
 }
 node_7 -> node_8 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_3{
 node_17 [ label=<<table border='0'><tr><td>left_dangle1</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_18 [ label=<<table border='0'><tr><td>ambd</td></tr></table>>, color="green" ];
 node_19 [ label=<<table border='0'><tr><td>edanglel1</td></tr></table>>, color="black" ];
@@ -90,7 +90,7 @@ node_31 -> node_32[weight = 99, style = invis];
 { rank=same node_17 node_17_18 node_18 node_18_22 node_22 node_22_25 node_25 }
 }
 node_16 -> node_17 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_4{
 node_33 [ label=<<table border='0'><tr><td>noleft_dangle1</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_34 [ label=<<table border='0'><tr><td>cadd_Pr_Pr</td></tr></table>>, color="green" ];
 node_35 [ label=<<table border='0'><tr><td>edangler1</td></tr></table>>, color="black" ];
@@ -131,7 +131,7 @@ node_47 -> node_48[weight = 99, style = invis];
 { rank=same node_33 node_33_34 node_34 node_34_39 node_39 node_39_42 node_42 }
 }
 node_32 -> node_33 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_5{
 node_49 [ label=<<table border='0'><tr><td>edanglel1</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_50 [ label=<<table border='0'><tr><td>edl</td></tr></table>>, color="green" ];
 node_51 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -148,7 +148,7 @@ node_53 -> node_54[weight = 99, style = invis];
 { rank=same node_49 node_49_50 node_50 }
 }
 node_48 -> node_49 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_6{
 node_55 [ label=<<table border='0'><tr><td>edangler1</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_56 [ label=<<table border='0'><tr><td>edr</td></tr></table>>, color="green" ];
 node_57 [ label=<<table border='0'><tr><td>motif1</td></tr></table>>, color="black" ];
@@ -165,7 +165,7 @@ node_59 -> node_60[weight = 99, style = invis];
 { rank=same node_55 node_55_56 node_56 }
 }
 node_54 -> node_55 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_7{
 node_61 [ label=<<table border='0'><tr><td>edanglelr1</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_62 [ label=<<table border='0'><tr><td>edlr</td></tr></table>>, color="green" ];
 node_63 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -184,7 +184,7 @@ node_66 -> node_67[weight = 99, style = invis];
 { rank=same node_61 node_61_62 node_62 }
 }
 node_60 -> node_61 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_8{
 node_68 [ label=<<table border='0'><tr><td>nodangle1</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_69 [ label=<<table border='0'><tr><td>drem</td></tr></table>>, color="green" ];
 node_70 [ label=<<table border='0'><tr><td>motif1</td></tr></table>>, color="black" ];
@@ -199,7 +199,7 @@ node_71 -> node_72[weight = 99, style = invis];
 { rank=same node_68 node_68_69 node_69 }
 }
 node_67 -> node_68 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_9{
 node_73 [ label=<<table border='0'><tr><td>motif1</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_74 [ label=<<table border='0'><tr><td>initMultiloop1</td></tr></table>>, color="black" ];
 node_73_74[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -210,7 +210,7 @@ node_73 -> node_75 [ arrowhead=none, color="purple" , style=invis, weight=99];
 { rank=same node_73 node_73_74 node_74 }
 }
 node_72 -> node_73 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_10{
 node_76 [ label=<<table border='0'><tr><td>initMultiloop1</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_77 [ label=<<table border='0'><tr><td>is</td></tr></table>>, color="green" ];
 node_78 [ label=<<table border='0'><tr><td>endMultiloop1</td></tr></table>>, color="black" ];
@@ -225,7 +225,7 @@ node_79 -> node_80[weight = 99, style = invis];
 { rank=same node_76 node_76_77 node_77 }
 }
 node_75 -> node_76 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_11{
 node_81 [ label=<<table border='0'><tr><td>endMultiloop1</td></tr></table>>, color="black", shape="box" ];
 node_82 [ label=<<table border='0'><tr><td>stack1</td></tr></table>>, color="black" ];
 node_81_82[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -252,7 +252,7 @@ node_81 -> node_87 [ arrowhead=none, color="purple" , weight=99];
 { rank=same node_81 node_81_82 node_82 node_82_83 node_83 node_83_84 node_84 node_84_85 node_85 node_85_86 node_86 }
 }
 node_80 -> node_81 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_12{
 node_88 [ label=<<table border='0'><tr><td>stack1</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_89 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="green" ];
 node_90 [ label="basepairing" , fontcolor="magenta" , shape=none ];
@@ -273,7 +273,7 @@ node_94 -> node_95[weight = 99, style = invis];
 { rank=same node_88 node_88_89 node_89 }
 }
 node_87 -> node_88 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_13{
 node_96 [ label=<<table border='0'><tr><td>multiloop1</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_97 [ label=<<table border='0'><tr><td>a block</td></tr></table>>, color="gray" ];
 node_98 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -422,7 +422,7 @@ node_166 -> node_167[weight = 99, style = invis];
 { rank=same node_96 node_96_97 node_97 }
 }
 node_95 -> node_96 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_14{
 node_168 [ label=<<table border='0'><tr><td>leftB1</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_169 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_170 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -453,7 +453,7 @@ node_179 -> node_180[weight = 99, style = invis];
 { rank=same node_168 node_168_169 node_169 }
 }
 node_167 -> node_168 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_15{
 node_181 [ label=<<table border='0'><tr><td>rightB1</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_182 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_183 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -484,7 +484,7 @@ node_192 -> node_193[weight = 99, style = invis];
 { rank=same node_181 node_181_182 node_182 }
 }
 node_180 -> node_181 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_16{
 node_194 [ label=<<table border='0'><tr><td>iloop1</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_195 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_196 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -521,7 +521,7 @@ node_208 -> node_209[weight = 99, style = invis];
 { rank=same node_194 node_194_195 node_195 }
 }
 node_193 -> node_194 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_17{
 node_210 [ label=<<table border='0'><tr><td>ml_comps12</td></tr></table>>, color="black", shape="box" ];
 node_211 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_212 [ label=<<table border='0'><tr><td>block_dl2</td></tr></table>>, color="black" ];
@@ -556,7 +556,7 @@ node_221 -> node_222[weight = 99, style = invis];
 { rank=same node_210 node_210_211 node_211 node_211_214 node_214 node_214_217 node_217 }
 }
 node_209 -> node_210 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_18{
 node_223 [ label=<<table border='0'><tr><td>ml_comps22</td></tr></table>>, color="black", shape="box" ];
 node_224 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_225 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
@@ -599,7 +599,7 @@ node_238 -> node_239[weight = 99, style = invis];
 { rank=same node_223 node_223_224 node_224 node_224_228 node_228 node_228_232 node_232 }
 }
 node_222 -> node_223 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_19{
 node_240 [ label=<<table border='0'><tr><td>ml_comps32</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_241 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_242 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
@@ -642,7 +642,7 @@ node_255 -> node_256[weight = 99, style = invis];
 { rank=same node_240 node_240_241 node_241 node_241_245 node_245 node_245_249 node_249 }
 }
 node_239 -> node_240 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_20{
 node_257 [ label=<<table border='0'><tr><td>ml_comps42</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_258 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_259 [ label=<<table border='0'><tr><td>block_dl2</td></tr></table>>, color="black" ];
@@ -677,7 +677,7 @@ node_268 -> node_269[weight = 99, style = invis];
 { rank=same node_257 node_257_258 node_258 node_258_261 node_261 node_261_264 node_264 }
 }
 node_256 -> node_257 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_21{
 node_270 [ label=<<table border='0'><tr><td>no_dl_no_ss_end2</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_271 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
 node_272 [ label=<<table border='0'><tr><td>nodangle3</td></tr></table>>, color="black" ];
@@ -692,7 +692,7 @@ node_273 -> node_274[weight = 99, style = invis];
 { rank=same node_270 node_270_271 node_271 }
 }
 node_269 -> node_270 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_22{
 node_275 [ label=<<table border='0'><tr><td>dl_or_ss_left_no_ss_end2</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_276 [ label=<<table border='0'><tr><td>block_dl3</td></tr></table>>, color="black" ];
 node_275_276[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -703,7 +703,7 @@ node_275 -> node_277 [ arrowhead=none, color="purple" , weight=99];
 { rank=same node_275 node_275_276 node_276 }
 }
 node_274 -> node_275 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_23{
 node_278 [ label=<<table border='0'><tr><td>no_dl_ss_end2</td></tr></table>>, color="black", shape="box" ];
 node_279 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
 node_280 [ label=<<table border='0'><tr><td>edangler3</td></tr></table>>, color="black" ];
@@ -730,7 +730,7 @@ node_286 -> node_287[weight = 99, style = invis];
 { rank=same node_278 node_278_279 node_279 node_279_281 node_281 }
 }
 node_277 -> node_278 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_24{
 node_288 [ label=<<table border='0'><tr><td>dl_or_ss_left_ss_end2</td></tr></table>>, color="black", shape="box" ];
 node_289 [ label=<<table border='0'><tr><td>block_dlr3</td></tr></table>>, color="black" ];
 node_288_289[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -751,7 +751,7 @@ node_293 -> node_294[weight = 99, style = invis];
 { rank=same node_288 node_288_289 node_289 node_289_290 node_290 }
 }
 node_287 -> node_288 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_25{
 node_295 [ label=<<table border='0'><tr><td>block_dl2</td></tr></table>>, color="black", shape="box" ];
 node_296 [ label=<<table border='0'><tr><td>ssadd</td></tr></table>>, color="green" ];
 node_297 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" ];
@@ -774,7 +774,7 @@ node_301 -> node_302[weight = 99, style = invis];
 { rank=same node_295 node_295_296 node_296 node_296_299 node_299 }
 }
 node_294 -> node_295 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_26{
 node_303 [ label=<<table border='0'><tr><td>block_dlr2</td></tr></table>>, color="black", shape="box" ];
 node_304 [ label=<<table border='0'><tr><td>ssadd</td></tr></table>>, color="green" ];
 node_305 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" ];
@@ -797,7 +797,7 @@ node_309 -> node_310[weight = 99, style = invis];
 { rank=same node_303 node_303_304 node_304 node_304_307 node_307 }
 }
 node_302 -> node_303 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_27{
 node_311 [ label=<<table border='0'><tr><td>edanglel2</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_312 [ label=<<table border='0'><tr><td>edl</td></tr></table>>, color="green" ];
 node_313 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -814,7 +814,7 @@ node_315 -> node_316[weight = 99, style = invis];
 { rank=same node_311 node_311_312 node_312 }
 }
 node_310 -> node_311 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_28{
 node_317 [ label=<<table border='0'><tr><td>edangler2</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_318 [ label=<<table border='0'><tr><td>edr</td></tr></table>>, color="green" ];
 node_319 [ label=<<table border='0'><tr><td>motif2</td></tr></table>>, color="black" ];
@@ -831,7 +831,7 @@ node_321 -> node_322[weight = 99, style = invis];
 { rank=same node_317 node_317_318 node_318 }
 }
 node_316 -> node_317 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_29{
 node_323 [ label=<<table border='0'><tr><td>edanglelr2</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_324 [ label=<<table border='0'><tr><td>edlr</td></tr></table>>, color="green" ];
 node_325 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -850,7 +850,7 @@ node_328 -> node_329[weight = 99, style = invis];
 { rank=same node_323 node_323_324 node_324 }
 }
 node_322 -> node_323 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_30{
 node_330 [ label=<<table border='0'><tr><td>nodangle2</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_331 [ label=<<table border='0'><tr><td>drem</td></tr></table>>, color="green" ];
 node_332 [ label=<<table border='0'><tr><td>motif2</td></tr></table>>, color="black" ];
@@ -865,7 +865,7 @@ node_333 -> node_334[weight = 99, style = invis];
 { rank=same node_330 node_330_331 node_331 }
 }
 node_329 -> node_330 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_31{
 node_335 [ label=<<table border='0'><tr><td>motif2</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_336 [ label=<<table border='0'><tr><td>initHairpin</td></tr></table>>, color="black" ];
 node_335_336[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -876,7 +876,7 @@ node_335 -> node_337 [ arrowhead=none, color="purple" , style=invis, weight=99];
 { rank=same node_335 node_335_336 node_336 }
 }
 node_334 -> node_335 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_32{
 node_338 [ label=<<table border='0'><tr><td>block_dl3</td></tr></table>>, color="black", shape="box" ];
 node_339 [ label=<<table border='0'><tr><td>ssadd</td></tr></table>>, color="green" ];
 node_340 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" ];
@@ -899,7 +899,7 @@ node_344 -> node_345[weight = 99, style = invis];
 { rank=same node_338 node_338_339 node_339 node_339_342 node_342 }
 }
 node_337 -> node_338 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_33{
 node_346 [ label=<<table border='0'><tr><td>block_dlr3</td></tr></table>>, color="black", shape="box" ];
 node_347 [ label=<<table border='0'><tr><td>ssadd</td></tr></table>>, color="green" ];
 node_348 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" ];
@@ -922,7 +922,7 @@ node_352 -> node_353[weight = 99, style = invis];
 { rank=same node_346 node_346_347 node_347 node_347_350 node_350 }
 }
 node_345 -> node_346 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_34{
 node_354 [ label=<<table border='0'><tr><td>edanglel3</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_355 [ label=<<table border='0'><tr><td>edl</td></tr></table>>, color="green" ];
 node_356 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -939,7 +939,7 @@ node_358 -> node_359[weight = 99, style = invis];
 { rank=same node_354 node_354_355 node_355 }
 }
 node_353 -> node_354 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_35{
 node_360 [ label=<<table border='0'><tr><td>edangler3</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_361 [ label=<<table border='0'><tr><td>edr</td></tr></table>>, color="green" ];
 node_362 [ label=<<table border='0'><tr><td>motif3</td></tr></table>>, color="black" ];
@@ -956,7 +956,7 @@ node_364 -> node_365[weight = 99, style = invis];
 { rank=same node_360 node_360_361 node_361 }
 }
 node_359 -> node_360 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_36{
 node_366 [ label=<<table border='0'><tr><td>edanglelr3</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_367 [ label=<<table border='0'><tr><td>edlr</td></tr></table>>, color="green" ];
 node_368 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -975,7 +975,7 @@ node_371 -> node_372[weight = 99, style = invis];
 { rank=same node_366 node_366_367 node_367 }
 }
 node_365 -> node_366 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_37{
 node_373 [ label=<<table border='0'><tr><td>nodangle3</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_374 [ label=<<table border='0'><tr><td>drem</td></tr></table>>, color="green" ];
 node_375 [ label=<<table border='0'><tr><td>motif3</td></tr></table>>, color="black" ];
@@ -990,7 +990,7 @@ node_376 -> node_377[weight = 99, style = invis];
 { rank=same node_373 node_373_374 node_374 }
 }
 node_372 -> node_373 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_38{
 node_378 [ label=<<table border='0'><tr><td>motif3</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_379 [ label=<<table border='0'><tr><td>initHairpin</td></tr></table>>, color="black" ];
 node_378_379[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -1001,7 +1001,7 @@ node_378 -> node_380 [ arrowhead=none, color="purple" , style=invis, weight=99];
 { rank=same node_378 node_378_379 node_379 }
 }
 node_377 -> node_378 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_39{
 node_381 [ label=<<table border='0'><tr><td>left_unpaired4</td></tr></table>>, color="black", shape="box" ];
 node_382 [ label=<<table border='0'><tr><td>sadd</td></tr></table>>, color="green" ];
 node_383 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -1026,7 +1026,7 @@ node_388 -> node_389[weight = 99, style = invis];
 { rank=same node_381 node_381_382 node_382 node_382_385 node_385 }
 }
 node_380 -> node_381 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_40{
 node_390 [ label=<<table border='0'><tr><td>left_dangle4</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_391 [ label=<<table border='0'><tr><td>ambd</td></tr></table>>, color="green" ];
 node_392 [ label=<<table border='0'><tr><td>edanglel4</td></tr></table>>, color="black" ];
@@ -1067,7 +1067,7 @@ node_404 -> node_405[weight = 99, style = invis];
 { rank=same node_390 node_390_391 node_391 node_391_395 node_395 node_395_398 node_398 }
 }
 node_389 -> node_390 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_41{
 node_406 [ label=<<table border='0'><tr><td>noleft_dangle4</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_407 [ label=<<table border='0'><tr><td>cadd_Pr_Pr</td></tr></table>>, color="green" ];
 node_408 [ label=<<table border='0'><tr><td>edangler4</td></tr></table>>, color="black" ];
@@ -1108,7 +1108,7 @@ node_420 -> node_421[weight = 99, style = invis];
 { rank=same node_406 node_406_407 node_407 node_407_412 node_412 node_412_415 node_415 }
 }
 node_405 -> node_406 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_42{
 node_422 [ label=<<table border='0'><tr><td>edanglel4</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_423 [ label=<<table border='0'><tr><td>edl</td></tr></table>>, color="green" ];
 node_424 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -1125,7 +1125,7 @@ node_426 -> node_427[weight = 99, style = invis];
 { rank=same node_422 node_422_423 node_423 }
 }
 node_421 -> node_422 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_43{
 node_428 [ label=<<table border='0'><tr><td>edangler4</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_429 [ label=<<table border='0'><tr><td>edr</td></tr></table>>, color="green" ];
 node_430 [ label=<<table border='0'><tr><td>motif4</td></tr></table>>, color="black" ];
@@ -1142,7 +1142,7 @@ node_432 -> node_433[weight = 99, style = invis];
 { rank=same node_428 node_428_429 node_429 }
 }
 node_427 -> node_428 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_44{
 node_434 [ label=<<table border='0'><tr><td>edanglelr4</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_435 [ label=<<table border='0'><tr><td>edlr</td></tr></table>>, color="green" ];
 node_436 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -1161,7 +1161,7 @@ node_439 -> node_440[weight = 99, style = invis];
 { rank=same node_434 node_434_435 node_435 }
 }
 node_433 -> node_434 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_45{
 node_441 [ label=<<table border='0'><tr><td>nodangle4</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_442 [ label=<<table border='0'><tr><td>drem</td></tr></table>>, color="green" ];
 node_443 [ label=<<table border='0'><tr><td>motif4</td></tr></table>>, color="black" ];
@@ -1176,7 +1176,7 @@ node_444 -> node_445[weight = 99, style = invis];
 { rank=same node_441 node_441_442 node_442 }
 }
 node_440 -> node_441 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_46{
 node_446 [ label=<<table border='0'><tr><td>motif4</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_447 [ label=<<table border='0'><tr><td>initMultiloop4</td></tr></table>>, color="black" ];
 node_446_447[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -1187,7 +1187,7 @@ node_446 -> node_448 [ arrowhead=none, color="purple" , style=invis, weight=99];
 { rank=same node_446 node_446_447 node_447 }
 }
 node_445 -> node_446 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_47{
 node_449 [ label=<<table border='0'><tr><td>initMultiloop4</td></tr></table>>, color="black", shape="box" ];
 node_450 [ label=<<table border='0'><tr><td>is</td></tr></table>>, color="green" ];
 node_451 [ label=<<table border='0'><tr><td>endMultiloop4</td></tr></table>>, color="black" ];
@@ -1202,7 +1202,7 @@ node_452 -> node_453[weight = 99, style = invis];
 { rank=same node_449 node_449_450 node_450 }
 }
 node_448 -> node_449 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_48{
 node_454 [ label=<<table border='0'><tr><td>endMultiloop4</td></tr></table>>, color="black", shape="box" ];
 node_455 [ label=<<table border='0'><tr><td>stack4</td></tr></table>>, color="black" ];
 node_454_455[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -1229,7 +1229,7 @@ node_454 -> node_460 [ arrowhead=none, color="purple" , weight=99];
 { rank=same node_454 node_454_455 node_455 node_455_456 node_456 node_456_457 node_457 node_457_458 node_458 node_458_459 node_459 }
 }
 node_453 -> node_454 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_49{
 node_461 [ label=<<table border='0'><tr><td>stack4</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_462 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="green" ];
 node_463 [ label="basepairing" , fontcolor="magenta" , shape=none ];
@@ -1250,7 +1250,7 @@ node_467 -> node_468[weight = 99, style = invis];
 { rank=same node_461 node_461_462 node_462 }
 }
 node_460 -> node_461 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_50{
 node_469 [ label=<<table border='0'><tr><td>multiloop4</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_470 [ label=<<table border='0'><tr><td>a block</td></tr></table>>, color="gray" ];
 node_471 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -1399,7 +1399,7 @@ node_539 -> node_540[weight = 99, style = invis];
 { rank=same node_469 node_469_470 node_470 }
 }
 node_468 -> node_469 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_51{
 node_541 [ label=<<table border='0'><tr><td>leftB4</td></tr></table>>, color="black", shape="box" ];
 node_542 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_543 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -1430,7 +1430,7 @@ node_552 -> node_553[weight = 99, style = invis];
 { rank=same node_541 node_541_542 node_542 }
 }
 node_540 -> node_541 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_52{
 node_554 [ label=<<table border='0'><tr><td>rightB4</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_555 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_556 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -1461,7 +1461,7 @@ node_565 -> node_566[weight = 99, style = invis];
 { rank=same node_554 node_554_555 node_555 }
 }
 node_553 -> node_554 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_53{
 node_567 [ label=<<table border='0'><tr><td>iloop4</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_568 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_569 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -1498,7 +1498,7 @@ node_581 -> node_582[weight = 99, style = invis];
 { rank=same node_567 node_567_568 node_568 }
 }
 node_566 -> node_567 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_54{
 node_583 [ label=<<table border='0'><tr><td>ml_comps15</td></tr></table>>, color="black", shape="box" ];
 node_584 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_585 [ label=<<table border='0'><tr><td>block_dl5</td></tr></table>>, color="black" ];
@@ -1533,7 +1533,7 @@ node_594 -> node_595[weight = 99, style = invis];
 { rank=same node_583 node_583_584 node_584 node_584_587 node_587 node_587_590 node_590 }
 }
 node_582 -> node_583 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_55{
 node_596 [ label=<<table border='0'><tr><td>ml_comps25</td></tr></table>>, color="black", shape="box" ];
 node_597 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_598 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
@@ -1576,7 +1576,7 @@ node_611 -> node_612[weight = 99, style = invis];
 { rank=same node_596 node_596_597 node_597 node_597_601 node_601 node_601_605 node_605 }
 }
 node_595 -> node_596 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_56{
 node_613 [ label=<<table border='0'><tr><td>ml_comps35</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_614 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_615 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
@@ -1619,7 +1619,7 @@ node_628 -> node_629[weight = 99, style = invis];
 { rank=same node_613 node_613_614 node_614 node_614_618 node_618 node_618_622 node_622 }
 }
 node_612 -> node_613 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_57{
 node_630 [ label=<<table border='0'><tr><td>ml_comps45</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_631 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_632 [ label=<<table border='0'><tr><td>block_dl5</td></tr></table>>, color="black" ];
@@ -1654,7 +1654,7 @@ node_641 -> node_642[weight = 99, style = invis];
 { rank=same node_630 node_630_631 node_631 node_631_634 node_634 node_634_637 node_637 }
 }
 node_629 -> node_630 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_58{
 node_643 [ label=<<table border='0'><tr><td>no_dl_no_ss_end5</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_644 [ label=<<table border='0'><tr><td>ml_comps22</td></tr></table>>, color="black" ];
 node_643_644[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -1665,7 +1665,7 @@ node_643 -> node_645 [ arrowhead=none, color="purple" , style=invis, weight=99];
 { rank=same node_643 node_643_644 node_644 }
 }
 node_642 -> node_643 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_59{
 node_646 [ label=<<table border='0'><tr><td>dl_or_ss_left_no_ss_end5</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_647 [ label=<<table border='0'><tr><td>ml_comps12</td></tr></table>>, color="black" ];
 node_646_647[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -1676,7 +1676,7 @@ node_646 -> node_648 [ arrowhead=none, color="purple" , style=invis, weight=99];
 { rank=same node_646 node_646_647 node_647 }
 }
 node_645 -> node_646 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_60{
 node_649 [ label=<<table border='0'><tr><td>no_dl_ss_end5</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_650 [ label=<<table border='0'><tr><td>ml_comps32</td></tr></table>>, color="black" ];
 node_649_650[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -1687,7 +1687,7 @@ node_649 -> node_651 [ arrowhead=none, color="purple" , style=invis, weight=99];
 { rank=same node_649 node_649_650 node_650 }
 }
 node_648 -> node_649 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_61{
 node_652 [ label=<<table border='0'><tr><td>dl_or_ss_left_ss_end5</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_653 [ label=<<table border='0'><tr><td>ml_comps42</td></tr></table>>, color="black" ];
 node_652_653[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -1698,7 +1698,7 @@ node_652 -> node_654 [ arrowhead=none, color="purple" , style=invis, weight=99];
 { rank=same node_652 node_652_653 node_653 }
 }
 node_651 -> node_652 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_62{
 node_655 [ label=<<table border='0'><tr><td>block_dl5</td></tr></table>>, color="black", shape="box" ];
 node_656 [ label=<<table border='0'><tr><td>ssadd</td></tr></table>>, color="green" ];
 node_657 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" ];
@@ -1721,7 +1721,7 @@ node_661 -> node_662[weight = 99, style = invis];
 { rank=same node_655 node_655_656 node_656 node_656_659 node_659 }
 }
 node_654 -> node_655 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_63{
 node_663 [ label=<<table border='0'><tr><td>block_dlr5</td></tr></table>>, color="black", shape="box" ];
 node_664 [ label=<<table border='0'><tr><td>ssadd</td></tr></table>>, color="green" ];
 node_665 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" ];
@@ -1744,7 +1744,7 @@ node_669 -> node_670[weight = 99, style = invis];
 { rank=same node_663 node_663_664 node_664 node_664_667 node_667 }
 }
 node_662 -> node_663 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_64{
 node_671 [ label=<<table border='0'><tr><td>edanglel5</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_672 [ label=<<table border='0'><tr><td>edl</td></tr></table>>, color="green" ];
 node_673 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -1761,7 +1761,7 @@ node_675 -> node_676[weight = 99, style = invis];
 { rank=same node_671 node_671_672 node_672 }
 }
 node_670 -> node_671 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_65{
 node_677 [ label=<<table border='0'><tr><td>edangler5</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_678 [ label=<<table border='0'><tr><td>edr</td></tr></table>>, color="green" ];
 node_679 [ label=<<table border='0'><tr><td>motif5</td></tr></table>>, color="black" ];
@@ -1778,7 +1778,7 @@ node_681 -> node_682[weight = 99, style = invis];
 { rank=same node_677 node_677_678 node_678 }
 }
 node_676 -> node_677 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_66{
 node_683 [ label=<<table border='0'><tr><td>edanglelr5</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_684 [ label=<<table border='0'><tr><td>edlr</td></tr></table>>, color="green" ];
 node_685 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -1797,7 +1797,7 @@ node_688 -> node_689[weight = 99, style = invis];
 { rank=same node_683 node_683_684 node_684 }
 }
 node_682 -> node_683 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_67{
 node_690 [ label=<<table border='0'><tr><td>nodangle5</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_691 [ label=<<table border='0'><tr><td>drem</td></tr></table>>, color="green" ];
 node_692 [ label=<<table border='0'><tr><td>motif5</td></tr></table>>, color="black" ];
@@ -1812,7 +1812,7 @@ node_693 -> node_694[weight = 99, style = invis];
 { rank=same node_690 node_690_691 node_691 }
 }
 node_689 -> node_690 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_68{
 node_695 [ label=<<table border='0'><tr><td>motif5</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_696 [ label=<<table border='0'><tr><td>initMultiloop5</td></tr></table>>, color="black" ];
 node_695_696[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -1823,7 +1823,7 @@ node_695 -> node_697 [ arrowhead=none, color="purple" , style=invis, weight=99];
 { rank=same node_695 node_695_696 node_696 }
 }
 node_694 -> node_695 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_69{
 node_698 [ label=<<table border='0'><tr><td>initMultiloop5</td></tr></table>>, color="black", shape="box" ];
 node_699 [ label=<<table border='0'><tr><td>is</td></tr></table>>, color="green" ];
 node_700 [ label=<<table border='0'><tr><td>endMultiloop5</td></tr></table>>, color="black" ];
@@ -1838,7 +1838,7 @@ node_701 -> node_702[weight = 99, style = invis];
 { rank=same node_698 node_698_699 node_699 }
 }
 node_697 -> node_698 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_70{
 node_703 [ label=<<table border='0'><tr><td>endMultiloop5</td></tr></table>>, color="black", shape="box" ];
 node_704 [ label=<<table border='0'><tr><td>stack5</td></tr></table>>, color="black" ];
 node_703_704[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -1865,7 +1865,7 @@ node_703 -> node_709 [ arrowhead=none, color="purple" , weight=99];
 { rank=same node_703 node_703_704 node_704 node_704_705 node_705 node_705_706 node_706 node_706_707 node_707 node_707_708 node_708 }
 }
 node_702 -> node_703 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_71{
 node_710 [ label=<<table border='0'><tr><td>stack5</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_711 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="green" ];
 node_712 [ label="basepairing" , fontcolor="magenta" , shape=none ];
@@ -1886,7 +1886,7 @@ node_716 -> node_717[weight = 99, style = invis];
 { rank=same node_710 node_710_711 node_711 }
 }
 node_709 -> node_710 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_72{
 node_718 [ label=<<table border='0'><tr><td>multiloop5</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_719 [ label=<<table border='0'><tr><td>a block</td></tr></table>>, color="gray" ];
 node_720 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -2035,7 +2035,7 @@ node_788 -> node_789[weight = 99, style = invis];
 { rank=same node_718 node_718_719 node_719 }
 }
 node_717 -> node_718 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_73{
 node_790 [ label=<<table border='0'><tr><td>leftB5</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_791 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_792 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -2066,7 +2066,7 @@ node_801 -> node_802[weight = 99, style = invis];
 { rank=same node_790 node_790_791 node_791 }
 }
 node_789 -> node_790 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_74{
 node_803 [ label=<<table border='0'><tr><td>rightB5</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_804 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_805 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -2097,7 +2097,7 @@ node_814 -> node_815[weight = 99, style = invis];
 { rank=same node_803 node_803_804 node_804 }
 }
 node_802 -> node_803 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_75{
 node_816 [ label=<<table border='0'><tr><td>iloop5</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_817 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_818 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -2134,7 +2134,7 @@ node_830 -> node_831[weight = 99, style = invis];
 { rank=same node_816 node_816_817 node_817 }
 }
 node_815 -> node_816 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_76{
 node_832 [ label=<<table border='0'><tr><td>ml_comps16</td></tr></table>>, color="black", shape="box" ];
 node_833 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_834 [ label=<<table border='0'><tr><td>block_dl6</td></tr></table>>, color="black" ];
@@ -2169,7 +2169,7 @@ node_843 -> node_844[weight = 99, style = invis];
 { rank=same node_832 node_832_833 node_833 node_833_836 node_836 node_836_839 node_839 }
 }
 node_831 -> node_832 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_77{
 node_845 [ label=<<table border='0'><tr><td>ml_comps26</td></tr></table>>, color="black", shape="box" ];
 node_846 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_847 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
@@ -2212,7 +2212,7 @@ node_860 -> node_861[weight = 99, style = invis];
 { rank=same node_845 node_845_846 node_846 node_846_850 node_850 node_850_854 node_854 }
 }
 node_844 -> node_845 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_78{
 node_862 [ label=<<table border='0'><tr><td>ml_comps36</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_863 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_864 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
@@ -2255,7 +2255,7 @@ node_877 -> node_878[weight = 99, style = invis];
 { rank=same node_862 node_862_863 node_863 node_863_867 node_867 node_867_871 node_871 }
 }
 node_861 -> node_862 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_79{
 node_879 [ label=<<table border='0'><tr><td>ml_comps46</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_880 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_881 [ label=<<table border='0'><tr><td>block_dl6</td></tr></table>>, color="black" ];
@@ -2290,7 +2290,7 @@ node_890 -> node_891[weight = 99, style = invis];
 { rank=same node_879 node_879_880 node_880 node_880_883 node_883 node_883_886 node_886 }
 }
 node_878 -> node_879 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_80{
 node_892 [ label=<<table border='0'><tr><td>no_dl_no_ss_end6</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_893 [ label=<<table border='0'><tr><td>ml_comps27</td></tr></table>>, color="black" ];
 node_892_893[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -2301,7 +2301,7 @@ node_892 -> node_894 [ arrowhead=none, color="purple" , style=invis, weight=99];
 { rank=same node_892 node_892_893 node_893 }
 }
 node_891 -> node_892 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_81{
 node_895 [ label=<<table border='0'><tr><td>dl_or_ss_left_no_ss_end6</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_896 [ label=<<table border='0'><tr><td>ml_comps17</td></tr></table>>, color="black" ];
 node_895_896[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -2312,7 +2312,7 @@ node_895 -> node_897 [ arrowhead=none, color="purple" , style=invis, weight=99];
 { rank=same node_895 node_895_896 node_896 }
 }
 node_894 -> node_895 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_82{
 node_898 [ label=<<table border='0'><tr><td>no_dl_ss_end6</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_899 [ label=<<table border='0'><tr><td>ml_comps37</td></tr></table>>, color="black" ];
 node_898_899[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -2323,7 +2323,7 @@ node_898 -> node_900 [ arrowhead=none, color="purple" , style=invis, weight=99];
 { rank=same node_898 node_898_899 node_899 }
 }
 node_897 -> node_898 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_83{
 node_901 [ label=<<table border='0'><tr><td>dl_or_ss_left_ss_end6</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_902 [ label=<<table border='0'><tr><td>ml_comps47</td></tr></table>>, color="black" ];
 node_901_902[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -2334,7 +2334,7 @@ node_901 -> node_903 [ arrowhead=none, color="purple" , style=invis, weight=99];
 { rank=same node_901 node_901_902 node_902 }
 }
 node_900 -> node_901 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_84{
 node_904 [ label=<<table border='0'><tr><td>block_dl6</td></tr></table>>, color="black", shape="box" ];
 node_905 [ label=<<table border='0'><tr><td>ssadd</td></tr></table>>, color="green" ];
 node_906 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" ];
@@ -2357,7 +2357,7 @@ node_910 -> node_911[weight = 99, style = invis];
 { rank=same node_904 node_904_905 node_905 node_905_908 node_908 }
 }
 node_903 -> node_904 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_85{
 node_912 [ label=<<table border='0'><tr><td>block_dlr6</td></tr></table>>, color="black", shape="box" ];
 node_913 [ label=<<table border='0'><tr><td>ssadd</td></tr></table>>, color="green" ];
 node_914 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" ];
@@ -2380,7 +2380,7 @@ node_918 -> node_919[weight = 99, style = invis];
 { rank=same node_912 node_912_913 node_913 node_913_916 node_916 }
 }
 node_911 -> node_912 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_86{
 node_920 [ label=<<table border='0'><tr><td>edanglel6</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_921 [ label=<<table border='0'><tr><td>edl</td></tr></table>>, color="green" ];
 node_922 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -2397,7 +2397,7 @@ node_924 -> node_925[weight = 99, style = invis];
 { rank=same node_920 node_920_921 node_921 }
 }
 node_919 -> node_920 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_87{
 node_926 [ label=<<table border='0'><tr><td>edangler6</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_927 [ label=<<table border='0'><tr><td>edr</td></tr></table>>, color="green" ];
 node_928 [ label=<<table border='0'><tr><td>motif6</td></tr></table>>, color="black" ];
@@ -2414,7 +2414,7 @@ node_930 -> node_931[weight = 99, style = invis];
 { rank=same node_926 node_926_927 node_927 }
 }
 node_925 -> node_926 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_88{
 node_932 [ label=<<table border='0'><tr><td>edanglelr6</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_933 [ label=<<table border='0'><tr><td>edlr</td></tr></table>>, color="green" ];
 node_934 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -2433,7 +2433,7 @@ node_937 -> node_938[weight = 99, style = invis];
 { rank=same node_932 node_932_933 node_933 }
 }
 node_931 -> node_932 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_89{
 node_939 [ label=<<table border='0'><tr><td>nodangle6</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_940 [ label=<<table border='0'><tr><td>drem</td></tr></table>>, color="green" ];
 node_941 [ label=<<table border='0'><tr><td>motif6</td></tr></table>>, color="black" ];
@@ -2448,7 +2448,7 @@ node_942 -> node_943[weight = 99, style = invis];
 { rank=same node_939 node_939_940 node_940 }
 }
 node_938 -> node_939 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_90{
 node_944 [ label=<<table border='0'><tr><td>motif6</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_945 [ label=<<table border='0'><tr><td>initHairpin</td></tr></table>>, color="black" ];
 node_944_945[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -2459,7 +2459,7 @@ node_944 -> node_946 [ arrowhead=none, color="purple" , style=invis, weight=99];
 { rank=same node_944 node_944_945 node_945 }
 }
 node_943 -> node_944 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_91{
 node_947 [ label=<<table border='0'><tr><td>ml_comps17</td></tr></table>>, color="black", shape="box" ];
 node_948 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_949 [ label=<<table border='0'><tr><td>block_dl7</td></tr></table>>, color="black" ];
@@ -2494,7 +2494,7 @@ node_958 -> node_959[weight = 99, style = invis];
 { rank=same node_947 node_947_948 node_948 node_948_951 node_951 node_951_954 node_954 }
 }
 node_946 -> node_947 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_92{
 node_960 [ label=<<table border='0'><tr><td>ml_comps27</td></tr></table>>, color="black", shape="box" ];
 node_961 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_962 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
@@ -2537,7 +2537,7 @@ node_975 -> node_976[weight = 99, style = invis];
 { rank=same node_960 node_960_961 node_961 node_961_965 node_965 node_965_969 node_969 }
 }
 node_959 -> node_960 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_93{
 node_977 [ label=<<table border='0'><tr><td>ml_comps37</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_978 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_979 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
@@ -2580,7 +2580,7 @@ node_992 -> node_993[weight = 99, style = invis];
 { rank=same node_977 node_977_978 node_978 node_978_982 node_982 node_982_986 node_986 }
 }
 node_976 -> node_977 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_94{
 node_994 [ label=<<table border='0'><tr><td>ml_comps47</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_995 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_996 [ label=<<table border='0'><tr><td>block_dl7</td></tr></table>>, color="black" ];
@@ -2615,7 +2615,7 @@ node_1005 -> node_1006[weight = 99, style = invis];
 { rank=same node_994 node_994_995 node_995 node_995_998 node_998 node_998_1001 node_1001 }
 }
 node_993 -> node_994 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_95{
 node_1007 [ label=<<table border='0'><tr><td>no_dl_no_ss_end7</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1008 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
 node_1009 [ label=<<table border='0'><tr><td>nodangle3</td></tr></table>>, color="black" ];
@@ -2630,7 +2630,7 @@ node_1010 -> node_1011[weight = 99, style = invis];
 { rank=same node_1007 node_1007_1008 node_1008 }
 }
 node_1006 -> node_1007 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_96{
 node_1012 [ label=<<table border='0'><tr><td>dl_or_ss_left_no_ss_end7</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1013 [ label=<<table border='0'><tr><td>block_dl3</td></tr></table>>, color="black" ];
 node_1012_1013[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -2641,7 +2641,7 @@ node_1012 -> node_1014 [ arrowhead=none, color="purple" , weight=99];
 { rank=same node_1012 node_1012_1013 node_1013 }
 }
 node_1011 -> node_1012 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_97{
 node_1015 [ label=<<table border='0'><tr><td>no_dl_ss_end7</td></tr></table>>, color="black", shape="box" ];
 node_1016 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
 node_1017 [ label=<<table border='0'><tr><td>edangler3</td></tr></table>>, color="black" ];
@@ -2668,7 +2668,7 @@ node_1023 -> node_1024[weight = 99, style = invis];
 { rank=same node_1015 node_1015_1016 node_1016 node_1016_1018 node_1018 }
 }
 node_1014 -> node_1015 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_98{
 node_1025 [ label=<<table border='0'><tr><td>dl_or_ss_left_ss_end7</td></tr></table>>, color="black", shape="box" ];
 node_1026 [ label=<<table border='0'><tr><td>block_dlr3</td></tr></table>>, color="black" ];
 node_1025_1026[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -2689,7 +2689,7 @@ node_1030 -> node_1031[weight = 99, style = invis];
 { rank=same node_1025 node_1025_1026 node_1026 node_1026_1027 node_1027 }
 }
 node_1024 -> node_1025 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_99{
 node_1032 [ label=<<table border='0'><tr><td>block_dl7</td></tr></table>>, color="black", shape="box" ];
 node_1033 [ label=<<table border='0'><tr><td>ssadd</td></tr></table>>, color="green" ];
 node_1034 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" ];
@@ -2712,7 +2712,7 @@ node_1038 -> node_1039[weight = 99, style = invis];
 { rank=same node_1032 node_1032_1033 node_1033 node_1033_1036 node_1036 }
 }
 node_1031 -> node_1032 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_100{
 node_1040 [ label=<<table border='0'><tr><td>block_dlr7</td></tr></table>>, color="black", shape="box" ];
 node_1041 [ label=<<table border='0'><tr><td>ssadd</td></tr></table>>, color="green" ];
 node_1042 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" ];
@@ -2735,7 +2735,7 @@ node_1046 -> node_1047[weight = 99, style = invis];
 { rank=same node_1040 node_1040_1041 node_1041 node_1041_1044 node_1044 }
 }
 node_1039 -> node_1040 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_101{
 node_1048 [ label=<<table border='0'><tr><td>edanglel7</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1049 [ label=<<table border='0'><tr><td>edl</td></tr></table>>, color="green" ];
 node_1050 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -2752,7 +2752,7 @@ node_1052 -> node_1053[weight = 99, style = invis];
 { rank=same node_1048 node_1048_1049 node_1049 }
 }
 node_1047 -> node_1048 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_102{
 node_1054 [ label=<<table border='0'><tr><td>edangler7</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1055 [ label=<<table border='0'><tr><td>edr</td></tr></table>>, color="green" ];
 node_1056 [ label=<<table border='0'><tr><td>motif7</td></tr></table>>, color="black" ];
@@ -2769,7 +2769,7 @@ node_1058 -> node_1059[weight = 99, style = invis];
 { rank=same node_1054 node_1054_1055 node_1055 }
 }
 node_1053 -> node_1054 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_103{
 node_1060 [ label=<<table border='0'><tr><td>edanglelr7</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1061 [ label=<<table border='0'><tr><td>edlr</td></tr></table>>, color="green" ];
 node_1062 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -2788,7 +2788,7 @@ node_1065 -> node_1066[weight = 99, style = invis];
 { rank=same node_1060 node_1060_1061 node_1061 }
 }
 node_1059 -> node_1060 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_104{
 node_1067 [ label=<<table border='0'><tr><td>nodangle7</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1068 [ label=<<table border='0'><tr><td>drem</td></tr></table>>, color="green" ];
 node_1069 [ label=<<table border='0'><tr><td>motif7</td></tr></table>>, color="black" ];
@@ -2803,7 +2803,7 @@ node_1070 -> node_1071[weight = 99, style = invis];
 { rank=same node_1067 node_1067_1068 node_1068 }
 }
 node_1066 -> node_1067 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_105{
 node_1072 [ label=<<table border='0'><tr><td>motif7</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1073 [ label=<<table border='0'><tr><td>motif1</td></tr></table>>, color="black" ];
 node_1072_1073[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -2814,7 +2814,7 @@ node_1072 -> node_1074 [ arrowhead=none, color="purple" , style=invis, weight=99
 { rank=same node_1072 node_1072_1073 node_1073 }
 }
 node_1071 -> node_1072 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_106{
 node_1075 [ label=<<table border='0'><tr><td>left_unpaired10</td></tr></table>>, color="black", shape="box" ];
 node_1076 [ label=<<table border='0'><tr><td>sadd</td></tr></table>>, color="green" ];
 node_1077 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -2839,7 +2839,7 @@ node_1082 -> node_1083[weight = 99, style = invis];
 { rank=same node_1075 node_1075_1076 node_1076 node_1076_1079 node_1079 }
 }
 node_1074 -> node_1075 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_107{
 node_1084 [ label=<<table border='0'><tr><td>left_dangle10</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1085 [ label=<<table border='0'><tr><td>cadd_Pr</td></tr></table>>, color="green" ];
 node_1086 [ label=<<table border='0'><tr><td>edanglel10</td></tr></table>>, color="black" ];
@@ -2874,7 +2874,7 @@ node_1096 -> node_1097[weight = 99, style = invis];
 { rank=same node_1084 node_1084_1085 node_1085 node_1085_1089 node_1089 }
 }
 node_1083 -> node_1084 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_108{
 node_1098 [ label=<<table border='0'><tr><td>noleft_dangle10</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1099 [ label=<<table border='0'><tr><td>cadd_Pr_Pr</td></tr></table>>, color="green" ];
 node_1100 [ label=<<table border='0'><tr><td>edangler10</td></tr></table>>, color="black" ];
@@ -2909,7 +2909,7 @@ node_1110 -> node_1111[weight = 99, style = invis];
 { rank=same node_1098 node_1098_1099 node_1099 node_1099_1105 node_1105 }
 }
 node_1097 -> node_1098 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_109{
 node_1112 [ label=<<table border='0'><tr><td>edanglel10</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1113 [ label=<<table border='0'><tr><td>edl</td></tr></table>>, color="green" ];
 node_1114 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -2926,7 +2926,7 @@ node_1116 -> node_1117[weight = 99, style = invis];
 { rank=same node_1112 node_1112_1113 node_1113 }
 }
 node_1111 -> node_1112 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_110{
 node_1118 [ label=<<table border='0'><tr><td>edangler10</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1119 [ label=<<table border='0'><tr><td>edr</td></tr></table>>, color="green" ];
 node_1120 [ label=<<table border='0'><tr><td>motif10</td></tr></table>>, color="black" ];
@@ -2943,7 +2943,7 @@ node_1122 -> node_1123[weight = 99, style = invis];
 { rank=same node_1118 node_1118_1119 node_1119 }
 }
 node_1117 -> node_1118 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_111{
 node_1124 [ label=<<table border='0'><tr><td>edanglelr10</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1125 [ label=<<table border='0'><tr><td>edlr</td></tr></table>>, color="green" ];
 node_1126 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -2962,7 +2962,7 @@ node_1129 -> node_1130[weight = 99, style = invis];
 { rank=same node_1124 node_1124_1125 node_1125 }
 }
 node_1123 -> node_1124 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_112{
 node_1131 [ label=<<table border='0'><tr><td>nodangle10</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1132 [ label=<<table border='0'><tr><td>drem</td></tr></table>>, color="green" ];
 node_1133 [ label=<<table border='0'><tr><td>motif10</td></tr></table>>, color="black" ];
@@ -2977,7 +2977,7 @@ node_1134 -> node_1135[weight = 99, style = invis];
 { rank=same node_1131 node_1131_1132 node_1132 }
 }
 node_1130 -> node_1131 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_113{
 node_1136 [ label=<<table border='0'><tr><td>motif10</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1137 [ label=<<table border='0'><tr><td>initHairpin</td></tr></table>>, color="black" ];
 node_1136_1137[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -2988,7 +2988,7 @@ node_1136 -> node_1138 [ arrowhead=none, color="purple" , style=invis, weight=99
 { rank=same node_1136 node_1136_1137 node_1137 }
 }
 node_1135 -> node_1136 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_114{
 node_1139 [ label=<<table border='0'><tr><td>initHairpin</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1140 [ label=<<table border='0'><tr><td>is</td></tr></table>>, color="green" ];
 node_1141 [ label=<<table border='0'><tr><td>endHairpin</td></tr></table>>, color="black" ];
@@ -3003,7 +3003,7 @@ node_1142 -> node_1143[weight = 99, style = invis];
 { rank=same node_1139 node_1139_1140 node_1140 }
 }
 node_1138 -> node_1139 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_115{
 node_1144 [ label=<<table border='0'><tr><td>endHairpin</td></tr></table>>, color="black", shape="box" ];
 node_1145 [ label=<<table border='0'><tr><td>stack</td></tr></table>>, color="black" ];
 node_1144_1145[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -3030,7 +3030,7 @@ node_1144 -> node_1150 [ arrowhead=none, color="purple" , weight=99];
 { rank=same node_1144 node_1144_1145 node_1145 node_1145_1146 node_1146 node_1146_1147 node_1147 node_1147_1148 node_1148 node_1148_1149 node_1149 }
 }
 node_1143 -> node_1144 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_116{
 node_1151 [ label=<<table border='0'><tr><td>stack</td></tr></table>>, color="black", shape="box" ];
 node_1152 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="green" ];
 node_1153 [ label="basepairing" , fontcolor="magenta" , shape=none ];
@@ -3051,7 +3051,7 @@ node_1157 -> node_1158[weight = 99, style = invis];
 { rank=same node_1151 node_1151_1152 node_1152 }
 }
 node_1150 -> node_1151 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_117{
 node_1159 [ label=<<table border='0'><tr><td>hairpin</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1160 [ label=<<table border='0'><tr><td>hl</td></tr></table>>, color="green" ];
 node_1161 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -3078,7 +3078,7 @@ node_1168 -> node_1169[weight = 99, style = invis];
 { rank=same node_1159 node_1159_1160 node_1160 }
 }
 node_1158 -> node_1159 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_118{
 node_1170 [ label=<<table border='0'><tr><td>leftB</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1171 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_1172 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -3109,7 +3109,7 @@ node_1181 -> node_1182[weight = 99, style = invis];
 { rank=same node_1170 node_1170_1171 node_1171 }
 }
 node_1169 -> node_1170 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_119{
 node_1183 [ label=<<table border='0'><tr><td>rightB</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1184 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_1185 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -3140,7 +3140,7 @@ node_1194 -> node_1195[weight = 99, style = invis];
 { rank=same node_1183 node_1183_1184 node_1184 }
 }
 node_1182 -> node_1183 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_120{
 node_1196 [ label=<<table border='0'><tr><td>iloop</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1197 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_1198 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
@@ -3177,7 +3177,7 @@ node_1210 -> node_1211[weight = 99, style = invis];
 { rank=same node_1196 node_1196_1197 node_1197 }
 }
 node_1195 -> node_1196 [ style = invis];
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_121{
 node_1212 [ label=<<table border='0'><tr><td>left_unpairedEnd</td></tr></table>>, color="black", shape="box" ];
 node_1213 [ label=<<table border='0'><tr><td>sadd</td></tr></table>>, color="green" ];
 node_1214 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];

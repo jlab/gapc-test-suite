@@ -2,7 +2,7 @@ digraph canonicals_nonamb {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_1{
 node_1 [ label=<<table border='0'><tr><td>struct</td></tr></table>>, color="black", shape="box", penwidth=3, style="dotted" ];
 node_2 [ label=<<table border='0'><tr><td>cadd</td></tr></table>>, color="green" ];
 node_3 [ label=<<table border='0'><tr><td>hairpin</td></tr></table>>, color="black" ];
@@ -18,7 +18,7 @@ node_6[label = struct, shape="box", style=invis];
 node_5 -> node_6[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 }
 }
-subgraph cluster_canonicals_nonamb{
+subgraph cluster_2{
 node_7 [ label=<<table border='0'><tr><td>hairpin</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_8 [ label=<<table border='0'><tr><td>hl</td></tr></table>>, color="green" ];
 node_9 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];

@@ -2,7 +2,7 @@ digraph flow {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_flow{
+subgraph cluster_1{
 node_1 [ label=<<table border='0'><tr><td>ali</td></tr></table>>, color="black", shape="box", penwidth=3 ];
 node_2 [ label=<<table border='0'><tr><td>nil</td></tr></table>>, color="green" ];
 node_3 [ label=<<table border='0'><tr><td>NON</td></tr></table>>, color="blue" ];

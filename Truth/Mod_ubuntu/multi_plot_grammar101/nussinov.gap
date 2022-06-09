@@ -2,7 +2,7 @@ digraph nussinov {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_nussinov{
+subgraph cluster_1{
 node_1 [ label=<<table border='0'><tr><td>start</td></tr></table>>, color="black", shape="box", penwidth=3 ];
 node_2 [ label=<<table border='0'><tr><td>nil</td></tr></table>>, color="green" ];
 node_3 [ label=<<table border='0'><tr><td>EMPTY</td></tr></table>>, color="blue" ];
@@ -32,7 +32,7 @@ node_11[label = start, shape="box", style=invis];
 node_10 -> node_11[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 node_2_4 node_4 node_4_7 node_7 }
 }
-subgraph cluster_nussinov{
+subgraph cluster_2{
 node_12 [ label=<<table border='0'><tr><td>bp</td></tr></table>>, color="black", shape="box" ];
 node_13 [ label=<<table border='0'><tr><td>pair</td></tr></table>>, color="green" ];
 node_14 [ label="char_basepairing" , fontcolor="magenta" , shape=none ];

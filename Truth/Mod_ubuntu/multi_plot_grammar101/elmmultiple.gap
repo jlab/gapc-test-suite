@@ -2,7 +2,7 @@ digraph bill {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_bill{
+subgraph cluster_1{
 node_1 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black", shape="box", penwidth=3 ];
 node_2 [ label=<<table border='0'><tr><td>number</td></tr></table>>, color="black" ];
 node_1_2[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -20,7 +20,7 @@ node_5 [ label=h, fontcolor="purple" , shape=none ];
 node_1 -> node_5 [ arrowhead=none, color="purple" , weight=99];
 { rank=same node_1 node_1_2 node_2 node_2_3 node_3 node_3_4 node_4 }
 }
-subgraph cluster_bill{
+subgraph cluster_2{
 node_6 [ label=<<table border='0'><tr><td>foo</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_7 [ label=<<table border='0'><tr><td>add</td></tr></table>>, color="green" ];
 node_8 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black" ];
@@ -39,7 +39,7 @@ node_11 -> node_12[weight = 99, style = invis];
 { rank=same node_6 node_6_7 node_7 }
 }
 node_5 -> node_6 [ style = invis];
-subgraph cluster_bill{
+subgraph cluster_3{
 node_13 [ label=<<table border='0'><tr><td>bar</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_14 [ label=<<table border='0'><tr><td>mult</td></tr></table>>, color="green" ];
 node_15 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black" ];
@@ -58,7 +58,7 @@ node_18 -> node_19[weight = 99, style = invis];
 { rank=same node_13 node_13_14 node_14 }
 }
 node_12 -> node_13 [ style = invis];
-subgraph cluster_bill{
+subgraph cluster_4{
 node_20 [ label=<<table border='0'><tr><td>number</td></tr></table>>, color="black", shape="box" ];
 node_21 [ label=<<table border='0'><tr><td>f</td></tr></table>>, color="green" ];
 node_22 [ label=<<table border='0'><tr><td>INT</td></tr></table>>, color="blue" ];
@@ -73,7 +73,7 @@ node_23 -> node_24[weight = 99, style = invis];
 { rank=same node_20 node_20_21 node_21 }
 }
 node_19 -> node_20 [ style = invis];
-subgraph cluster_bill{
+subgraph cluster_5{
 node_25 [ label=<<table border='0'><tr><td>plus</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_26 [ label=<<table border='0'><tr><td>CHAR('+')</td></tr></table>>, color="blue" ];
 node_25_26[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
@@ -86,7 +86,7 @@ node_27 -> node_28[weight = 99, style = invis];
 { rank=same node_25 node_25_26 node_26 }
 }
 node_24 -> node_25 [ style = invis];
-subgraph cluster_bill{
+subgraph cluster_6{
 node_29 [ label=<<table border='0'><tr><td>times</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_30 [ label=<<table border='0'><tr><td>CHAR('*')</td></tr></table>>, color="blue" ];
 node_29_30[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];

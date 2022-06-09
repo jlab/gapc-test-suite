@@ -2,7 +2,7 @@ digraph pal {
 compound = True;
 newrank=True;
 ordering=out;
-subgraph cluster_pal{
+subgraph cluster_1{
 node_1 [ label=<<table border='0'><tr><td>pl</td></tr></table>>, color="black", shape="box", penwidth=3, style="dotted" ];
 node_2 [ label=<<table border='0'><tr><td>match</td></tr></table>>, color="green" ];
 node_3 [ label="equal" , fontcolor="magenta" , shape=none ];
