@@ -33,7 +33,7 @@ node_10 -> node_11[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 node_2_5 node_5 node_5_8 node_8 }
 }
 subgraph cluster_2{
-node_12 [ label=<<table border='0'><tr><td>dangle</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_12 [ label=<<table border='0'><tr><td>dangle</td></tr></table>>, color="black", shape="box" ];
 node_13 [ label=<<table border='0'><tr><td>dlr</td></tr></table>>, color="green" ];
 node_14 [ label=<<table border='0'><tr><td>LOC</td></tr></table>>, color="blue" ];
 node_13 -> node_14 [ arrowhead=none ];

@@ -48,7 +48,7 @@ node_16 -> node_17[weight = 99, style = invis];
 }
 node_13 -> node_14 [ style = invis];
 subgraph cluster_3{
-node_18 [ label=<<table border='0'><tr><td>boxr</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_18 [ label=<<table border='0'><tr><td>boxr</td></tr></table>>, color="black", shape="box" ];
 node_19 [ label=<<table border='0'><tr><td>CHAR(']')</td></tr></table>>, color="blue" ];
 node_18_19[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_18 -> node_18_19[style= invis, weight=99];
@@ -61,7 +61,7 @@ node_20 -> node_21[weight = 99, style = invis];
 }
 node_17 -> node_18 [ style = invis];
 subgraph cluster_4{
-node_22 [ label=<<table border='0'><tr><td>by</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_22 [ label=<<table border='0'><tr><td>by</td></tr></table>>, color="black", shape="box" ];
 node_23 [ label=<<table border='0'><tr><td>CHAR('x')</td></tr></table>>, color="blue" ];
 node_22_23[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_22 -> node_22_23[style= invis, weight=99];
@@ -74,7 +74,7 @@ node_24 -> node_25[weight = 99, style = invis];
 }
 node_21 -> node_22 [ style = invis];
 subgraph cluster_5{
-node_26 [ label=<<table border='0'><tr><td>times</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_26 [ label=<<table border='0'><tr><td>times</td></tr></table>>, color="black", shape="box" ];
 node_27 [ label=<<table border='0'><tr><td>CHAR('*')</td></tr></table>>, color="blue" ];
 node_26_27[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_26 -> node_26_27[style= invis, weight=99];

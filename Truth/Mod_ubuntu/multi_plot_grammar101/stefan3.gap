@@ -25,7 +25,7 @@ node_6 -> node_7[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 node_2_3 node_3 node_3_5 node_5 }
 }
 subgraph cluster_2{
-node_8 [ label=<<table border='0'><tr><td>left_unpaired1</td></tr></table>>, color="black", shape="box" ];
+node_8 [ label=<<table border='0'><tr><td>left_unpaired1</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_9 [ label=<<table border='0'><tr><td>sadd</td></tr></table>>, color="green" ];
 node_10 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_9 -> node_10 [ arrowhead=none ];
@@ -50,7 +50,7 @@ node_15 -> node_16[weight = 99, style = invis];
 }
 node_7 -> node_8 [ style = invis];
 subgraph cluster_3{
-node_17 [ label=<<table border='0'><tr><td>left_dangle1</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_17 [ label=<<table border='0'><tr><td>left_dangle1</td></tr></table>>, color="black", shape="box" ];
 node_18 [ label=<<table border='0'><tr><td>ambd</td></tr></table>>, color="green" ];
 node_19 [ label=<<table border='0'><tr><td>edanglel1</td></tr></table>>, color="black" ];
 node_18 -> node_19 [ arrowhead=none ];
@@ -91,7 +91,7 @@ node_31 -> node_32[weight = 99, style = invis];
 }
 node_16 -> node_17 [ style = invis];
 subgraph cluster_4{
-node_33 [ label=<<table border='0'><tr><td>noleft_dangle1</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_33 [ label=<<table border='0'><tr><td>noleft_dangle1</td></tr></table>>, color="black", shape="box" ];
 node_34 [ label=<<table border='0'><tr><td>cadd_Pr_Pr</td></tr></table>>, color="green" ];
 node_35 [ label=<<table border='0'><tr><td>edangler1</td></tr></table>>, color="black" ];
 node_34 -> node_35 [ arrowhead=none ];
@@ -132,7 +132,7 @@ node_47 -> node_48[weight = 99, style = invis];
 }
 node_32 -> node_33 [ style = invis];
 subgraph cluster_5{
-node_49 [ label=<<table border='0'><tr><td>edanglel1</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_49 [ label=<<table border='0'><tr><td>edanglel1</td></tr></table>>, color="black", shape="box" ];
 node_50 [ label=<<table border='0'><tr><td>edl</td></tr></table>>, color="green" ];
 node_51 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_50 -> node_51 [ arrowhead=none ];
@@ -149,7 +149,7 @@ node_53 -> node_54[weight = 99, style = invis];
 }
 node_48 -> node_49 [ style = invis];
 subgraph cluster_6{
-node_55 [ label=<<table border='0'><tr><td>edangler1</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_55 [ label=<<table border='0'><tr><td>edangler1</td></tr></table>>, color="black", shape="box" ];
 node_56 [ label=<<table border='0'><tr><td>edr</td></tr></table>>, color="green" ];
 node_57 [ label=<<table border='0'><tr><td>motif1</td></tr></table>>, color="black" ];
 node_56 -> node_57 [ arrowhead=none ];
@@ -166,7 +166,7 @@ node_59 -> node_60[weight = 99, style = invis];
 }
 node_54 -> node_55 [ style = invis];
 subgraph cluster_7{
-node_61 [ label=<<table border='0'><tr><td>edanglelr1</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_61 [ label=<<table border='0'><tr><td>edanglelr1</td></tr></table>>, color="black", shape="box" ];
 node_62 [ label=<<table border='0'><tr><td>edlr</td></tr></table>>, color="green" ];
 node_63 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_62 -> node_63 [ arrowhead=none ];
@@ -185,7 +185,7 @@ node_66 -> node_67[weight = 99, style = invis];
 }
 node_60 -> node_61 [ style = invis];
 subgraph cluster_8{
-node_68 [ label=<<table border='0'><tr><td>nodangle1</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_68 [ label=<<table border='0'><tr><td>nodangle1</td></tr></table>>, color="black", shape="box" ];
 node_69 [ label=<<table border='0'><tr><td>drem</td></tr></table>>, color="green" ];
 node_70 [ label=<<table border='0'><tr><td>motif1</td></tr></table>>, color="black" ];
 node_69 -> node_70 [ arrowhead=none ];
@@ -211,7 +211,7 @@ node_73 -> node_75 [ arrowhead=none, color="purple" , style=invis, weight=99];
 }
 node_72 -> node_73 [ style = invis];
 subgraph cluster_10{
-node_76 [ label=<<table border='0'><tr><td>initMultiloop1</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_76 [ label=<<table border='0'><tr><td>initMultiloop1</td></tr></table>>, color="black", shape="box" ];
 node_77 [ label=<<table border='0'><tr><td>is</td></tr></table>>, color="green" ];
 node_78 [ label=<<table border='0'><tr><td>endMultiloop1</td></tr></table>>, color="black" ];
 node_77 -> node_78 [ arrowhead=none ];
@@ -423,7 +423,7 @@ node_166 -> node_167[weight = 99, style = invis];
 }
 node_95 -> node_96 [ style = invis];
 subgraph cluster_14{
-node_168 [ label=<<table border='0'><tr><td>leftB1</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_168 [ label=<<table border='0'><tr><td>leftB1</td></tr></table>>, color="black", shape="box" ];
 node_169 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_170 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
 node_169 -> node_170 [ arrowhead=none, color="magenta" ];
@@ -454,7 +454,7 @@ node_179 -> node_180[weight = 99, style = invis];
 }
 node_167 -> node_168 [ style = invis];
 subgraph cluster_15{
-node_181 [ label=<<table border='0'><tr><td>rightB1</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_181 [ label=<<table border='0'><tr><td>rightB1</td></tr></table>>, color="black", shape="box" ];
 node_182 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_183 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
 node_182 -> node_183 [ arrowhead=none, color="magenta" ];
@@ -600,7 +600,7 @@ node_238 -> node_239[weight = 99, style = invis];
 }
 node_222 -> node_223 [ style = invis];
 subgraph cluster_19{
-node_240 [ label=<<table border='0'><tr><td>ml_comps32</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_240 [ label=<<table border='0'><tr><td>ml_comps32</td></tr></table>>, color="black", shape="box" ];
 node_241 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_242 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
 node_243 [ label=<<table border='0'><tr><td>edangler2</td></tr></table>>, color="black" ];
@@ -643,7 +643,7 @@ node_255 -> node_256[weight = 99, style = invis];
 }
 node_239 -> node_240 [ style = invis];
 subgraph cluster_20{
-node_257 [ label=<<table border='0'><tr><td>ml_comps42</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_257 [ label=<<table border='0'><tr><td>ml_comps42</td></tr></table>>, color="black", shape="box" ];
 node_258 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_259 [ label=<<table border='0'><tr><td>block_dl2</td></tr></table>>, color="black" ];
 node_258 -> node_259 [ arrowhead=none ];
@@ -678,7 +678,7 @@ node_268 -> node_269[weight = 99, style = invis];
 }
 node_256 -> node_257 [ style = invis];
 subgraph cluster_21{
-node_270 [ label=<<table border='0'><tr><td>no_dl_no_ss_end2</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_270 [ label=<<table border='0'><tr><td>no_dl_no_ss_end2</td></tr></table>>, color="black", shape="box" ];
 node_271 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
 node_272 [ label=<<table border='0'><tr><td>nodangle3</td></tr></table>>, color="black" ];
 node_271 -> node_272 [ arrowhead=none ];
@@ -693,7 +693,7 @@ node_273 -> node_274[weight = 99, style = invis];
 }
 node_269 -> node_270 [ style = invis];
 subgraph cluster_22{
-node_275 [ label=<<table border='0'><tr><td>dl_or_ss_left_no_ss_end2</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_275 [ label=<<table border='0'><tr><td>dl_or_ss_left_no_ss_end2</td></tr></table>>, color="black", shape="box" ];
 node_276 [ label=<<table border='0'><tr><td>block_dl3</td></tr></table>>, color="black" ];
 node_275_276[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_275 -> node_275_276[style= invis, weight=99];
@@ -798,7 +798,7 @@ node_309 -> node_310[weight = 99, style = invis];
 }
 node_302 -> node_303 [ style = invis];
 subgraph cluster_27{
-node_311 [ label=<<table border='0'><tr><td>edanglel2</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_311 [ label=<<table border='0'><tr><td>edanglel2</td></tr></table>>, color="black", shape="box" ];
 node_312 [ label=<<table border='0'><tr><td>edl</td></tr></table>>, color="green" ];
 node_313 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_312 -> node_313 [ arrowhead=none ];
@@ -815,7 +815,7 @@ node_315 -> node_316[weight = 99, style = invis];
 }
 node_310 -> node_311 [ style = invis];
 subgraph cluster_28{
-node_317 [ label=<<table border='0'><tr><td>edangler2</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_317 [ label=<<table border='0'><tr><td>edangler2</td></tr></table>>, color="black", shape="box" ];
 node_318 [ label=<<table border='0'><tr><td>edr</td></tr></table>>, color="green" ];
 node_319 [ label=<<table border='0'><tr><td>motif2</td></tr></table>>, color="black" ];
 node_318 -> node_319 [ arrowhead=none ];
@@ -832,7 +832,7 @@ node_321 -> node_322[weight = 99, style = invis];
 }
 node_316 -> node_317 [ style = invis];
 subgraph cluster_29{
-node_323 [ label=<<table border='0'><tr><td>edanglelr2</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_323 [ label=<<table border='0'><tr><td>edanglelr2</td></tr></table>>, color="black", shape="box" ];
 node_324 [ label=<<table border='0'><tr><td>edlr</td></tr></table>>, color="green" ];
 node_325 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_324 -> node_325 [ arrowhead=none ];
@@ -851,7 +851,7 @@ node_328 -> node_329[weight = 99, style = invis];
 }
 node_322 -> node_323 [ style = invis];
 subgraph cluster_30{
-node_330 [ label=<<table border='0'><tr><td>nodangle2</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_330 [ label=<<table border='0'><tr><td>nodangle2</td></tr></table>>, color="black", shape="box" ];
 node_331 [ label=<<table border='0'><tr><td>drem</td></tr></table>>, color="green" ];
 node_332 [ label=<<table border='0'><tr><td>motif2</td></tr></table>>, color="black" ];
 node_331 -> node_332 [ arrowhead=none ];
@@ -923,7 +923,7 @@ node_352 -> node_353[weight = 99, style = invis];
 }
 node_345 -> node_346 [ style = invis];
 subgraph cluster_34{
-node_354 [ label=<<table border='0'><tr><td>edanglel3</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_354 [ label=<<table border='0'><tr><td>edanglel3</td></tr></table>>, color="black", shape="box" ];
 node_355 [ label=<<table border='0'><tr><td>edl</td></tr></table>>, color="green" ];
 node_356 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_355 -> node_356 [ arrowhead=none ];
@@ -940,7 +940,7 @@ node_358 -> node_359[weight = 99, style = invis];
 }
 node_353 -> node_354 [ style = invis];
 subgraph cluster_35{
-node_360 [ label=<<table border='0'><tr><td>edangler3</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_360 [ label=<<table border='0'><tr><td>edangler3</td></tr></table>>, color="black", shape="box" ];
 node_361 [ label=<<table border='0'><tr><td>edr</td></tr></table>>, color="green" ];
 node_362 [ label=<<table border='0'><tr><td>motif3</td></tr></table>>, color="black" ];
 node_361 -> node_362 [ arrowhead=none ];
@@ -957,7 +957,7 @@ node_364 -> node_365[weight = 99, style = invis];
 }
 node_359 -> node_360 [ style = invis];
 subgraph cluster_36{
-node_366 [ label=<<table border='0'><tr><td>edanglelr3</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_366 [ label=<<table border='0'><tr><td>edanglelr3</td></tr></table>>, color="black", shape="box" ];
 node_367 [ label=<<table border='0'><tr><td>edlr</td></tr></table>>, color="green" ];
 node_368 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_367 -> node_368 [ arrowhead=none ];
@@ -1027,7 +1027,7 @@ node_388 -> node_389[weight = 99, style = invis];
 }
 node_380 -> node_381 [ style = invis];
 subgraph cluster_40{
-node_390 [ label=<<table border='0'><tr><td>left_dangle4</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_390 [ label=<<table border='0'><tr><td>left_dangle4</td></tr></table>>, color="black", shape="box" ];
 node_391 [ label=<<table border='0'><tr><td>ambd</td></tr></table>>, color="green" ];
 node_392 [ label=<<table border='0'><tr><td>edanglel4</td></tr></table>>, color="black" ];
 node_391 -> node_392 [ arrowhead=none ];
@@ -1068,7 +1068,7 @@ node_404 -> node_405[weight = 99, style = invis];
 }
 node_389 -> node_390 [ style = invis];
 subgraph cluster_41{
-node_406 [ label=<<table border='0'><tr><td>noleft_dangle4</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_406 [ label=<<table border='0'><tr><td>noleft_dangle4</td></tr></table>>, color="black", shape="box" ];
 node_407 [ label=<<table border='0'><tr><td>cadd_Pr_Pr</td></tr></table>>, color="green" ];
 node_408 [ label=<<table border='0'><tr><td>edangler4</td></tr></table>>, color="black" ];
 node_407 -> node_408 [ arrowhead=none ];
@@ -1109,7 +1109,7 @@ node_420 -> node_421[weight = 99, style = invis];
 }
 node_405 -> node_406 [ style = invis];
 subgraph cluster_42{
-node_422 [ label=<<table border='0'><tr><td>edanglel4</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_422 [ label=<<table border='0'><tr><td>edanglel4</td></tr></table>>, color="black", shape="box" ];
 node_423 [ label=<<table border='0'><tr><td>edl</td></tr></table>>, color="green" ];
 node_424 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_423 -> node_424 [ arrowhead=none ];
@@ -1126,7 +1126,7 @@ node_426 -> node_427[weight = 99, style = invis];
 }
 node_421 -> node_422 [ style = invis];
 subgraph cluster_43{
-node_428 [ label=<<table border='0'><tr><td>edangler4</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_428 [ label=<<table border='0'><tr><td>edangler4</td></tr></table>>, color="black", shape="box" ];
 node_429 [ label=<<table border='0'><tr><td>edr</td></tr></table>>, color="green" ];
 node_430 [ label=<<table border='0'><tr><td>motif4</td></tr></table>>, color="black" ];
 node_429 -> node_430 [ arrowhead=none ];
@@ -1143,7 +1143,7 @@ node_432 -> node_433[weight = 99, style = invis];
 }
 node_427 -> node_428 [ style = invis];
 subgraph cluster_44{
-node_434 [ label=<<table border='0'><tr><td>edanglelr4</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_434 [ label=<<table border='0'><tr><td>edanglelr4</td></tr></table>>, color="black", shape="box" ];
 node_435 [ label=<<table border='0'><tr><td>edlr</td></tr></table>>, color="green" ];
 node_436 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_435 -> node_436 [ arrowhead=none ];
@@ -1162,7 +1162,7 @@ node_439 -> node_440[weight = 99, style = invis];
 }
 node_433 -> node_434 [ style = invis];
 subgraph cluster_45{
-node_441 [ label=<<table border='0'><tr><td>nodangle4</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_441 [ label=<<table border='0'><tr><td>nodangle4</td></tr></table>>, color="black", shape="box" ];
 node_442 [ label=<<table border='0'><tr><td>drem</td></tr></table>>, color="green" ];
 node_443 [ label=<<table border='0'><tr><td>motif4</td></tr></table>>, color="black" ];
 node_442 -> node_443 [ arrowhead=none ];
@@ -1431,7 +1431,7 @@ node_552 -> node_553[weight = 99, style = invis];
 }
 node_540 -> node_541 [ style = invis];
 subgraph cluster_52{
-node_554 [ label=<<table border='0'><tr><td>rightB4</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_554 [ label=<<table border='0'><tr><td>rightB4</td></tr></table>>, color="black", shape="box" ];
 node_555 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_556 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
 node_555 -> node_556 [ arrowhead=none, color="magenta" ];
@@ -1577,7 +1577,7 @@ node_611 -> node_612[weight = 99, style = invis];
 }
 node_595 -> node_596 [ style = invis];
 subgraph cluster_56{
-node_613 [ label=<<table border='0'><tr><td>ml_comps35</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_613 [ label=<<table border='0'><tr><td>ml_comps35</td></tr></table>>, color="black", shape="box" ];
 node_614 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_615 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
 node_616 [ label=<<table border='0'><tr><td>edangler5</td></tr></table>>, color="black" ];
@@ -1620,7 +1620,7 @@ node_628 -> node_629[weight = 99, style = invis];
 }
 node_612 -> node_613 [ style = invis];
 subgraph cluster_57{
-node_630 [ label=<<table border='0'><tr><td>ml_comps45</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_630 [ label=<<table border='0'><tr><td>ml_comps45</td></tr></table>>, color="black", shape="box" ];
 node_631 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_632 [ label=<<table border='0'><tr><td>block_dl5</td></tr></table>>, color="black" ];
 node_631 -> node_632 [ arrowhead=none ];
@@ -1655,7 +1655,7 @@ node_641 -> node_642[weight = 99, style = invis];
 }
 node_629 -> node_630 [ style = invis];
 subgraph cluster_58{
-node_643 [ label=<<table border='0'><tr><td>no_dl_no_ss_end5</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_643 [ label=<<table border='0'><tr><td>no_dl_no_ss_end5</td></tr></table>>, color="black", shape="box" ];
 node_644 [ label=<<table border='0'><tr><td>ml_comps22</td></tr></table>>, color="black" ];
 node_643_644[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_643 -> node_643_644[style= invis, weight=99];
@@ -1666,7 +1666,7 @@ node_643 -> node_645 [ arrowhead=none, color="purple" , style=invis, weight=99];
 }
 node_642 -> node_643 [ style = invis];
 subgraph cluster_59{
-node_646 [ label=<<table border='0'><tr><td>dl_or_ss_left_no_ss_end5</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_646 [ label=<<table border='0'><tr><td>dl_or_ss_left_no_ss_end5</td></tr></table>>, color="black", shape="box" ];
 node_647 [ label=<<table border='0'><tr><td>ml_comps12</td></tr></table>>, color="black" ];
 node_646_647[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_646 -> node_646_647[style= invis, weight=99];
@@ -1677,7 +1677,7 @@ node_646 -> node_648 [ arrowhead=none, color="purple" , style=invis, weight=99];
 }
 node_645 -> node_646 [ style = invis];
 subgraph cluster_60{
-node_649 [ label=<<table border='0'><tr><td>no_dl_ss_end5</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_649 [ label=<<table border='0'><tr><td>no_dl_ss_end5</td></tr></table>>, color="black", shape="box" ];
 node_650 [ label=<<table border='0'><tr><td>ml_comps32</td></tr></table>>, color="black" ];
 node_649_650[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_649 -> node_649_650[style= invis, weight=99];
@@ -1688,7 +1688,7 @@ node_649 -> node_651 [ arrowhead=none, color="purple" , style=invis, weight=99];
 }
 node_648 -> node_649 [ style = invis];
 subgraph cluster_61{
-node_652 [ label=<<table border='0'><tr><td>dl_or_ss_left_ss_end5</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_652 [ label=<<table border='0'><tr><td>dl_or_ss_left_ss_end5</td></tr></table>>, color="black", shape="box" ];
 node_653 [ label=<<table border='0'><tr><td>ml_comps42</td></tr></table>>, color="black" ];
 node_652_653[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_652 -> node_652_653[style= invis, weight=99];
@@ -1745,7 +1745,7 @@ node_669 -> node_670[weight = 99, style = invis];
 }
 node_662 -> node_663 [ style = invis];
 subgraph cluster_64{
-node_671 [ label=<<table border='0'><tr><td>edanglel5</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_671 [ label=<<table border='0'><tr><td>edanglel5</td></tr></table>>, color="black", shape="box" ];
 node_672 [ label=<<table border='0'><tr><td>edl</td></tr></table>>, color="green" ];
 node_673 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_672 -> node_673 [ arrowhead=none ];
@@ -1762,7 +1762,7 @@ node_675 -> node_676[weight = 99, style = invis];
 }
 node_670 -> node_671 [ style = invis];
 subgraph cluster_65{
-node_677 [ label=<<table border='0'><tr><td>edangler5</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_677 [ label=<<table border='0'><tr><td>edangler5</td></tr></table>>, color="black", shape="box" ];
 node_678 [ label=<<table border='0'><tr><td>edr</td></tr></table>>, color="green" ];
 node_679 [ label=<<table border='0'><tr><td>motif5</td></tr></table>>, color="black" ];
 node_678 -> node_679 [ arrowhead=none ];
@@ -1779,7 +1779,7 @@ node_681 -> node_682[weight = 99, style = invis];
 }
 node_676 -> node_677 [ style = invis];
 subgraph cluster_66{
-node_683 [ label=<<table border='0'><tr><td>edanglelr5</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_683 [ label=<<table border='0'><tr><td>edanglelr5</td></tr></table>>, color="black", shape="box" ];
 node_684 [ label=<<table border='0'><tr><td>edlr</td></tr></table>>, color="green" ];
 node_685 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_684 -> node_685 [ arrowhead=none ];
@@ -1798,7 +1798,7 @@ node_688 -> node_689[weight = 99, style = invis];
 }
 node_682 -> node_683 [ style = invis];
 subgraph cluster_67{
-node_690 [ label=<<table border='0'><tr><td>nodangle5</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_690 [ label=<<table border='0'><tr><td>nodangle5</td></tr></table>>, color="black", shape="box" ];
 node_691 [ label=<<table border='0'><tr><td>drem</td></tr></table>>, color="green" ];
 node_692 [ label=<<table border='0'><tr><td>motif5</td></tr></table>>, color="black" ];
 node_691 -> node_692 [ arrowhead=none ];
@@ -2036,7 +2036,7 @@ node_788 -> node_789[weight = 99, style = invis];
 }
 node_717 -> node_718 [ style = invis];
 subgraph cluster_73{
-node_790 [ label=<<table border='0'><tr><td>leftB5</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_790 [ label=<<table border='0'><tr><td>leftB5</td></tr></table>>, color="black", shape="box" ];
 node_791 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_792 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
 node_791 -> node_792 [ arrowhead=none, color="magenta" ];
@@ -2067,7 +2067,7 @@ node_801 -> node_802[weight = 99, style = invis];
 }
 node_789 -> node_790 [ style = invis];
 subgraph cluster_74{
-node_803 [ label=<<table border='0'><tr><td>rightB5</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_803 [ label=<<table border='0'><tr><td>rightB5</td></tr></table>>, color="black", shape="box" ];
 node_804 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_805 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
 node_804 -> node_805 [ arrowhead=none, color="magenta" ];
@@ -2213,7 +2213,7 @@ node_860 -> node_861[weight = 99, style = invis];
 }
 node_844 -> node_845 [ style = invis];
 subgraph cluster_78{
-node_862 [ label=<<table border='0'><tr><td>ml_comps36</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_862 [ label=<<table border='0'><tr><td>ml_comps36</td></tr></table>>, color="black", shape="box" ];
 node_863 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_864 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
 node_865 [ label=<<table border='0'><tr><td>edangler6</td></tr></table>>, color="black" ];
@@ -2256,7 +2256,7 @@ node_877 -> node_878[weight = 99, style = invis];
 }
 node_861 -> node_862 [ style = invis];
 subgraph cluster_79{
-node_879 [ label=<<table border='0'><tr><td>ml_comps46</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_879 [ label=<<table border='0'><tr><td>ml_comps46</td></tr></table>>, color="black", shape="box" ];
 node_880 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_881 [ label=<<table border='0'><tr><td>block_dl6</td></tr></table>>, color="black" ];
 node_880 -> node_881 [ arrowhead=none ];
@@ -2291,7 +2291,7 @@ node_890 -> node_891[weight = 99, style = invis];
 }
 node_878 -> node_879 [ style = invis];
 subgraph cluster_80{
-node_892 [ label=<<table border='0'><tr><td>no_dl_no_ss_end6</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_892 [ label=<<table border='0'><tr><td>no_dl_no_ss_end6</td></tr></table>>, color="black", shape="box" ];
 node_893 [ label=<<table border='0'><tr><td>ml_comps27</td></tr></table>>, color="black" ];
 node_892_893[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_892 -> node_892_893[style= invis, weight=99];
@@ -2302,7 +2302,7 @@ node_892 -> node_894 [ arrowhead=none, color="purple" , style=invis, weight=99];
 }
 node_891 -> node_892 [ style = invis];
 subgraph cluster_81{
-node_895 [ label=<<table border='0'><tr><td>dl_or_ss_left_no_ss_end6</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_895 [ label=<<table border='0'><tr><td>dl_or_ss_left_no_ss_end6</td></tr></table>>, color="black", shape="box" ];
 node_896 [ label=<<table border='0'><tr><td>ml_comps17</td></tr></table>>, color="black" ];
 node_895_896[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_895 -> node_895_896[style= invis, weight=99];
@@ -2313,7 +2313,7 @@ node_895 -> node_897 [ arrowhead=none, color="purple" , style=invis, weight=99];
 }
 node_894 -> node_895 [ style = invis];
 subgraph cluster_82{
-node_898 [ label=<<table border='0'><tr><td>no_dl_ss_end6</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_898 [ label=<<table border='0'><tr><td>no_dl_ss_end6</td></tr></table>>, color="black", shape="box" ];
 node_899 [ label=<<table border='0'><tr><td>ml_comps37</td></tr></table>>, color="black" ];
 node_898_899[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_898 -> node_898_899[style= invis, weight=99];
@@ -2324,7 +2324,7 @@ node_898 -> node_900 [ arrowhead=none, color="purple" , style=invis, weight=99];
 }
 node_897 -> node_898 [ style = invis];
 subgraph cluster_83{
-node_901 [ label=<<table border='0'><tr><td>dl_or_ss_left_ss_end6</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_901 [ label=<<table border='0'><tr><td>dl_or_ss_left_ss_end6</td></tr></table>>, color="black", shape="box" ];
 node_902 [ label=<<table border='0'><tr><td>ml_comps47</td></tr></table>>, color="black" ];
 node_901_902[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_901 -> node_901_902[style= invis, weight=99];
@@ -2381,7 +2381,7 @@ node_918 -> node_919[weight = 99, style = invis];
 }
 node_911 -> node_912 [ style = invis];
 subgraph cluster_86{
-node_920 [ label=<<table border='0'><tr><td>edanglel6</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_920 [ label=<<table border='0'><tr><td>edanglel6</td></tr></table>>, color="black", shape="box" ];
 node_921 [ label=<<table border='0'><tr><td>edl</td></tr></table>>, color="green" ];
 node_922 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_921 -> node_922 [ arrowhead=none ];
@@ -2398,7 +2398,7 @@ node_924 -> node_925[weight = 99, style = invis];
 }
 node_919 -> node_920 [ style = invis];
 subgraph cluster_87{
-node_926 [ label=<<table border='0'><tr><td>edangler6</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_926 [ label=<<table border='0'><tr><td>edangler6</td></tr></table>>, color="black", shape="box" ];
 node_927 [ label=<<table border='0'><tr><td>edr</td></tr></table>>, color="green" ];
 node_928 [ label=<<table border='0'><tr><td>motif6</td></tr></table>>, color="black" ];
 node_927 -> node_928 [ arrowhead=none ];
@@ -2415,7 +2415,7 @@ node_930 -> node_931[weight = 99, style = invis];
 }
 node_925 -> node_926 [ style = invis];
 subgraph cluster_88{
-node_932 [ label=<<table border='0'><tr><td>edanglelr6</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_932 [ label=<<table border='0'><tr><td>edanglelr6</td></tr></table>>, color="black", shape="box" ];
 node_933 [ label=<<table border='0'><tr><td>edlr</td></tr></table>>, color="green" ];
 node_934 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_933 -> node_934 [ arrowhead=none ];
@@ -2434,7 +2434,7 @@ node_937 -> node_938[weight = 99, style = invis];
 }
 node_931 -> node_932 [ style = invis];
 subgraph cluster_89{
-node_939 [ label=<<table border='0'><tr><td>nodangle6</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_939 [ label=<<table border='0'><tr><td>nodangle6</td></tr></table>>, color="black", shape="box" ];
 node_940 [ label=<<table border='0'><tr><td>drem</td></tr></table>>, color="green" ];
 node_941 [ label=<<table border='0'><tr><td>motif6</td></tr></table>>, color="black" ];
 node_940 -> node_941 [ arrowhead=none ];
@@ -2538,7 +2538,7 @@ node_975 -> node_976[weight = 99, style = invis];
 }
 node_959 -> node_960 [ style = invis];
 subgraph cluster_93{
-node_977 [ label=<<table border='0'><tr><td>ml_comps37</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_977 [ label=<<table border='0'><tr><td>ml_comps37</td></tr></table>>, color="black", shape="box" ];
 node_978 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_979 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
 node_980 [ label=<<table border='0'><tr><td>edangler7</td></tr></table>>, color="black" ];
@@ -2581,7 +2581,7 @@ node_992 -> node_993[weight = 99, style = invis];
 }
 node_976 -> node_977 [ style = invis];
 subgraph cluster_94{
-node_994 [ label=<<table border='0'><tr><td>ml_comps47</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_994 [ label=<<table border='0'><tr><td>ml_comps47</td></tr></table>>, color="black", shape="box" ];
 node_995 [ label=<<table border='0'><tr><td>combine</td></tr></table>>, color="green" ];
 node_996 [ label=<<table border='0'><tr><td>block_dl7</td></tr></table>>, color="black" ];
 node_995 -> node_996 [ arrowhead=none ];
@@ -2616,7 +2616,7 @@ node_1005 -> node_1006[weight = 99, style = invis];
 }
 node_993 -> node_994 [ style = invis];
 subgraph cluster_95{
-node_1007 [ label=<<table border='0'><tr><td>no_dl_no_ss_end7</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_1007 [ label=<<table border='0'><tr><td>no_dl_no_ss_end7</td></tr></table>>, color="black", shape="box" ];
 node_1008 [ label=<<table border='0'><tr><td>incl</td></tr></table>>, color="green" ];
 node_1009 [ label=<<table border='0'><tr><td>nodangle3</td></tr></table>>, color="black" ];
 node_1008 -> node_1009 [ arrowhead=none ];
@@ -2631,7 +2631,7 @@ node_1010 -> node_1011[weight = 99, style = invis];
 }
 node_1006 -> node_1007 [ style = invis];
 subgraph cluster_96{
-node_1012 [ label=<<table border='0'><tr><td>dl_or_ss_left_no_ss_end7</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_1012 [ label=<<table border='0'><tr><td>dl_or_ss_left_no_ss_end7</td></tr></table>>, color="black", shape="box" ];
 node_1013 [ label=<<table border='0'><tr><td>block_dl3</td></tr></table>>, color="black" ];
 node_1012_1013[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_1012 -> node_1012_1013[style= invis, weight=99];
@@ -2736,7 +2736,7 @@ node_1046 -> node_1047[weight = 99, style = invis];
 }
 node_1039 -> node_1040 [ style = invis];
 subgraph cluster_101{
-node_1048 [ label=<<table border='0'><tr><td>edanglel7</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_1048 [ label=<<table border='0'><tr><td>edanglel7</td></tr></table>>, color="black", shape="box" ];
 node_1049 [ label=<<table border='0'><tr><td>edl</td></tr></table>>, color="green" ];
 node_1050 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_1049 -> node_1050 [ arrowhead=none ];
@@ -2753,7 +2753,7 @@ node_1052 -> node_1053[weight = 99, style = invis];
 }
 node_1047 -> node_1048 [ style = invis];
 subgraph cluster_102{
-node_1054 [ label=<<table border='0'><tr><td>edangler7</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_1054 [ label=<<table border='0'><tr><td>edangler7</td></tr></table>>, color="black", shape="box" ];
 node_1055 [ label=<<table border='0'><tr><td>edr</td></tr></table>>, color="green" ];
 node_1056 [ label=<<table border='0'><tr><td>motif7</td></tr></table>>, color="black" ];
 node_1055 -> node_1056 [ arrowhead=none ];
@@ -2770,7 +2770,7 @@ node_1058 -> node_1059[weight = 99, style = invis];
 }
 node_1053 -> node_1054 [ style = invis];
 subgraph cluster_103{
-node_1060 [ label=<<table border='0'><tr><td>edanglelr7</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_1060 [ label=<<table border='0'><tr><td>edanglelr7</td></tr></table>>, color="black", shape="box" ];
 node_1061 [ label=<<table border='0'><tr><td>edlr</td></tr></table>>, color="green" ];
 node_1062 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_1061 -> node_1062 [ arrowhead=none ];
@@ -2789,7 +2789,7 @@ node_1065 -> node_1066[weight = 99, style = invis];
 }
 node_1059 -> node_1060 [ style = invis];
 subgraph cluster_104{
-node_1067 [ label=<<table border='0'><tr><td>nodangle7</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_1067 [ label=<<table border='0'><tr><td>nodangle7</td></tr></table>>, color="black", shape="box" ];
 node_1068 [ label=<<table border='0'><tr><td>drem</td></tr></table>>, color="green" ];
 node_1069 [ label=<<table border='0'><tr><td>motif7</td></tr></table>>, color="black" ];
 node_1068 -> node_1069 [ arrowhead=none ];
@@ -2840,7 +2840,7 @@ node_1082 -> node_1083[weight = 99, style = invis];
 }
 node_1074 -> node_1075 [ style = invis];
 subgraph cluster_107{
-node_1084 [ label=<<table border='0'><tr><td>left_dangle10</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_1084 [ label=<<table border='0'><tr><td>left_dangle10</td></tr></table>>, color="black", shape="box" ];
 node_1085 [ label=<<table border='0'><tr><td>cadd_Pr</td></tr></table>>, color="green" ];
 node_1086 [ label=<<table border='0'><tr><td>edanglel10</td></tr></table>>, color="black" ];
 node_1085 -> node_1086 [ arrowhead=none ];
@@ -2875,7 +2875,7 @@ node_1096 -> node_1097[weight = 99, style = invis];
 }
 node_1083 -> node_1084 [ style = invis];
 subgraph cluster_108{
-node_1098 [ label=<<table border='0'><tr><td>noleft_dangle10</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_1098 [ label=<<table border='0'><tr><td>noleft_dangle10</td></tr></table>>, color="black", shape="box" ];
 node_1099 [ label=<<table border='0'><tr><td>cadd_Pr_Pr</td></tr></table>>, color="green" ];
 node_1100 [ label=<<table border='0'><tr><td>edangler10</td></tr></table>>, color="black" ];
 node_1099 -> node_1100 [ arrowhead=none ];
@@ -2927,7 +2927,7 @@ node_1116 -> node_1117[weight = 99, style = invis];
 }
 node_1111 -> node_1112 [ style = invis];
 subgraph cluster_110{
-node_1118 [ label=<<table border='0'><tr><td>edangler10</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_1118 [ label=<<table border='0'><tr><td>edangler10</td></tr></table>>, color="black", shape="box" ];
 node_1119 [ label=<<table border='0'><tr><td>edr</td></tr></table>>, color="green" ];
 node_1120 [ label=<<table border='0'><tr><td>motif10</td></tr></table>>, color="black" ];
 node_1119 -> node_1120 [ arrowhead=none ];
@@ -2944,7 +2944,7 @@ node_1122 -> node_1123[weight = 99, style = invis];
 }
 node_1117 -> node_1118 [ style = invis];
 subgraph cluster_111{
-node_1124 [ label=<<table border='0'><tr><td>edanglelr10</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_1124 [ label=<<table border='0'><tr><td>edanglelr10</td></tr></table>>, color="black", shape="box" ];
 node_1125 [ label=<<table border='0'><tr><td>edlr</td></tr></table>>, color="green" ];
 node_1126 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
 node_1125 -> node_1126 [ arrowhead=none ];
@@ -2989,7 +2989,7 @@ node_1136 -> node_1138 [ arrowhead=none, color="purple" , style=invis, weight=99
 }
 node_1135 -> node_1136 [ style = invis];
 subgraph cluster_114{
-node_1139 [ label=<<table border='0'><tr><td>initHairpin</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_1139 [ label=<<table border='0'><tr><td>initHairpin</td></tr></table>>, color="black", shape="box" ];
 node_1140 [ label=<<table border='0'><tr><td>is</td></tr></table>>, color="green" ];
 node_1141 [ label=<<table border='0'><tr><td>endHairpin</td></tr></table>>, color="black" ];
 node_1140 -> node_1141 [ arrowhead=none ];
@@ -3031,7 +3031,7 @@ node_1144 -> node_1150 [ arrowhead=none, color="purple" , weight=99];
 }
 node_1143 -> node_1144 [ style = invis];
 subgraph cluster_116{
-node_1151 [ label=<<table border='0'><tr><td>stack</td></tr></table>>, color="black", shape="box" ];
+node_1151 [ label=<<table border='0'><tr><td>stack</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_1152 [ label=<<table border='0'><tr><td>sr</td></tr></table>>, color="green" ];
 node_1153 [ label="basepairing" , fontcolor="magenta" , shape=none ];
 node_1152 -> node_1153 [ arrowhead=none, color="magenta" ];
@@ -3079,7 +3079,7 @@ node_1168 -> node_1169[weight = 99, style = invis];
 }
 node_1158 -> node_1159 [ style = invis];
 subgraph cluster_118{
-node_1170 [ label=<<table border='0'><tr><td>leftB</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_1170 [ label=<<table border='0'><tr><td>leftB</td></tr></table>>, color="black", shape="box" ];
 node_1171 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_1172 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
 node_1171 -> node_1172 [ arrowhead=none, color="magenta" ];
@@ -3110,7 +3110,7 @@ node_1181 -> node_1182[weight = 99, style = invis];
 }
 node_1169 -> node_1170 [ style = invis];
 subgraph cluster_119{
-node_1183 [ label=<<table border='0'><tr><td>rightB</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_1183 [ label=<<table border='0'><tr><td>rightB</td></tr></table>>, color="black", shape="box" ];
 node_1184 [ label=<<table border='0'><tr><td>sp</td></tr></table>>, color="green" ];
 node_1185 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
 node_1184 -> node_1185 [ arrowhead=none, color="magenta" ];

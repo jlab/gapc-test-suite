@@ -749,8 +749,8 @@ node_282 -> node_289 [ arrowhead=none ];
 node_281_282[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_281 -> node_281_282[style= invis, weight=99];
 node_281_282 -> node_282[style= invis];
-node_290 [ label=h_281, fontcolor="purple" , shape=none , style=invis];
-node_281 -> node_290 [ arrowhead=none, color="purple" , style=invis, weight=99];
+node_290 [ label=h, fontcolor="purple" , shape=none ];
+node_281 -> node_290 [ arrowhead=none, color="purple" , weight=99];
 node_291[label = hairpin, shape="box", style=invis];
 node_290 -> node_291[weight = 99, style = invis];
 { rank=same node_281 node_281_282 node_282 }

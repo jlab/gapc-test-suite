@@ -21,7 +21,7 @@ node_1 -> node_5 [ arrowhead=none, color="purple" , weight=99];
 { rank=same node_1 node_1_2 node_2 node_2_3 node_3 node_3_4 node_4 }
 }
 subgraph cluster_2{
-node_6 [ label=<<table border='0'><tr><td>foo</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_6 [ label=<<table border='0'><tr><td>foo</td></tr></table>>, color="black", shape="box" ];
 node_7 [ label=<<table border='0'><tr><td>add</td></tr></table>>, color="green" ];
 node_8 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black" ];
 node_7 -> node_8 [ arrowhead=none ];
@@ -40,7 +40,7 @@ node_11 -> node_12[weight = 99, style = invis];
 }
 node_5 -> node_6 [ style = invis];
 subgraph cluster_3{
-node_13 [ label=<<table border='0'><tr><td>bar</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_13 [ label=<<table border='0'><tr><td>bar</td></tr></table>>, color="black", shape="box" ];
 node_14 [ label=<<table border='0'><tr><td>mult</td></tr></table>>, color="green" ];
 node_15 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black" ];
 node_14 -> node_15 [ arrowhead=none ];
@@ -59,7 +59,7 @@ node_18 -> node_19[weight = 99, style = invis];
 }
 node_12 -> node_13 [ style = invis];
 subgraph cluster_4{
-node_20 [ label=<<table border='0'><tr><td>number</td></tr></table>>, color="black", shape="box" ];
+node_20 [ label=<<table border='0'><tr><td>number</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_21 [ label=<<table border='0'><tr><td>f</td></tr></table>>, color="green" ];
 node_22 [ label=<<table border='0'><tr><td>INT</td></tr></table>>, color="blue" ];
 node_21 -> node_22 [ arrowhead=none ];
@@ -87,7 +87,7 @@ node_27 -> node_28[weight = 99, style = invis];
 }
 node_24 -> node_25 [ style = invis];
 subgraph cluster_6{
-node_29 [ label=<<table border='0'><tr><td>times</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_29 [ label=<<table border='0'><tr><td>times</td></tr></table>>, color="black", shape="box" ];
 node_30 [ label=<<table border='0'><tr><td>CHAR('*')</td></tr></table>>, color="blue" ];
 node_29_30[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_29 -> node_29_30[style= invis, weight=99];

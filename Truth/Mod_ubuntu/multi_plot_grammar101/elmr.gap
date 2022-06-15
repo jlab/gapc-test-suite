@@ -35,7 +35,7 @@ node_11 -> node_12[weight = 99, style = invis];
 { rank=same node_1 node_1_2 node_2 node_2_3 node_3 node_3_7 node_7 }
 }
 subgraph cluster_2{
-node_13 [ label=<<table border='0'><tr><td>number</td></tr></table>>, color="black", shape="box" ];
+node_13 [ label=<<table border='0'><tr><td>number</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_14 [ label=<<table border='0'><tr><td>f</td></tr></table>>, color="green" ];
 node_15 [ label=<<table border='0'><tr><td>CONST_RATIO(Rational("1/4"))</td></tr></table>>, color="blue" ];
 node_14 -> node_15 [ arrowhead=none ];
@@ -65,7 +65,7 @@ node_21 -> node_22[weight = 99, style = invis];
 }
 node_18 -> node_19 [ style = invis];
 subgraph cluster_4{
-node_23 [ label=<<table border='0'><tr><td>times</td></tr></table>>, color="black", shape="box", style="dotted" ];
+node_23 [ label=<<table border='0'><tr><td>times</td></tr></table>>, color="black", shape="box" ];
 node_24 [ label=<<table border='0'><tr><td>CHAR('*')</td></tr></table>>, color="blue" ];
 node_23_24[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
 node_23 -> node_23_24[style= invis, weight=99];

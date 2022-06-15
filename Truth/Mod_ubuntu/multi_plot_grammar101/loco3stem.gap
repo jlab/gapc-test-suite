@@ -848,7 +848,7 @@ node_381 -> node_382[weight = 99, style = invis];
 }
 node_376 -> node_377 [ style = invis];
 subgraph cluster_17{
-node_383 [ label=<<table border='0'><tr><td>motif5</td></tr></table>>, color="black", shape="box" ];
+node_383 [ label=<<table border='0'><tr><td>motif5</td></tr></table>>, color="black", shape="box", style="dotted" ];
 node_384 [ label=<<table border='0'><tr><td>ss</td></tr></table>>, color="green" ];
 node_385 [ label=<<table border='0'><tr><td>UREGION</td></tr></table>>, color="blue" ];
 node_384 -> node_385 [ arrowhead=none ];
