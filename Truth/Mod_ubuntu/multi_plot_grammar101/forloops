@@ -1,88 +1,88 @@
 digraph bill {
 compound = True;
-newrank=True;
-ordering=out;
+newrank = True;
+ordering = out;
 subgraph cluster_1{
-node_1 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black", shape="box", penwidth=3 ];
-node_2 [ label=<<table border='0'><tr><td>number</td></tr></table>>, color="black" ];
-node_3 [ label="foo" , fontcolor="magenta" , shape=none ];
-node_2 -> node_3 [ arrowhead=none, color="magenta" ];
-node_1_2[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
-node_1 -> node_1_2[style= invis, weight=99];
-node_1_2 -> node_2[style= invis];
-node_4 [ label=<<table border='0'><tr><td>add</td></tr></table>>, color="green" ];
-node_5 [ label="bar" , fontcolor="magenta" , shape=none ];
-node_4 -> node_5 [ arrowhead=none, color="magenta" ];
-node_6 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black" ];
-node_4 -> node_6 [ arrowhead=none ];
-node_7 [ label=<<table border='0'><tr><td>plus</td></tr></table>>, color="black" ];
-node_4 -> node_7 [ arrowhead=none ];
-node_8 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black" ];
-node_4 -> node_8 [ arrowhead=none ];
-node_9 [ label=<<table border='0'><tr><td>plus</td></tr></table>>, color="black" ];
-node_4 -> node_9 [ arrowhead=none ];
-node_10 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black" ];
-node_4 -> node_10 [ arrowhead=none ];
-node_2_4[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
-node_2 -> node_2_4[style= invis];
-node_2_4 -> node_4[style= invis];
-node_11 [ label=<<table border='0'><tr><td>mult</td></tr></table>>, color="green" ];
-node_12 [ label="blah" , fontcolor="magenta" , shape=none ];
-node_11 -> node_12 [ arrowhead=none, color="magenta" ];
-node_13 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black" ];
-node_11 -> node_13 [ arrowhead=none ];
-node_14 [ label=<<table border='0'><tr><td>times</td></tr></table>>, color="black" ];
-node_11 -> node_14 [ arrowhead=none ];
-node_15 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black" ];
-node_11 -> node_15 [ arrowhead=none ];
-node_4_11[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
-node_4 -> node_4_11[style= invis];
-node_4_11 -> node_11[style= invis];
-node_16 [ label=h, fontcolor="purple" , shape=none ];
-node_1 -> node_16 [ arrowhead=none, color="purple" , weight=99];
-node_17[label = formula, shape="box", style=invis];
-node_16 -> node_17[weight = 99, style = invis];
-{ rank=same node_1 node_1_2 node_2 node_2_4 node_4 node_4_11 node_11 }
+    node_1 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black", shape="box", penwidth=3 ];
+    node_2 [ label=<<table border='0'><tr><td>number</td></tr></table>>, color="black" ];
+    node_3 [ label="foo" , fontcolor="magenta" , shape=none ];
+    node_2 -> node_3 [ arrowhead=none, color="magenta" ];
+    node_1_2[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
+    node_1 -> node_1_2[style= invis, weight=99];
+    node_1_2 -> node_2[style= invis];
+    node_4 [ label=<<table border='0'><tr><td>add</td></tr></table>>, color="green" ];
+    node_5 [ label="bar" , fontcolor="magenta" , shape=none ];
+    node_4 -> node_5 [ arrowhead=none, color="magenta" ];
+    node_6 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black" ];
+    node_4 -> node_6 [ arrowhead=none ];
+    node_7 [ label=<<table border='0'><tr><td>plus</td></tr></table>>, color="black" ];
+    node_4 -> node_7 [ arrowhead=none ];
+    node_8 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black" ];
+    node_4 -> node_8 [ arrowhead=none ];
+    node_9 [ label=<<table border='0'><tr><td>plus</td></tr></table>>, color="black" ];
+    node_4 -> node_9 [ arrowhead=none ];
+    node_10 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black" ];
+    node_4 -> node_10 [ arrowhead=none ];
+    node_2_4[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
+    node_2 -> node_2_4[style= invis];
+    node_2_4 -> node_4[style= invis];
+    node_11 [ label=<<table border='0'><tr><td>mult</td></tr></table>>, color="green" ];
+    node_12 [ label="blah" , fontcolor="magenta" , shape=none ];
+    node_11 -> node_12 [ arrowhead=none, color="magenta" ];
+    node_13 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black" ];
+    node_11 -> node_13 [ arrowhead=none ];
+    node_14 [ label=<<table border='0'><tr><td>times</td></tr></table>>, color="black" ];
+    node_11 -> node_14 [ arrowhead=none ];
+    node_15 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black" ];
+    node_11 -> node_15 [ arrowhead=none ];
+    node_4_11[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
+    node_4 -> node_4_11[style= invis];
+    node_4_11 -> node_11[style= invis];
+    node_16 [ label=h, fontcolor="purple" , shape=none ];
+    node_1 -> node_16 [ arrowhead=none, color="purple" , weight=99];
+    node_17[label = formula, shape="box", style=invis];
+    node_16 -> node_17[weight = 99, style = invis];
+    { rank=same node_1 node_1_2 node_2 node_2_4 node_4 node_4_11 node_11 }
 }
 subgraph cluster_2{
-node_18 [ label=<<table border='0'><tr><td>number</td></tr></table>>, color="black", shape="box", style="dotted" ];
-node_19 [ label=<<table border='0'><tr><td>f</td></tr></table>>, color="green" ];
-node_20 [ label=<<table border='0'><tr><td>INT</td></tr></table>>, color="blue" ];
-node_19 -> node_20 [ arrowhead=none ];
-node_18_19[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
-node_18 -> node_18_19[style= invis, weight=99];
-node_18_19 -> node_19[style= invis];
-node_21 [ label=h_18, fontcolor="purple" , shape=none , style=invis];
-node_18 -> node_21 [ arrowhead=none, color="purple" , style=invis, weight=99];
-node_22[label = number, shape="box", style=invis];
-node_21 -> node_22[weight = 99, style = invis];
-{ rank=same node_18 node_18_19 node_19 }
+    node_18 [ label=<<table border='0'><tr><td>number</td></tr></table>>, color="black", shape="box", style="dotted" ];
+    node_19 [ label=<<table border='0'><tr><td>f</td></tr></table>>, color="green" ];
+    node_20 [ label=<<table border='0'><tr><td>INT</td></tr></table>>, color="blue" ];
+    node_19 -> node_20 [ arrowhead=none ];
+    node_18_19[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
+    node_18 -> node_18_19[style= invis, weight=99];
+    node_18_19 -> node_19[style= invis];
+    node_21 [ label=h_18, fontcolor="purple" , shape=none , style=invis];
+    node_18 -> node_21 [ arrowhead=none, color="purple" , style=invis, weight=99];
+    node_22[label = number, shape="box", style=invis];
+    node_21 -> node_22[weight = 99, style = invis];
+    { rank=same node_18 node_18_19 node_19 }
 }
-node_17 -> node_18 [ style = invis];
+node_17 -> node_18 [ style = invis ];
 subgraph cluster_3{
-node_23 [ label=<<table border='0'><tr><td>plus</td></tr></table>>, color="black", shape="box" ];
-node_24 [ label=<<table border='0'><tr><td>CHAR('+')</td></tr></table>>, color="blue" ];
-node_23_24[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
-node_23 -> node_23_24[style= invis, weight=99];
-node_23_24 -> node_24[style= invis];
-node_25 [ label=h_23, fontcolor="purple" , shape=none , style=invis];
-node_23 -> node_25 [ arrowhead=none, color="purple" , style=invis, weight=99];
-node_26[label = plus, shape="box", style=invis];
-node_25 -> node_26[weight = 99, style = invis];
-{ rank=same node_23 node_23_24 node_24 }
+    node_23 [ label=<<table border='0'><tr><td>plus</td></tr></table>>, color="black", shape="box" ];
+    node_24 [ label=<<table border='0'><tr><td>CHAR('+')</td></tr></table>>, color="blue" ];
+    node_23_24[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
+    node_23 -> node_23_24[style= invis, weight=99];
+    node_23_24 -> node_24[style= invis];
+    node_25 [ label=h_23, fontcolor="purple" , shape=none , style=invis];
+    node_23 -> node_25 [ arrowhead=none, color="purple" , style=invis, weight=99];
+    node_26[label = plus, shape="box", style=invis];
+    node_25 -> node_26[weight = 99, style = invis];
+    { rank=same node_23 node_23_24 node_24 }
 }
-node_22 -> node_23 [ style = invis];
+node_22 -> node_23 [ style = invis ];
 subgraph cluster_4{
-node_27 [ label=<<table border='0'><tr><td>times</td></tr></table>>, color="black", shape="box", style="dotted" ];
-node_28 [ label=<<table border='0'><tr><td>CHAR('*')</td></tr></table>>, color="blue" ];
-node_27_28[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
-node_27 -> node_27_28[style= invis, weight=99];
-node_27_28 -> node_28[style= invis];
-node_29 [ label=h_27, fontcolor="purple" , shape=none , style=invis];
-node_27 -> node_29 [ arrowhead=none, color="purple" , style=invis, weight=99];
-node_30[label = times, shape="box", style=invis];
-node_29 -> node_30[weight = 99, style = invis];
-{ rank=same node_27 node_27_28 node_28 }
+    node_27 [ label=<<table border='0'><tr><td>times</td></tr></table>>, color="black", shape="box", style="dotted" ];
+    node_28 [ label=<<table border='0'><tr><td>CHAR('*')</td></tr></table>>, color="blue" ];
+    node_27_28[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
+    node_27 -> node_27_28[style= invis, weight=99];
+    node_27_28 -> node_28[style= invis];
+    node_29 [ label=h_27, fontcolor="purple" , shape=none , style=invis];
+    node_27 -> node_29 [ arrowhead=none, color="purple" , style=invis, weight=99];
+    node_30[label = times, shape="box", style=invis];
+    node_29 -> node_30[weight = 99, style = invis];
+    { rank=same node_27 node_27_28 node_28 }
 }
-node_26 -> node_27 [ style = invis];
+node_26 -> node_27 [ style = invis ];
 }
