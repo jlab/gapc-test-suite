@@ -26,12 +26,12 @@ subgraph cluster_1{
     node_5_8[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
     node_5 -> node_5_8[style= invis];
     node_5_8 -> node_8[style= invis];
-    node_10 [ label=h, fontcolor="purple" , shape=none ];
-    node_1 -> node_10 [ arrowhead=none, color="purple" , weight=99];
-    node_11[label = struct, shape="box", style=invis];
-    node_10 -> node_11[weight = 99, style = invis];
-    node_12[label = struct, shape="box", style=invis];
-    node_11 -> node_12[weight = 99, style = invis];
+    node_10 [ label=h, fontcolor="purple", shape=none ];
+    node_1 -> node_10 [ arrowhead=none, color="purple", weight=99 ];
+    node_11[ label = struct, shape="box", style=invis ];
+    node_10 -> node_11[ weight=99, style=invis ];
+    node_12[ label = struct, shape="box", style=invis ];
+    node_11 -> node_12[ weight=99, style=invis ];
     { rank=same node_1 node_1_2 node_2 node_2_5 node_5 node_5_8 node_8 }
 }
 subgraph cluster_2{
@@ -140,12 +140,12 @@ subgraph cluster_2{
     node_42_54[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
     node_42 -> node_42_54[style= invis];
     node_42_54 -> node_54[style= invis];
-    node_60 [ label=h, fontcolor="purple" , shape=none ];
-    node_13 -> node_60 [ arrowhead=none, color="purple" , weight=99];
-    node_61[label = closed, shape="box", style=invis];
-    node_60 -> node_61[weight = 99, style = invis];
-    node_62[label = closed, shape="box", style=invis];
-    node_61 -> node_62[weight = 99, style = invis];
+    node_60 [ label=h, fontcolor="purple", shape=none ];
+    node_13 -> node_60 [ arrowhead=none, color="purple", weight=99 ];
+    node_61[ label = closed, shape="box", style=invis ];
+    node_60 -> node_61[ weight=99, style=invis ];
+    node_62[ label = closed, shape="box", style=invis ];
+    node_61 -> node_62[ weight=99, style=invis ];
     { rank=same node_13 node_13_14 node_14 node_14_22 node_22 node_22_26 node_26 node_26_34 node_34 node_34_42 node_42 node_42_54 node_54 }
 }
 node_12 -> node_13 [ style = invis ];
@@ -159,10 +159,10 @@ subgraph cluster_3{
     node_63_64[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
     node_63 -> node_63_64[style= invis, weight=99];
     node_63_64 -> node_64[style= invis];
-    node_67 [ label=h, fontcolor="purple" , shape=none ];
-    node_63 -> node_67 [ arrowhead=none, color="purple" , weight=99];
-    node_68[label = ml_components, shape="box", style=invis];
-    node_67 -> node_68[weight = 99, style = invis];
+    node_67 [ label=h, fontcolor="purple", shape=none ];
+    node_63 -> node_67 [ arrowhead=none, color="purple", weight=99 ];
+    node_68[ label = ml_components, shape="box", style=invis ];
+    node_67 -> node_68[ weight=99, style=invis ];
     { rank=same node_63 node_63_64 node_64 }
 }
 node_62 -> node_63 [ style = invis ];
@@ -182,10 +182,10 @@ subgraph cluster_4{
     node_70_71[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
     node_70 -> node_70_71[style= invis];
     node_70_71 -> node_71[style= invis];
-    node_75 [ label=h, fontcolor="purple" , shape=none ];
-    node_69 -> node_75 [ arrowhead=none, color="purple" , weight=99];
-    node_76[label = block, shape="box", style=invis];
-    node_75 -> node_76[weight = 99, style = invis];
+    node_75 [ label=h, fontcolor="purple", shape=none ];
+    node_69 -> node_75 [ arrowhead=none, color="purple", weight=99 ];
+    node_76[ label = block, shape="box", style=invis ];
+    node_75 -> node_76[ weight=99, style=invis ];
     { rank=same node_69 node_69_70 node_70 node_70_71 node_71 }
 }
 node_68 -> node_69 [ style = invis ];
@@ -213,10 +213,10 @@ subgraph cluster_5{
     node_81_82[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
     node_81 -> node_81_82[style= invis];
     node_81_82 -> node_82[style= invis];
-    node_86 [ label=h, fontcolor="purple" , shape=none ];
-    node_77 -> node_86 [ arrowhead=none, color="purple" , weight=99];
-    node_87[label = comps, shape="box", style=invis];
-    node_86 -> node_87[weight = 99, style = invis];
+    node_86 [ label=h, fontcolor="purple", shape=none ];
+    node_77 -> node_86 [ arrowhead=none, color="purple", weight=99 ];
+    node_87[ label = comps, shape="box", style=invis ];
+    node_86 -> node_87[ weight=99, style=invis ];
     { rank=same node_77 node_77_78 node_78 node_78_81 node_81 node_81_82 node_82 }
 }
 node_76 -> node_77 [ style = invis ];

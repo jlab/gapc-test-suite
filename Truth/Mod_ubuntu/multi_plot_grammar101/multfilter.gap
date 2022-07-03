@@ -34,12 +34,12 @@ subgraph cluster_node_8 {
     node_6_11[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
     node_6 -> node_6_11[style= invis];
     node_6_11 -> node_11[style= invis];
-    node_14 [ label=h, fontcolor="purple" , shape=none ];
-    node_1 -> node_14 [ arrowhead=none, color="purple" , weight=99];
-    node_15[label = struct, shape="box", style=invis];
-    node_14 -> node_15[weight = 99, style = invis];
-    node_16[label = struct, shape="box", style=invis];
-    node_15 -> node_16[weight = 99, style = invis];
+    node_14 [ label=h, fontcolor="purple", shape=none ];
+    node_1 -> node_14 [ arrowhead=none, color="purple", weight=99 ];
+    node_15[ label = struct, shape="box", style=invis ];
+    node_14 -> node_15[ weight=99, style=invis ];
+    node_16[ label = struct, shape="box", style=invis ];
+    node_15 -> node_16[ weight=99, style=invis ];
     { rank=same node_1 node_1_2 node_2 node_2_6 node_6 node_6_11 node_11 }
 }
 subgraph cluster_2{
@@ -64,12 +64,12 @@ subgraph cluster_node_24 {
     node_17_18[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
     node_17 -> node_17_18[style= invis, weight=99];
     node_17_18 -> node_18[style= invis];
-    node_27 [ label=h, fontcolor="purple" , shape=none ];
-    node_17 -> node_27 [ arrowhead=none, color="purple" , weight=99];
-    node_28[label = bp, shape="box", style=invis];
-    node_27 -> node_28[weight = 99, style = invis];
-    node_29[label = bp, shape="box", style=invis];
-    node_28 -> node_29[weight = 99, style = invis];
+    node_27 [ label=h, fontcolor="purple", shape=none ];
+    node_17 -> node_27 [ arrowhead=none, color="purple", weight=99 ];
+    node_28[ label = bp, shape="box", style=invis ];
+    node_27 -> node_28[ weight=99, style=invis ];
+    node_29[ label = bp, shape="box", style=invis ];
+    node_28 -> node_29[ weight=99, style=invis ];
     { rank=same node_17 node_17_18 node_18 }
 }
 node_16 -> node_17 [ style = invis ];

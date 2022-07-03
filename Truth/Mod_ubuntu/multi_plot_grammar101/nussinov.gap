@@ -26,10 +26,10 @@ subgraph cluster_1{
     node_4_7[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
     node_4 -> node_4_7[style= invis];
     node_4_7 -> node_7[style= invis];
-    node_10 [ label=h, fontcolor="purple" , shape=none ];
-    node_1 -> node_10 [ arrowhead=none, color="purple" , weight=99];
-    node_11[label = start, shape="box", style=invis];
-    node_10 -> node_11[weight = 99, style = invis];
+    node_10 [ label=h, fontcolor="purple", shape=none ];
+    node_1 -> node_10 [ arrowhead=none, color="purple", weight=99 ];
+    node_11[ label = start, shape="box", style=invis ];
+    node_10 -> node_11[ weight=99, style=invis ];
     { rank=same node_1 node_1_2 node_2 node_2_4 node_4 node_4_7 node_7 }
 }
 subgraph cluster_2{
@@ -46,10 +46,10 @@ subgraph cluster_2{
     node_12_13[ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext];
     node_12 -> node_12_13[style= invis, weight=99];
     node_12_13 -> node_13[style= invis];
-    node_18 [ label=h_12, fontcolor="purple" , shape=none , style=invis];
-    node_12 -> node_18 [ arrowhead=none, color="purple" , style=invis, weight=99];
-    node_19[label = bp, shape="box", style=invis];
-    node_18 -> node_19[weight = 99, style = invis];
+    node_18 [ label=h_12, fontcolor="purple", shape=none, style=invis ];
+    node_12 -> node_18 [ arrowhead=none, color="purple", weight=99, style=invis ];
+    node_19[ label = bp, shape="box", style=invis ];
+    node_18 -> node_19[ weight=99, style=invis ];
     { rank=same node_12 node_12_13 node_13 }
 }
 node_11 -> node_12 [ style = invis ];

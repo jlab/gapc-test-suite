@@ -16,10 +16,10 @@ subgraph cluster_1{
     node_2_4[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
     node_2 -> node_2_4[style= invis];
     node_2_4 -> node_4[style= invis];
-    node_6 [ label=h, fontcolor="purple" , shape=none ];
-    node_1 -> node_6 [ arrowhead=none, color="purple" , weight=99];
-    node_7[label = entry, shape="box", style=invis];
-    node_6 -> node_7[weight = 99, style = invis];
+    node_6 [ label=h, fontcolor="purple", shape=none ];
+    node_1 -> node_6 [ arrowhead=none, color="purple", weight=99 ];
+    node_7[ label = entry, shape="box", style=invis ];
+    node_6 -> node_7[ weight=99, style=invis ];
     { rank=same node_1 node_1_2 node_2 node_2_4 node_4 }
 }
 }

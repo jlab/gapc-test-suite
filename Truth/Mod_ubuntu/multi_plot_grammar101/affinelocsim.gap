@@ -16,10 +16,10 @@ subgraph cluster_1{
     node_2_5[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
     node_2 -> node_2_5[style= invis];
     node_2_5 -> node_5[style= invis];
-    node_6 [ label=h, fontcolor="purple" , shape=none ];
-    node_1 -> node_6 [ arrowhead=none, color="purple" , weight=99];
-    node_7[label = skipR, shape="box", style=invis];
-    node_6 -> node_7[weight = 99, style = invis];
+    node_6 [ label=h, fontcolor="purple", shape=none ];
+    node_1 -> node_6 [ arrowhead=none, color="purple", weight=99 ];
+    node_7[ label = skipR, shape="box", style=invis ];
+    node_6 -> node_7[ weight=99, style=invis ];
     { rank=same node_1 node_1_2 node_2 node_2_5 node_5 }
 }
 subgraph cluster_2{
@@ -36,10 +36,10 @@ subgraph cluster_2{
     node_9_12[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
     node_9 -> node_9_12[style= invis];
     node_9_12 -> node_12[style= invis];
-    node_13 [ label=h, fontcolor="purple" , shape=none ];
-    node_8 -> node_13 [ arrowhead=none, color="purple" , weight=99];
-    node_14[label = skipL, shape="box", style=invis];
-    node_13 -> node_14[weight = 99, style = invis];
+    node_13 [ label=h, fontcolor="purple", shape=none ];
+    node_8 -> node_13 [ arrowhead=none, color="purple", weight=99 ];
+    node_14[ label = skipL, shape="box", style=invis ];
+    node_13 -> node_14[ weight=99, style=invis ];
     { rank=same node_8 node_8_9 node_9 node_9_12 node_12 }
 }
 node_7 -> node_8 [ style = invis ];
@@ -77,10 +77,10 @@ subgraph cluster_3{
     node_21_24[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
     node_21 -> node_21_24[style= invis];
     node_21_24 -> node_24[style= invis];
-    node_28 [ label=h, fontcolor="purple" , shape=none ];
-    node_15 -> node_28 [ arrowhead=none, color="purple" , weight=99];
-    node_29[label = alignment, shape="box", style=invis];
-    node_28 -> node_29[weight = 99, style = invis];
+    node_28 [ label=h, fontcolor="purple", shape=none ];
+    node_15 -> node_28 [ arrowhead=none, color="purple", weight=99 ];
+    node_29[ label = alignment, shape="box", style=invis ];
+    node_28 -> node_29[ weight=99, style=invis ];
     { rank=same node_15 node_15_16 node_16 node_16_18 node_18 node_18_21 node_21 node_21_24 node_24 }
 }
 node_14 -> node_15 [ style = invis ];
@@ -98,10 +98,10 @@ subgraph cluster_4{
     node_31_32[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
     node_31 -> node_31_32[style= invis];
     node_31_32 -> node_32[style= invis];
-    node_35 [ label=h, fontcolor="purple" , shape=none ];
-    node_30 -> node_35 [ arrowhead=none, color="purple" , weight=99];
-    node_36[label = xDel, shape="box", style=invis];
-    node_35 -> node_36[weight = 99, style = invis];
+    node_35 [ label=h, fontcolor="purple", shape=none ];
+    node_30 -> node_35 [ arrowhead=none, color="purple", weight=99 ];
+    node_36[ label = xDel, shape="box", style=invis ];
+    node_35 -> node_36[ weight=99, style=invis ];
     { rank=same node_30 node_30_31 node_31 node_31_32 node_32 }
 }
 node_29 -> node_30 [ style = invis ];
@@ -119,10 +119,10 @@ subgraph cluster_5{
     node_38_39[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
     node_38 -> node_38_39[style= invis];
     node_38_39 -> node_39[style= invis];
-    node_42 [ label=h, fontcolor="purple" , shape=none ];
-    node_37 -> node_42 [ arrowhead=none, color="purple" , weight=99];
-    node_43[label = xIns, shape="box", style=invis];
-    node_42 -> node_43[weight = 99, style = invis];
+    node_42 [ label=h, fontcolor="purple", shape=none ];
+    node_37 -> node_42 [ arrowhead=none, color="purple", weight=99 ];
+    node_43[ label = xIns, shape="box", style=invis ];
+    node_42 -> node_43[ weight=99, style=invis ];
     { rank=same node_37 node_37_38 node_38 node_38_39 node_39 }
 }
 node_36 -> node_37 [ style = invis ];

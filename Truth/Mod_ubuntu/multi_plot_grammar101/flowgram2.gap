@@ -106,12 +106,12 @@ subgraph cluster_node_44 {
     node_39_43[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
     node_39 -> node_39_43[style= invis];
     node_39_43 -> node_43[style= invis];
-    node_47 [ label=h, fontcolor="purple" , shape=none ];
-    node_1 -> node_47 [ arrowhead=none, color="purple" , weight=99];
-    node_48[label = ali, shape="box", style=invis];
-    node_47 -> node_48[weight = 99, style = invis];
-    node_49[label = ali, shape="box", style=invis];
-    node_48 -> node_49[weight = 99, style = invis];
+    node_47 [ label=h, fontcolor="purple", shape=none ];
+    node_1 -> node_47 [ arrowhead=none, color="purple", weight=99 ];
+    node_48[ label = ali, shape="box", style=invis ];
+    node_47 -> node_48[ weight=99, style=invis ];
+    node_49[ label = ali, shape="box", style=invis ];
+    node_48 -> node_49[ weight=99, style=invis ];
     { rank=same node_1 node_1_2 node_2 node_2_6 node_6 node_6_11 node_11 node_11_25 node_25 node_25_39 node_39 node_39_43 node_43 }
 }
 }

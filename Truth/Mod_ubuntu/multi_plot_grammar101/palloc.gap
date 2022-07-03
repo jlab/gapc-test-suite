@@ -16,10 +16,10 @@ subgraph cluster_1{
     node_2_3[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
     node_2 -> node_2_3[style= invis];
     node_2_3 -> node_3[style= invis];
-    node_6 [ label=h, fontcolor="purple" , shape=none ];
-    node_1 -> node_6 [ arrowhead=none, color="purple" , weight=99];
-    node_7[label = sl, shape="box", style=invis];
-    node_6 -> node_7[weight = 99, style = invis];
+    node_6 [ label=h, fontcolor="purple", shape=none ];
+    node_1 -> node_6 [ arrowhead=none, color="purple", weight=99 ];
+    node_7[ label = sl, shape="box", style=invis ];
+    node_6 -> node_7[ weight=99, style=invis ];
     { rank=same node_1 node_1_2 node_2 node_2_3 node_3 }
 }
 subgraph cluster_2{
@@ -36,10 +36,10 @@ subgraph cluster_2{
     node_9_12[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
     node_9 -> node_9_12[style= invis];
     node_9_12 -> node_12[style= invis];
-    node_13 [ label=h, fontcolor="purple" , shape=none ];
-    node_8 -> node_13 [ arrowhead=none, color="purple" , weight=99];
-    node_14[label = sr, shape="box", style=invis];
-    node_13 -> node_14[weight = 99, style = invis];
+    node_13 [ label=h, fontcolor="purple", shape=none ];
+    node_8 -> node_13 [ arrowhead=none, color="purple", weight=99 ];
+    node_14[ label = sr, shape="box", style=invis ];
+    node_13 -> node_14[ weight=99, style=invis ];
     { rank=same node_8 node_8_9 node_9 node_9_12 node_12 }
 }
 node_7 -> node_8 [ style = invis ];
@@ -63,10 +63,10 @@ subgraph cluster_3{
     node_16_21[ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext];
     node_16 -> node_16_21[style= invis];
     node_16_21 -> node_21[style= invis];
-    node_23 [ label=h, fontcolor="purple" , shape=none ];
-    node_15 -> node_23 [ arrowhead=none, color="purple" , weight=99];
-    node_24[label = pl, shape="box", style=invis];
-    node_23 -> node_24[weight = 99, style = invis];
+    node_23 [ label=h, fontcolor="purple", shape=none ];
+    node_15 -> node_23 [ arrowhead=none, color="purple", weight=99 ];
+    node_24[ label = pl, shape="box", style=invis ];
+    node_23 -> node_24[ weight=99, style=invis ];
     { rank=same node_15 node_15_16 node_16 node_16_21 node_21 }
 }
 node_14 -> node_15 [ style = invis ];
