@@ -28,7 +28,7 @@ subgraph cluster_1 {
     node_10 -> node_12 [ arrowhead=none ];
     node_13 [ label=<<table border='0'><tr><td>matrices</td></tr></table>>, color="black" ];
     node_10 -> node_13 [ arrowhead=none ];
-    node_14 [ label=h, fontcolor="purple", shape=none ];
+    node_14 [ label=<h>, fontcolor="purple", shape=none ];
     node_1 -> node_14 [ arrowhead=none, color="purple", weight=99 ];
     { rank=same node_1 node_2 node_3 node_9 node_10 }
 }

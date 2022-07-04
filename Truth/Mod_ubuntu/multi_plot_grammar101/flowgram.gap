@@ -64,7 +64,7 @@ subgraph cluster_1 {
     node_29 -> node_30 [ arrowhead=none ];
     node_31 [ label=<<table border='0'><tr><td>NON</td></tr></table>>, color="blue" ];
     node_29 -> node_31 [ arrowhead=none ];
-    node_32 [ label=h, fontcolor="purple", shape=none ];
+    node_32 [ label=<h>, fontcolor="purple", shape=none ];
     node_1 -> node_32 [ arrowhead=none, color="purple", weight=99 ];
     { rank=same node_1 node_2 node_3 node_5 node_6 node_10 node_11 node_17 node_18 node_24 node_25 node_28 node_29 }
 }

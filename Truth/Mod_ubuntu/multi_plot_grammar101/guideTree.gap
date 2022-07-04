@@ -10,7 +10,7 @@ subgraph cluster_1 {
     node_3 [ label=<<table border='0'><tr><td>Root</td></tr></table>>, color="green" ];
     node_4 [ label=<<table border='0'><tr><td>s</td></tr></table>>, color="black" ];
     node_3 -> node_4 [ arrowhead=none ];
-    node_5 [ label=h, fontcolor="purple", shape=none ];
+    node_5 [ label=<h>, fontcolor="purple", shape=none ];
     node_1 -> node_5 [ arrowhead=none, color="purple", weight=99 ];
     { rank=same node_1 node_2 node_3 }
 }
@@ -27,7 +27,7 @@ subgraph cluster_2 {
     node_10 [ label=<<table border='0'><tr><td>End</td></tr></table>>, color="green" ];
     node_11 [ label=<<table border='0'><tr><td>EMPTY</td></tr></table>>, color="blue" ];
     node_10 -> node_11 [ arrowhead=none ];
-    node_12 [ label=h, fontcolor="purple", shape=none ];
+    node_12 [ label=<h>, fontcolor="purple", shape=none ];
     node_6 -> node_12 [ arrowhead=none, color="purple", weight=99 ];
     { rank=same node_6 node_7 node_8 node_9 node_10 }
 }
@@ -72,7 +72,7 @@ subgraph cluster_3 {
     node_32 [ label=<<table border='0'><tr><td>p</td></tr></table>>, color="black" ];
     node_31 -> node_32 [ arrowhead=none ];
     node_28 -> node_31 [ arrowhead=none ];
-    node_33 [ label=h, fontcolor="purple", shape=none ];
+    node_33 [ label=<h>, fontcolor="purple", shape=none ];
     node_13 -> node_33 [ arrowhead=none, color="purple", weight=99 ];
     node_33 -> node_34 [ style=invis, weight=99 ];
     node_34 [ style=invis ];

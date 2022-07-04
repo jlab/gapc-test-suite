@@ -34,7 +34,7 @@ subgraph cluster_node_10 {
     node_14 -> node_15 [ arrowhead=none ];
     node_16 [ label=<<table border='0'><tr><td>bp</td></tr></table>>, color="black" ];
     node_14 -> node_16 [ arrowhead=none ];
-    node_17 [ label=h, fontcolor="purple", shape=none ];
+    node_17 [ label=<h>, fontcolor="purple", shape=none ];
     node_1 -> node_17 [ arrowhead=none, color="purple", weight=99 ];
     node_17 -> node_18 [ style=invis, weight=99 ];
     node_18 [ style=invis ];
@@ -63,7 +63,7 @@ subgraph cluster_node_27 {
     node_28 -> node_29 [ style="invis" ];
 };
     node_21 -> node_28 [ arrowhead=none , lhead=cluster_node_27 ];
-    node_30 [ label=h, fontcolor="purple", shape=none ];
+    node_30 [ label=<h>, fontcolor="purple", shape=none ];
     node_19 -> node_30 [ arrowhead=none, color="purple", weight=99 ];
     node_30 -> node_31 [ style=invis, weight=99 ];
     node_31 [ style=invis ];

@@ -26,7 +26,7 @@ subgraph cluster_1 {
     node_11 [ label=<<table border='0'><tr><td>nil</td></tr></table>>, color="green" ];
     node_12 [ label=<<table border='0'><tr><td>EMPTY</td></tr></table>>, color="blue" ];
     node_11 -> node_12 [ arrowhead=none ];
-    node_13 [ label=h, fontcolor="purple", shape=none ];
+    node_13 [ label=<h>, fontcolor="purple", shape=none ];
     node_1 -> node_13 [ arrowhead=none, color="purple", weight=99 ];
     { rank=same node_1 node_2 node_3 node_6 node_7 node_10 node_11 }
 }
@@ -137,7 +137,7 @@ subgraph cluster_2 {
     node_61 -> node_65 [ arrowhead=none ];
     node_66 [ label=<<table border='0'><tr><td>CHAR(')')</td></tr></table>>, color="blue" ];
     node_61 -> node_66 [ arrowhead=none ];
-    node_67 [ label=h, fontcolor="purple", shape=none ];
+    node_67 [ label=<h>, fontcolor="purple", shape=none ];
     node_14 -> node_67 [ arrowhead=none, color="purple", weight=99 ];
     node_67 -> node_68 [ style=invis, weight=99 ];
     node_68 [ style=invis ];
@@ -154,7 +154,7 @@ subgraph cluster_3 {
     node_71 -> node_72 [ arrowhead=none ];
     node_73 [ label=<<table border='0'><tr><td>comps</td></tr></table>>, color="black" ];
     node_71 -> node_73 [ arrowhead=none ];
-    node_74 [ label=h, fontcolor="purple", shape=none ];
+    node_74 [ label=<h>, fontcolor="purple", shape=none ];
     node_69 -> node_74 [ arrowhead=none, color="purple", weight=99 ];
     { rank=same node_69 node_70 node_71 }
 }
@@ -175,7 +175,7 @@ subgraph cluster_4 {
     node_79 -> node_80 [ arrowhead=none ];
     node_82 [ label=<<table border='0'><tr><td>closed</td></tr></table>>, color="black" ];
     node_79 -> node_82 [ arrowhead=none ];
-    node_83 [ label=h, fontcolor="purple", shape=none ];
+    node_83 [ label=<h>, fontcolor="purple", shape=none ];
     node_75 -> node_83 [ arrowhead=none, color="purple", weight=99 ];
     node_83 -> node_84 [ style=invis, weight=99 ];
     node_84 [ style=invis ];
@@ -206,7 +206,7 @@ subgraph cluster_5 {
     node_96 [ label="onlychar('.')" , fontcolor="magenta" , shape=none ];
     node_95 -> node_96 [ arrowhead=none, color="magenta" ];
     node_93 -> node_95 [ arrowhead=none ];
-    node_97 [ label=h, fontcolor="purple", shape=none ];
+    node_97 [ label=<h>, fontcolor="purple", shape=none ];
     node_85 -> node_97 [ arrowhead=none, color="purple", weight=99 ];
     node_97 -> node_98 [ style=invis, weight=99 ];
     node_98 [ style=invis ];

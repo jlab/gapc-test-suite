@@ -34,7 +34,7 @@ subgraph cluster_1 {
     node_13 -> node_15 [ arrowhead=none ];
     node_16 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black" ];
     node_13 -> node_16 [ arrowhead=none ];
-    node_17 [ label=h, fontcolor="purple", shape=none ];
+    node_17 [ label=<h>, fontcolor="purple", shape=none ];
     node_1 -> node_17 [ arrowhead=none, color="purple", weight=99 ];
     node_17 -> node_18 [ style=invis, weight=99 ];
     node_18 [ style=invis ];

@@ -50,7 +50,7 @@ subgraph cluster_1 {
     node_20 -> node_23 [ arrowhead=none ];
     node_24 [ label=<<table border='0'><tr><td>CHAR</td></tr></table>>, color="blue" ];
     node_20 -> node_24 [ arrowhead=none ];
-    node_25 [ label=h, fontcolor="purple", shape=none ];
+    node_25 [ label=<h>, fontcolor="purple", shape=none ];
     node_1 -> node_25 [ arrowhead=none, color="purple", weight=99 ];
     node_25 -> node_26 [ style=invis, weight=99 ];
     node_26 [ style=invis ];

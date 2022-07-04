@@ -32,7 +32,7 @@ subgraph cluster_1 {
     node_12 -> node_14 [ arrowhead=none ];
     node_15 [ label=<<table border='0'><tr><td>formula</td></tr></table>>, color="black" ];
     node_12 -> node_15 [ arrowhead=none ];
-    node_16 [ label=h, fontcolor="purple", shape=none ];
+    node_16 [ label=<h>, fontcolor="purple", shape=none ];
     node_1 -> node_16 [ arrowhead=none, color="purple", weight=99 ];
     node_16 -> node_17 [ style=invis, weight=99 ];
     node_17 [ style=invis ];

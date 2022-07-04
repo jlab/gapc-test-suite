@@ -106,7 +106,7 @@ subgraph cluster_node_50 {
     node_51 -> node_52 [ style="invis" ];
 };
     node_49 -> node_51 [ arrowhead=none , lhead=cluster_node_50 ];
-    node_53 [ label=h, fontcolor="purple", shape=none ];
+    node_53 [ label=<h>, fontcolor="purple", shape=none ];
     node_1 -> node_53 [ arrowhead=none, color="purple", weight=99 ];
     node_53 -> node_54 [ style=invis, weight=99 ];
     node_54 [ style=invis ];

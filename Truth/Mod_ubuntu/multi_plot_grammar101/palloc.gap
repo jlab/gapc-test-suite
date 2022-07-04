@@ -16,7 +16,7 @@ subgraph cluster_1 {
     node_5 -> node_6 [ arrowhead=none ];
     node_7 [ label=<<table border='0'><tr><td>sl</td></tr></table>>, color="black" ];
     node_5 -> node_7 [ arrowhead=none ];
-    node_8 [ label=h, fontcolor="purple", shape=none ];
+    node_8 [ label=<h>, fontcolor="purple", shape=none ];
     node_1 -> node_8 [ arrowhead=none, color="purple", weight=99 ];
     { rank=same node_1 node_2 node_3 node_4 node_5 }
 }
@@ -35,7 +35,7 @@ subgraph cluster_2 {
     node_14 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_14 -> node_15 [ style=invis ];
     node_15 [ label=<<table border='0'><tr><td>pl</td></tr></table>>, color="black" ];
-    node_16 [ label=h, fontcolor="purple", shape=none ];
+    node_16 [ label=<h>, fontcolor="purple", shape=none ];
     node_9 -> node_16 [ arrowhead=none, color="purple", weight=99 ];
     { rank=same node_9 node_10 node_11 node_14 node_15 }
 }
@@ -60,7 +60,7 @@ subgraph cluster_3 {
     node_25 [ label=<<table border='0'><tr><td>nil</td></tr></table>>, color="green" ];
     node_26 [ label=<<table border='0'><tr><td>SEQ1</td></tr></table>>, color="blue" ];
     node_25 -> node_26 [ arrowhead=none ];
-    node_27 [ label=h, fontcolor="purple", shape=none ];
+    node_27 [ label=<h>, fontcolor="purple", shape=none ];
     node_17 -> node_27 [ arrowhead=none, color="purple", weight=99 ];
     { rank=same node_17 node_18 node_19 node_24 node_25 }
 }
