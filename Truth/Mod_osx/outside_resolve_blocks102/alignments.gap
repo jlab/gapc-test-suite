@@ -1,1 +1,1 @@
-Mod_ubuntu/outside_resolve_blocks102/alignments.gap
+../../Mod_ubuntu/outside_resolve_blocks102/alignments.gap
