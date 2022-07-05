@@ -1,1 +1,1 @@
-Mod_ubuntu/outside_indices102/alignments.gap
+../../Mod_ubuntu/outside_indices102/alignments.gap

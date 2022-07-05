@@ -1,1 +1,1 @@
-Mod_ubuntu/outside_indices102/tmhmm_debug.gap
+../../Mod_ubuntu/outside_indices102/tmhmm_debug.gap
