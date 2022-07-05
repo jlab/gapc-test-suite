@@ -1,1 +1,0 @@
-../../Mod_ubuntu/multi_print_grammar101/ali2.gap
