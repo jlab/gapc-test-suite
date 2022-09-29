@@ -124,9 +124,9 @@ subgraph cluster_4 {
     node_54 -> node_56 [ arrowhead=none ];
     node_57 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(((t_0_k_6 + 1) + 1) + 1)</font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_k_9</font></td></tr></table>>, color="blue" ];
     node_54 -> node_57 [ arrowhead=none ];
-    node_58 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_9</font></td><td>struct<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td></tr></table>>, color="black" ];
+    node_58 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_9</font></td><td>struct<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_i - 1)</font></td></tr></table>>, color="black" ];
     node_54 -> node_58 [ arrowhead=none ];
-    node_59 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_i</font></td></tr></table>>, color="blue" ];
+    node_59 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_i</font></td></tr></table>>, color="blue" ];
     node_54 -> node_59 [ arrowhead=none ];
     node_60 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_5</font></td><td>outside_iloop<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_7</font></td></tr></table>>, color="black" ];
     node_54 -> node_60 [ arrowhead=none ];
