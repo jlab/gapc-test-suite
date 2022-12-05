@@ -1,4 +1,4 @@
-first derivatives for non-terminal "dangle":
+1. derivatives for non-terminal "dangle":
 inf	inf	inf	inf	inf	0	0	0	0	5.36738e-07	0.000672981	0	0	0	0	0	0	1.44543e-07	5.6872e-05	0	0	0	0	0	0	9.33044e-07	0.000595146	0	0.000588242	0.965119	
 	inf	inf	inf	inf	inf	0	0	0	3.19804e-06	1.47612e-06	0	0	0	0	0	0	2.68333e-07	3.04988e-07	0	0	0	0	0	0	2.80022e-06	3.67065e-05	0	0.00455138	0.00385592	
 		inf	inf	inf	inf	inf	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
@@ -29,7 +29,7 @@ inf	inf	inf	inf	inf	0	0	0	0	5.36738e-07	0.000672981	0	0	0	0	0	0	1.44543e-07	5.68
 																											inf	inf	inf	
 																												inf	inf	
 																													inf	
-first derivatives for non-terminal "hairpin":
+1. derivatives for non-terminal "hairpin":
 inf	inf	inf	inf	inf	0	0	0	0	5.36738e-07	1.19966e-06	0	0	0	0	0	0	1.12466e-07	9.56216e-08	0	0	0	0	0	0	3.52626e-08	3.52626e-08	0	2.99811e-08	2.99811e-08	
 	inf	inf	inf	inf	inf	0	0	0	0.000674971	1.02165e-06	0	0	0	0	0	0	5.37982e-05	2.15545e-07	0	0	0	0	0	0	1.98406e-05	9.81794e-08	0	1.43414e-05	5.73734e-08	
 		inf	inf	inf	inf	inf	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
@@ -60,7 +60,7 @@ inf	inf	inf	inf	inf	0	0	0	0	5.36738e-07	1.19966e-06	0	0	0	0	0	0	1.12466e-07	9.56
 																											inf	inf	inf	
 																												inf	inf	
 																													inf	
-first derivatives for non-terminal "iloop":
+1. derivatives for non-terminal "iloop":
 inf	inf	inf	inf	inf	inf	inf	inf	inf	0	0	0	0	0	0	0	0	2.93568e-08	9.98996e-09	0	0	0	0	0	0	8.96974e-07	1.9557e-06	0	0.000571873	0.00237745	
 	inf	inf	inf	inf	inf	inf	inf	inf	inf	0	0	0	0	0	0	0	3.23022e-06	1.36054e-08	0	0	0	0	0	0	0.000575321	3.22537e-05	0	0.967278	0.00383156	
 		inf	inf	inf	inf	inf	inf	inf	inf	inf	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
@@ -91,7 +91,7 @@ inf	inf	inf	inf	inf	inf	inf	inf	inf	0	0	0	0	0	0	0	0	2.93568e-08	9.98996e-09	0	0	
 																											inf	inf	inf	
 																												inf	inf	
 																													inf	
-first derivatives for non-terminal "leftB":
+1. derivatives for non-terminal "leftB":
 inf	inf	inf	inf	inf	inf	inf	inf	0	0	1.24018e-08	0	0	0	0	0	0	0	4.45323e-09	0	0	0	0	0	0	0	8.30765e-07	0	0	5.96949e-07	
 	inf	inf	inf	inf	inf	inf	inf	inf	0	4.56883e-07	0	0	0	0	0	0	0	7.62964e-08	0	0	0	0	0	0	0	2.10536e-05	0	0	2.43085e-05	
 		inf	inf	inf	inf	inf	inf	inf	inf	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
@@ -122,7 +122,7 @@ inf	inf	inf	inf	inf	inf	inf	inf	0	0	1.24018e-08	0	0	0	0	0	0	0	4.45323e-09	0	0	0	
 																											inf	inf	inf	
 																												inf	inf	
 																													inf	
-first derivatives for non-terminal "ml_comps":
+1. derivatives for non-terminal "ml_comps":
 inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	
 	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	0	1.00387e-12	inf	inf	inf	inf	inf	inf	3.52402e-11	3.83374e-11	inf	2.13769e-10	2.25535e-10	inf	
 		inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	0	1.87116e-12	inf	inf	inf	inf	inf	inf	6.91256e-09	8.68578e-11	inf	4.35871e-08	4.31296e-10	inf	
@@ -153,7 +153,7 @@ inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	
 																											inf	inf	inf	
 																												inf	inf	
 																													inf	
-first derivatives for non-terminal "ml_comps1":
+1. derivatives for non-terminal "ml_comps1":
 inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	
 	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	
 		inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	
@@ -184,7 +184,7 @@ inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	
 																											inf	inf	inf	
 																												inf	inf	
 																													inf	
-first derivatives for non-terminal "multiloop":
+1. derivatives for non-terminal "multiloop":
 inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	0	0	0	0	0	0	1.00387e-12	0	0	0	0	0	0	3.52402e-11	3.83374e-11	0	2.13769e-10	2.25535e-10	
 	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	0	0	0	0	0	9.36285e-13	0	0	0	0	0	0	6.88019e-09	5.14769e-11	0	4.3383e-08	2.15648e-10	
 		inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
@@ -215,7 +215,7 @@ inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	inf	0	0	0	0	0	0	1.00387e-12	0	0	0	0	
 																											inf	inf	inf	
 																												inf	inf	
 																													inf	
-first derivatives for non-terminal "rightB":
+1. derivatives for non-terminal "rightB":
 inf	inf	inf	inf	inf	inf	inf	inf	0	0	0	0	0	0	0	0	0	2.71987e-09	2.17696e-09	0	0	0	0	0	0	7.72796e-10	6.83085e-10	0	1.63389e-05	4.06634e-07	
 	inf	inf	inf	inf	inf	inf	inf	inf	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
 		inf	inf	inf	inf	inf	inf	inf	inf	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
@@ -246,7 +246,7 @@ inf	inf	inf	inf	inf	inf	inf	inf	0	0	0	0	0	0	0	0	0	2.71987e-09	2.17696e-09	0	0	0	
 																											inf	inf	inf	
 																												inf	inf	
 																													inf	
-first derivatives for non-terminal "stack":
+1. derivatives for non-terminal "stack":
 inf	inf	inf	inf	inf	inf	inf	0	0	0	0.000671769	0	0	0	0	0	0	0	5.67597e-05	0	0	0	0	0	0	0	0.000592323	0	0	0.962741	
 	inf	inf	inf	inf	inf	inf	inf	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
 		inf	inf	inf	inf	inf	inf	inf	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
@@ -277,7 +277,7 @@ inf	inf	inf	inf	inf	inf	inf	0	0	0	0.000671769	0	0	0	0	0	0	0	5.67597e-05	0	0	0	0	
 																											inf	inf	inf	
 																												inf	inf	
 																													inf	
-first derivatives for non-terminal "strong":
+1. derivatives for non-terminal "strong":
 inf	inf	inf	inf	inf	0	0	0	0	5.36738e-07	0.000672981	0	0	0	0	0	0	1.44543e-07	5.6872e-05	0	0	0	0	0	0	9.33044e-07	0.000595146	0	0.000588242	0.965119	
 	inf	inf	inf	inf	inf	0	0	0	3.20224e-06	1.47853e-06	0	0	0	0	0	0	2.68657e-07	3.05448e-07	0	0	0	0	0	0	2.84559e-06	5.34055e-05	0	0.00455138	0.00385592	
 		inf	inf	inf	inf	inf	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
@@ -308,9 +308,9 @@ inf	inf	inf	inf	inf	0	0	0	0	5.36738e-07	0.000672981	0	0	0	0	0	0	1.44543e-07	5.68
 																											inf	inf	inf	
 																												inf	inf	
 																													inf	
-first derivatives for non-terminal "struct":
+1. derivatives for non-terminal "struct":
 1	0.0329657	0.0245137	0.0245137	0.00435161	0.0041439	0.0041439	0.0041439	0.0041439	0.00179583	0.00251954	0.00251954	0.00229429	0.00229033	0.00229033	0.00229033	0.00229033	0.00229275	0.00251907	0.00251907	0.0018479	0.00414307	0.00414307	0.00414307	0.00414307	0.0042703	0.0245134	0.0245134	0.0297156	1	
-first derivatives for non-terminal "weak":
+1. derivatives for non-terminal "weak":
 inf	inf	inf	inf	inf	0	0	0	0	5.36738e-07	0.000672981	0	0	0	0	0	0	1.44543e-07	5.6872e-05	0	0	0	0	0	0	9.33044e-07	0.000595146	0	0.000588242	0.965119	
 	inf	inf	inf	inf	inf	0	0	0	0.000674971	1.47853e-06	0	0	0	0	0	0	5.70284e-05	3.05448e-07	0	0	0	0	0	0	0.000595169	5.34055e-05	0	0.967292	0.00385592	
 		inf	inf	inf	inf	inf	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	

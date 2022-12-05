@@ -1,4 +1,4 @@
-first derivatives for non-terminal "dangle":
+1. derivatives for non-terminal "dangle":
 inf	inf	inf	inf	inf	0	0	0.03803	
 	inf	inf	inf	inf	inf	0.000150643	0	
 		inf	inf	inf	inf	inf	0	
@@ -7,7 +7,7 @@ inf	inf	inf	inf	inf	0	0	0.03803
 					inf	inf	inf	
 						inf	inf	
 							inf	
-first derivatives for non-terminal "hairpin":
+1. derivatives for non-terminal "hairpin":
 inf	inf	inf	inf	inf	0	0	0.000551662	
 	inf	inf	inf	inf	inf	0.037629	0	
 		inf	inf	inf	inf	inf	0	
@@ -16,7 +16,7 @@ inf	inf	inf	inf	inf	0	0	0.000551662
 					inf	inf	inf	
 						inf	inf	
 							inf	
-first derivatives for non-terminal "iloop":
+1. derivatives for non-terminal "iloop":
 inf	inf	inf	inf	inf	inf	inf	inf	
 	inf	inf	inf	inf	inf	inf	inf	
 		inf	inf	inf	inf	inf	inf	
@@ -25,7 +25,7 @@ inf	inf	inf	inf	inf	inf	inf	inf
 					inf	inf	inf	
 						inf	inf	
 							inf	
-first derivatives for non-terminal "leftB":
+1. derivatives for non-terminal "leftB":
 inf	inf	inf	inf	inf	inf	inf	inf	
 	inf	inf	inf	inf	inf	inf	inf	
 		inf	inf	inf	inf	inf	inf	
@@ -34,7 +34,7 @@ inf	inf	inf	inf	inf	inf	inf	inf
 					inf	inf	inf	
 						inf	inf	
 							inf	
-first derivatives for non-terminal "ml_comps":
+1. derivatives for non-terminal "ml_comps":
 inf	inf	inf	inf	inf	inf	inf	inf	
 	inf	inf	inf	inf	inf	inf	inf	
 		inf	inf	inf	inf	inf	inf	
@@ -43,7 +43,7 @@ inf	inf	inf	inf	inf	inf	inf	inf
 					inf	inf	inf	
 						inf	inf	
 							inf	
-first derivatives for non-terminal "ml_comps1":
+1. derivatives for non-terminal "ml_comps1":
 inf	inf	inf	inf	inf	inf	inf	inf	
 	inf	inf	inf	inf	inf	inf	inf	
 		inf	inf	inf	inf	inf	inf	
@@ -52,7 +52,7 @@ inf	inf	inf	inf	inf	inf	inf	inf
 					inf	inf	inf	
 						inf	inf	
 							inf	
-first derivatives for non-terminal "multiloop":
+1. derivatives for non-terminal "multiloop":
 inf	inf	inf	inf	inf	inf	inf	inf	
 	inf	inf	inf	inf	inf	inf	inf	
 		inf	inf	inf	inf	inf	inf	
@@ -61,7 +61,7 @@ inf	inf	inf	inf	inf	inf	inf	inf
 					inf	inf	inf	
 						inf	inf	
 							inf	
-first derivatives for non-terminal "rightB":
+1. derivatives for non-terminal "rightB":
 inf	inf	inf	inf	inf	inf	inf	inf	
 	inf	inf	inf	inf	inf	inf	inf	
 		inf	inf	inf	inf	inf	inf	
@@ -70,7 +70,7 @@ inf	inf	inf	inf	inf	inf	inf	inf
 					inf	inf	inf	
 						inf	inf	
 							inf	
-first derivatives for non-terminal "stack":
+1. derivatives for non-terminal "stack":
 inf	inf	inf	inf	inf	inf	inf	0.0374783	
 	inf	inf	inf	inf	inf	inf	inf	
 		inf	inf	inf	inf	inf	inf	
@@ -79,7 +79,7 @@ inf	inf	inf	inf	inf	inf	inf	0.0374783
 					inf	inf	inf	
 						inf	inf	
 							inf	
-first derivatives for non-terminal "strong":
+1. derivatives for non-terminal "strong":
 inf	inf	inf	inf	inf	0	0	0.03803	
 	inf	inf	inf	inf	inf	0.000150643	0	
 		inf	inf	inf	inf	inf	0	
@@ -88,9 +88,9 @@ inf	inf	inf	inf	inf	0	0	0.03803
 					inf	inf	inf	
 						inf	inf	
 							inf	
-first derivatives for non-terminal "struct":
+1. derivatives for non-terminal "struct":
 1	0.96197	0.961819	0.961819	0.961819	0.961819	0.96197	1	
-first derivatives for non-terminal "weak":
+1. derivatives for non-terminal "weak":
 inf	inf	inf	inf	inf	0	0	0.03803	
 	inf	inf	inf	inf	inf	0.037629	0	
 		inf	inf	inf	inf	inf	0	
