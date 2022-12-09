@@ -1,0 +1,22 @@
+1. derivatives for non-terminal "formula":
+inf	1	inf	0.357143	inf	0.285714	inf	0.357143	inf	1	
+	inf	inf	inf	inf	inf	inf	inf	inf	inf	
+		inf	1	inf	0.357143	inf	0.285714	inf	0.357143	
+			inf	inf	inf	inf	inf	inf	inf	
+				inf	1	inf	0.357143	inf	0.285714	
+					inf	inf	inf	inf	inf	
+						inf	1	inf	0.357143	
+							inf	inf	inf	
+								inf	1	
+									inf	
+2. derivatives for non-terminal "formula":
+inf	1.18283	inf	0.440246	inf	0.0282748	inf	0.0377065	inf	0	
+	inf	inf	inf	inf	inf	inf	inf	inf	inf	
+		inf	1.92431	inf	0.585532	inf	0.461209	inf	0.369088	
+			inf	inf	inf	inf	inf	inf	inf	
+				inf	2.28145	inf	1.06818	inf	0.512923	
+					inf	inf	inf	inf	inf	
+						inf	1.92431	inf	0.52644	
+							inf	inf	inf	
+								inf	1.2796	
+									inf	
