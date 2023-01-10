@@ -1,0 +1,20 @@
+1. derivatives for non-terminal "ende":
+inf	inf	inf	inf	1	
+1. derivatives for non-terminal "hoch":
+inf	0.921357	0.90748	0.241604	0.180697	
+1. derivatives for non-terminal "hoch_emission":
+inf	0.921357	inf	inf	inf	
+	inf	0.90748	inf	inf	
+		inf	0.241604	inf	
+			inf	0.180697	
+				inf	
+1. derivatives for non-terminal "start":
+1	inf	inf	inf	inf	
+1. derivatives for non-terminal "tief":
+inf	0.0786428	0.0925197	0.758396	0.819303	
+1. derivatives for non-terminal "tief_emission":
+inf	0.0786428	inf	inf	inf	
+	inf	0.0925197	inf	inf	
+		inf	0.758396	inf	
+			inf	0.819303	
+				inf	
