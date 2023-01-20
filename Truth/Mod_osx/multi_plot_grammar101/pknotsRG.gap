@@ -460,18 +460,18 @@ subgraph cluster_16 {
     node_205 -> node_206 [ style=invis, weight=99 ];
     node_206 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_206 -> node_207 [ style=invis ];
-    node_207 [ label=<<table border='0'><tr><td>.[ pknot ].</td></tr></table>>, color="green" , shape="polygon", sides=8];
+    node_207 [ label=<<table border='0'><tr><td>.[ pknot  (stackenergies) ].</td></tr></table>>, color="green" , shape="polygon", sides=8];
     node_208 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" , shape="polygon", sides=8];
     node_207 -> node_208 [ arrowhead=none ];
-    node_209 [ label=<<table border='0'><tr><td>front</td></tr></table>>, color="black" , shape="polygon", sides=8];
+    node_209 [ label=<<table border='0'><tr><td>front (j)</td></tr></table>>, color="black" , shape="polygon", sides=8];
     node_207 -> node_209 [ arrowhead=none ];
     node_210 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" , shape="polygon", sides=8];
     node_207 -> node_210 [ arrowhead=none ];
-    node_211 [ label=<<table border='0'><tr><td>middle</td></tr></table>>, color="black" , shape="polygon", sides=8];
+    node_211 [ label=<<table border='0'><tr><td>middle ((j - betareallen), (i + alphareallen))</td></tr></table>>, color="black" , shape="polygon", sides=8];
     node_207 -> node_211 [ arrowhead=none ];
     node_212 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" , shape="polygon", sides=8];
     node_207 -> node_212 [ arrowhead=none ];
-    node_213 [ label=<<table border='0'><tr><td>back</td></tr></table>>, color="black" , shape="polygon", sides=8];
+    node_213 [ label=<<table border='0'><tr><td>back (i)</td></tr></table>>, color="black" , shape="polygon", sides=8];
     node_207 -> node_213 [ arrowhead=none ];
     node_214 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" , shape="polygon", sides=8];
     node_207 -> node_214 [ arrowhead=none ];
@@ -489,7 +489,7 @@ subgraph cluster_17 {
     node_218 -> node_219 [ style=invis ];
     node_219 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_219 -> node_220 [ style=invis ];
-    node_220 [ label=<<table border='0'><tr><td>frd</td></tr></table>>, color="green" ];
+    node_220 [ label=<<table border='0'><tr><td>frd (betaRightOuter)</td></tr></table>>, color="green" ];
     node_221 [ label=<<table border='0'><tr><td>front_Pr</td></tr></table>>, color="black" ];
     node_220 -> node_221 [ arrowhead=none ];
     node_222 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -521,7 +521,7 @@ subgraph cluster_19 {
     node_231 -> node_232 [ style=invis, weight=99 ];
     node_232 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_232 -> node_233 [ style=invis ];
-    node_233 [ label=<<table border='0'><tr><td>emptymid</td></tr></table>>, color="green" ];
+    node_233 [ label=<<table border='0'><tr><td>emptymid (betaRightInner, alphaLeftInner)</td></tr></table>>, color="green" ];
     node_234 [ label="minsize(0)" , fontcolor="magenta" , shape=none ];
     node_233 -> node_234 [ arrowhead=none, color="magenta" ];
     node_235 [ label="maxsize(0)" , fontcolor="magenta" , shape=none ];
@@ -531,7 +531,7 @@ subgraph cluster_19 {
     node_233 -> node_237 [ style=invis ];
     node_237 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_237 -> node_238 [ style=invis ];
-    node_238 [ label=<<table border='0'><tr><td>midbase</td></tr></table>>, color="green" ];
+    node_238 [ label=<<table border='0'><tr><td>midbase (betaRightInner, alphaLeftInner)</td></tr></table>>, color="green" ];
     node_239 [ label="minsize(1)" , fontcolor="magenta" , shape=none ];
     node_238 -> node_239 [ arrowhead=none, color="magenta" ];
     node_240 [ label="maxsize(1)" , fontcolor="magenta" , shape=none ];
@@ -541,7 +541,7 @@ subgraph cluster_19 {
     node_238 -> node_242 [ style=invis ];
     node_242 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_242 -> node_243 [ style=invis ];
-    node_243 [ label=<<table border='0'><tr><td>middlro</td></tr></table>>, color="green" ];
+    node_243 [ label=<<table border='0'><tr><td>middlro (betaRightInner, alphaLeftInner)</td></tr></table>>, color="green" ];
     node_244 [ label="minsize(2)" , fontcolor="magenta" , shape=none ];
     node_243 -> node_244 [ arrowhead=none, color="magenta" ];
     node_245 [ label="maxsize(2)" , fontcolor="magenta" , shape=none ];
@@ -557,7 +557,7 @@ subgraph cluster_19 {
     node_248 -> node_250 [ style=invis ];
     node_250 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_250 -> node_251 [ style=invis ];
-    node_251 [ label=<<table border='0'><tr><td>middl</td></tr></table>>, color="green" ];
+    node_251 [ label=<<table border='0'><tr><td>middl (betaRightInner)</td></tr></table>>, color="green" ];
     node_252 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
     node_251 -> node_252 [ arrowhead=none ];
     node_253 [ label=<<table border='0'><tr><td>mid</td></tr></table>>, color="black" ];
@@ -565,7 +565,7 @@ subgraph cluster_19 {
     node_251 -> node_254 [ style=invis ];
     node_254 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_254 -> node_255 [ style=invis ];
-    node_255 [ label=<<table border='0'><tr><td>middr</td></tr></table>>, color="green" ];
+    node_255 [ label=<<table border='0'><tr><td>middr (alphaLeftInner)</td></tr></table>>, color="green" ];
     node_256 [ label=<<table border='0'><tr><td>mid</td></tr></table>>, color="black" ];
     node_255 -> node_256 [ arrowhead=none ];
     node_257 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
@@ -573,7 +573,7 @@ subgraph cluster_19 {
     node_255 -> node_258 [ style=invis ];
     node_258 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_258 -> node_259 [ style=invis ];
-    node_259 [ label=<<table border='0'><tr><td>middlr</td></tr></table>>, color="green" ];
+    node_259 [ label=<<table border='0'><tr><td>middlr (betaRightInner, alphaLeftInner)</td></tr></table>>, color="green" ];
     node_260 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
     node_259 -> node_260 [ arrowhead=none ];
     node_261 [ label=<<table border='0'><tr><td>mid</td></tr></table>>, color="black" ];
@@ -611,7 +611,7 @@ subgraph cluster_21 {
     node_273 -> node_274 [ style=invis ];
     node_274 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_274 -> node_275 [ style=invis ];
-    node_275 [ label=<<table border='0'><tr><td>bkd</td></tr></table>>, color="green" ];
+    node_275 [ label=<<table border='0'><tr><td>bkd (alphaLeftOuter)</td></tr></table>>, color="green" ];
     node_276 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
     node_275 -> node_276 [ arrowhead=none ];
     node_277 [ label=<<table border='0'><tr><td>back_Pr</td></tr></table>>, color="black" ];
