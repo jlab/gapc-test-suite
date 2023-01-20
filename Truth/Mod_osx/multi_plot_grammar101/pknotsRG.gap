@@ -460,7 +460,7 @@ subgraph cluster_16 {
     node_205 -> node_206 [ style=invis, weight=99 ];
     node_206 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_206 -> node_207 [ style=invis ];
-    node_207 [ label=<<table border='0'><tr><td>.[ pknot  (stackenergies) ].</td></tr></table>>, color="green" , shape="polygon", sides=8];
+    node_207 [ label=<<table border='0'><tr><td>.[ pknot (stackenergies) ].</td></tr></table>>, color="green" , shape="polygon", sides=8];
     node_208 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" , shape="polygon", sides=8];
     node_207 -> node_208 [ arrowhead=none ];
     node_209 [ label=<<table border='0'><tr><td>front (j)</td></tr></table>>, color="black" , shape="polygon", sides=8];
