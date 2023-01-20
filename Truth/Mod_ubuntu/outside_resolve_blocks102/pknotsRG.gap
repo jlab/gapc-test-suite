@@ -482,18 +482,18 @@ subgraph cluster_16 {
     node_216 -> node_217 [ style=invis, weight=99 ];
     node_217 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_217 -> node_218 [ style=invis ];
-    node_218 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>.[ pknot ].<br/><font color='orange'>[Sig compKnot]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" , shape="polygon", sides=8];
+    node_218 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>.[ pknot (stackenergies) ].<br/><font color='orange'>[Sig compKnot]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" , shape="polygon", sides=8];
     node_219 [ label=<<table border='0'><tr><td><font point-size='8' color='#cc5555'><b>i</b></font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#cc5555'><b>(i + alphareallen)</b></font></td></tr></table>>, color="blue" , shape="polygon", sides=8];
     node_218 -> node_219 [ arrowhead=none ];
-    node_220 [ label=<<table border='0'><tr><td><font point-size='8' color='#cc5555'><b>((i + alphareallen) + 1)</b></font></td><td>front<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#cc5555'><b>k</b></font></td></tr></table>>, color="black" , shape="polygon", sides=8];
+    node_220 [ label=<<table border='0'><tr><td><font point-size='8' color='#cc5555'><b>((i + alphareallen) + 1)</b></font></td><td>front (j)<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#cc5555'><b>k</b></font></td></tr></table>>, color="black" , shape="polygon", sides=8];
     node_218 -> node_220 [ arrowhead=none ];
     node_221 [ label=<<table border='0'><tr><td><font point-size='8' color='#cc5555'><b>k</b></font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#cc5555'><b>(k + betareallen)</b></font></td></tr></table>>, color="blue" , shape="polygon", sides=8];
     node_218 -> node_221 [ arrowhead=none ];
-    node_222 [ label=<<table border='0'><tr><td><font point-size='8' color='#cc5555'><b>(k + betareallen)</b></font></td><td>middle<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#cc5555'><b>(l - alphareallen)</b></font></td></tr></table>>, color="black" , shape="polygon", sides=8];
+    node_222 [ label=<<table border='0'><tr><td><font point-size='8' color='#cc5555'><b>(k + betareallen)</b></font></td><td>middle ((j - betareallen), (i + alphareallen))<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#cc5555'><b>(l - alphareallen)</b></font></td></tr></table>>, color="black" , shape="polygon", sides=8];
     node_218 -> node_222 [ arrowhead=none ];
     node_223 [ label=<<table border='0'><tr><td><font point-size='8' color='#cc5555'><b>(l - alphareallen)</b></font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#cc5555'><b>l</b></font></td></tr></table>>, color="blue" , shape="polygon", sides=8];
     node_218 -> node_223 [ arrowhead=none ];
-    node_224 [ label=<<table border='0'><tr><td><font point-size='8' color='#cc5555'><b>l</b></font></td><td>back<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#cc5555'><b>((j - betareallen) - 2)</b></font></td></tr></table>>, color="black" , shape="polygon", sides=8];
+    node_224 [ label=<<table border='0'><tr><td><font point-size='8' color='#cc5555'><b>l</b></font></td><td>back (i)<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#cc5555'><b>((j - betareallen) - 2)</b></font></td></tr></table>>, color="black" , shape="polygon", sides=8];
     node_218 -> node_224 [ arrowhead=none ];
     node_225 [ label=<<table border='0'><tr><td><font point-size='8' color='#cc5555'><b>(j - betareallen)</b></font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#cc5555'><b>j</b></font></td></tr></table>>, color="blue" , shape="polygon", sides=8];
     node_218 -> node_225 [ arrowhead=none ];
@@ -511,7 +511,7 @@ subgraph cluster_17 {
     node_229 -> node_230 [ style=invis ];
     node_230 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_230 -> node_231 [ style=invis ];
-    node_231 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>frd<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
+    node_231 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>frd (betaRightOuter)<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
     node_232 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>front_Pr<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td></tr></table>>, color="black" ];
     node_231 -> node_232 [ arrowhead=none ];
     node_233 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="blue" ];
@@ -543,7 +543,7 @@ subgraph cluster_19 {
     node_242 -> node_243 [ style=invis, weight=99 ];
     node_243 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_243 -> node_244 [ style=invis ];
-    node_244 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>emptymid<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
+    node_244 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>emptymid (betaRightInner, alphaLeftInner)<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
     node_245 [ label="minsize(0)" , fontcolor="magenta" , shape=none ];
     node_244 -> node_245 [ arrowhead=none, color="magenta" ];
     node_246 [ label="maxsize(0)" , fontcolor="magenta" , shape=none ];
@@ -553,7 +553,7 @@ subgraph cluster_19 {
     node_244 -> node_248 [ style=invis ];
     node_248 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_248 -> node_249 [ style=invis ];
-    node_249 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>midbase<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
+    node_249 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>midbase (betaRightInner, alphaLeftInner)<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
     node_250 [ label="minsize(1)" , fontcolor="magenta" , shape=none ];
     node_249 -> node_250 [ arrowhead=none, color="magenta" ];
     node_251 [ label="maxsize(1)" , fontcolor="magenta" , shape=none ];
@@ -563,7 +563,7 @@ subgraph cluster_19 {
     node_249 -> node_253 [ style=invis ];
     node_253 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_253 -> node_254 [ style=invis ];
-    node_254 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>middlro<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
+    node_254 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>middlro (betaRightInner, alphaLeftInner)<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
     node_255 [ label="minsize(2)" , fontcolor="magenta" , shape=none ];
     node_254 -> node_255 [ arrowhead=none, color="magenta" ];
     node_256 [ label="maxsize(2)" , fontcolor="magenta" , shape=none ];
@@ -579,7 +579,7 @@ subgraph cluster_19 {
     node_259 -> node_261 [ style=invis ];
     node_261 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_261 -> node_262 [ style=invis ];
-    node_262 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>middl<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
+    node_262 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>middl (betaRightInner)<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
     node_263 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td></tr></table>>, color="blue" ];
     node_262 -> node_263 [ arrowhead=none ];
     node_264 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td><td>mid<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
@@ -587,7 +587,7 @@ subgraph cluster_19 {
     node_262 -> node_265 [ style=invis ];
     node_265 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_265 -> node_266 [ style=invis ];
-    node_266 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>middr<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
+    node_266 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>middr (alphaLeftInner)<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
     node_267 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>mid<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td></tr></table>>, color="black" ];
     node_266 -> node_267 [ arrowhead=none ];
     node_268 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="blue" ];
@@ -595,7 +595,7 @@ subgraph cluster_19 {
     node_266 -> node_269 [ style=invis ];
     node_269 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_269 -> node_270 [ style=invis ];
-    node_270 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>middlr<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
+    node_270 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>middlr (betaRightInner, alphaLeftInner)<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
     node_271 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td></tr></table>>, color="blue" ];
     node_270 -> node_271 [ arrowhead=none ];
     node_272 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td><td>mid<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td></tr></table>>, color="black" ];
@@ -633,7 +633,7 @@ subgraph cluster_21 {
     node_284 -> node_285 [ style=invis ];
     node_285 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_285 -> node_286 [ style=invis ];
-    node_286 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>bkd<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
+    node_286 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>bkd (alphaLeftOuter)<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
     node_287 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td></tr></table>>, color="blue" ];
     node_286 -> node_287 [ arrowhead=none ];
     node_288 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td><td>back_Pr<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
