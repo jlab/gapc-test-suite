@@ -1,2970 +1,2970 @@
 start answers weak(0,0):
 []
 //end answers weak(0,0)
-start answers outside_weak(0,0):
-[]
-//end answers outside_weak(0,0)
 start answers weak(0,1):
 []
 //end answers weak(0,1)
-start answers outside_weak(0,1):
-[]
-//end answers outside_weak(0,1)
 start answers weak(0,2):
 []
 //end answers weak(0,2)
-start answers outside_weak(0,2):
-[]
-//end answers outside_weak(0,2)
 start answers weak(0,3):
 []
 //end answers weak(0,3)
-start answers outside_weak(0,3):
-[]
-//end answers outside_weak(0,3)
 start answers weak(0,4):
 []
 //end answers weak(0,4)
-start answers outside_weak(0,4):
-[]
-//end answers outside_weak(0,4)
 start answers weak(0,5):
 []
 //end answers weak(0,5)
-start answers outside_weak(0,5):
-0.00123347
-//end answers outside_weak(0,5)
 start answers weak(0,6):
 []
 //end answers weak(0,6)
-start answers outside_weak(0,6):
-0.0016634
-//end answers outside_weak(0,6)
 start answers weak(0,7):
 []
 //end answers weak(0,7)
-start answers outside_weak(0,7):
-0.00224318
-//end answers outside_weak(0,7)
 start answers weak(0,8):
 []
 //end answers weak(0,8)
-start answers outside_weak(0,8):
-0.00302505
-//end answers outside_weak(0,8)
 start answers weak(0,9):
 2.0319e-05
 //end answers weak(0,9)
-start answers outside_weak(0,9):
-0.00396794
-//end answers outside_weak(0,9)
 start answers weak(0,10):
 0.0190242
 //end answers weak(0,10)
-start answers outside_weak(0,10):
-0.00531376
-//end answers outside_weak(0,10)
 start answers weak(0,11):
 []
 //end answers weak(0,11)
-start answers outside_weak(0,11):
-0.00318377
-//end answers outside_weak(0,11)
 start answers weak(0,12):
 []
 //end answers weak(0,12)
-start answers outside_weak(0,12):
-0.00390965
-//end answers outside_weak(0,12)
 start answers weak(0,13):
 []
 //end answers weak(0,13)
-start answers outside_weak(0,13):
-0.0052627
-//end answers outside_weak(0,13)
 start answers weak(0,14):
 []
 //end answers weak(0,14)
-start answers outside_weak(0,14):
-0.00709703
-//end answers outside_weak(0,14)
 start answers weak(0,15):
 []
 //end answers weak(0,15)
-start answers outside_weak(0,15):
-0.00957072
-//end answers outside_weak(0,15)
 start answers weak(0,16):
 []
 //end answers weak(0,16)
-start answers outside_weak(0,16):
-0.0129066
-//end answers outside_weak(0,16)
 start answers weak(0,17):
 5.54296e-07
 //end answers weak(0,17)
-start answers outside_weak(0,17):
-0.0391707
-//end answers outside_weak(0,17)
 start answers weak(0,18):
 0.000161724
 //end answers weak(0,18)
-start answers outside_weak(0,18):
-0.0528238
-//end answers outside_weak(0,18)
 start answers weak(0,19):
 []
 //end answers weak(0,19)
-start answers outside_weak(0,19):
-0.0316497
-//end answers outside_weak(0,19)
 start answers weak(0,20):
 []
 //end answers weak(0,20)
-start answers outside_weak(0,20):
-0.030229
-//end answers outside_weak(0,20)
 start answers weak(0,21):
 []
 //end answers weak(0,21)
-start answers outside_weak(0,21):
-0.0406187
-//end answers outside_weak(0,21)
 start answers weak(0,22):
 []
 //end answers weak(0,22)
-start answers outside_weak(0,22):
-0.0547765
-//end answers outside_weak(0,22)
 start answers weak(0,23):
 []
 //end answers weak(0,23)
-start answers outside_weak(0,23):
-0.073869
-//end answers outside_weak(0,23)
 start answers weak(0,24):
 []
 //end answers weak(0,24)
-start answers outside_weak(0,24):
-0.0996164
-//end answers outside_weak(0,24)
 start answers weak(0,25):
 4.63534e-07
 //end answers weak(0,25)
-start answers outside_weak(0,25):
-0.302362
-//end answers outside_weak(0,25)
 start answers weak(0,26):
 0.000219247
 //end answers weak(0,26)
-start answers outside_weak(0,26):
-0.407751
-//end answers outside_weak(0,26)
 start answers weak(0,27):
 []
 //end answers weak(0,27)
-start answers outside_weak(0,27):
-0.244307
-//end answers outside_weak(0,27)
 start answers weak(0,28):
 0.00011916
 //end answers weak(0,28)
-start answers outside_weak(0,28):
-0.741535
-//end answers outside_weak(0,28)
 start answers weak(0,29):
 0.144973
 //end answers weak(0,29)
-start answers outside_weak(0,29):
-1
-//end answers outside_weak(0,29)
 start answers weak(1,1):
 []
 //end answers weak(1,1)
-start answers outside_weak(1,1):
-[]
-//end answers outside_weak(1,1)
 start answers weak(1,2):
 []
 //end answers weak(1,2)
-start answers outside_weak(1,2):
-[]
-//end answers outside_weak(1,2)
 start answers weak(1,3):
 []
 //end answers weak(1,3)
-start answers outside_weak(1,3):
-[]
-//end answers outside_weak(1,3)
 start answers weak(1,4):
 []
 //end answers weak(1,4)
-start answers outside_weak(1,4):
-[]
-//end answers outside_weak(1,4)
 start answers weak(1,5):
 []
 //end answers weak(1,5)
-start answers outside_weak(1,5):
-[]
-//end answers outside_weak(1,5)
 start answers weak(1,6):
 []
 //end answers weak(1,6)
-start answers outside_weak(1,6):
-0.00124261
-//end answers outside_weak(1,6)
 start answers weak(1,7):
 []
 //end answers weak(1,7)
-start answers outside_weak(1,7):
-0.00170473
-//end answers outside_weak(1,7)
 start answers weak(1,8):
 []
 //end answers weak(1,8)
-start answers outside_weak(1,8):
-0.0234403
-//end answers outside_weak(1,8)
 start answers weak(1,9):
 0.000163265
 //end answers weak(1,9)
-start answers outside_weak(1,9):
-0.621009
-//end answers outside_weak(1,9)
 start answers weak(1,10):
 5.62723e-05
 //end answers weak(1,10)
-start answers outside_weak(1,10):
-0.00394679
-//end answers outside_weak(1,10)
 start answers weak(1,11):
 []
 //end answers weak(1,11)
-start answers outside_weak(1,11):
-0.0023669
-//end answers outside_weak(1,11)
 start answers weak(1,12):
 []
 //end answers weak(1,12)
-start answers outside_weak(1,12):
-0.00291355
-//end answers outside_weak(1,12)
 start answers weak(1,13):
 []
 //end answers weak(1,13)
-start answers outside_weak(1,13):
-0.00393798
-//end answers outside_weak(1,13)
 start answers weak(1,14):
 []
 //end answers weak(1,14)
-start answers outside_weak(1,14):
-0.00535186
-//end answers outside_weak(1,14)
 start answers weak(1,15):
 []
 //end answers weak(1,15)
-start answers outside_weak(1,15):
-0.00750397
-//end answers outside_weak(1,15)
 start answers weak(1,16):
 []
 //end answers weak(1,16)
-start answers outside_weak(1,16):
-0.218826
-//end answers outside_weak(1,16)
 start answers weak(1,17):
 1.38767e-06
 //end answers weak(1,17)
-start answers outside_weak(1,17):
-6.1732
-//end answers outside_weak(1,17)
 start answers weak(1,18):
 1.16958e-06
 //end answers weak(1,18)
-start answers outside_weak(1,18):
-0.0392297
-//end answers outside_weak(1,18)
 start answers weak(1,19):
 []
 //end answers weak(1,19)
-start answers outside_weak(1,19):
-0.0235226
-//end answers outside_weak(1,19)
 start answers weak(1,20):
 []
 //end answers weak(1,20)
-start answers outside_weak(1,20):
-0.0225384
-//end answers outside_weak(1,20)
 start answers weak(1,21):
 []
 //end answers weak(1,21)
-start answers outside_weak(1,21):
-0.0304164
-//end answers outside_weak(1,21)
 start answers weak(1,22):
 []
 //end answers weak(1,22)
-start answers outside_weak(1,22):
-0.0413707
-//end answers outside_weak(1,22)
 start answers weak(1,23):
 []
 //end answers weak(1,23)
-start answers outside_weak(1,23):
-0.0581121
-//end answers outside_weak(1,23)
 start answers weak(1,24):
 []
 //end answers weak(1,24)
-start answers outside_weak(1,24):
-1.68968
-//end answers outside_weak(1,24)
 start answers weak(1,25):
 1.87603e-06
 //end answers weak(1,25)
-start answers outside_weak(1,25):
-47.6548
-//end answers outside_weak(1,25)
 start answers weak(1,26):
 1.82357e-05
 //end answers weak(1,26)
-start answers outside_weak(1,26):
-0.439917
-//end answers outside_weak(1,26)
 start answers weak(1,27):
 []
 //end answers weak(1,27)
-start answers outside_weak(1,27):
-4.14235
-//end answers outside_weak(1,27)
 start answers weak(1,28):
 0.00124333
 //end answers weak(1,28)
-start answers outside_weak(1,28):
-116.863
-//end answers outside_weak(1,28)
 start answers weak(1,29):
 0.000781093
 //end answers weak(1,29)
-start answers outside_weak(1,29):
-0.741535
-//end answers outside_weak(1,29)
 start answers weak(2,2):
 []
 //end answers weak(2,2)
-start answers outside_weak(2,2):
-[]
-//end answers outside_weak(2,2)
 start answers weak(2,3):
 []
 //end answers weak(2,3)
-start answers outside_weak(2,3):
-[]
-//end answers outside_weak(2,3)
 start answers weak(2,4):
 []
 //end answers weak(2,4)
-start answers outside_weak(2,4):
-[]
-//end answers outside_weak(2,4)
 start answers weak(2,5):
 []
 //end answers weak(2,5)
-start answers outside_weak(2,5):
-[]
-//end answers outside_weak(2,5)
 start answers weak(2,6):
 []
 //end answers weak(2,6)
-start answers outside_weak(2,6):
-[]
-//end answers outside_weak(2,6)
 start answers weak(2,7):
 []
 //end answers weak(2,7)
-start answers outside_weak(2,7):
-0.00664193
-//end answers outside_weak(2,7)
 start answers weak(2,8):
 []
 //end answers weak(2,8)
-start answers outside_weak(2,8):
-3.31246
-//end answers outside_weak(2,8)
 start answers weak(2,9):
 []
 //end answers weak(2,9)
-start answers outside_weak(2,9):
-0.0221988
-//end answers outside_weak(2,9)
 start answers weak(2,10):
 []
 //end answers weak(2,10)
-start answers outside_weak(2,10):
-0.00155546
-//end answers outside_weak(2,10)
 start answers weak(2,11):
 []
 //end answers weak(2,11)
-start answers outside_weak(2,11):
-0.00235721
-//end answers outside_weak(2,11)
 start answers weak(2,12):
 []
 //end answers weak(2,12)
-start answers outside_weak(2,12):
-0.00361624
-//end answers outside_weak(2,12)
 start answers weak(2,13):
 []
 //end answers weak(2,13)
-start answers outside_weak(2,13):
-0.00658796
-//end answers outside_weak(2,13)
 start answers weak(2,14):
 []
 //end answers weak(2,14)
-start answers outside_weak(2,14):
-0.0132194
-//end answers outside_weak(2,14)
 start answers weak(2,15):
 []
 //end answers weak(2,15)
-start answers outside_weak(2,15):
-0.058887
-//end answers outside_weak(2,15)
 start answers weak(2,16):
 []
 //end answers weak(2,16)
-start answers outside_weak(2,16):
-32.9183
-//end answers outside_weak(2,16)
 start answers weak(2,17):
 []
 //end answers weak(2,17)
-start answers outside_weak(2,17):
-0.220469
-//end answers outside_weak(2,17)
 start answers weak(2,18):
 []
 //end answers weak(2,18)
-start answers outside_weak(2,18):
-0.0152604
-//end answers outside_weak(2,18)
 start answers weak(2,19):
 []
 //end answers weak(2,19)
-start answers outside_weak(2,19):
-0.0226729
-//end answers outside_weak(2,19)
 start answers weak(2,20):
 []
 //end answers weak(2,20)
-start answers outside_weak(2,20):
-0.0289529
-//end answers outside_weak(2,20)
 start answers weak(2,21):
 []
 //end answers weak(2,21)
-start answers outside_weak(2,21):
-0.0530323
-//end answers outside_weak(2,21)
 start answers weak(2,22):
 []
 //end answers weak(2,22)
-start answers outside_weak(2,22):
-0.109292
-//end answers outside_weak(2,22)
 start answers weak(2,23):
 []
 //end answers weak(2,23)
-start answers outside_weak(2,23):
-0.47589
-//end answers outside_weak(2,23)
 start answers weak(2,24):
 []
 //end answers weak(2,24)
-start answers outside_weak(2,24):
-254.177
-//end answers outside_weak(2,24)
 start answers weak(2,25):
 []
 //end answers weak(2,25)
-start answers outside_weak(2,25):
-2.59233
-//end answers outside_weak(2,25)
 start answers weak(2,26):
 []
 //end answers weak(2,26)
-start answers outside_weak(2,26):
-1.10468
-//end answers outside_weak(2,26)
 start answers weak(2,27):
 []
 //end answers weak(2,27)
-start answers outside_weak(2,27):
-623.151
-//end answers outside_weak(2,27)
 start answers weak(2,28):
 []
 //end answers weak(2,28)
-start answers outside_weak(2,28):
-4.14235
-//end answers outside_weak(2,28)
 start answers weak(2,29):
 []
 //end answers weak(2,29)
-start answers outside_weak(2,29):
-0.244307
-//end answers outside_weak(2,29)
 start answers weak(3,3):
 []
 //end answers weak(3,3)
-start answers outside_weak(3,3):
-[]
-//end answers outside_weak(3,3)
 start answers weak(3,4):
 []
 //end answers weak(3,4)
-start answers outside_weak(3,4):
-[]
-//end answers outside_weak(3,4)
 start answers weak(3,5):
 []
 //end answers weak(3,5)
-start answers outside_weak(3,5):
-[]
-//end answers outside_weak(3,5)
 start answers weak(3,6):
 []
 //end answers weak(3,6)
-start answers outside_weak(3,6):
-[]
-//end answers outside_weak(3,6)
 start answers weak(3,7):
 []
 //end answers weak(3,7)
-start answers outside_weak(3,7):
-[]
-//end answers outside_weak(3,7)
 start answers weak(3,8):
 []
 //end answers weak(3,8)
-start answers outside_weak(3,8):
-0.00664395
-//end answers outside_weak(3,8)
 start answers weak(3,9):
 9.53609e-05
 //end answers weak(3,9)
-start answers outside_weak(3,9):
-0.00243386
-//end answers outside_weak(3,9)
 start answers weak(3,10):
 0.00414467
 //end answers weak(3,10)
-start answers outside_weak(3,10):
-0.00231195
-//end answers outside_weak(3,10)
 start answers weak(3,11):
 []
 //end answers weak(3,11)
-start answers outside_weak(3,11):
-0.0014604
-//end answers outside_weak(3,11)
 start answers weak(3,12):
 []
 //end answers weak(3,12)
-start answers outside_weak(3,12):
-0.00214181
-//end answers outside_weak(3,12)
 start answers weak(3,13):
 []
 //end answers weak(3,13)
-start answers outside_weak(3,13):
-0.0101145
-//end answers outside_weak(3,13)
 start answers weak(3,14):
 []
 //end answers weak(3,14)
-start answers outside_weak(3,14):
-0.0137754
-//end answers outside_weak(3,14)
 start answers weak(3,15):
 []
 //end answers weak(3,15)
-start answers outside_weak(3,15):
-0.0571717
-//end answers outside_weak(3,15)
 start answers weak(3,16):
 []
 //end answers weak(3,16)
-start answers outside_weak(3,16):
-0.0589594
-//end answers outside_weak(3,16)
 start answers weak(3,17):
 1.50759e-06
 //end answers weak(3,17)
-start answers outside_weak(3,17):
-0.0239936
-//end answers outside_weak(3,17)
 start answers weak(3,18):
 0.000623096
 //end answers weak(3,18)
-start answers outside_weak(3,18):
-0.0228138
-//end answers outside_weak(3,18)
 start answers weak(3,19):
 []
 //end answers weak(3,19)
-start answers outside_weak(3,19):
-0.014256
-//end answers outside_weak(3,19)
 start answers weak(3,20):
 []
 //end answers weak(3,20)
-start answers outside_weak(3,20):
-0.0167165
-//end answers outside_weak(3,20)
 start answers weak(3,21):
 []
 //end answers weak(3,21)
-start answers outside_weak(3,21):
-0.0784437
-//end answers outside_weak(3,21)
 start answers weak(3,22):
 []
 //end answers weak(3,22)
-start answers outside_weak(3,22):
-0.108825
-//end answers outside_weak(3,22)
 start answers weak(3,23):
 []
 //end answers weak(3,23)
-start answers outside_weak(3,23):
-0.451929
-//end answers outside_weak(3,23)
 start answers weak(3,24):
 []
 //end answers weak(3,24)
-start answers outside_weak(3,24):
-0.612801
-//end answers outside_weak(3,24)
 start answers weak(3,25):
 3.70196e-05
 //end answers weak(3,25)
-start answers outside_weak(3,25):
-7.75888
-//end answers outside_weak(3,25)
 start answers weak(3,26):
 0.0174842
 //end answers weak(3,26)
-start answers outside_weak(3,26):
-8.42211
-//end answers outside_weak(3,26)
 start answers weak(3,27):
 []
 //end answers weak(3,27)
-start answers outside_weak(3,27):
-1.11323
-//end answers outside_weak(3,27)
 start answers weak(3,28):
 2.71483e-05
 //end answers weak(3,28)
-start answers outside_weak(3,28):
-0.439917
-//end answers outside_weak(3,28)
 start answers weak(3,29):
 0.000211657
 //end answers weak(3,29)
-start answers outside_weak(3,29):
-0.407751
-//end answers outside_weak(3,29)
 start answers weak(4,4):
 []
 //end answers weak(4,4)
-start answers outside_weak(4,4):
-[]
-//end answers outside_weak(4,4)
 start answers weak(4,5):
 []
 //end answers weak(4,5)
-start answers outside_weak(4,5):
-[]
-//end answers outside_weak(4,5)
 start answers weak(4,6):
 []
 //end answers weak(4,6)
-start answers outside_weak(4,6):
-[]
-//end answers outside_weak(4,6)
 start answers weak(4,7):
 []
 //end answers weak(4,7)
-start answers outside_weak(4,7):
-[]
-//end answers outside_weak(4,7)
 start answers weak(4,8):
 []
 //end answers weak(4,8)
-start answers outside_weak(4,8):
-[]
-//end answers outside_weak(4,8)
 start answers weak(4,9):
 3.51167e-05
 //end answers weak(4,9)
-start answers outside_weak(4,9):
-0.270198
-//end answers outside_weak(4,9)
 start answers weak(4,10):
 0.000182488
 //end answers weak(4,10)
-start answers outside_weak(4,10):
-0.00180791
-//end answers outside_weak(4,10)
 start answers weak(4,11):
 []
 //end answers weak(4,11)
-start answers outside_weak(4,11):
-0.00123604
-//end answers outside_weak(4,11)
 start answers weak(4,12):
 []
 //end answers weak(4,12)
-start answers outside_weak(4,12):
-0.002255
-//end answers outside_weak(4,12)
 start answers weak(4,13):
 []
 //end answers weak(4,13)
-start answers outside_weak(4,13):
-0.00535145
-//end answers outside_weak(4,13)
 start answers weak(4,14):
 []
 //end answers weak(4,14)
-start answers outside_weak(4,14):
-0.0270053
-//end answers outside_weak(4,14)
 start answers weak(4,15):
 []
 //end answers weak(4,15)
-start answers outside_weak(4,15):
-0.0147944
-//end answers outside_weak(4,15)
 start answers weak(4,16):
 []
 //end answers weak(4,16)
-start answers outside_weak(4,16):
-0.141549
-//end answers outside_weak(4,16)
 start answers weak(4,17):
 5.34864e-06
 //end answers weak(4,17)
-start answers outside_weak(4,17):
-2.66657
-//end answers outside_weak(4,17)
 start answers weak(4,18):
 2.91744e-06
 //end answers weak(4,18)
-start answers outside_weak(4,18):
-0.0183461
-//end answers outside_weak(4,18)
 start answers weak(4,19):
 []
 //end answers weak(4,19)
-start answers outside_weak(4,19):
-0.0125241
-//end answers outside_weak(4,19)
 start answers weak(4,20):
 []
 //end answers weak(4,20)
-start answers outside_weak(4,20):
-0.0196913
-//end answers outside_weak(4,20)
 start answers weak(4,21):
 []
 //end answers weak(4,21)
-start answers outside_weak(4,21):
-0.0478418
-//end answers outside_weak(4,21)
 start answers weak(4,22):
 []
 //end answers weak(4,22)
-start answers outside_weak(4,22):
-0.22796
-//end answers outside_weak(4,22)
 start answers weak(4,23):
 []
 //end answers weak(4,23)
-start answers outside_weak(4,23):
-0.210048
-//end answers outside_weak(4,23)
 start answers weak(4,24):
 []
 //end answers weak(4,24)
-start answers outside_weak(4,24):
-41.6035
-//end answers outside_weak(4,24)
 start answers weak(4,25):
 0.000149884
 //end answers weak(4,25)
-start answers outside_weak(4,25):
-983.544
-//end answers outside_weak(4,25)
 start answers weak(4,26):
 0.000131093
 //end answers weak(4,26)
-start answers outside_weak(4,26):
-1.46115
-//end answers outside_weak(4,26)
 start answers weak(4,27):
 []
 //end answers weak(4,27)
-start answers outside_weak(4,27):
-2.59867
-//end answers outside_weak(4,27)
 start answers weak(4,28):
 1.8084e-06
 //end answers weak(4,28)
-start answers outside_weak(4,28):
-47.6548
-//end answers outside_weak(4,28)
 start answers weak(4,29):
 1.60719e-06
 //end answers weak(4,29)
-start answers outside_weak(4,29):
-0.302362
-//end answers outside_weak(4,29)
 start answers weak(5,5):
 []
 //end answers weak(5,5)
-start answers outside_weak(5,5):
-[]
-//end answers outside_weak(5,5)
 start answers weak(5,6):
 []
 //end answers weak(5,6)
-start answers outside_weak(5,6):
-[]
-//end answers outside_weak(5,6)
 start answers weak(5,7):
 []
 //end answers weak(5,7)
-start answers outside_weak(5,7):
-[]
-//end answers outside_weak(5,7)
 start answers weak(5,8):
 []
 //end answers weak(5,8)
-start answers outside_weak(5,8):
-[]
-//end answers outside_weak(5,8)
 start answers weak(5,9):
 []
 //end answers weak(5,9)
-start answers outside_weak(5,9):
-[]
-//end answers outside_weak(5,9)
 start answers weak(5,10):
 []
 //end answers weak(5,10)
-start answers outside_weak(5,10):
-0.00139153
-//end answers outside_weak(5,10)
 start answers weak(5,11):
 []
 //end answers weak(5,11)
-start answers outside_weak(5,11):
-0.00238227
-//end answers outside_weak(5,11)
 start answers weak(5,12):
 []
 //end answers weak(5,12)
-start answers outside_weak(5,12):
-0.00489397
-//end answers outside_weak(5,12)
 start answers weak(5,13):
 []
 //end answers weak(5,13)
-start answers outside_weak(5,13):
-0.0125691
-//end answers outside_weak(5,13)
 start answers weak(5,14):
 []
 //end answers weak(5,14)
-start answers outside_weak(5,14):
-0.0136162
-//end answers outside_weak(5,14)
 start answers weak(5,15):
 []
 //end answers weak(5,15)
-start answers outside_weak(5,15):
-0.0402429
-//end answers outside_weak(5,15)
 start answers weak(5,16):
 []
 //end answers weak(5,16)
-start answers outside_weak(5,16):
-14.2333
-//end answers outside_weak(5,16)
 start answers weak(5,17):
 []
 //end answers weak(5,17)
-start answers outside_weak(5,17):
-0.119365
-//end answers outside_weak(5,17)
 start answers weak(5,18):
 []
 //end answers weak(5,18)
-start answers outside_weak(5,18):
-0.0380802
-//end answers outside_weak(5,18)
 start answers weak(5,19):
 []
 //end answers weak(5,19)
-start answers outside_weak(5,19):
-0.0924736
-//end answers outside_weak(5,19)
 start answers weak(5,20):
 []
 //end answers weak(5,20)
-start answers outside_weak(5,20):
-0.233274
-//end answers outside_weak(5,20)
 start answers weak(5,21):
 []
 //end answers weak(5,21)
-start answers outside_weak(5,21):
-0.623141
-//end answers outside_weak(5,21)
 start answers weak(5,22):
 []
 //end answers weak(5,22)
-start answers outside_weak(5,22):
-1.48348
-//end answers outside_weak(5,22)
 start answers weak(5,23):
 []
 //end answers weak(5,23)
-start answers outside_weak(5,23):
-8.6383
-//end answers outside_weak(5,23)
 start answers weak(5,24):
 []
 //end answers weak(5,24)
-start answers outside_weak(5,24):
-5243.61
-//end answers outside_weak(5,24)
 start answers weak(5,25):
 []
 //end answers weak(5,25)
-start answers outside_weak(5,25):
-8.03049
-//end answers outside_weak(5,25)
 start answers weak(5,26):
 []
 //end answers weak(5,26)
-start answers outside_weak(5,26):
-0.607048
-//end answers outside_weak(5,26)
 start answers weak(5,27):
 []
 //end answers weak(5,27)
-start answers outside_weak(5,27):
-254.177
-//end answers outside_weak(5,27)
 start answers weak(5,28):
 []
 //end answers weak(5,28)
-start answers outside_weak(5,28):
-1.68968
-//end answers outside_weak(5,28)
 start answers weak(5,29):
 []
 //end answers weak(5,29)
-start answers outside_weak(5,29):
-0.0996164
-//end answers outside_weak(5,29)
 start answers weak(6,6):
 []
 //end answers weak(6,6)
-start answers outside_weak(6,6):
-[]
-//end answers outside_weak(6,6)
 start answers weak(6,7):
 []
 //end answers weak(6,7)
-start answers outside_weak(6,7):
-[]
-//end answers outside_weak(6,7)
 start answers weak(6,8):
 []
 //end answers weak(6,8)
-start answers outside_weak(6,8):
-[]
-//end answers outside_weak(6,8)
 start answers weak(6,9):
 []
 //end answers weak(6,9)
-start answers outside_weak(6,9):
-[]
-//end answers outside_weak(6,9)
 start answers weak(6,10):
 []
 //end answers weak(6,10)
-start answers outside_weak(6,10):
-[]
-//end answers outside_weak(6,10)
 start answers weak(6,11):
 []
 //end answers weak(6,11)
-start answers outside_weak(6,11):
-0.00136878
-//end answers outside_weak(6,11)
 start answers weak(6,12):
 []
 //end answers weak(6,12)
-start answers outside_weak(6,12):
-0.00359523
-//end answers outside_weak(6,12)
 start answers weak(6,13):
 []
 //end answers weak(6,13)
-start answers outside_weak(6,13):
-0.0065342
-//end answers outside_weak(6,13)
 start answers weak(6,14):
 []
 //end answers weak(6,14)
-start answers outside_weak(6,14):
-0.00769077
-//end answers outside_weak(6,14)
 start answers weak(6,15):
 []
 //end answers weak(6,15)
-start answers outside_weak(6,15):
-0.0263412
-//end answers outside_weak(6,15)
 start answers weak(6,16):
 []
 //end answers weak(6,16)
-start answers outside_weak(6,16):
-0.0290178
-//end answers outside_weak(6,16)
 start answers weak(6,17):
 []
 //end answers weak(6,17)
-start answers outside_weak(6,17):
-0.00758376
-//end answers outside_weak(6,17)
 start answers weak(6,18):
 []
 //end answers weak(6,18)
-start answers outside_weak(6,18):
-0.0106024
-//end answers outside_weak(6,18)
 start answers weak(6,19):
 []
 //end answers weak(6,19)
-start answers outside_weak(6,19):
-0.0332776
-//end answers outside_weak(6,19)
 start answers weak(6,20):
 []
 //end answers weak(6,20)
-start answers outside_weak(6,20):
-0.107888
-//end answers outside_weak(6,20)
 start answers weak(6,21):
 []
 //end answers weak(6,21)
-start answers outside_weak(6,21):
-1.28713
-//end answers outside_weak(6,21)
 start answers weak(6,22):
 []
 //end answers weak(6,22)
-start answers outside_weak(6,22):
-1.75146
-//end answers outside_weak(6,22)
 start answers weak(6,23):
 []
 //end answers weak(6,23)
-start answers outside_weak(6,23):
-8.49203
-//end answers outside_weak(6,23)
 start answers weak(6,24):
 []
 //end answers weak(6,24)
-start answers outside_weak(6,24):
-8.58377
-//end answers outside_weak(6,24)
 start answers weak(6,25):
 []
 //end answers weak(6,25)
-start answers outside_weak(6,25):
-0.646498
-//end answers outside_weak(6,25)
 start answers weak(6,26):
 []
 //end answers weak(6,26)
-start answers outside_weak(6,26):
-0.451075
-//end answers outside_weak(6,26)
 start answers weak(6,27):
 []
 //end answers weak(6,27)
-start answers outside_weak(6,27):
-0.479377
-//end answers outside_weak(6,27)
 start answers weak(6,28):
 []
 //end answers weak(6,28)
-start answers outside_weak(6,28):
-0.0581121
-//end answers outside_weak(6,28)
 start answers weak(6,29):
 []
 //end answers weak(6,29)
-start answers outside_weak(6,29):
-0.073869
-//end answers outside_weak(6,29)
 start answers weak(7,7):
 []
 //end answers weak(7,7)
-start answers outside_weak(7,7):
-[]
-//end answers outside_weak(7,7)
 start answers weak(7,8):
 []
 //end answers weak(7,8)
-start answers outside_weak(7,8):
-[]
-//end answers outside_weak(7,8)
 start answers weak(7,9):
 []
 //end answers weak(7,9)
-start answers outside_weak(7,9):
-[]
-//end answers outside_weak(7,9)
 start answers weak(7,10):
 []
 //end answers weak(7,10)
-start answers outside_weak(7,10):
-[]
-//end answers outside_weak(7,10)
 start answers weak(7,11):
 []
 //end answers weak(7,11)
-start answers outside_weak(7,11):
-[]
-//end answers outside_weak(7,11)
 start answers weak(7,12):
 []
 //end answers weak(7,12)
-start answers outside_weak(7,12):
-0.00171503
-//end answers outside_weak(7,12)
 start answers weak(7,13):
 []
 //end answers weak(7,13)
-start answers outside_weak(7,13):
-0.00291002
-//end answers outside_weak(7,13)
 start answers weak(7,14):
 []
 //end answers weak(7,14)
-start answers outside_weak(7,14):
-0.00722291
-//end answers outside_weak(7,14)
 start answers weak(7,15):
 []
 //end answers weak(7,15)
-start answers outside_weak(7,15):
-0.00694815
-//end answers outside_weak(7,15)
 start answers weak(7,16):
 []
 //end answers weak(7,16)
-start answers outside_weak(7,16):
-0.0127491
-//end answers outside_weak(7,16)
 start answers weak(7,17):
 []
 //end answers weak(7,17)
-start answers outside_weak(7,17):
-0.0140716
-//end answers outside_weak(7,17)
 start answers weak(7,18):
 []
 //end answers weak(7,18)
-start answers outside_weak(7,18):
-0.012655
-//end answers outside_weak(7,18)
 start answers weak(7,19):
 []
 //end answers weak(7,19)
-start answers outside_weak(7,19):
-0.0504524
-//end answers outside_weak(7,19)
 start answers weak(7,20):
 []
 //end answers weak(7,20)
-start answers outside_weak(7,20):
-0.172881
-//end answers outside_weak(7,20)
 start answers weak(7,21):
 []
 //end answers weak(7,21)
-start answers outside_weak(7,21):
-0.597848
-//end answers outside_weak(7,21)
 start answers weak(7,22):
 []
 //end answers weak(7,22)
-start answers outside_weak(7,22):
-2.09132
-//end answers outside_weak(7,22)
 start answers weak(7,23):
 []
 //end answers weak(7,23)
-start answers outside_weak(7,23):
-1.75594
-//end answers outside_weak(7,23)
 start answers weak(7,24):
 []
 //end answers weak(7,24)
-start answers outside_weak(7,24):
-1.65587
-//end answers outside_weak(7,24)
 start answers weak(7,25):
 []
 //end answers weak(7,25)
-start answers outside_weak(7,25):
-0.74838
-//end answers outside_weak(7,25)
 start answers weak(7,26):
 []
 //end answers weak(7,26)
-start answers outside_weak(7,26):
-0.111348
-//end answers outside_weak(7,26)
 start answers weak(7,27):
 []
 //end answers weak(7,27)
-start answers outside_weak(7,27):
-0.111877
-//end answers outside_weak(7,27)
 start answers weak(7,28):
 []
 //end answers weak(7,28)
-start answers outside_weak(7,28):
-0.0413707
-//end answers outside_weak(7,28)
 start answers weak(7,29):
 []
 //end answers weak(7,29)
-start answers outside_weak(7,29):
-0.0547765
-//end answers outside_weak(7,29)
 start answers weak(8,8):
 []
 //end answers weak(8,8)
-start answers outside_weak(8,8):
-[]
-//end answers outside_weak(8,8)
 start answers weak(8,9):
 []
 //end answers weak(8,9)
-start answers outside_weak(8,9):
-[]
-//end answers outside_weak(8,9)
 start answers weak(8,10):
 []
 //end answers weak(8,10)
-start answers outside_weak(8,10):
-[]
-//end answers outside_weak(8,10)
 start answers weak(8,11):
 []
 //end answers weak(8,11)
-start answers outside_weak(8,11):
-[]
-//end answers outside_weak(8,11)
 start answers weak(8,12):
 []
 //end answers weak(8,12)
-start answers outside_weak(8,12):
-[]
-//end answers outside_weak(8,12)
 start answers weak(8,13):
 3.51167e-05
 //end answers weak(8,13)
-start answers outside_weak(8,13):
-0.011554
-//end answers outside_weak(8,13)
 start answers weak(8,14):
 []
 //end answers weak(8,14)
-start answers outside_weak(8,14):
-0.00265458
-//end answers outside_weak(8,14)
 start answers weak(8,15):
 []
 //end answers weak(8,15)
-start answers outside_weak(8,15):
-0.00487734
-//end answers outside_weak(8,15)
 start answers weak(8,16):
 []
 //end answers weak(8,16)
-start answers outside_weak(8,16):
-0.0076143
-//end answers outside_weak(8,16)
 start answers weak(8,17):
 []
 //end answers weak(8,17)
-start answers outside_weak(8,17):
-0.0212864
-//end answers outside_weak(8,17)
 start answers weak(8,18):
 []
 //end answers weak(8,18)
-start answers outside_weak(8,18):
-0.0183898
-//end answers outside_weak(8,18)
 start answers weak(8,19):
 []
 //end answers weak(8,19)
-start answers outside_weak(8,19):
-0.0604355
-//end answers outside_weak(8,19)
 start answers weak(8,20):
 0.00127624
 //end answers weak(8,20)
-start answers outside_weak(8,20):
-0.86269
-//end answers outside_weak(8,20)
 start answers weak(8,21):
 0.0413358
 //end answers weak(8,21)
-start answers outside_weak(8,21):
-3.55992
-//end answers outside_weak(8,21)
 start answers weak(8,22):
 []
 //end answers weak(8,22)
-start answers outside_weak(8,22):
-0.595506
-//end answers outside_weak(8,22)
 start answers weak(8,23):
 []
 //end answers weak(8,23)
-start answers outside_weak(8,23):
-1.28471
-//end answers outside_weak(8,23)
 start answers weak(8,24):
 []
 //end answers weak(8,24)
-start answers outside_weak(8,24):
-0.846937
-//end answers outside_weak(8,24)
 start answers weak(8,25):
 []
 //end answers weak(8,25)
-start answers outside_weak(8,25):
-0.192624
-//end answers outside_weak(8,25)
 start answers weak(8,26):
 []
 //end answers weak(8,26)
-start answers outside_weak(8,26):
-0.0786796
-//end answers outside_weak(8,26)
 start answers weak(8,27):
 []
 //end answers weak(8,27)
-start answers outside_weak(8,27):
-0.0530323
-//end answers outside_weak(8,27)
 start answers weak(8,28):
 []
 //end answers weak(8,28)
-start answers outside_weak(8,28):
-0.0304164
-//end answers outside_weak(8,28)
 start answers weak(8,29):
 []
 //end answers weak(8,29)
-start answers outside_weak(8,29):
-0.0406187
-//end answers outside_weak(8,29)
 start answers weak(9,9):
 []
 //end answers weak(9,9)
-start answers outside_weak(9,9):
-[]
-//end answers outside_weak(9,9)
 start answers weak(9,10):
 []
 //end answers weak(9,10)
-start answers outside_weak(9,10):
-[]
-//end answers outside_weak(9,10)
 start answers weak(9,11):
 []
 //end answers weak(9,11)
-start answers outside_weak(9,11):
-[]
-//end answers outside_weak(9,11)
 start answers weak(9,12):
 []
 //end answers weak(9,12)
-start answers outside_weak(9,12):
-[]
-//end answers outside_weak(9,12)
 start answers weak(9,13):
 []
 //end answers weak(9,13)
-start answers outside_weak(9,13):
-[]
-//end answers outside_weak(9,13)
 start answers weak(9,14):
 []
 //end answers weak(9,14)
-start answers outside_weak(9,14):
-0.00315107
-//end answers outside_weak(9,14)
 start answers weak(9,15):
 []
 //end answers weak(9,15)
-start answers outside_weak(9,15):
-0.00282272
-//end answers outside_weak(9,15)
 start answers weak(9,16):
 []
 //end answers weak(9,16)
-start answers outside_weak(9,16):
-0.0108905
-//end answers outside_weak(9,16)
 start answers weak(9,17):
 []
 //end answers weak(9,17)
-start answers outside_weak(9,17):
-0.0371193
-//end answers outside_weak(9,17)
 start answers weak(9,18):
 []
 //end answers weak(9,18)
-start answers outside_weak(9,18):
-0.0989749
-//end answers outside_weak(9,18)
 start answers weak(9,19):
 []
 //end answers weak(9,19)
-start answers outside_weak(9,19):
-5.53925
-//end answers outside_weak(9,19)
 start answers weak(9,20):
 0.000354478
 //end answers weak(9,20)
-start answers outside_weak(9,20):
-415.274
-//end answers outside_weak(9,20)
 start answers weak(9,21):
 3.80283e-05
 //end answers weak(9,21)
-start answers outside_weak(9,21):
-3.13365
-//end answers outside_weak(9,21)
 start answers weak(9,22):
 []
 //end answers weak(9,22)
-start answers outside_weak(9,22):
-0.620623
-//end answers outside_weak(9,22)
 start answers weak(9,23):
 []
 //end answers weak(9,23)
-start answers outside_weak(9,23):
-0.162123
-//end answers outside_weak(9,23)
 start answers weak(9,24):
 []
 //end answers weak(9,24)
-start answers outside_weak(9,24):
-0.289866
-//end answers outside_weak(9,24)
 start answers weak(9,25):
 []
 //end answers weak(9,25)
-start answers outside_weak(9,25):
-0.0524642
-//end answers outside_weak(9,25)
 start answers weak(9,26):
 []
 //end answers weak(9,26)
-start answers outside_weak(9,26):
-0.0173819
-//end answers outside_weak(9,26)
 start answers weak(9,27):
 []
 //end answers weak(9,27)
-start answers outside_weak(9,27):
-0.0289397
-//end answers outside_weak(9,27)
 start answers weak(9,28):
 []
 //end answers weak(9,28)
-start answers outside_weak(9,28):
-0.0225206
-//end answers outside_weak(9,28)
 start answers weak(9,29):
 []
 //end answers weak(9,29)
-start answers outside_weak(9,29):
-0.030205
-//end answers outside_weak(9,29)
 start answers weak(10,10):
 []
 //end answers weak(10,10)
-start answers outside_weak(10,10):
-[]
-//end answers outside_weak(10,10)
 start answers weak(10,11):
 []
 //end answers weak(10,11)
-start answers outside_weak(10,11):
-[]
-//end answers outside_weak(10,11)
 start answers weak(10,12):
 []
 //end answers weak(10,12)
-start answers outside_weak(10,12):
-[]
-//end answers outside_weak(10,12)
 start answers weak(10,13):
 []
 //end answers weak(10,13)
-start answers outside_weak(10,13):
-[]
-//end answers outside_weak(10,13)
 start answers weak(10,14):
 []
 //end answers weak(10,14)
-start answers outside_weak(10,14):
-[]
-//end answers outside_weak(10,14)
 start answers weak(10,15):
 []
 //end answers weak(10,15)
-start answers outside_weak(10,15):
-0.0926454
-//end answers outside_weak(10,15)
 start answers weak(10,16):
 []
 //end answers weak(10,16)
-start answers outside_weak(10,16):
-0.246747
-//end answers outside_weak(10,16)
 start answers weak(10,17):
 []
 //end answers weak(10,17)
-start answers outside_weak(10,17):
-0.656447
-//end answers outside_weak(10,17)
 start answers weak(10,18):
 []
 //end answers weak(10,18)
-start answers outside_weak(10,18):
-4.24091
-//end answers outside_weak(10,18)
 start answers weak(10,19):
 []
 //end answers weak(10,19)
-start answers outside_weak(10,19):
-2604
-//end answers outside_weak(10,19)
 start answers weak(10,20):
 []
 //end answers weak(10,20)
-start answers outside_weak(10,20):
-19.7772
-//end answers outside_weak(10,20)
 start answers weak(10,21):
 []
 //end answers weak(10,21)
-start answers outside_weak(10,21):
-0.212727
-//end answers outside_weak(10,21)
 start answers weak(10,22):
 []
 //end answers weak(10,22)
-start answers outside_weak(10,22):
-0.173925
-//end answers outside_weak(10,22)
 start answers weak(10,23):
 []
 //end answers weak(10,23)
-start answers outside_weak(10,23):
-0.0466623
-//end answers outside_weak(10,23)
 start answers weak(10,24):
 []
 //end answers weak(10,24)
-start answers outside_weak(10,24):
-0.104125
-//end answers outside_weak(10,24)
 start answers weak(10,25):
 []
 //end answers weak(10,25)
-start answers outside_weak(10,25):
-0.0204264
-//end answers outside_weak(10,25)
 start answers weak(10,26):
 []
 //end answers weak(10,26)
-start answers outside_weak(10,26):
-0.0144212
-//end answers outside_weak(10,26)
 start answers weak(10,27):
 []
 //end answers weak(10,27)
-start answers outside_weak(10,27):
-0.02267
-//end answers outside_weak(10,27)
 start answers weak(10,28):
 []
 //end answers weak(10,28)
-start answers outside_weak(10,28):
-0.0235187
-//end answers outside_weak(10,28)
 start answers weak(10,29):
 []
 //end answers weak(10,29)
-start answers outside_weak(10,29):
-0.0316444
-//end answers outside_weak(10,29)
 start answers weak(11,11):
 []
 //end answers weak(11,11)
-start answers outside_weak(11,11):
-[]
-//end answers outside_weak(11,11)
 start answers weak(11,12):
 []
 //end answers weak(11,12)
-start answers outside_weak(11,12):
-[]
-//end answers outside_weak(11,12)
 start answers weak(11,13):
 []
 //end answers weak(11,13)
-start answers outside_weak(11,13):
-[]
-//end answers outside_weak(11,13)
 start answers weak(11,14):
 []
 //end answers weak(11,14)
-start answers outside_weak(11,14):
-[]
-//end answers outside_weak(11,14)
 start answers weak(11,15):
 []
 //end answers weak(11,15)
-start answers outside_weak(11,15):
-[]
-//end answers outside_weak(11,15)
 start answers weak(11,16):
 []
 //end answers weak(11,16)
-start answers outside_weak(11,16):
-0.574611
-//end answers outside_weak(11,16)
 start answers weak(11,17):
 9.53609e-05
 //end answers weak(11,17)
-start answers outside_weak(11,17):
-25.6648
-//end answers outside_weak(11,17)
 start answers weak(11,18):
 0.00414467
 //end answers weak(11,18)
-start answers outside_weak(11,18):
-34.6147
-//end answers outside_weak(11,18)
 start answers weak(11,19):
 []
 //end answers weak(11,19)
-start answers outside_weak(11,19):
-4.23657
-//end answers outside_weak(11,19)
 start answers weak(11,20):
 []
 //end answers weak(11,20)
-start answers outside_weak(11,20):
-0.0600916
-//end answers outside_weak(11,20)
 start answers weak(11,21):
 []
 //end answers weak(11,21)
-start answers outside_weak(11,21):
-0.0183417
-//end answers outside_weak(11,21)
 start answers weak(11,22):
 []
 //end answers weak(11,22)
-start answers outside_weak(11,22):
-0.0126681
-//end answers outside_weak(11,22)
 start answers weak(11,23):
 []
 //end answers weak(11,23)
-start answers outside_weak(11,23):
-0.0106264
-//end answers outside_weak(11,23)
 start answers weak(11,24):
 []
 //end answers weak(11,24)
-start answers outside_weak(11,24):
-0.0410546
-//end answers outside_weak(11,24)
 start answers weak(11,25):
 1.50759e-06
 //end answers weak(11,25)
-start answers outside_weak(11,25):
-0.0240006
-//end answers outside_weak(11,25)
 start answers weak(11,26):
 0.000623096
 //end answers weak(11,26)
-start answers outside_weak(11,26):
-0.0228345
-//end answers outside_weak(11,26)
 start answers weak(11,27):
 []
 //end answers weak(11,27)
-start answers outside_weak(11,27):
-0.0152583
-//end answers outside_weak(11,27)
 start answers weak(11,28):
 1.02499e-06
 //end answers weak(11,28)
-start answers outside_weak(11,28):
-0.0392231
-//end answers outside_weak(11,28)
 start answers weak(11,29):
 0.000162682
 //end answers weak(11,29)
-start answers outside_weak(11,29):
-0.0528149
-//end answers outside_weak(11,29)
 start answers weak(12,12):
 []
 //end answers weak(12,12)
-start answers outside_weak(12,12):
-[]
-//end answers outside_weak(12,12)
 start answers weak(12,13):
 []
 //end answers weak(12,13)
-start answers outside_weak(12,13):
-[]
-//end answers outside_weak(12,13)
 start answers weak(12,14):
 []
 //end answers weak(12,14)
-start answers outside_weak(12,14):
-[]
-//end answers outside_weak(12,14)
 start answers weak(12,15):
 []
 //end answers weak(12,15)
-start answers outside_weak(12,15):
-[]
-//end answers outside_weak(12,15)
 start answers weak(12,16):
 []
 //end answers weak(12,16)
-start answers outside_weak(12,16):
-[]
-//end answers outside_weak(12,16)
 start answers weak(12,17):
 3.51167e-05
 //end answers weak(12,17)
-start answers outside_weak(12,17):
-4036.11
-//end answers outside_weak(12,17)
 start answers weak(12,18):
 0.000182488
 //end answers weak(12,18)
-start answers outside_weak(12,18):
-2.40881
-//end answers outside_weak(12,18)
 start answers weak(12,19):
 []
 //end answers weak(12,19)
-start answers outside_weak(12,19):
-0.614409
-//end answers outside_weak(12,19)
 start answers weak(12,20):
 []
 //end answers weak(12,20)
-start answers outside_weak(12,20):
-0.0140841
-//end answers outside_weak(12,20)
 start answers weak(12,21):
 []
 //end answers weak(12,21)
-start answers outside_weak(12,21):
-0.00550133
-//end answers outside_weak(12,21)
 start answers weak(12,22):
 []
 //end answers weak(12,22)
-start answers outside_weak(12,22):
-0.00454812
-//end answers outside_weak(12,22)
 start answers weak(12,23):
 []
 //end answers weak(12,23)
-start answers outside_weak(12,23):
-0.00641721
-//end answers outside_weak(12,23)
 start answers weak(12,24):
 []
 //end answers weak(12,24)
-start answers outside_weak(12,24):
-0.14956
-//end answers outside_weak(12,24)
 start answers weak(12,25):
 5.34864e-06
 //end answers weak(12,25)
-start answers outside_weak(12,25):
-2.66873
-//end answers outside_weak(12,25)
 start answers weak(12,26):
 2.91744e-06
 //end answers weak(12,26)
-start answers outside_weak(12,26):
-0.0239759
-//end answers outside_weak(12,26)
 start answers weak(12,27):
 []
 //end answers weak(12,27)
-start answers outside_weak(12,27):
-0.220433
-//end answers outside_weak(12,27)
 start answers weak(12,28):
 1.39585e-06
 //end answers weak(12,28)
-start answers outside_weak(12,28):
-6.17216
-//end answers outside_weak(12,28)
 start answers weak(12,29):
 1.28644e-06
 //end answers weak(12,29)
-start answers outside_weak(12,29):
-0.0391641
-//end answers outside_weak(12,29)
 start answers weak(13,13):
 []
 //end answers weak(13,13)
-start answers outside_weak(13,13):
-[]
-//end answers outside_weak(13,13)
 start answers weak(13,14):
 []
 //end answers weak(13,14)
-start answers outside_weak(13,14):
-[]
-//end answers outside_weak(13,14)
 start answers weak(13,15):
 []
 //end answers weak(13,15)
-start answers outside_weak(13,15):
-[]
-//end answers outside_weak(13,15)
 start answers weak(13,16):
 []
 //end answers weak(13,16)
-start answers outside_weak(13,16):
-[]
-//end answers outside_weak(13,16)
 start answers weak(13,17):
 []
 //end answers weak(13,17)
-start answers outside_weak(13,17):
-[]
-//end answers outside_weak(13,17)
 start answers weak(13,18):
 []
 //end answers weak(13,18)
-start answers outside_weak(13,18):
-0.538004
-//end answers outside_weak(13,18)
 start answers weak(13,19):
 []
 //end answers weak(13,19)
-start answers outside_weak(13,19):
-0.238365
-//end answers outside_weak(13,19)
 start answers weak(13,20):
 []
 //end answers weak(13,20)
-start answers outside_weak(13,20):
-0.00566234
-//end answers outside_weak(13,20)
 start answers weak(13,21):
 []
 //end answers weak(13,21)
-start answers outside_weak(13,21):
-0.00383166
-//end answers outside_weak(13,21)
 start answers weak(13,22):
 []
 //end answers weak(13,22)
-start answers outside_weak(13,22):
-0.00731073
-//end answers outside_weak(13,22)
 start answers weak(13,23):
 []
 //end answers weak(13,23)
-start answers outside_weak(13,23):
-0.0287131
-//end answers outside_weak(13,23)
 start answers weak(13,24):
 []
 //end answers weak(13,24)
-start answers outside_weak(13,24):
-14.2449
-//end answers outside_weak(13,24)
 start answers weak(13,25):
 []
 //end answers weak(13,25)
-start answers outside_weak(13,25):
-0.141048
-//end answers outside_weak(13,25)
 start answers weak(13,26):
 []
 //end answers weak(13,26)
-start answers outside_weak(13,26):
-0.0584951
-//end answers outside_weak(13,26)
 start answers weak(13,27):
 []
 //end answers weak(13,27)
-start answers outside_weak(13,27):
-32.9127
-//end answers outside_weak(13,27)
 start answers weak(13,28):
 []
 //end answers weak(13,28)
-start answers outside_weak(13,28):
-0.218789
-//end answers outside_weak(13,28)
 start answers weak(13,29):
 []
 //end answers weak(13,29)
-start answers outside_weak(13,29):
-0.0129045
-//end answers outside_weak(13,29)
 start answers weak(14,14):
 []
 //end answers weak(14,14)
-start answers outside_weak(14,14):
-[]
-//end answers outside_weak(14,14)
 start answers weak(14,15):
 []
 //end answers weak(14,15)
-start answers outside_weak(14,15):
-[]
-//end answers outside_weak(14,15)
 start answers weak(14,16):
 []
 //end answers weak(14,16)
-start answers outside_weak(14,16):
-[]
-//end answers outside_weak(14,16)
 start answers weak(14,17):
 []
 //end answers weak(14,17)
-start answers outside_weak(14,17):
-[]
-//end answers outside_weak(14,17)
 start answers weak(14,18):
 []
 //end answers weak(14,18)
-start answers outside_weak(14,18):
-[]
-//end answers outside_weak(14,18)
 start answers weak(14,19):
 []
 //end answers weak(14,19)
-start answers outside_weak(14,19):
-0.0909425
-//end answers outside_weak(14,19)
 start answers weak(14,20):
 []
 //end answers weak(14,20)
-start answers outside_weak(14,20):
-0.00225059
-//end answers outside_weak(14,20)
 start answers weak(14,21):
 []
 //end answers weak(14,21)
-start answers outside_weak(14,21):
-0.00487012
-//end answers outside_weak(14,21)
 start answers weak(14,22):
 []
 //end answers weak(14,22)
-start answers outside_weak(14,22):
-0.00681361
-//end answers outside_weak(14,22)
 start answers weak(14,23):
 []
 //end answers weak(14,23)
-start answers outside_weak(14,23):
-0.0264034
-//end answers outside_weak(14,23)
 start answers weak(14,24):
 []
 //end answers weak(14,24)
-start answers outside_weak(14,24):
-0.0407618
-//end answers outside_weak(14,24)
 start answers weak(14,25):
 []
 //end answers weak(14,25)
-start answers outside_weak(14,25):
-0.0678003
-//end answers outside_weak(14,25)
 start answers weak(14,26):
 []
 //end answers weak(14,26)
-start answers outside_weak(14,26):
-0.0571626
-//end answers outside_weak(14,26)
 start answers weak(14,27):
 []
 //end answers weak(14,27)
-start answers outside_weak(14,27):
-0.0593288
-//end answers outside_weak(14,27)
 start answers weak(14,28):
 []
 //end answers weak(14,28)
-start answers outside_weak(14,28):
-0.00750271
-//end answers outside_weak(14,28)
 start answers weak(14,29):
 []
 //end answers weak(14,29)
-start answers outside_weak(14,29):
-0.00956911
-//end answers outside_weak(14,29)
 start answers weak(15,15):
 []
 //end answers weak(15,15)
-start answers outside_weak(15,15):
-[]
-//end answers outside_weak(15,15)
 start answers weak(15,16):
 []
 //end answers weak(15,16)
-start answers outside_weak(15,16):
-[]
-//end answers outside_weak(15,16)
 start answers weak(15,17):
 []
 //end answers weak(15,17)
-start answers outside_weak(15,17):
-[]
-//end answers outside_weak(15,17)
 start answers weak(15,18):
 []
 //end answers weak(15,18)
-start answers outside_weak(15,18):
-[]
-//end answers outside_weak(15,18)
 start answers weak(15,19):
 []
 //end answers weak(15,19)
-start answers outside_weak(15,19):
-[]
-//end answers outside_weak(15,19)
 start answers weak(15,20):
 []
 //end answers weak(15,20)
-start answers outside_weak(15,20):
-0.0015274
-//end answers outside_weak(15,20)
 start answers weak(15,21):
 []
 //end answers weak(15,21)
-start answers outside_weak(15,21):
-0.00261583
-//end answers outside_weak(15,21)
 start answers weak(15,22):
 []
 //end answers weak(15,22)
-start answers outside_weak(15,22):
-0.00722981
-//end answers outside_weak(15,22)
 start answers weak(15,23):
 []
 //end answers weak(15,23)
-start answers outside_weak(15,23):
-0.00787292
-//end answers outside_weak(15,23)
 start answers weak(15,24):
 []
 //end answers weak(15,24)
-start answers outside_weak(15,24):
-0.0320112
-//end answers outside_weak(15,24)
 start answers weak(15,25):
 []
 //end answers weak(15,25)
-start answers outside_weak(15,25):
-0.0931714
-//end answers outside_weak(15,25)
 start answers weak(15,26):
 []
 //end answers weak(15,26)
-start answers outside_weak(15,26):
-0.0140908
-//end answers outside_weak(15,26)
 start answers weak(15,27):
 []
 //end answers weak(15,27)
-start answers outside_weak(15,27):
-0.0135521
-//end answers outside_weak(15,27)
 start answers weak(15,28):
 []
 //end answers weak(15,28)
-start answers outside_weak(15,28):
-0.00535096
-//end answers outside_weak(15,28)
 start answers weak(15,29):
 []
 //end answers weak(15,29)
-start answers outside_weak(15,29):
-0.00709583
-//end answers outside_weak(15,29)
 start answers weak(16,16):
 []
 //end answers weak(16,16)
-start answers outside_weak(16,16):
-[]
-//end answers outside_weak(16,16)
 start answers weak(16,17):
 []
 //end answers weak(16,17)
-start answers outside_weak(16,17):
-[]
-//end answers outside_weak(16,17)
 start answers weak(16,18):
 []
 //end answers weak(16,18)
-start answers outside_weak(16,18):
-[]
-//end answers outside_weak(16,18)
 start answers weak(16,19):
 []
 //end answers weak(16,19)
-start answers outside_weak(16,19):
-[]
-//end answers outside_weak(16,19)
 start answers weak(16,20):
 []
 //end answers weak(16,20)
-start answers outside_weak(16,20):
-[]
-//end answers outside_weak(16,20)
 start answers weak(16,21):
 3.51167e-05
 //end answers weak(16,21)
-start answers outside_weak(16,21):
-0.011573
-//end answers outside_weak(16,21)
 start answers weak(16,22):
 []
 //end answers weak(16,22)
-start answers outside_weak(16,22):
-0.00296883
-//end answers outside_weak(16,22)
 start answers weak(16,23):
 []
 //end answers weak(16,23)
-start answers outside_weak(16,23):
-0.00652107
-//end answers outside_weak(16,23)
 start answers weak(16,24):
 []
 //end answers weak(16,24)
-start answers outside_weak(16,24):
-0.0416401
-//end answers outside_weak(16,24)
 start answers weak(16,25):
 []
 //end answers weak(16,25)
-start answers outside_weak(16,25):
-0.0241257
-//end answers outside_weak(16,25)
 start answers weak(16,26):
 []
 //end answers weak(16,26)
-start answers outside_weak(16,26):
-0.0101418
-//end answers outside_weak(16,26)
 start answers weak(16,27):
 []
 //end answers weak(16,27)
-start answers outside_weak(16,27):
-0.00658688
-//end answers outside_weak(16,27)
 start answers weak(16,28):
 []
 //end answers weak(16,28)
-start answers outside_weak(16,28):
-0.00393732
-//end answers outside_weak(16,28)
 start answers weak(16,29):
 []
 //end answers weak(16,29)
-start answers outside_weak(16,29):
-0.00526181
-//end answers outside_weak(16,29)
 start answers weak(17,17):
 []
 //end answers weak(17,17)
-start answers outside_weak(17,17):
-[]
-//end answers outside_weak(17,17)
 start answers weak(17,18):
 []
 //end answers weak(17,18)
-start answers outside_weak(17,18):
-[]
-//end answers outside_weak(17,18)
 start answers weak(17,19):
 []
 //end answers weak(17,19)
-start answers outside_weak(17,19):
-[]
-//end answers outside_weak(17,19)
 start answers weak(17,20):
 []
 //end answers weak(17,20)
-start answers outside_weak(17,20):
-[]
-//end answers outside_weak(17,20)
 start answers weak(17,21):
 []
 //end answers weak(17,21)
-start answers outside_weak(17,21):
-[]
-//end answers outside_weak(17,21)
 start answers weak(17,22):
 []
 //end answers weak(17,22)
-start answers outside_weak(17,22):
-0.00500436
-//end answers outside_weak(17,22)
 start answers weak(17,23):
 []
 //end answers weak(17,23)
-start answers outside_weak(17,23):
-0.0100916
-//end answers outside_weak(17,23)
 start answers weak(17,24):
 []
 //end answers weak(17,24)
-start answers outside_weak(17,24):
-0.012073
-//end answers outside_weak(17,24)
 start answers weak(17,25):
 []
 //end answers weak(17,25)
-start answers outside_weak(17,25):
-0.00660549
-//end answers outside_weak(17,25)
 start answers weak(17,26):
 []
 //end answers weak(17,26)
-start answers outside_weak(17,26):
-0.00222666
-//end answers outside_weak(17,26)
 start answers weak(17,27):
 []
 //end answers weak(17,27)
-start answers outside_weak(17,27):
-0.0036142
-//end answers outside_weak(17,27)
 start answers weak(17,28):
 []
 //end answers weak(17,28)
-start answers outside_weak(17,28):
-0.00291111
-//end answers outside_weak(17,28)
 start answers weak(17,29):
 []
 //end answers weak(17,29)
-start answers outside_weak(17,29):
-0.00390636
-//end answers outside_weak(17,29)
 start answers weak(18,18):
 []
 //end answers weak(18,18)
-start answers outside_weak(18,18):
-[]
-//end answers outside_weak(18,18)
 start answers weak(18,19):
 []
 //end answers weak(18,19)
-start answers outside_weak(18,19):
-[]
-//end answers outside_weak(18,19)
 start answers weak(18,20):
 []
 //end answers weak(18,20)
-start answers outside_weak(18,20):
-[]
-//end answers outside_weak(18,20)
 start answers weak(18,21):
 []
 //end answers weak(18,21)
-start answers outside_weak(18,21):
-[]
-//end answers outside_weak(18,21)
 start answers weak(18,22):
 []
 //end answers weak(18,22)
-start answers outside_weak(18,22):
-[]
-//end answers outside_weak(18,22)
 start answers weak(18,23):
 []
 //end answers weak(18,23)
-start answers outside_weak(18,23):
-0.00299067
-//end answers outside_weak(18,23)
 start answers weak(18,24):
 []
 //end answers weak(18,24)
-start answers outside_weak(18,24):
-0.00386872
-//end answers outside_weak(18,24)
 start answers weak(18,25):
 []
 //end answers weak(18,25)
-start answers outside_weak(18,25):
-0.00229305
-//end answers outside_weak(18,25)
 start answers weak(18,26):
 []
 //end answers weak(18,26)
-start answers outside_weak(18,26):
-0.00148098
-//end answers outside_weak(18,26)
 start answers weak(18,27):
 []
 //end answers weak(18,27)
-start answers outside_weak(18,27):
-0.0023565
-//end answers outside_weak(18,27)
 start answers weak(18,28):
 []
 //end answers weak(18,28)
-start answers outside_weak(18,28):
-0.00236606
-//end answers outside_weak(18,28)
 start answers weak(18,29):
 []
 //end answers weak(18,29)
-start answers outside_weak(18,29):
-0.00318265
-//end answers outside_weak(18,29)
 start answers weak(19,19):
 []
 //end answers weak(19,19)
-start answers outside_weak(19,19):
-[]
-//end answers outside_weak(19,19)
 start answers weak(19,20):
 []
 //end answers weak(19,20)
-start answers outside_weak(19,20):
-[]
-//end answers outside_weak(19,20)
 start answers weak(19,21):
 []
 //end answers weak(19,21)
-start answers outside_weak(19,21):
-[]
-//end answers outside_weak(19,21)
 start answers weak(19,22):
 []
 //end answers weak(19,22)
-start answers outside_weak(19,22):
-[]
-//end answers outside_weak(19,22)
 start answers weak(19,23):
 []
 //end answers weak(19,23)
-start answers outside_weak(19,23):
-[]
-//end answers outside_weak(19,23)
 start answers weak(19,24):
 []
 //end answers weak(19,24)
-start answers outside_weak(19,24):
-0.00175836
-//end answers outside_weak(19,24)
 start answers weak(19,25):
 9.53609e-05
 //end answers weak(19,25)
-start answers outside_weak(19,25):
-0.00253619
-//end answers outside_weak(19,25)
 start answers weak(19,26):
 0.00414467
 //end answers weak(19,26)
-start answers outside_weak(19,26):
-0.0023141
-//end answers outside_weak(19,26)
 start answers weak(19,27):
 []
 //end answers weak(19,27)
-start answers outside_weak(19,27):
-0.00155497
-//end answers outside_weak(19,27)
 start answers weak(19,28):
 5.34918e-05
 //end answers weak(19,28)
-start answers outside_weak(19,28):
-0.0039454
-//end answers outside_weak(19,28)
 start answers weak(19,29):
 0.0190245
 //end answers weak(19,29)
-start answers outside_weak(19,29):
-0.00531189
-//end answers outside_weak(19,29)
 start answers weak(20,20):
 []
 //end answers weak(20,20)
-start answers outside_weak(20,20):
-[]
-//end answers outside_weak(20,20)
 start answers weak(20,21):
 []
 //end answers weak(20,21)
-start answers outside_weak(20,21):
-[]
-//end answers outside_weak(20,21)
 start answers weak(20,22):
 []
 //end answers weak(20,22)
-start answers outside_weak(20,22):
-[]
-//end answers outside_weak(20,22)
 start answers weak(20,23):
 []
 //end answers weak(20,23)
-start answers outside_weak(20,23):
-[]
-//end answers outside_weak(20,23)
 start answers weak(20,24):
 []
 //end answers weak(20,24)
-start answers outside_weak(20,24):
-[]
-//end answers outside_weak(20,24)
 start answers weak(20,25):
 3.51167e-05
 //end answers weak(20,25)
-start answers outside_weak(20,25):
-0.270476
-//end answers outside_weak(20,25)
 start answers weak(20,26):
 0.000182488
 //end answers weak(20,26)
-start answers outside_weak(20,26):
-0.00247802
-//end answers outside_weak(20,26)
 start answers weak(20,27):
 []
 //end answers weak(20,27)
-start answers outside_weak(20,27):
-0.0222189
-//end answers outside_weak(20,27)
 start answers weak(20,28):
 0.000163265
 //end answers weak(20,28)
-start answers outside_weak(20,28):
-0.620873
-//end answers outside_weak(20,28)
 start answers weak(20,29):
 3.88836e-05
 //end answers weak(20,29)
-start answers outside_weak(20,29):
-0.00407973
-//end answers outside_weak(20,29)
 start answers weak(21,21):
 []
 //end answers weak(21,21)
-start answers outside_weak(21,21):
-[]
-//end answers outside_weak(21,21)
 start answers weak(21,22):
 []
 //end answers weak(21,22)
-start answers outside_weak(21,22):
-[]
-//end answers outside_weak(21,22)
 start answers weak(21,23):
 []
 //end answers weak(21,23)
-start answers outside_weak(21,23):
-[]
-//end answers outside_weak(21,23)
 start answers weak(21,24):
 []
 //end answers weak(21,24)
-start answers outside_weak(21,24):
-[]
-//end answers outside_weak(21,24)
 start answers weak(21,25):
 []
 //end answers weak(21,25)
-start answers outside_weak(21,25):
-[]
-//end answers outside_weak(21,25)
 start answers weak(21,26):
 []
 //end answers weak(21,26)
-start answers outside_weak(21,26):
-0.00659691
-//end answers outside_weak(21,26)
 start answers weak(21,27):
 []
 //end answers weak(21,27)
-start answers outside_weak(21,27):
-3.31174
-//end answers outside_weak(21,27)
 start answers weak(21,28):
 []
 //end answers weak(21,28)
-start answers outside_weak(21,28):
-0.0240358
-//end answers outside_weak(21,28)
 start answers weak(21,29):
 []
 //end answers weak(21,29)
-start answers outside_weak(21,29):
-0.00302445
-//end answers outside_weak(21,29)
 start answers weak(22,22):
 []
 //end answers weak(22,22)
-start answers outside_weak(22,22):
-[]
-//end answers outside_weak(22,22)
 start answers weak(22,23):
 []
 //end answers weak(22,23)
-start answers outside_weak(22,23):
-[]
-//end answers outside_weak(22,23)
 start answers weak(22,24):
 []
 //end answers weak(22,24)
-start answers outside_weak(22,24):
-[]
-//end answers outside_weak(22,24)
 start answers weak(22,25):
 []
 //end answers weak(22,25)
-start answers outside_weak(22,25):
-[]
-//end answers outside_weak(22,25)
 start answers weak(22,26):
 []
 //end answers weak(22,26)
-start answers outside_weak(22,26):
-[]
-//end answers outside_weak(22,26)
 start answers weak(22,27):
 []
 //end answers weak(22,27)
-start answers outside_weak(22,27):
-0.0066908
-//end answers outside_weak(22,27)
 start answers weak(22,28):
 []
 //end answers weak(22,28)
-start answers outside_weak(22,28):
-0.00170533
-//end answers outside_weak(22,28)
 start answers weak(22,29):
 []
 //end answers weak(22,29)
-start answers outside_weak(22,29):
-0.00224274
-//end answers outside_weak(22,29)
 start answers weak(23,23):
 []
 //end answers weak(23,23)
-start answers outside_weak(23,23):
-[]
-//end answers outside_weak(23,23)
 start answers weak(23,24):
 []
 //end answers weak(23,24)
-start answers outside_weak(23,24):
-[]
-//end answers outside_weak(23,24)
 start answers weak(23,25):
 []
 //end answers weak(23,25)
-start answers outside_weak(23,25):
-[]
-//end answers outside_weak(23,25)
 start answers weak(23,26):
 []
 //end answers weak(23,26)
-start answers outside_weak(23,26):
-[]
-//end answers outside_weak(23,26)
 start answers weak(23,27):
 []
 //end answers weak(23,27)
-start answers outside_weak(23,27):
-[]
-//end answers outside_weak(23,27)
 start answers weak(23,28):
 []
 //end answers weak(23,28)
-start answers outside_weak(23,28):
-0.00124252
-//end answers outside_weak(23,28)
 start answers weak(23,29):
 []
 //end answers weak(23,29)
-start answers outside_weak(23,29):
-0.00166307
-//end answers outside_weak(23,29)
 start answers weak(24,24):
 []
 //end answers weak(24,24)
-start answers outside_weak(24,24):
-[]
-//end answers outside_weak(24,24)
 start answers weak(24,25):
 []
 //end answers weak(24,25)
-start answers outside_weak(24,25):
-[]
-//end answers outside_weak(24,25)
 start answers weak(24,26):
 []
 //end answers weak(24,26)
-start answers outside_weak(24,26):
-[]
-//end answers outside_weak(24,26)
 start answers weak(24,27):
 []
 //end answers weak(24,27)
-start answers outside_weak(24,27):
-[]
-//end answers outside_weak(24,27)
 start answers weak(24,28):
 []
 //end answers weak(24,28)
-start answers outside_weak(24,28):
-[]
-//end answers outside_weak(24,28)
 start answers weak(24,29):
 []
 //end answers weak(24,29)
-start answers outside_weak(24,29):
-0.00123322
-//end answers outside_weak(24,29)
 start answers weak(25,25):
 []
 //end answers weak(25,25)
-start answers outside_weak(25,25):
-[]
-//end answers outside_weak(25,25)
 start answers weak(25,26):
 []
 //end answers weak(25,26)
-start answers outside_weak(25,26):
-[]
-//end answers outside_weak(25,26)
 start answers weak(25,27):
 []
 //end answers weak(25,27)
-start answers outside_weak(25,27):
-[]
-//end answers outside_weak(25,27)
 start answers weak(25,28):
 []
 //end answers weak(25,28)
-start answers outside_weak(25,28):
-[]
-//end answers outside_weak(25,28)
 start answers weak(25,29):
 []
 //end answers weak(25,29)
-start answers outside_weak(25,29):
-[]
-//end answers outside_weak(25,29)
 start answers weak(26,26):
 []
 //end answers weak(26,26)
-start answers outside_weak(26,26):
-[]
-//end answers outside_weak(26,26)
 start answers weak(26,27):
 []
 //end answers weak(26,27)
-start answers outside_weak(26,27):
-[]
-//end answers outside_weak(26,27)
 start answers weak(26,28):
 []
 //end answers weak(26,28)
-start answers outside_weak(26,28):
-[]
-//end answers outside_weak(26,28)
 start answers weak(26,29):
 []
 //end answers weak(26,29)
-start answers outside_weak(26,29):
-[]
-//end answers outside_weak(26,29)
 start answers weak(27,27):
 []
 //end answers weak(27,27)
-start answers outside_weak(27,27):
-[]
-//end answers outside_weak(27,27)
 start answers weak(27,28):
 []
 //end answers weak(27,28)
-start answers outside_weak(27,28):
-[]
-//end answers outside_weak(27,28)
 start answers weak(27,29):
 []
 //end answers weak(27,29)
-start answers outside_weak(27,29):
-[]
-//end answers outside_weak(27,29)
 start answers weak(28,28):
 []
 //end answers weak(28,28)
-start answers outside_weak(28,28):
-[]
-//end answers outside_weak(28,28)
 start answers weak(28,29):
 []
 //end answers weak(28,29)
-start answers outside_weak(28,29):
-[]
-//end answers outside_weak(28,29)
 start answers weak(29,29):
 []
 //end answers weak(29,29)
+start answers outside_weak(0,0):
+[]
+//end answers outside_weak(0,0)
+start answers outside_weak(0,1):
+[]
+//end answers outside_weak(0,1)
+start answers outside_weak(0,2):
+[]
+//end answers outside_weak(0,2)
+start answers outside_weak(0,3):
+[]
+//end answers outside_weak(0,3)
+start answers outside_weak(0,4):
+[]
+//end answers outside_weak(0,4)
+start answers outside_weak(0,5):
+0.00123347
+//end answers outside_weak(0,5)
+start answers outside_weak(0,6):
+0.0016634
+//end answers outside_weak(0,6)
+start answers outside_weak(0,7):
+0.00224318
+//end answers outside_weak(0,7)
+start answers outside_weak(0,8):
+0.00302505
+//end answers outside_weak(0,8)
+start answers outside_weak(0,9):
+0.00396794
+//end answers outside_weak(0,9)
+start answers outside_weak(0,10):
+0.00531376
+//end answers outside_weak(0,10)
+start answers outside_weak(0,11):
+0.00318377
+//end answers outside_weak(0,11)
+start answers outside_weak(0,12):
+0.00390965
+//end answers outside_weak(0,12)
+start answers outside_weak(0,13):
+0.0052627
+//end answers outside_weak(0,13)
+start answers outside_weak(0,14):
+0.00709703
+//end answers outside_weak(0,14)
+start answers outside_weak(0,15):
+0.00957072
+//end answers outside_weak(0,15)
+start answers outside_weak(0,16):
+0.0129066
+//end answers outside_weak(0,16)
+start answers outside_weak(0,17):
+0.0391707
+//end answers outside_weak(0,17)
+start answers outside_weak(0,18):
+0.0528238
+//end answers outside_weak(0,18)
+start answers outside_weak(0,19):
+0.0316497
+//end answers outside_weak(0,19)
+start answers outside_weak(0,20):
+0.030229
+//end answers outside_weak(0,20)
+start answers outside_weak(0,21):
+0.0406187
+//end answers outside_weak(0,21)
+start answers outside_weak(0,22):
+0.0547765
+//end answers outside_weak(0,22)
+start answers outside_weak(0,23):
+0.073869
+//end answers outside_weak(0,23)
+start answers outside_weak(0,24):
+0.0996164
+//end answers outside_weak(0,24)
+start answers outside_weak(0,25):
+0.302362
+//end answers outside_weak(0,25)
+start answers outside_weak(0,26):
+0.407751
+//end answers outside_weak(0,26)
+start answers outside_weak(0,27):
+0.244307
+//end answers outside_weak(0,27)
+start answers outside_weak(0,28):
+0.741535
+//end answers outside_weak(0,28)
+start answers outside_weak(0,29):
+1
+//end answers outside_weak(0,29)
+start answers outside_weak(1,1):
+[]
+//end answers outside_weak(1,1)
+start answers outside_weak(1,2):
+[]
+//end answers outside_weak(1,2)
+start answers outside_weak(1,3):
+[]
+//end answers outside_weak(1,3)
+start answers outside_weak(1,4):
+[]
+//end answers outside_weak(1,4)
+start answers outside_weak(1,5):
+[]
+//end answers outside_weak(1,5)
+start answers outside_weak(1,6):
+0.00124261
+//end answers outside_weak(1,6)
+start answers outside_weak(1,7):
+0.00170473
+//end answers outside_weak(1,7)
+start answers outside_weak(1,8):
+0.0234403
+//end answers outside_weak(1,8)
+start answers outside_weak(1,9):
+0.621009
+//end answers outside_weak(1,9)
+start answers outside_weak(1,10):
+0.00394679
+//end answers outside_weak(1,10)
+start answers outside_weak(1,11):
+0.0023669
+//end answers outside_weak(1,11)
+start answers outside_weak(1,12):
+0.00291355
+//end answers outside_weak(1,12)
+start answers outside_weak(1,13):
+0.00393798
+//end answers outside_weak(1,13)
+start answers outside_weak(1,14):
+0.00535186
+//end answers outside_weak(1,14)
+start answers outside_weak(1,15):
+0.00750397
+//end answers outside_weak(1,15)
+start answers outside_weak(1,16):
+0.218826
+//end answers outside_weak(1,16)
+start answers outside_weak(1,17):
+6.1732
+//end answers outside_weak(1,17)
+start answers outside_weak(1,18):
+0.0392297
+//end answers outside_weak(1,18)
+start answers outside_weak(1,19):
+0.0235226
+//end answers outside_weak(1,19)
+start answers outside_weak(1,20):
+0.0225384
+//end answers outside_weak(1,20)
+start answers outside_weak(1,21):
+0.0304164
+//end answers outside_weak(1,21)
+start answers outside_weak(1,22):
+0.0413707
+//end answers outside_weak(1,22)
+start answers outside_weak(1,23):
+0.0581121
+//end answers outside_weak(1,23)
+start answers outside_weak(1,24):
+1.68968
+//end answers outside_weak(1,24)
+start answers outside_weak(1,25):
+47.6548
+//end answers outside_weak(1,25)
+start answers outside_weak(1,26):
+0.439917
+//end answers outside_weak(1,26)
+start answers outside_weak(1,27):
+4.14235
+//end answers outside_weak(1,27)
+start answers outside_weak(1,28):
+116.863
+//end answers outside_weak(1,28)
+start answers outside_weak(1,29):
+0.741535
+//end answers outside_weak(1,29)
+start answers outside_weak(2,2):
+[]
+//end answers outside_weak(2,2)
+start answers outside_weak(2,3):
+[]
+//end answers outside_weak(2,3)
+start answers outside_weak(2,4):
+[]
+//end answers outside_weak(2,4)
+start answers outside_weak(2,5):
+[]
+//end answers outside_weak(2,5)
+start answers outside_weak(2,6):
+[]
+//end answers outside_weak(2,6)
+start answers outside_weak(2,7):
+0.00664193
+//end answers outside_weak(2,7)
+start answers outside_weak(2,8):
+3.31246
+//end answers outside_weak(2,8)
+start answers outside_weak(2,9):
+0.0221988
+//end answers outside_weak(2,9)
+start answers outside_weak(2,10):
+0.00155546
+//end answers outside_weak(2,10)
+start answers outside_weak(2,11):
+0.00235721
+//end answers outside_weak(2,11)
+start answers outside_weak(2,12):
+0.00361624
+//end answers outside_weak(2,12)
+start answers outside_weak(2,13):
+0.00658796
+//end answers outside_weak(2,13)
+start answers outside_weak(2,14):
+0.0132194
+//end answers outside_weak(2,14)
+start answers outside_weak(2,15):
+0.058887
+//end answers outside_weak(2,15)
+start answers outside_weak(2,16):
+32.9183
+//end answers outside_weak(2,16)
+start answers outside_weak(2,17):
+0.220469
+//end answers outside_weak(2,17)
+start answers outside_weak(2,18):
+0.0152604
+//end answers outside_weak(2,18)
+start answers outside_weak(2,19):
+0.0226729
+//end answers outside_weak(2,19)
+start answers outside_weak(2,20):
+0.0289529
+//end answers outside_weak(2,20)
+start answers outside_weak(2,21):
+0.0530323
+//end answers outside_weak(2,21)
+start answers outside_weak(2,22):
+0.109292
+//end answers outside_weak(2,22)
+start answers outside_weak(2,23):
+0.47589
+//end answers outside_weak(2,23)
+start answers outside_weak(2,24):
+254.177
+//end answers outside_weak(2,24)
+start answers outside_weak(2,25):
+2.59233
+//end answers outside_weak(2,25)
+start answers outside_weak(2,26):
+1.10468
+//end answers outside_weak(2,26)
+start answers outside_weak(2,27):
+623.151
+//end answers outside_weak(2,27)
+start answers outside_weak(2,28):
+4.14235
+//end answers outside_weak(2,28)
+start answers outside_weak(2,29):
+0.244307
+//end answers outside_weak(2,29)
+start answers outside_weak(3,3):
+[]
+//end answers outside_weak(3,3)
+start answers outside_weak(3,4):
+[]
+//end answers outside_weak(3,4)
+start answers outside_weak(3,5):
+[]
+//end answers outside_weak(3,5)
+start answers outside_weak(3,6):
+[]
+//end answers outside_weak(3,6)
+start answers outside_weak(3,7):
+[]
+//end answers outside_weak(3,7)
+start answers outside_weak(3,8):
+0.00664395
+//end answers outside_weak(3,8)
+start answers outside_weak(3,9):
+0.00243386
+//end answers outside_weak(3,9)
+start answers outside_weak(3,10):
+0.00231195
+//end answers outside_weak(3,10)
+start answers outside_weak(3,11):
+0.0014604
+//end answers outside_weak(3,11)
+start answers outside_weak(3,12):
+0.00214181
+//end answers outside_weak(3,12)
+start answers outside_weak(3,13):
+0.0101145
+//end answers outside_weak(3,13)
+start answers outside_weak(3,14):
+0.0137754
+//end answers outside_weak(3,14)
+start answers outside_weak(3,15):
+0.0571717
+//end answers outside_weak(3,15)
+start answers outside_weak(3,16):
+0.0589594
+//end answers outside_weak(3,16)
+start answers outside_weak(3,17):
+0.0239936
+//end answers outside_weak(3,17)
+start answers outside_weak(3,18):
+0.0228138
+//end answers outside_weak(3,18)
+start answers outside_weak(3,19):
+0.014256
+//end answers outside_weak(3,19)
+start answers outside_weak(3,20):
+0.0167165
+//end answers outside_weak(3,20)
+start answers outside_weak(3,21):
+0.0784437
+//end answers outside_weak(3,21)
+start answers outside_weak(3,22):
+0.108825
+//end answers outside_weak(3,22)
+start answers outside_weak(3,23):
+0.451929
+//end answers outside_weak(3,23)
+start answers outside_weak(3,24):
+0.612801
+//end answers outside_weak(3,24)
+start answers outside_weak(3,25):
+7.75888
+//end answers outside_weak(3,25)
+start answers outside_weak(3,26):
+8.42211
+//end answers outside_weak(3,26)
+start answers outside_weak(3,27):
+1.11323
+//end answers outside_weak(3,27)
+start answers outside_weak(3,28):
+0.439917
+//end answers outside_weak(3,28)
+start answers outside_weak(3,29):
+0.407751
+//end answers outside_weak(3,29)
+start answers outside_weak(4,4):
+[]
+//end answers outside_weak(4,4)
+start answers outside_weak(4,5):
+[]
+//end answers outside_weak(4,5)
+start answers outside_weak(4,6):
+[]
+//end answers outside_weak(4,6)
+start answers outside_weak(4,7):
+[]
+//end answers outside_weak(4,7)
+start answers outside_weak(4,8):
+[]
+//end answers outside_weak(4,8)
+start answers outside_weak(4,9):
+0.270198
+//end answers outside_weak(4,9)
+start answers outside_weak(4,10):
+0.00180791
+//end answers outside_weak(4,10)
+start answers outside_weak(4,11):
+0.00123604
+//end answers outside_weak(4,11)
+start answers outside_weak(4,12):
+0.002255
+//end answers outside_weak(4,12)
+start answers outside_weak(4,13):
+0.00535145
+//end answers outside_weak(4,13)
+start answers outside_weak(4,14):
+0.0270053
+//end answers outside_weak(4,14)
+start answers outside_weak(4,15):
+0.0147944
+//end answers outside_weak(4,15)
+start answers outside_weak(4,16):
+0.141549
+//end answers outside_weak(4,16)
+start answers outside_weak(4,17):
+2.66657
+//end answers outside_weak(4,17)
+start answers outside_weak(4,18):
+0.0183461
+//end answers outside_weak(4,18)
+start answers outside_weak(4,19):
+0.0125241
+//end answers outside_weak(4,19)
+start answers outside_weak(4,20):
+0.0196913
+//end answers outside_weak(4,20)
+start answers outside_weak(4,21):
+0.0478418
+//end answers outside_weak(4,21)
+start answers outside_weak(4,22):
+0.22796
+//end answers outside_weak(4,22)
+start answers outside_weak(4,23):
+0.210048
+//end answers outside_weak(4,23)
+start answers outside_weak(4,24):
+41.6035
+//end answers outside_weak(4,24)
+start answers outside_weak(4,25):
+983.544
+//end answers outside_weak(4,25)
+start answers outside_weak(4,26):
+1.46115
+//end answers outside_weak(4,26)
+start answers outside_weak(4,27):
+2.59867
+//end answers outside_weak(4,27)
+start answers outside_weak(4,28):
+47.6548
+//end answers outside_weak(4,28)
+start answers outside_weak(4,29):
+0.302362
+//end answers outside_weak(4,29)
+start answers outside_weak(5,5):
+[]
+//end answers outside_weak(5,5)
+start answers outside_weak(5,6):
+[]
+//end answers outside_weak(5,6)
+start answers outside_weak(5,7):
+[]
+//end answers outside_weak(5,7)
+start answers outside_weak(5,8):
+[]
+//end answers outside_weak(5,8)
+start answers outside_weak(5,9):
+[]
+//end answers outside_weak(5,9)
+start answers outside_weak(5,10):
+0.00139153
+//end answers outside_weak(5,10)
+start answers outside_weak(5,11):
+0.00238227
+//end answers outside_weak(5,11)
+start answers outside_weak(5,12):
+0.00489397
+//end answers outside_weak(5,12)
+start answers outside_weak(5,13):
+0.0125691
+//end answers outside_weak(5,13)
+start answers outside_weak(5,14):
+0.0136162
+//end answers outside_weak(5,14)
+start answers outside_weak(5,15):
+0.0402429
+//end answers outside_weak(5,15)
+start answers outside_weak(5,16):
+14.2333
+//end answers outside_weak(5,16)
+start answers outside_weak(5,17):
+0.119365
+//end answers outside_weak(5,17)
+start answers outside_weak(5,18):
+0.0380802
+//end answers outside_weak(5,18)
+start answers outside_weak(5,19):
+0.0924736
+//end answers outside_weak(5,19)
+start answers outside_weak(5,20):
+0.233274
+//end answers outside_weak(5,20)
+start answers outside_weak(5,21):
+0.623141
+//end answers outside_weak(5,21)
+start answers outside_weak(5,22):
+1.48348
+//end answers outside_weak(5,22)
+start answers outside_weak(5,23):
+8.6383
+//end answers outside_weak(5,23)
+start answers outside_weak(5,24):
+5243.61
+//end answers outside_weak(5,24)
+start answers outside_weak(5,25):
+8.03049
+//end answers outside_weak(5,25)
+start answers outside_weak(5,26):
+0.607048
+//end answers outside_weak(5,26)
+start answers outside_weak(5,27):
+254.177
+//end answers outside_weak(5,27)
+start answers outside_weak(5,28):
+1.68968
+//end answers outside_weak(5,28)
+start answers outside_weak(5,29):
+0.0996164
+//end answers outside_weak(5,29)
+start answers outside_weak(6,6):
+[]
+//end answers outside_weak(6,6)
+start answers outside_weak(6,7):
+[]
+//end answers outside_weak(6,7)
+start answers outside_weak(6,8):
+[]
+//end answers outside_weak(6,8)
+start answers outside_weak(6,9):
+[]
+//end answers outside_weak(6,9)
+start answers outside_weak(6,10):
+[]
+//end answers outside_weak(6,10)
+start answers outside_weak(6,11):
+0.00136878
+//end answers outside_weak(6,11)
+start answers outside_weak(6,12):
+0.00359523
+//end answers outside_weak(6,12)
+start answers outside_weak(6,13):
+0.0065342
+//end answers outside_weak(6,13)
+start answers outside_weak(6,14):
+0.00769077
+//end answers outside_weak(6,14)
+start answers outside_weak(6,15):
+0.0263412
+//end answers outside_weak(6,15)
+start answers outside_weak(6,16):
+0.0290178
+//end answers outside_weak(6,16)
+start answers outside_weak(6,17):
+0.00758376
+//end answers outside_weak(6,17)
+start answers outside_weak(6,18):
+0.0106024
+//end answers outside_weak(6,18)
+start answers outside_weak(6,19):
+0.0332776
+//end answers outside_weak(6,19)
+start answers outside_weak(6,20):
+0.107888
+//end answers outside_weak(6,20)
+start answers outside_weak(6,21):
+1.28713
+//end answers outside_weak(6,21)
+start answers outside_weak(6,22):
+1.75146
+//end answers outside_weak(6,22)
+start answers outside_weak(6,23):
+8.49203
+//end answers outside_weak(6,23)
+start answers outside_weak(6,24):
+8.58377
+//end answers outside_weak(6,24)
+start answers outside_weak(6,25):
+0.646498
+//end answers outside_weak(6,25)
+start answers outside_weak(6,26):
+0.451075
+//end answers outside_weak(6,26)
+start answers outside_weak(6,27):
+0.479377
+//end answers outside_weak(6,27)
+start answers outside_weak(6,28):
+0.0581121
+//end answers outside_weak(6,28)
+start answers outside_weak(6,29):
+0.073869
+//end answers outside_weak(6,29)
+start answers outside_weak(7,7):
+[]
+//end answers outside_weak(7,7)
+start answers outside_weak(7,8):
+[]
+//end answers outside_weak(7,8)
+start answers outside_weak(7,9):
+[]
+//end answers outside_weak(7,9)
+start answers outside_weak(7,10):
+[]
+//end answers outside_weak(7,10)
+start answers outside_weak(7,11):
+[]
+//end answers outside_weak(7,11)
+start answers outside_weak(7,12):
+0.00171503
+//end answers outside_weak(7,12)
+start answers outside_weak(7,13):
+0.00291002
+//end answers outside_weak(7,13)
+start answers outside_weak(7,14):
+0.00722291
+//end answers outside_weak(7,14)
+start answers outside_weak(7,15):
+0.00694815
+//end answers outside_weak(7,15)
+start answers outside_weak(7,16):
+0.0127491
+//end answers outside_weak(7,16)
+start answers outside_weak(7,17):
+0.0140716
+//end answers outside_weak(7,17)
+start answers outside_weak(7,18):
+0.012655
+//end answers outside_weak(7,18)
+start answers outside_weak(7,19):
+0.0504524
+//end answers outside_weak(7,19)
+start answers outside_weak(7,20):
+0.172881
+//end answers outside_weak(7,20)
+start answers outside_weak(7,21):
+0.597848
+//end answers outside_weak(7,21)
+start answers outside_weak(7,22):
+2.09132
+//end answers outside_weak(7,22)
+start answers outside_weak(7,23):
+1.75594
+//end answers outside_weak(7,23)
+start answers outside_weak(7,24):
+1.65587
+//end answers outside_weak(7,24)
+start answers outside_weak(7,25):
+0.74838
+//end answers outside_weak(7,25)
+start answers outside_weak(7,26):
+0.111348
+//end answers outside_weak(7,26)
+start answers outside_weak(7,27):
+0.111877
+//end answers outside_weak(7,27)
+start answers outside_weak(7,28):
+0.0413707
+//end answers outside_weak(7,28)
+start answers outside_weak(7,29):
+0.0547765
+//end answers outside_weak(7,29)
+start answers outside_weak(8,8):
+[]
+//end answers outside_weak(8,8)
+start answers outside_weak(8,9):
+[]
+//end answers outside_weak(8,9)
+start answers outside_weak(8,10):
+[]
+//end answers outside_weak(8,10)
+start answers outside_weak(8,11):
+[]
+//end answers outside_weak(8,11)
+start answers outside_weak(8,12):
+[]
+//end answers outside_weak(8,12)
+start answers outside_weak(8,13):
+0.011554
+//end answers outside_weak(8,13)
+start answers outside_weak(8,14):
+0.00265458
+//end answers outside_weak(8,14)
+start answers outside_weak(8,15):
+0.00487734
+//end answers outside_weak(8,15)
+start answers outside_weak(8,16):
+0.0076143
+//end answers outside_weak(8,16)
+start answers outside_weak(8,17):
+0.0212864
+//end answers outside_weak(8,17)
+start answers outside_weak(8,18):
+0.0183898
+//end answers outside_weak(8,18)
+start answers outside_weak(8,19):
+0.0604355
+//end answers outside_weak(8,19)
+start answers outside_weak(8,20):
+0.86269
+//end answers outside_weak(8,20)
+start answers outside_weak(8,21):
+3.55992
+//end answers outside_weak(8,21)
+start answers outside_weak(8,22):
+0.595506
+//end answers outside_weak(8,22)
+start answers outside_weak(8,23):
+1.28471
+//end answers outside_weak(8,23)
+start answers outside_weak(8,24):
+0.846937
+//end answers outside_weak(8,24)
+start answers outside_weak(8,25):
+0.192624
+//end answers outside_weak(8,25)
+start answers outside_weak(8,26):
+0.0786796
+//end answers outside_weak(8,26)
+start answers outside_weak(8,27):
+0.0530323
+//end answers outside_weak(8,27)
+start answers outside_weak(8,28):
+0.0304164
+//end answers outside_weak(8,28)
+start answers outside_weak(8,29):
+0.0406187
+//end answers outside_weak(8,29)
+start answers outside_weak(9,9):
+[]
+//end answers outside_weak(9,9)
+start answers outside_weak(9,10):
+[]
+//end answers outside_weak(9,10)
+start answers outside_weak(9,11):
+[]
+//end answers outside_weak(9,11)
+start answers outside_weak(9,12):
+[]
+//end answers outside_weak(9,12)
+start answers outside_weak(9,13):
+[]
+//end answers outside_weak(9,13)
+start answers outside_weak(9,14):
+0.00315107
+//end answers outside_weak(9,14)
+start answers outside_weak(9,15):
+0.00282272
+//end answers outside_weak(9,15)
+start answers outside_weak(9,16):
+0.0108905
+//end answers outside_weak(9,16)
+start answers outside_weak(9,17):
+0.0371193
+//end answers outside_weak(9,17)
+start answers outside_weak(9,18):
+0.0989749
+//end answers outside_weak(9,18)
+start answers outside_weak(9,19):
+5.53925
+//end answers outside_weak(9,19)
+start answers outside_weak(9,20):
+415.274
+//end answers outside_weak(9,20)
+start answers outside_weak(9,21):
+3.13365
+//end answers outside_weak(9,21)
+start answers outside_weak(9,22):
+0.620623
+//end answers outside_weak(9,22)
+start answers outside_weak(9,23):
+0.162123
+//end answers outside_weak(9,23)
+start answers outside_weak(9,24):
+0.289866
+//end answers outside_weak(9,24)
+start answers outside_weak(9,25):
+0.0524642
+//end answers outside_weak(9,25)
+start answers outside_weak(9,26):
+0.0173819
+//end answers outside_weak(9,26)
+start answers outside_weak(9,27):
+0.0289397
+//end answers outside_weak(9,27)
+start answers outside_weak(9,28):
+0.0225206
+//end answers outside_weak(9,28)
+start answers outside_weak(9,29):
+0.030205
+//end answers outside_weak(9,29)
+start answers outside_weak(10,10):
+[]
+//end answers outside_weak(10,10)
+start answers outside_weak(10,11):
+[]
+//end answers outside_weak(10,11)
+start answers outside_weak(10,12):
+[]
+//end answers outside_weak(10,12)
+start answers outside_weak(10,13):
+[]
+//end answers outside_weak(10,13)
+start answers outside_weak(10,14):
+[]
+//end answers outside_weak(10,14)
+start answers outside_weak(10,15):
+0.0926454
+//end answers outside_weak(10,15)
+start answers outside_weak(10,16):
+0.246747
+//end answers outside_weak(10,16)
+start answers outside_weak(10,17):
+0.656447
+//end answers outside_weak(10,17)
+start answers outside_weak(10,18):
+4.24091
+//end answers outside_weak(10,18)
+start answers outside_weak(10,19):
+2604
+//end answers outside_weak(10,19)
+start answers outside_weak(10,20):
+19.7772
+//end answers outside_weak(10,20)
+start answers outside_weak(10,21):
+0.212727
+//end answers outside_weak(10,21)
+start answers outside_weak(10,22):
+0.173925
+//end answers outside_weak(10,22)
+start answers outside_weak(10,23):
+0.0466623
+//end answers outside_weak(10,23)
+start answers outside_weak(10,24):
+0.104125
+//end answers outside_weak(10,24)
+start answers outside_weak(10,25):
+0.0204264
+//end answers outside_weak(10,25)
+start answers outside_weak(10,26):
+0.0144212
+//end answers outside_weak(10,26)
+start answers outside_weak(10,27):
+0.02267
+//end answers outside_weak(10,27)
+start answers outside_weak(10,28):
+0.0235187
+//end answers outside_weak(10,28)
+start answers outside_weak(10,29):
+0.0316444
+//end answers outside_weak(10,29)
+start answers outside_weak(11,11):
+[]
+//end answers outside_weak(11,11)
+start answers outside_weak(11,12):
+[]
+//end answers outside_weak(11,12)
+start answers outside_weak(11,13):
+[]
+//end answers outside_weak(11,13)
+start answers outside_weak(11,14):
+[]
+//end answers outside_weak(11,14)
+start answers outside_weak(11,15):
+[]
+//end answers outside_weak(11,15)
+start answers outside_weak(11,16):
+0.574611
+//end answers outside_weak(11,16)
+start answers outside_weak(11,17):
+25.6648
+//end answers outside_weak(11,17)
+start answers outside_weak(11,18):
+34.6147
+//end answers outside_weak(11,18)
+start answers outside_weak(11,19):
+4.23657
+//end answers outside_weak(11,19)
+start answers outside_weak(11,20):
+0.0600916
+//end answers outside_weak(11,20)
+start answers outside_weak(11,21):
+0.0183417
+//end answers outside_weak(11,21)
+start answers outside_weak(11,22):
+0.0126681
+//end answers outside_weak(11,22)
+start answers outside_weak(11,23):
+0.0106264
+//end answers outside_weak(11,23)
+start answers outside_weak(11,24):
+0.0410546
+//end answers outside_weak(11,24)
+start answers outside_weak(11,25):
+0.0240006
+//end answers outside_weak(11,25)
+start answers outside_weak(11,26):
+0.0228345
+//end answers outside_weak(11,26)
+start answers outside_weak(11,27):
+0.0152583
+//end answers outside_weak(11,27)
+start answers outside_weak(11,28):
+0.0392231
+//end answers outside_weak(11,28)
+start answers outside_weak(11,29):
+0.0528149
+//end answers outside_weak(11,29)
+start answers outside_weak(12,12):
+[]
+//end answers outside_weak(12,12)
+start answers outside_weak(12,13):
+[]
+//end answers outside_weak(12,13)
+start answers outside_weak(12,14):
+[]
+//end answers outside_weak(12,14)
+start answers outside_weak(12,15):
+[]
+//end answers outside_weak(12,15)
+start answers outside_weak(12,16):
+[]
+//end answers outside_weak(12,16)
+start answers outside_weak(12,17):
+4036.11
+//end answers outside_weak(12,17)
+start answers outside_weak(12,18):
+2.40881
+//end answers outside_weak(12,18)
+start answers outside_weak(12,19):
+0.614409
+//end answers outside_weak(12,19)
+start answers outside_weak(12,20):
+0.0140841
+//end answers outside_weak(12,20)
+start answers outside_weak(12,21):
+0.00550133
+//end answers outside_weak(12,21)
+start answers outside_weak(12,22):
+0.00454812
+//end answers outside_weak(12,22)
+start answers outside_weak(12,23):
+0.00641721
+//end answers outside_weak(12,23)
+start answers outside_weak(12,24):
+0.14956
+//end answers outside_weak(12,24)
+start answers outside_weak(12,25):
+2.66873
+//end answers outside_weak(12,25)
+start answers outside_weak(12,26):
+0.0239759
+//end answers outside_weak(12,26)
+start answers outside_weak(12,27):
+0.220433
+//end answers outside_weak(12,27)
+start answers outside_weak(12,28):
+6.17216
+//end answers outside_weak(12,28)
+start answers outside_weak(12,29):
+0.0391641
+//end answers outside_weak(12,29)
+start answers outside_weak(13,13):
+[]
+//end answers outside_weak(13,13)
+start answers outside_weak(13,14):
+[]
+//end answers outside_weak(13,14)
+start answers outside_weak(13,15):
+[]
+//end answers outside_weak(13,15)
+start answers outside_weak(13,16):
+[]
+//end answers outside_weak(13,16)
+start answers outside_weak(13,17):
+[]
+//end answers outside_weak(13,17)
+start answers outside_weak(13,18):
+0.538004
+//end answers outside_weak(13,18)
+start answers outside_weak(13,19):
+0.238365
+//end answers outside_weak(13,19)
+start answers outside_weak(13,20):
+0.00566234
+//end answers outside_weak(13,20)
+start answers outside_weak(13,21):
+0.00383166
+//end answers outside_weak(13,21)
+start answers outside_weak(13,22):
+0.00731073
+//end answers outside_weak(13,22)
+start answers outside_weak(13,23):
+0.0287131
+//end answers outside_weak(13,23)
+start answers outside_weak(13,24):
+14.2449
+//end answers outside_weak(13,24)
+start answers outside_weak(13,25):
+0.141048
+//end answers outside_weak(13,25)
+start answers outside_weak(13,26):
+0.0584951
+//end answers outside_weak(13,26)
+start answers outside_weak(13,27):
+32.9127
+//end answers outside_weak(13,27)
+start answers outside_weak(13,28):
+0.218789
+//end answers outside_weak(13,28)
+start answers outside_weak(13,29):
+0.0129045
+//end answers outside_weak(13,29)
+start answers outside_weak(14,14):
+[]
+//end answers outside_weak(14,14)
+start answers outside_weak(14,15):
+[]
+//end answers outside_weak(14,15)
+start answers outside_weak(14,16):
+[]
+//end answers outside_weak(14,16)
+start answers outside_weak(14,17):
+[]
+//end answers outside_weak(14,17)
+start answers outside_weak(14,18):
+[]
+//end answers outside_weak(14,18)
+start answers outside_weak(14,19):
+0.0909425
+//end answers outside_weak(14,19)
+start answers outside_weak(14,20):
+0.00225059
+//end answers outside_weak(14,20)
+start answers outside_weak(14,21):
+0.00487012
+//end answers outside_weak(14,21)
+start answers outside_weak(14,22):
+0.00681361
+//end answers outside_weak(14,22)
+start answers outside_weak(14,23):
+0.0264034
+//end answers outside_weak(14,23)
+start answers outside_weak(14,24):
+0.0407618
+//end answers outside_weak(14,24)
+start answers outside_weak(14,25):
+0.0678003
+//end answers outside_weak(14,25)
+start answers outside_weak(14,26):
+0.0571626
+//end answers outside_weak(14,26)
+start answers outside_weak(14,27):
+0.0593288
+//end answers outside_weak(14,27)
+start answers outside_weak(14,28):
+0.00750271
+//end answers outside_weak(14,28)
+start answers outside_weak(14,29):
+0.00956911
+//end answers outside_weak(14,29)
+start answers outside_weak(15,15):
+[]
+//end answers outside_weak(15,15)
+start answers outside_weak(15,16):
+[]
+//end answers outside_weak(15,16)
+start answers outside_weak(15,17):
+[]
+//end answers outside_weak(15,17)
+start answers outside_weak(15,18):
+[]
+//end answers outside_weak(15,18)
+start answers outside_weak(15,19):
+[]
+//end answers outside_weak(15,19)
+start answers outside_weak(15,20):
+0.0015274
+//end answers outside_weak(15,20)
+start answers outside_weak(15,21):
+0.00261583
+//end answers outside_weak(15,21)
+start answers outside_weak(15,22):
+0.00722981
+//end answers outside_weak(15,22)
+start answers outside_weak(15,23):
+0.00787292
+//end answers outside_weak(15,23)
+start answers outside_weak(15,24):
+0.0320112
+//end answers outside_weak(15,24)
+start answers outside_weak(15,25):
+0.0931714
+//end answers outside_weak(15,25)
+start answers outside_weak(15,26):
+0.0140908
+//end answers outside_weak(15,26)
+start answers outside_weak(15,27):
+0.0135521
+//end answers outside_weak(15,27)
+start answers outside_weak(15,28):
+0.00535096
+//end answers outside_weak(15,28)
+start answers outside_weak(15,29):
+0.00709583
+//end answers outside_weak(15,29)
+start answers outside_weak(16,16):
+[]
+//end answers outside_weak(16,16)
+start answers outside_weak(16,17):
+[]
+//end answers outside_weak(16,17)
+start answers outside_weak(16,18):
+[]
+//end answers outside_weak(16,18)
+start answers outside_weak(16,19):
+[]
+//end answers outside_weak(16,19)
+start answers outside_weak(16,20):
+[]
+//end answers outside_weak(16,20)
+start answers outside_weak(16,21):
+0.011573
+//end answers outside_weak(16,21)
+start answers outside_weak(16,22):
+0.00296883
+//end answers outside_weak(16,22)
+start answers outside_weak(16,23):
+0.00652107
+//end answers outside_weak(16,23)
+start answers outside_weak(16,24):
+0.0416401
+//end answers outside_weak(16,24)
+start answers outside_weak(16,25):
+0.0241257
+//end answers outside_weak(16,25)
+start answers outside_weak(16,26):
+0.0101418
+//end answers outside_weak(16,26)
+start answers outside_weak(16,27):
+0.00658688
+//end answers outside_weak(16,27)
+start answers outside_weak(16,28):
+0.00393732
+//end answers outside_weak(16,28)
+start answers outside_weak(16,29):
+0.00526181
+//end answers outside_weak(16,29)
+start answers outside_weak(17,17):
+[]
+//end answers outside_weak(17,17)
+start answers outside_weak(17,18):
+[]
+//end answers outside_weak(17,18)
+start answers outside_weak(17,19):
+[]
+//end answers outside_weak(17,19)
+start answers outside_weak(17,20):
+[]
+//end answers outside_weak(17,20)
+start answers outside_weak(17,21):
+[]
+//end answers outside_weak(17,21)
+start answers outside_weak(17,22):
+0.00500436
+//end answers outside_weak(17,22)
+start answers outside_weak(17,23):
+0.0100916
+//end answers outside_weak(17,23)
+start answers outside_weak(17,24):
+0.012073
+//end answers outside_weak(17,24)
+start answers outside_weak(17,25):
+0.00660549
+//end answers outside_weak(17,25)
+start answers outside_weak(17,26):
+0.00222666
+//end answers outside_weak(17,26)
+start answers outside_weak(17,27):
+0.0036142
+//end answers outside_weak(17,27)
+start answers outside_weak(17,28):
+0.00291111
+//end answers outside_weak(17,28)
+start answers outside_weak(17,29):
+0.00390636
+//end answers outside_weak(17,29)
+start answers outside_weak(18,18):
+[]
+//end answers outside_weak(18,18)
+start answers outside_weak(18,19):
+[]
+//end answers outside_weak(18,19)
+start answers outside_weak(18,20):
+[]
+//end answers outside_weak(18,20)
+start answers outside_weak(18,21):
+[]
+//end answers outside_weak(18,21)
+start answers outside_weak(18,22):
+[]
+//end answers outside_weak(18,22)
+start answers outside_weak(18,23):
+0.00299067
+//end answers outside_weak(18,23)
+start answers outside_weak(18,24):
+0.00386872
+//end answers outside_weak(18,24)
+start answers outside_weak(18,25):
+0.00229305
+//end answers outside_weak(18,25)
+start answers outside_weak(18,26):
+0.00148098
+//end answers outside_weak(18,26)
+start answers outside_weak(18,27):
+0.0023565
+//end answers outside_weak(18,27)
+start answers outside_weak(18,28):
+0.00236606
+//end answers outside_weak(18,28)
+start answers outside_weak(18,29):
+0.00318265
+//end answers outside_weak(18,29)
+start answers outside_weak(19,19):
+[]
+//end answers outside_weak(19,19)
+start answers outside_weak(19,20):
+[]
+//end answers outside_weak(19,20)
+start answers outside_weak(19,21):
+[]
+//end answers outside_weak(19,21)
+start answers outside_weak(19,22):
+[]
+//end answers outside_weak(19,22)
+start answers outside_weak(19,23):
+[]
+//end answers outside_weak(19,23)
+start answers outside_weak(19,24):
+0.00175836
+//end answers outside_weak(19,24)
+start answers outside_weak(19,25):
+0.00253619
+//end answers outside_weak(19,25)
+start answers outside_weak(19,26):
+0.0023141
+//end answers outside_weak(19,26)
+start answers outside_weak(19,27):
+0.00155497
+//end answers outside_weak(19,27)
+start answers outside_weak(19,28):
+0.0039454
+//end answers outside_weak(19,28)
+start answers outside_weak(19,29):
+0.00531189
+//end answers outside_weak(19,29)
+start answers outside_weak(20,20):
+[]
+//end answers outside_weak(20,20)
+start answers outside_weak(20,21):
+[]
+//end answers outside_weak(20,21)
+start answers outside_weak(20,22):
+[]
+//end answers outside_weak(20,22)
+start answers outside_weak(20,23):
+[]
+//end answers outside_weak(20,23)
+start answers outside_weak(20,24):
+[]
+//end answers outside_weak(20,24)
+start answers outside_weak(20,25):
+0.270476
+//end answers outside_weak(20,25)
+start answers outside_weak(20,26):
+0.00247802
+//end answers outside_weak(20,26)
+start answers outside_weak(20,27):
+0.0222189
+//end answers outside_weak(20,27)
+start answers outside_weak(20,28):
+0.620873
+//end answers outside_weak(20,28)
+start answers outside_weak(20,29):
+0.00407973
+//end answers outside_weak(20,29)
+start answers outside_weak(21,21):
+[]
+//end answers outside_weak(21,21)
+start answers outside_weak(21,22):
+[]
+//end answers outside_weak(21,22)
+start answers outside_weak(21,23):
+[]
+//end answers outside_weak(21,23)
+start answers outside_weak(21,24):
+[]
+//end answers outside_weak(21,24)
+start answers outside_weak(21,25):
+[]
+//end answers outside_weak(21,25)
+start answers outside_weak(21,26):
+0.00659691
+//end answers outside_weak(21,26)
+start answers outside_weak(21,27):
+3.31174
+//end answers outside_weak(21,27)
+start answers outside_weak(21,28):
+0.0240358
+//end answers outside_weak(21,28)
+start answers outside_weak(21,29):
+0.00302445
+//end answers outside_weak(21,29)
+start answers outside_weak(22,22):
+[]
+//end answers outside_weak(22,22)
+start answers outside_weak(22,23):
+[]
+//end answers outside_weak(22,23)
+start answers outside_weak(22,24):
+[]
+//end answers outside_weak(22,24)
+start answers outside_weak(22,25):
+[]
+//end answers outside_weak(22,25)
+start answers outside_weak(22,26):
+[]
+//end answers outside_weak(22,26)
+start answers outside_weak(22,27):
+0.0066908
+//end answers outside_weak(22,27)
+start answers outside_weak(22,28):
+0.00170533
+//end answers outside_weak(22,28)
+start answers outside_weak(22,29):
+0.00224274
+//end answers outside_weak(22,29)
+start answers outside_weak(23,23):
+[]
+//end answers outside_weak(23,23)
+start answers outside_weak(23,24):
+[]
+//end answers outside_weak(23,24)
+start answers outside_weak(23,25):
+[]
+//end answers outside_weak(23,25)
+start answers outside_weak(23,26):
+[]
+//end answers outside_weak(23,26)
+start answers outside_weak(23,27):
+[]
+//end answers outside_weak(23,27)
+start answers outside_weak(23,28):
+0.00124252
+//end answers outside_weak(23,28)
+start answers outside_weak(23,29):
+0.00166307
+//end answers outside_weak(23,29)
+start answers outside_weak(24,24):
+[]
+//end answers outside_weak(24,24)
+start answers outside_weak(24,25):
+[]
+//end answers outside_weak(24,25)
+start answers outside_weak(24,26):
+[]
+//end answers outside_weak(24,26)
+start answers outside_weak(24,27):
+[]
+//end answers outside_weak(24,27)
+start answers outside_weak(24,28):
+[]
+//end answers outside_weak(24,28)
+start answers outside_weak(24,29):
+0.00123322
+//end answers outside_weak(24,29)
+start answers outside_weak(25,25):
+[]
+//end answers outside_weak(25,25)
+start answers outside_weak(25,26):
+[]
+//end answers outside_weak(25,26)
+start answers outside_weak(25,27):
+[]
+//end answers outside_weak(25,27)
+start answers outside_weak(25,28):
+[]
+//end answers outside_weak(25,28)
+start answers outside_weak(25,29):
+[]
+//end answers outside_weak(25,29)
+start answers outside_weak(26,26):
+[]
+//end answers outside_weak(26,26)
+start answers outside_weak(26,27):
+[]
+//end answers outside_weak(26,27)
+start answers outside_weak(26,28):
+[]
+//end answers outside_weak(26,28)
+start answers outside_weak(26,29):
+[]
+//end answers outside_weak(26,29)
+start answers outside_weak(27,27):
+[]
+//end answers outside_weak(27,27)
+start answers outside_weak(27,28):
+[]
+//end answers outside_weak(27,28)
+start answers outside_weak(27,29):
+[]
+//end answers outside_weak(27,29)
+start answers outside_weak(28,28):
+[]
+//end answers outside_weak(28,28)
+start answers outside_weak(28,29):
+[]
+//end answers outside_weak(28,29)
 start answers outside_weak(29,29):
 []
 //end answers outside_weak(29,29)
 start answers struct(0):
 0.150213
 //end answers struct(0)
-start answers outside_struct(0):
-1
-//end answers outside_struct(0)
 start answers struct(1):
 0.00667786
 //end answers struct(1)
-start answers outside_struct(1):
-0.741535
-//end answers outside_struct(1)
 start answers struct(2):
 0.00669655
 //end answers struct(2)
-start answers outside_struct(2):
-0.549875
-//end answers outside_struct(2)
 start answers struct(3):
 0.00903066
 //end answers struct(3)
-start answers outside_struct(3):
-0.407751
-//end answers outside_struct(3)
 start answers struct(4):
 0.00216187
 //end answers struct(4)
-start answers outside_struct(4):
-0.302362
-//end answers outside_struct(4)
 start answers struct(5):
 0.00277623
 //end answers struct(5)
-start answers outside_struct(5):
-0.224212
-//end answers outside_struct(5)
 start answers struct(6):
 0.0037439
 //end answers struct(6)
-start answers outside_struct(6):
-0.166261
-//end answers outside_struct(6)
 start answers struct(7):
 0.00504885
 //end answers struct(7)
-start answers outside_struct(7):
-0.123288
-//end answers outside_struct(7)
 start answers struct(8):
 0.00680865
 //end answers struct(8)
-start answers outside_struct(8):
-0.0914228
-//end answers outside_struct(8)
 start answers struct(9):
 0.00396794
 //end answers struct(9)
-start answers outside_struct(9):
-0.0679841
-//end answers outside_struct(9)
 start answers struct(10):
 0.00531376
 //end answers struct(10)
-start answers outside_struct(10):
-0.0712237
-//end answers outside_struct(10)
 start answers struct(11):
 0.00716589
 //end answers struct(11)
-start answers outside_struct(11):
-0.0528149
-//end answers outside_struct(11)
 start answers struct(12):
 0.00879966
 //end answers struct(12)
-start answers outside_struct(12):
-0.0391641
-//end answers outside_struct(12)
 start answers struct(13):
 0.011845
 //end answers struct(13)
-start answers outside_struct(13):
-0.0290448
-//end answers outside_struct(13)
 start answers struct(14):
 0.0159737
 //end answers struct(14)
-start answers outside_struct(14):
-0.0215377
-//end answers outside_struct(14)
 start answers struct(15):
 0.0215413
 //end answers struct(15)
-start answers outside_struct(15):
-0.015971
-//end answers outside_struct(15)
 start answers struct(16):
 0.0290497
 //end answers struct(16)
-start answers outside_struct(16):
-0.011843
-//end answers outside_struct(16)
 start answers struct(17):
 0.0391707
 //end answers struct(17)
-start answers outside_struct(17):
-0.00879226
-//end answers outside_struct(17)
 start answers struct(18):
 0.0528238
 //end answers struct(18)
-start answers outside_struct(18):
-0.00716336
-//end answers outside_struct(18)
 start answers struct(19):
 0.0712357
 //end answers struct(19)
-start answers outside_struct(19):
-0.00531189
-//end answers outside_struct(19)
 start answers struct(20):
 0.0680382
 //end answers struct(20)
-start answers outside_struct(20):
-0.00407973
-//end answers outside_struct(20)
 start answers struct(21):
 0.0914228
 //end answers struct(21)
-start answers outside_struct(21):
-0.00680729
-//end answers outside_struct(21)
 start answers struct(22):
 0.123288
 //end answers struct(22)
-start answers outside_struct(22):
-0.00504785
-//end answers outside_struct(22)
 start answers struct(23):
 0.166261
 //end answers struct(23)
-start answers outside_struct(23):
-0.00374316
-//end answers outside_struct(23)
 start answers struct(24):
 0.224212
 //end answers struct(24)
-start answers outside_struct(24):
-0.00277568
-//end answers outside_struct(24)
 start answers struct(25):
 0.302362
 //end answers struct(25)
-start answers outside_struct(25):
-0.00212147
-//end answers outside_struct(25)
 start answers struct(26):
 0.407751
 //end answers struct(26)
-start answers outside_struct(26):
-0.00903054
-//end answers outside_struct(26)
 start answers struct(27):
 0.549875
 //end answers struct(27)
-start answers outside_struct(27):
-0.00669646
-//end answers outside_struct(27)
 start answers struct(28):
 0.741535
 //end answers struct(28)
-start answers outside_struct(28):
-0.00601947
-//end answers outside_struct(28)
 start answers struct(29):
 1
 //end answers struct(29)
+start answers outside_struct(0):
+1
+//end answers outside_struct(0)
+start answers outside_struct(1):
+0.741535
+//end answers outside_struct(1)
+start answers outside_struct(2):
+0.549875
+//end answers outside_struct(2)
+start answers outside_struct(3):
+0.407751
+//end answers outside_struct(3)
+start answers outside_struct(4):
+0.302362
+//end answers outside_struct(4)
+start answers outside_struct(5):
+0.224212
+//end answers outside_struct(5)
+start answers outside_struct(6):
+0.166261
+//end answers outside_struct(6)
+start answers outside_struct(7):
+0.123288
+//end answers outside_struct(7)
+start answers outside_struct(8):
+0.0914228
+//end answers outside_struct(8)
+start answers outside_struct(9):
+0.0679841
+//end answers outside_struct(9)
+start answers outside_struct(10):
+0.0712237
+//end answers outside_struct(10)
+start answers outside_struct(11):
+0.0528149
+//end answers outside_struct(11)
+start answers outside_struct(12):
+0.0391641
+//end answers outside_struct(12)
+start answers outside_struct(13):
+0.0290448
+//end answers outside_struct(13)
+start answers outside_struct(14):
+0.0215377
+//end answers outside_struct(14)
+start answers outside_struct(15):
+0.015971
+//end answers outside_struct(15)
+start answers outside_struct(16):
+0.011843
+//end answers outside_struct(16)
+start answers outside_struct(17):
+0.00879226
+//end answers outside_struct(17)
+start answers outside_struct(18):
+0.00716336
+//end answers outside_struct(18)
+start answers outside_struct(19):
+0.00531189
+//end answers outside_struct(19)
+start answers outside_struct(20):
+0.00407973
+//end answers outside_struct(20)
+start answers outside_struct(21):
+0.00680729
+//end answers outside_struct(21)
+start answers outside_struct(22):
+0.00504785
+//end answers outside_struct(22)
+start answers outside_struct(23):
+0.00374316
+//end answers outside_struct(23)
+start answers outside_struct(24):
+0.00277568
+//end answers outside_struct(24)
+start answers outside_struct(25):
+0.00212147
+//end answers outside_struct(25)
+start answers outside_struct(26):
+0.00903054
+//end answers outside_struct(26)
+start answers outside_struct(27):
+0.00669646
+//end answers outside_struct(27)
+start answers outside_struct(28):
+0.00601947
+//end answers outside_struct(28)
 start answers outside_struct(29):
 0.150213
 //end answers outside_struct(29)
