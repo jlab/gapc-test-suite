@@ -6701,8 +6701,8 @@ subgraph cluster_242 {
     node_2987 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_2987 -> node_2988 [ style=invis ];
     node_2988 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_left_most + t_0_right_most)</font></td><td>struc<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_right_most - t_0_left_most)</font></td></tr></table>>, color="black" ];
-    node_2989 [ label=<<table border='0'><tr><td>complete_track</td></tr></table>>, fontcolor="magenta", shape=none ];
-node_2988 -> node_2989 [ arrowhead=none, color="magenta" ];
+    node_2989 [ label="complete_track" , fontcolor="magenta" , shape=none ];
+    node_2988 -> node_2989 [ arrowhead=none, color="magenta" ];
     node_2990 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=none ];
     node_2986 -> node_2990 [ arrowhead=none, color="purple", weight=99 ];
     { rank=same node_2986 node_2987 node_2988 }

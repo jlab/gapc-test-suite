@@ -283,8 +283,8 @@ subgraph cluster_10 {
     node_126 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_126 -> node_127 [ style=invis ];
     node_127 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + t_0_j)</font></td><td>helene<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>(t_0_j - t_0_i)</font></td></tr></table>>, color="black" ];
-    node_128 [ label=<<table border='0'><tr><td>complete_track</td></tr></table>>, fontcolor="magenta", shape=none ];
-node_127 -> node_128 [ arrowhead=none, color="magenta" ];
+    node_128 [ label="complete_track" , fontcolor="magenta" , shape=none ];
+    node_127 -> node_128 [ arrowhead=none, color="magenta" ];
     node_125 -> node_129 [ style=invis, weight=99 ];
     node_129 [ style=invis ];
     { rank=same node_125 node_126 node_127 }

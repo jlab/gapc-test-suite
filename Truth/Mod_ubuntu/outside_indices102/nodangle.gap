@@ -576,8 +576,8 @@ subgraph cluster_23 {
     node_253 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_253 -> node_254 [ style=invis ];
     node_254 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + t_0_right_most)</font></td><td>struct<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_right_most - t_0_i)</font></td></tr></table>>, color="black" ];
-    node_255 [ label=<<table border='0'><tr><td>complete_track</td></tr></table>>, fontcolor="magenta", shape=none ];
-node_254 -> node_255 [ arrowhead=none, color="magenta" ];
+    node_255 [ label="complete_track" , fontcolor="magenta" , shape=none ];
+    node_254 -> node_255 [ arrowhead=none, color="magenta" ];
     node_256 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=none ];
     node_244 -> node_256 [ arrowhead=none, color="purple", weight=99 ];
     { rank=same node_244 node_245 node_246 node_249 node_250 node_253 node_254 }

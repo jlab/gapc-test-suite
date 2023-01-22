@@ -671,8 +671,8 @@ subgraph cluster_12 {
     node_317 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_317 -> node_318 [ style=invis ];
     node_318 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_left_most + t_0_right_most)</font></td><td>struct<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_right_most - t_0_left_most)</font></td></tr></table>>, color="black" ];
-    node_319 [ label=<<table border='0'><tr><td>complete_track</td></tr></table>>, fontcolor="magenta", shape=none ];
-node_318 -> node_319 [ arrowhead=none, color="magenta" ];
+    node_319 [ label="complete_track" , fontcolor="magenta" , shape=none ];
+    node_318 -> node_319 [ arrowhead=none, color="magenta" ];
     node_320 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=none ];
     node_316 -> node_320 [ arrowhead=none, color="purple", weight=99 ];
     { rank=same node_316 node_317 node_318 }

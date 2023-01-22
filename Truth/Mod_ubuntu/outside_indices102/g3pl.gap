@@ -306,8 +306,8 @@ subgraph cluster_7 {
     node_142 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_142 -> node_143 [ style=invis ];
     node_143 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_left_most + t_0_j)</font></td><td>struct<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_j - t_0_left_most)</font></td></tr></table>>, color="black" ];
-    node_144 [ label=<<table border='0'><tr><td>complete_track</td></tr></table>>, fontcolor="magenta", shape=none ];
-node_143 -> node_144 [ arrowhead=none, color="magenta" ];
+    node_144 [ label="complete_track" , fontcolor="magenta" , shape=none ];
+    node_143 -> node_144 [ arrowhead=none, color="magenta" ];
     node_145 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=none ];
     node_129 -> node_145 [ arrowhead=none, color="purple", weight=99 ];
     { rank=same node_129 node_130 node_131 node_136 node_137 node_142 node_143 }

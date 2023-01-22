@@ -698,8 +698,8 @@ subgraph cluster_23 {
     node_314 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_314 -> node_315 [ style=invis ];
     node_315 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + t_0_right_most)</font></td><td>struct<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_right_most - t_0_i)</font></td></tr></table>>, color="black" ];
-    node_316 [ label=<<table border='0'><tr><td>complete_track</td></tr></table>>, fontcolor="magenta", shape=none ];
-node_315 -> node_316 [ arrowhead=none, color="magenta" ];
+    node_316 [ label="complete_track" , fontcolor="magenta" , shape=none ];
+    node_315 -> node_316 [ arrowhead=none, color="magenta" ];
     node_317 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=none ];
     node_285 -> node_317 [ arrowhead=none, color="purple", weight=99 ];
     node_317 -> node_318 [ style=invis, weight=99 ];

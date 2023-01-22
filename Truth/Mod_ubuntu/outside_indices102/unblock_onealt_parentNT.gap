@@ -41,8 +41,8 @@ subgraph cluster_2 {
     node_17 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_17 -> node_18 [ style=invis ];
     node_18 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + t_0_right_most)</font></td><td>struct<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_right_most - t_0_i)</font></td></tr></table>>, color="black" ];
-    node_19 [ label=<<table border='0'><tr><td>complete_track</td></tr></table>>, fontcolor="magenta", shape=none ];
-node_18 -> node_19 [ arrowhead=none, color="magenta" ];
+    node_19 [ label="complete_track" , fontcolor="magenta" , shape=none ];
+    node_18 -> node_19 [ arrowhead=none, color="magenta" ];
     node_20 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=none ];
     node_12 -> node_20 [ arrowhead=none, color="purple", weight=99 ];
     { rank=same node_12 node_13 node_14 node_17 node_18 }

@@ -6677,8 +6677,8 @@ subgraph cluster_242 {
     node_2975 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_2975 -> node_2976 [ style=invis ];
     node_2976 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_left_most + t_0_right_most)</font></td><td>struc<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_right_most - t_0_left_most)</font></td></tr></table>>, color="black" ];
-    node_2977 [ label=<<table border='0'><tr><td>complete_track</td></tr></table>>, fontcolor="magenta", shape=none ];
-node_2976 -> node_2977 [ arrowhead=none, color="magenta" ];
+    node_2977 [ label="complete_track" , fontcolor="magenta" , shape=none ];
+    node_2976 -> node_2977 [ arrowhead=none, color="magenta" ];
     node_2978 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=none ];
     node_2974 -> node_2978 [ arrowhead=none, color="purple", weight=99 ];
     { rank=same node_2974 node_2975 node_2976 }

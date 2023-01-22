@@ -960,8 +960,8 @@ subgraph cluster_33 {
     node_430 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_430 -> node_431 [ style=invis ];
     node_431 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + t_0_j)</font></td><td>state_begin<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_j - t_0_i)</font></td></tr></table>>, color="black" ];
-    node_432 [ label=<<table border='0'><tr><td>complete_track</td></tr></table>>, fontcolor="magenta", shape=none ];
-node_431 -> node_432 [ arrowhead=none, color="magenta" ];
+    node_432 [ label="complete_track" , fontcolor="magenta" , shape=none ];
+    node_431 -> node_432 [ arrowhead=none, color="magenta" ];
     node_433 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=none ];
     node_429 -> node_433 [ arrowhead=none, color="purple", weight=99 ];
     { rank=same node_429 node_430 node_431 }

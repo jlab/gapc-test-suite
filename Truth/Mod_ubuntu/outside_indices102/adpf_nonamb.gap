@@ -1819,8 +1819,8 @@ subgraph cluster_52 {
     node_831 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_831 -> node_832 [ style=invis ];
     node_832 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_left_most + t_0_right_most)</font></td><td>struct<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_right_most - t_0_left_most)</font></td></tr></table>>, color="black" ];
-    node_833 [ label=<<table border='0'><tr><td>complete_track</td></tr></table>>, fontcolor="magenta", shape=none ];
-node_832 -> node_833 [ arrowhead=none, color="magenta" ];
+    node_833 [ label="complete_track" , fontcolor="magenta" , shape=none ];
+    node_832 -> node_833 [ arrowhead=none, color="magenta" ];
     node_834 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=none ];
     node_830 -> node_834 [ arrowhead=none, color="purple", weight=99 ];
     { rank=same node_830 node_831 node_832 }
