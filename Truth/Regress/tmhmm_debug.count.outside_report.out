@@ -34,15 +34,24 @@ start answers outside_emissions_in10(1,2):
 start answers outside_emissions_in10(2,2):
 []
 //end answers outside_emissions_in10(2,2)
-start answers emissions_ohelixi1(0):
+start answers emissions_ohelixi1(0,0):
 []
-//end answers emissions_ohelixi1(0)
-start answers emissions_ohelixi1(1):
+//end answers emissions_ohelixi1(0,0)
+start answers emissions_ohelixi1(0,1):
 1
-//end answers emissions_ohelixi1(1)
-start answers emissions_ohelixi1(2):
+//end answers emissions_ohelixi1(0,1)
+start answers emissions_ohelixi1(0,2):
 []
-//end answers emissions_ohelixi1(2)
+//end answers emissions_ohelixi1(0,2)
+start answers emissions_ohelixi1(1,1):
+[]
+//end answers emissions_ohelixi1(1,1)
+start answers emissions_ohelixi1(1,2):
+1
+//end answers emissions_ohelixi1(1,2)
+start answers emissions_ohelixi1(2,2):
+[]
+//end answers emissions_ohelixi1(2,2)
 start answers outside_emissions_ohelixi1(0):
 []
 //end answers outside_emissions_ohelixi1(0)
