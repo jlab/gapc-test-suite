@@ -1484,19 +1484,19 @@ start answers outside_weak(0,29):
 0
 //end answers outside_weak(0,29)
 start answers outside_weak(1,1):
-[]
+510
 //end answers outside_weak(1,1)
 start answers outside_weak(1,2):
-[]
+490
 //end answers outside_weak(1,2)
 start answers outside_weak(1,3):
-[]
+450
 //end answers outside_weak(1,3)
 start answers outside_weak(1,4):
-[]
+410
 //end answers outside_weak(1,4)
 start answers outside_weak(1,5):
-[]
+370
 //end answers outside_weak(1,5)
 start answers outside_weak(1,6):
 10
@@ -1571,19 +1571,19 @@ start answers outside_weak(1,29):
 0
 //end answers outside_weak(1,29)
 start answers outside_weak(2,2):
-[]
+160
 //end answers outside_weak(2,2)
 start answers outside_weak(2,3):
-[]
+120
 //end answers outside_weak(2,3)
 start answers outside_weak(2,4):
-[]
+80
 //end answers outside_weak(2,4)
 start answers outside_weak(2,5):
-[]
+40
 //end answers outside_weak(2,5)
 start answers outside_weak(2,6):
-[]
+0
 //end answers outside_weak(2,6)
 start answers outside_weak(2,7):
 -90
@@ -1655,19 +1655,19 @@ start answers outside_weak(2,29):
 50
 //end answers outside_weak(2,29)
 start answers outside_weak(3,3):
-[]
+330
 //end answers outside_weak(3,3)
 start answers outside_weak(3,4):
-[]
+320
 //end answers outside_weak(3,4)
 start answers outside_weak(3,5):
-[]
+310
 //end answers outside_weak(3,5)
 start answers outside_weak(3,6):
-[]
+260
 //end answers outside_weak(3,6)
 start answers outside_weak(3,7):
-[]
+190
 //end answers outside_weak(3,7)
 start answers outside_weak(3,8):
 -90
@@ -1736,19 +1736,19 @@ start answers outside_weak(3,29):
 0
 //end answers outside_weak(3,29)
 start answers outside_weak(4,4):
-[]
+330
 //end answers outside_weak(4,4)
 start answers outside_weak(4,5):
-[]
+270
 //end answers outside_weak(4,5)
 start answers outside_weak(4,6):
-[]
+270
 //end answers outside_weak(4,6)
 start answers outside_weak(4,7):
-[]
+130
 //end answers outside_weak(4,7)
 start answers outside_weak(4,8):
-[]
+0
 //end answers outside_weak(4,8)
 start answers outside_weak(4,9):
 -330
@@ -1814,19 +1814,19 @@ start answers outside_weak(4,29):
 0
 //end answers outside_weak(4,29)
 start answers outside_weak(5,5):
-[]
+40
 //end answers outside_weak(5,5)
 start answers outside_weak(5,6):
-[]
+30
 //end answers outside_weak(5,6)
 start answers outside_weak(5,7):
-[]
+30
 //end answers outside_weak(5,7)
 start answers outside_weak(5,8):
-[]
+20
 //end answers outside_weak(5,8)
 start answers outside_weak(5,9):
-[]
+20
 //end answers outside_weak(5,9)
 start answers outside_weak(5,10):
 10
@@ -1889,19 +1889,19 @@ start answers outside_weak(5,29):
 50
 //end answers outside_weak(5,29)
 start answers outside_weak(6,6):
-[]
+120
 //end answers outside_weak(6,6)
 start answers outside_weak(6,7):
-[]
+110
 //end answers outside_weak(6,7)
 start answers outside_weak(6,8):
-[]
+80
 //end answers outside_weak(6,8)
 start answers outside_weak(6,9):
-[]
+80
 //end answers outside_weak(6,9)
 start answers outside_weak(6,10):
-[]
+90
 //end answers outside_weak(6,10)
 start answers outside_weak(6,11):
 40
@@ -1961,19 +1961,19 @@ start answers outside_weak(6,29):
 50
 //end answers outside_weak(6,29)
 start answers outside_weak(7,7):
-[]
+120
 //end answers outside_weak(7,7)
 start answers outside_weak(7,8):
-[]
+10
 //end answers outside_weak(7,8)
 start answers outside_weak(7,9):
-[]
+10
 //end answers outside_weak(7,9)
 start answers outside_weak(7,10):
-[]
+60
 //end answers outside_weak(7,10)
 start answers outside_weak(7,11):
-[]
+-10
 //end answers outside_weak(7,11)
 start answers outside_weak(7,12):
 40
@@ -2030,19 +2030,19 @@ start answers outside_weak(7,29):
 50
 //end answers outside_weak(7,29)
 start answers outside_weak(8,8):
-[]
+20
 //end answers outside_weak(8,8)
 start answers outside_weak(8,9):
-[]
+-20
 //end answers outside_weak(8,9)
 start answers outside_weak(8,10):
-[]
+10
 //end answers outside_weak(8,10)
 start answers outside_weak(8,11):
-[]
+60
 //end answers outside_weak(8,11)
 start answers outside_weak(8,12):
-[]
+-60
 //end answers outside_weak(8,12)
 start answers outside_weak(8,13):
 -130
@@ -2096,19 +2096,19 @@ start answers outside_weak(8,29):
 50
 //end answers outside_weak(8,29)
 start answers outside_weak(9,9):
-[]
+-70
 //end answers outside_weak(9,9)
 start answers outside_weak(9,10):
-[]
+0
 //end answers outside_weak(9,10)
 start answers outside_weak(9,11):
-[]
+40
 //end answers outside_weak(9,11)
 start answers outside_weak(9,12):
-[]
+-100
 //end answers outside_weak(9,12)
 start answers outside_weak(9,13):
-[]
+-140
 //end answers outside_weak(9,13)
 start answers outside_weak(9,14):
 -20
@@ -2159,19 +2159,19 @@ start answers outside_weak(9,29):
 50
 //end answers outside_weak(9,29)
 start answers outside_weak(10,10):
-[]
+-170
 //end answers outside_weak(10,10)
 start answers outside_weak(10,11):
-[]
+-180
 //end answers outside_weak(10,11)
 start answers outside_weak(10,12):
-[]
+-190
 //end answers outside_weak(10,12)
 start answers outside_weak(10,13):
-[]
+-210
 //end answers outside_weak(10,13)
 start answers outside_weak(10,14):
-[]
+-250
 //end answers outside_weak(10,14)
 start answers outside_weak(10,15):
 -290
@@ -2219,19 +2219,19 @@ start answers outside_weak(10,29):
 50
 //end answers outside_weak(10,29)
 start answers outside_weak(11,11):
-[]
+-90
 //end answers outside_weak(11,11)
 start answers outside_weak(11,12):
-[]
+-100
 //end answers outside_weak(11,12)
 start answers outside_weak(11,13):
-[]
+-120
 //end answers outside_weak(11,13)
 start answers outside_weak(11,14):
-[]
+-190
 //end answers outside_weak(11,14)
 start answers outside_weak(11,15):
-[]
+-250
 //end answers outside_weak(11,15)
 start answers outside_weak(11,16):
 -400
@@ -2276,19 +2276,19 @@ start answers outside_weak(11,29):
 0
 //end answers outside_weak(11,29)
 start answers outside_weak(12,12):
-[]
+-90
 //end answers outside_weak(12,12)
 start answers outside_weak(12,13):
-[]
+-160
 //end answers outside_weak(12,13)
 start answers outside_weak(12,14):
-[]
+-240
 //end answers outside_weak(12,14)
 start answers outside_weak(12,15):
-[]
+-310
 //end answers outside_weak(12,15)
 start answers outside_weak(12,16):
-[]
+-370
 //end answers outside_weak(12,16)
 start answers outside_weak(12,17):
 -950
@@ -2330,19 +2330,19 @@ start answers outside_weak(12,29):
 0
 //end answers outside_weak(12,29)
 start answers outside_weak(13,13):
-[]
+-210
 //end answers outside_weak(13,13)
 start answers outside_weak(13,14):
-[]
+-280
 //end answers outside_weak(13,14)
 start answers outside_weak(13,15):
-[]
+-360
 //end answers outside_weak(13,15)
 start answers outside_weak(13,16):
-[]
+-430
 //end answers outside_weak(13,16)
 start answers outside_weak(13,17):
-[]
+-370
 //end answers outside_weak(13,17)
 start answers outside_weak(13,18):
 -400
@@ -2381,19 +2381,19 @@ start answers outside_weak(13,29):
 50
 //end answers outside_weak(13,29)
 start answers outside_weak(14,14):
-[]
+-330
 //end answers outside_weak(14,14)
 start answers outside_weak(14,15):
-[]
+-400
 //end answers outside_weak(14,15)
 start answers outside_weak(14,16):
-[]
+-460
 //end answers outside_weak(14,16)
 start answers outside_weak(14,17):
-[]
+-410
 //end answers outside_weak(14,17)
 start answers outside_weak(14,18):
-[]
+-250
 //end answers outside_weak(14,18)
 start answers outside_weak(14,19):
 -290
@@ -2429,19 +2429,19 @@ start answers outside_weak(14,29):
 50
 //end answers outside_weak(14,29)
 start answers outside_weak(15,15):
-[]
+-330
 //end answers outside_weak(15,15)
 start answers outside_weak(15,16):
-[]
+-380
 //end answers outside_weak(15,16)
 start answers outside_weak(15,17):
-[]
+-340
 //end answers outside_weak(15,17)
 start answers outside_weak(15,18):
-[]
+-190
 //end answers outside_weak(15,18)
 start answers outside_weak(15,19):
-[]
+-250
 //end answers outside_weak(15,19)
 start answers outside_weak(15,20):
 50
@@ -2474,19 +2474,19 @@ start answers outside_weak(15,29):
 50
 //end answers outside_weak(15,29)
 start answers outside_weak(16,16):
-[]
+-310
 //end answers outside_weak(16,16)
 start answers outside_weak(16,17):
-[]
+-260
 //end answers outside_weak(16,17)
 start answers outside_weak(16,18):
-[]
+-120
 //end answers outside_weak(16,18)
 start answers outside_weak(16,19):
-[]
+-210
 //end answers outside_weak(16,19)
 start answers outside_weak(16,20):
-[]
+-60
 //end answers outside_weak(16,20)
 start answers outside_weak(16,21):
 -130
@@ -2516,19 +2516,19 @@ start answers outside_weak(16,29):
 50
 //end answers outside_weak(16,29)
 start answers outside_weak(17,17):
-[]
+-190
 //end answers outside_weak(17,17)
 start answers outside_weak(17,18):
-[]
+-100
 //end answers outside_weak(17,18)
 start answers outside_weak(17,19):
-[]
+-190
 //end answers outside_weak(17,19)
 start answers outside_weak(17,20):
-[]
+-100
 //end answers outside_weak(17,20)
 start answers outside_weak(17,21):
-[]
+-140
 //end answers outside_weak(17,21)
 start answers outside_weak(17,22):
 -40
@@ -2555,19 +2555,19 @@ start answers outside_weak(17,29):
 50
 //end answers outside_weak(17,29)
 start answers outside_weak(18,18):
-[]
+-90
 //end answers outside_weak(18,18)
 start answers outside_weak(18,19):
-[]
+-180
 //end answers outside_weak(18,19)
 start answers outside_weak(18,20):
-[]
+40
 //end answers outside_weak(18,20)
 start answers outside_weak(18,21):
-[]
+-20
 //end answers outside_weak(18,21)
 start answers outside_weak(18,22):
-[]
+-90
 //end answers outside_weak(18,22)
 start answers outside_weak(18,23):
 -40
@@ -2591,19 +2591,19 @@ start answers outside_weak(18,29):
 50
 //end answers outside_weak(18,29)
 start answers outside_weak(19,19):
-[]
+-170
 //end answers outside_weak(19,19)
 start answers outside_weak(19,20):
-[]
+80
 //end answers outside_weak(19,20)
 start answers outside_weak(19,21):
-[]
+10
 //end answers outside_weak(19,21)
 start answers outside_weak(19,22):
-[]
+60
 //end answers outside_weak(19,22)
 start answers outside_weak(19,23):
-[]
+90
 //end answers outside_weak(19,23)
 start answers outside_weak(19,24):
 10
@@ -2624,19 +2624,19 @@ start answers outside_weak(19,29):
 0
 //end answers outside_weak(19,29)
 start answers outside_weak(20,20):
-[]
+30
 //end answers outside_weak(20,20)
 start answers outside_weak(20,21):
-[]
+80
 //end answers outside_weak(20,21)
 start answers outside_weak(20,22):
-[]
+110
 //end answers outside_weak(20,22)
 start answers outside_weak(20,23):
-[]
+100
 //end answers outside_weak(20,23)
 start answers outside_weak(20,24):
-[]
+20
 //end answers outside_weak(20,24)
 start answers outside_weak(20,25):
 -330
@@ -2654,19 +2654,19 @@ start answers outside_weak(20,29):
 0
 //end answers outside_weak(20,29)
 start answers outside_weak(21,21):
-[]
+120
 //end answers outside_weak(21,21)
 start answers outside_weak(21,22):
-[]
+110
 //end answers outside_weak(21,22)
 start answers outside_weak(21,23):
-[]
+80
 //end answers outside_weak(21,23)
 start answers outside_weak(21,24):
-[]
+20
 //end answers outside_weak(21,24)
 start answers outside_weak(21,25):
-[]
+0
 //end answers outside_weak(21,25)
 start answers outside_weak(21,26):
 -90
@@ -2681,19 +2681,19 @@ start answers outside_weak(21,29):
 10
 //end answers outside_weak(21,29)
 start answers outside_weak(22,22):
-[]
+120
 //end answers outside_weak(22,22)
 start answers outside_weak(22,23):
-[]
+110
 //end answers outside_weak(22,23)
 start answers outside_weak(22,24):
-[]
+30
 //end answers outside_weak(22,24)
 start answers outside_weak(22,25):
-[]
+140
 //end answers outside_weak(22,25)
 start answers outside_weak(22,26):
-[]
+190
 //end answers outside_weak(22,26)
 start answers outside_weak(22,27):
 -90
@@ -2705,19 +2705,19 @@ start answers outside_weak(22,29):
 10
 //end answers outside_weak(22,29)
 start answers outside_weak(23,23):
-[]
+120
 //end answers outside_weak(23,23)
 start answers outside_weak(23,24):
-[]
+30
 //end answers outside_weak(23,24)
 start answers outside_weak(23,25):
-[]
+170
 //end answers outside_weak(23,25)
 start answers outside_weak(23,26):
-[]
+170
 //end answers outside_weak(23,26)
 start answers outside_weak(23,27):
-[]
+0
 //end answers outside_weak(23,27)
 start answers outside_weak(23,28):
 10
@@ -2726,61 +2726,61 @@ start answers outside_weak(23,29):
 10
 //end answers outside_weak(23,29)
 start answers outside_weak(24,24):
-[]
+40
 //end answers outside_weak(24,24)
 start answers outside_weak(24,25):
-[]
+90
 //end answers outside_weak(24,25)
 start answers outside_weak(24,26):
-[]
+280
 //end answers outside_weak(24,26)
 start answers outside_weak(24,27):
-[]
+40
 //end answers outside_weak(24,27)
 start answers outside_weak(24,28):
-[]
+370
 //end answers outside_weak(24,28)
 start answers outside_weak(24,29):
 10
 //end answers outside_weak(24,29)
 start answers outside_weak(25,25):
-[]
+160
 //end answers outside_weak(25,25)
 start answers outside_weak(25,26):
-[]
+230
 //end answers outside_weak(25,26)
 start answers outside_weak(25,27):
-[]
+80
 //end answers outside_weak(25,27)
 start answers outside_weak(25,28):
-[]
+410
 //end answers outside_weak(25,28)
 start answers outside_weak(25,29):
 []
 //end answers outside_weak(25,29)
 start answers outside_weak(26,26):
-[]
+300
 //end answers outside_weak(26,26)
 start answers outside_weak(26,27):
-[]
+120
 //end answers outside_weak(26,27)
 start answers outside_weak(26,28):
-[]
+450
 //end answers outside_weak(26,28)
 start answers outside_weak(26,29):
 []
 //end answers outside_weak(26,29)
 start answers outside_weak(27,27):
-[]
+160
 //end answers outside_weak(27,27)
 start answers outside_weak(27,28):
-[]
+490
 //end answers outside_weak(27,28)
 start answers outside_weak(27,29):
 []
 //end answers outside_weak(27,29)
 start answers outside_weak(28,28):
-[]
+510
 //end answers outside_weak(28,28)
 start answers outside_weak(28,29):
 []
@@ -2788,183 +2788,2793 @@ start answers outside_weak(28,29):
 start answers outside_weak(29,29):
 []
 //end answers outside_weak(29,29)
-start answers struct(0):
+start answers struct(0,0):
+0
+//end answers struct(0,0)
+start answers struct(0,1):
+0
+//end answers struct(0,1)
+start answers struct(0,2):
+0
+//end answers struct(0,2)
+start answers struct(0,3):
+0
+//end answers struct(0,3)
+start answers struct(0,4):
+0
+//end answers struct(0,4)
+start answers struct(0,5):
+0
+//end answers struct(0,5)
+start answers struct(0,6):
+0
+//end answers struct(0,6)
+start answers struct(0,7):
+0
+//end answers struct(0,7)
+start answers struct(0,8):
+0
+//end answers struct(0,8)
+start answers struct(0,9):
+0
+//end answers struct(0,9)
+start answers struct(0,10):
+0
+//end answers struct(0,10)
+start answers struct(0,11):
+0
+//end answers struct(0,11)
+start answers struct(0,12):
+0
+//end answers struct(0,12)
+start answers struct(0,13):
+0
+//end answers struct(0,13)
+start answers struct(0,14):
+0
+//end answers struct(0,14)
+start answers struct(0,15):
+0
+//end answers struct(0,15)
+start answers struct(0,16):
+0
+//end answers struct(0,16)
+start answers struct(0,17):
+0
+//end answers struct(0,17)
+start answers struct(0,18):
+0
+//end answers struct(0,18)
+start answers struct(0,19):
+0
+//end answers struct(0,19)
+start answers struct(0,20):
+0
+//end answers struct(0,20)
+start answers struct(0,21):
+-40
+//end answers struct(0,21)
+start answers struct(0,22):
+-40
+//end answers struct(0,22)
+start answers struct(0,23):
+-40
+//end answers struct(0,23)
+start answers struct(0,24):
+-40
+//end answers struct(0,24)
+start answers struct(0,25):
+-40
+//end answers struct(0,25)
+start answers struct(0,26):
+-170
+//end answers struct(0,26)
+start answers struct(0,27):
+-170
+//end answers struct(0,27)
+start answers struct(0,28):
+-170
+//end answers struct(0,28)
+start answers struct(0,29):
 -410
-//end answers struct(0)
-start answers struct(1):
+//end answers struct(0,29)
+start answers struct(1,1):
+0
+//end answers struct(1,1)
+start answers struct(1,2):
+0
+//end answers struct(1,2)
+start answers struct(1,3):
+0
+//end answers struct(1,3)
+start answers struct(1,4):
+0
+//end answers struct(1,4)
+start answers struct(1,5):
+0
+//end answers struct(1,5)
+start answers struct(1,6):
+0
+//end answers struct(1,6)
+start answers struct(1,7):
+0
+//end answers struct(1,7)
+start answers struct(1,8):
+0
+//end answers struct(1,8)
+start answers struct(1,9):
+0
+//end answers struct(1,9)
+start answers struct(1,10):
+0
+//end answers struct(1,10)
+start answers struct(1,11):
+0
+//end answers struct(1,11)
+start answers struct(1,12):
+0
+//end answers struct(1,12)
+start answers struct(1,13):
+0
+//end answers struct(1,13)
+start answers struct(1,14):
+0
+//end answers struct(1,14)
+start answers struct(1,15):
+0
+//end answers struct(1,15)
+start answers struct(1,16):
+0
+//end answers struct(1,16)
+start answers struct(1,17):
+0
+//end answers struct(1,17)
+start answers struct(1,18):
+0
+//end answers struct(1,18)
+start answers struct(1,19):
+0
+//end answers struct(1,19)
+start answers struct(1,20):
+0
+//end answers struct(1,20)
+start answers struct(1,21):
+-40
+//end answers struct(1,21)
+start answers struct(1,22):
+-40
+//end answers struct(1,22)
+start answers struct(1,23):
+-40
+//end answers struct(1,23)
+start answers struct(1,24):
+-40
+//end answers struct(1,24)
+start answers struct(1,25):
+-40
+//end answers struct(1,25)
+start answers struct(1,26):
 -170
-//end answers struct(1)
-start answers struct(2):
+//end answers struct(1,26)
+start answers struct(1,27):
 -170
-//end answers struct(2)
-start answers struct(3):
+//end answers struct(1,27)
+start answers struct(1,28):
 -170
-//end answers struct(3)
-start answers struct(4):
--40
-//end answers struct(4)
-start answers struct(5):
--40
-//end answers struct(5)
-start answers struct(6):
--40
-//end answers struct(6)
-start answers struct(7):
--40
-//end answers struct(7)
-start answers struct(8):
--40
-//end answers struct(8)
-start answers struct(9):
-0
-//end answers struct(9)
-start answers struct(10):
-0
-//end answers struct(10)
-start answers struct(11):
-0
-//end answers struct(11)
-start answers struct(12):
-0
-//end answers struct(12)
-start answers struct(13):
-0
-//end answers struct(13)
-start answers struct(14):
-0
-//end answers struct(14)
-start answers struct(15):
-0
-//end answers struct(15)
-start answers struct(16):
-0
-//end answers struct(16)
-start answers struct(17):
-0
-//end answers struct(17)
-start answers struct(18):
-0
-//end answers struct(18)
-start answers struct(19):
-0
-//end answers struct(19)
-start answers struct(20):
-0
-//end answers struct(20)
-start answers struct(21):
-0
-//end answers struct(21)
-start answers struct(22):
-0
-//end answers struct(22)
-start answers struct(23):
-0
-//end answers struct(23)
-start answers struct(24):
-0
-//end answers struct(24)
-start answers struct(25):
-0
-//end answers struct(25)
-start answers struct(26):
-0
-//end answers struct(26)
-start answers struct(27):
-0
-//end answers struct(27)
-start answers struct(28):
-0
-//end answers struct(28)
-start answers struct(29):
-0
-//end answers struct(29)
-start answers outside_struct(0):
-0
-//end answers outside_struct(0)
-start answers outside_struct(1):
-0
-//end answers outside_struct(1)
-start answers outside_struct(2):
-0
-//end answers outside_struct(2)
-start answers outside_struct(3):
-0
-//end answers outside_struct(3)
-start answers outside_struct(4):
-0
-//end answers outside_struct(4)
-start answers outside_struct(5):
-0
-//end answers outside_struct(5)
-start answers outside_struct(6):
-0
-//end answers outside_struct(6)
-start answers outside_struct(7):
-0
-//end answers outside_struct(7)
-start answers outside_struct(8):
-0
-//end answers outside_struct(8)
-start answers outside_struct(9):
-0
-//end answers outside_struct(9)
-start answers outside_struct(10):
-0
-//end answers outside_struct(10)
-start answers outside_struct(11):
-0
-//end answers outside_struct(11)
-start answers outside_struct(12):
-0
-//end answers outside_struct(12)
-start answers outside_struct(13):
-0
-//end answers outside_struct(13)
-start answers outside_struct(14):
-0
-//end answers outside_struct(14)
-start answers outside_struct(15):
-0
-//end answers outside_struct(15)
-start answers outside_struct(16):
-0
-//end answers outside_struct(16)
-start answers outside_struct(17):
-0
-//end answers outside_struct(17)
-start answers outside_struct(18):
-0
-//end answers outside_struct(18)
-start answers outside_struct(19):
-0
-//end answers outside_struct(19)
-start answers outside_struct(20):
-0
-//end answers outside_struct(20)
-start answers outside_struct(21):
--40
-//end answers outside_struct(21)
-start answers outside_struct(22):
--40
-//end answers outside_struct(22)
-start answers outside_struct(23):
--40
-//end answers outside_struct(23)
-start answers outside_struct(24):
--40
-//end answers outside_struct(24)
-start answers outside_struct(25):
--40
-//end answers outside_struct(25)
-start answers outside_struct(26):
+//end answers struct(1,28)
+start answers struct(1,29):
 -170
-//end answers outside_struct(26)
-start answers outside_struct(27):
+//end answers struct(1,29)
+start answers struct(2,2):
+0
+//end answers struct(2,2)
+start answers struct(2,3):
+0
+//end answers struct(2,3)
+start answers struct(2,4):
+0
+//end answers struct(2,4)
+start answers struct(2,5):
+0
+//end answers struct(2,5)
+start answers struct(2,6):
+0
+//end answers struct(2,6)
+start answers struct(2,7):
+0
+//end answers struct(2,7)
+start answers struct(2,8):
+0
+//end answers struct(2,8)
+start answers struct(2,9):
+0
+//end answers struct(2,9)
+start answers struct(2,10):
+0
+//end answers struct(2,10)
+start answers struct(2,11):
+0
+//end answers struct(2,11)
+start answers struct(2,12):
+0
+//end answers struct(2,12)
+start answers struct(2,13):
+0
+//end answers struct(2,13)
+start answers struct(2,14):
+0
+//end answers struct(2,14)
+start answers struct(2,15):
+0
+//end answers struct(2,15)
+start answers struct(2,16):
+0
+//end answers struct(2,16)
+start answers struct(2,17):
+0
+//end answers struct(2,17)
+start answers struct(2,18):
+0
+//end answers struct(2,18)
+start answers struct(2,19):
+0
+//end answers struct(2,19)
+start answers struct(2,20):
+0
+//end answers struct(2,20)
+start answers struct(2,21):
+-40
+//end answers struct(2,21)
+start answers struct(2,22):
+-40
+//end answers struct(2,22)
+start answers struct(2,23):
+-40
+//end answers struct(2,23)
+start answers struct(2,24):
+-40
+//end answers struct(2,24)
+start answers struct(2,25):
+-40
+//end answers struct(2,25)
+start answers struct(2,26):
 -170
-//end answers outside_struct(27)
-start answers outside_struct(28):
+//end answers struct(2,26)
+start answers struct(2,27):
 -170
-//end answers outside_struct(28)
-start answers outside_struct(29):
+//end answers struct(2,27)
+start answers struct(2,28):
+-170
+//end answers struct(2,28)
+start answers struct(2,29):
+-170
+//end answers struct(2,29)
+start answers struct(3,3):
+0
+//end answers struct(3,3)
+start answers struct(3,4):
+0
+//end answers struct(3,4)
+start answers struct(3,5):
+0
+//end answers struct(3,5)
+start answers struct(3,6):
+0
+//end answers struct(3,6)
+start answers struct(3,7):
+0
+//end answers struct(3,7)
+start answers struct(3,8):
+0
+//end answers struct(3,8)
+start answers struct(3,9):
+0
+//end answers struct(3,9)
+start answers struct(3,10):
+0
+//end answers struct(3,10)
+start answers struct(3,11):
+0
+//end answers struct(3,11)
+start answers struct(3,12):
+0
+//end answers struct(3,12)
+start answers struct(3,13):
+0
+//end answers struct(3,13)
+start answers struct(3,14):
+0
+//end answers struct(3,14)
+start answers struct(3,15):
+0
+//end answers struct(3,15)
+start answers struct(3,16):
+0
+//end answers struct(3,16)
+start answers struct(3,17):
+0
+//end answers struct(3,17)
+start answers struct(3,18):
+0
+//end answers struct(3,18)
+start answers struct(3,19):
+0
+//end answers struct(3,19)
+start answers struct(3,20):
+0
+//end answers struct(3,20)
+start answers struct(3,21):
+-40
+//end answers struct(3,21)
+start answers struct(3,22):
+-40
+//end answers struct(3,22)
+start answers struct(3,23):
+-40
+//end answers struct(3,23)
+start answers struct(3,24):
+-40
+//end answers struct(3,24)
+start answers struct(3,25):
+-40
+//end answers struct(3,25)
+start answers struct(3,26):
+-170
+//end answers struct(3,26)
+start answers struct(3,27):
+-170
+//end answers struct(3,27)
+start answers struct(3,28):
+-170
+//end answers struct(3,28)
+start answers struct(3,29):
+-170
+//end answers struct(3,29)
+start answers struct(4,4):
+0
+//end answers struct(4,4)
+start answers struct(4,5):
+0
+//end answers struct(4,5)
+start answers struct(4,6):
+0
+//end answers struct(4,6)
+start answers struct(4,7):
+0
+//end answers struct(4,7)
+start answers struct(4,8):
+0
+//end answers struct(4,8)
+start answers struct(4,9):
+0
+//end answers struct(4,9)
+start answers struct(4,10):
+0
+//end answers struct(4,10)
+start answers struct(4,11):
+0
+//end answers struct(4,11)
+start answers struct(4,12):
+0
+//end answers struct(4,12)
+start answers struct(4,13):
+0
+//end answers struct(4,13)
+start answers struct(4,14):
+0
+//end answers struct(4,14)
+start answers struct(4,15):
+0
+//end answers struct(4,15)
+start answers struct(4,16):
+0
+//end answers struct(4,16)
+start answers struct(4,17):
+0
+//end answers struct(4,17)
+start answers struct(4,18):
+0
+//end answers struct(4,18)
+start answers struct(4,19):
+0
+//end answers struct(4,19)
+start answers struct(4,20):
+0
+//end answers struct(4,20)
+start answers struct(4,21):
+-40
+//end answers struct(4,21)
+start answers struct(4,22):
+-40
+//end answers struct(4,22)
+start answers struct(4,23):
+-40
+//end answers struct(4,23)
+start answers struct(4,24):
+-40
+//end answers struct(4,24)
+start answers struct(4,25):
+-40
+//end answers struct(4,25)
+start answers struct(4,26):
+-40
+//end answers struct(4,26)
+start answers struct(4,27):
+-40
+//end answers struct(4,27)
+start answers struct(4,28):
+-40
+//end answers struct(4,28)
+start answers struct(4,29):
+-40
+//end answers struct(4,29)
+start answers struct(5,5):
+0
+//end answers struct(5,5)
+start answers struct(5,6):
+0
+//end answers struct(5,6)
+start answers struct(5,7):
+0
+//end answers struct(5,7)
+start answers struct(5,8):
+0
+//end answers struct(5,8)
+start answers struct(5,9):
+0
+//end answers struct(5,9)
+start answers struct(5,10):
+0
+//end answers struct(5,10)
+start answers struct(5,11):
+0
+//end answers struct(5,11)
+start answers struct(5,12):
+0
+//end answers struct(5,12)
+start answers struct(5,13):
+0
+//end answers struct(5,13)
+start answers struct(5,14):
+0
+//end answers struct(5,14)
+start answers struct(5,15):
+0
+//end answers struct(5,15)
+start answers struct(5,16):
+0
+//end answers struct(5,16)
+start answers struct(5,17):
+0
+//end answers struct(5,17)
+start answers struct(5,18):
+0
+//end answers struct(5,18)
+start answers struct(5,19):
+0
+//end answers struct(5,19)
+start answers struct(5,20):
+0
+//end answers struct(5,20)
+start answers struct(5,21):
+-40
+//end answers struct(5,21)
+start answers struct(5,22):
+-40
+//end answers struct(5,22)
+start answers struct(5,23):
+-40
+//end answers struct(5,23)
+start answers struct(5,24):
+-40
+//end answers struct(5,24)
+start answers struct(5,25):
+-40
+//end answers struct(5,25)
+start answers struct(5,26):
+-40
+//end answers struct(5,26)
+start answers struct(5,27):
+-40
+//end answers struct(5,27)
+start answers struct(5,28):
+-40
+//end answers struct(5,28)
+start answers struct(5,29):
+-40
+//end answers struct(5,29)
+start answers struct(6,6):
+0
+//end answers struct(6,6)
+start answers struct(6,7):
+0
+//end answers struct(6,7)
+start answers struct(6,8):
+0
+//end answers struct(6,8)
+start answers struct(6,9):
+0
+//end answers struct(6,9)
+start answers struct(6,10):
+0
+//end answers struct(6,10)
+start answers struct(6,11):
+0
+//end answers struct(6,11)
+start answers struct(6,12):
+0
+//end answers struct(6,12)
+start answers struct(6,13):
+0
+//end answers struct(6,13)
+start answers struct(6,14):
+0
+//end answers struct(6,14)
+start answers struct(6,15):
+0
+//end answers struct(6,15)
+start answers struct(6,16):
+0
+//end answers struct(6,16)
+start answers struct(6,17):
+0
+//end answers struct(6,17)
+start answers struct(6,18):
+0
+//end answers struct(6,18)
+start answers struct(6,19):
+0
+//end answers struct(6,19)
+start answers struct(6,20):
+0
+//end answers struct(6,20)
+start answers struct(6,21):
+-40
+//end answers struct(6,21)
+start answers struct(6,22):
+-40
+//end answers struct(6,22)
+start answers struct(6,23):
+-40
+//end answers struct(6,23)
+start answers struct(6,24):
+-40
+//end answers struct(6,24)
+start answers struct(6,25):
+-40
+//end answers struct(6,25)
+start answers struct(6,26):
+-40
+//end answers struct(6,26)
+start answers struct(6,27):
+-40
+//end answers struct(6,27)
+start answers struct(6,28):
+-40
+//end answers struct(6,28)
+start answers struct(6,29):
+-40
+//end answers struct(6,29)
+start answers struct(7,7):
+0
+//end answers struct(7,7)
+start answers struct(7,8):
+0
+//end answers struct(7,8)
+start answers struct(7,9):
+0
+//end answers struct(7,9)
+start answers struct(7,10):
+0
+//end answers struct(7,10)
+start answers struct(7,11):
+0
+//end answers struct(7,11)
+start answers struct(7,12):
+0
+//end answers struct(7,12)
+start answers struct(7,13):
+0
+//end answers struct(7,13)
+start answers struct(7,14):
+0
+//end answers struct(7,14)
+start answers struct(7,15):
+0
+//end answers struct(7,15)
+start answers struct(7,16):
+0
+//end answers struct(7,16)
+start answers struct(7,17):
+0
+//end answers struct(7,17)
+start answers struct(7,18):
+0
+//end answers struct(7,18)
+start answers struct(7,19):
+0
+//end answers struct(7,19)
+start answers struct(7,20):
+0
+//end answers struct(7,20)
+start answers struct(7,21):
+-40
+//end answers struct(7,21)
+start answers struct(7,22):
+-40
+//end answers struct(7,22)
+start answers struct(7,23):
+-40
+//end answers struct(7,23)
+start answers struct(7,24):
+-40
+//end answers struct(7,24)
+start answers struct(7,25):
+-40
+//end answers struct(7,25)
+start answers struct(7,26):
+-40
+//end answers struct(7,26)
+start answers struct(7,27):
+-40
+//end answers struct(7,27)
+start answers struct(7,28):
+-40
+//end answers struct(7,28)
+start answers struct(7,29):
+-40
+//end answers struct(7,29)
+start answers struct(8,8):
+0
+//end answers struct(8,8)
+start answers struct(8,9):
+0
+//end answers struct(8,9)
+start answers struct(8,10):
+0
+//end answers struct(8,10)
+start answers struct(8,11):
+0
+//end answers struct(8,11)
+start answers struct(8,12):
+0
+//end answers struct(8,12)
+start answers struct(8,13):
+0
+//end answers struct(8,13)
+start answers struct(8,14):
+0
+//end answers struct(8,14)
+start answers struct(8,15):
+0
+//end answers struct(8,15)
+start answers struct(8,16):
+0
+//end answers struct(8,16)
+start answers struct(8,17):
+0
+//end answers struct(8,17)
+start answers struct(8,18):
+0
+//end answers struct(8,18)
+start answers struct(8,19):
+0
+//end answers struct(8,19)
+start answers struct(8,20):
+0
+//end answers struct(8,20)
+start answers struct(8,21):
+-40
+//end answers struct(8,21)
+start answers struct(8,22):
+-40
+//end answers struct(8,22)
+start answers struct(8,23):
+-40
+//end answers struct(8,23)
+start answers struct(8,24):
+-40
+//end answers struct(8,24)
+start answers struct(8,25):
+-40
+//end answers struct(8,25)
+start answers struct(8,26):
+-40
+//end answers struct(8,26)
+start answers struct(8,27):
+-40
+//end answers struct(8,27)
+start answers struct(8,28):
+-40
+//end answers struct(8,28)
+start answers struct(8,29):
+-40
+//end answers struct(8,29)
+start answers struct(9,9):
+0
+//end answers struct(9,9)
+start answers struct(9,10):
+0
+//end answers struct(9,10)
+start answers struct(9,11):
+0
+//end answers struct(9,11)
+start answers struct(9,12):
+0
+//end answers struct(9,12)
+start answers struct(9,13):
+0
+//end answers struct(9,13)
+start answers struct(9,14):
+0
+//end answers struct(9,14)
+start answers struct(9,15):
+0
+//end answers struct(9,15)
+start answers struct(9,16):
+0
+//end answers struct(9,16)
+start answers struct(9,17):
+0
+//end answers struct(9,17)
+start answers struct(9,18):
+0
+//end answers struct(9,18)
+start answers struct(9,19):
+0
+//end answers struct(9,19)
+start answers struct(9,20):
+0
+//end answers struct(9,20)
+start answers struct(9,21):
+0
+//end answers struct(9,21)
+start answers struct(9,22):
+0
+//end answers struct(9,22)
+start answers struct(9,23):
+0
+//end answers struct(9,23)
+start answers struct(9,24):
+0
+//end answers struct(9,24)
+start answers struct(9,25):
+0
+//end answers struct(9,25)
+start answers struct(9,26):
+0
+//end answers struct(9,26)
+start answers struct(9,27):
+0
+//end answers struct(9,27)
+start answers struct(9,28):
+0
+//end answers struct(9,28)
+start answers struct(9,29):
+0
+//end answers struct(9,29)
+start answers struct(10,10):
+0
+//end answers struct(10,10)
+start answers struct(10,11):
+0
+//end answers struct(10,11)
+start answers struct(10,12):
+0
+//end answers struct(10,12)
+start answers struct(10,13):
+0
+//end answers struct(10,13)
+start answers struct(10,14):
+0
+//end answers struct(10,14)
+start answers struct(10,15):
+0
+//end answers struct(10,15)
+start answers struct(10,16):
+0
+//end answers struct(10,16)
+start answers struct(10,17):
+0
+//end answers struct(10,17)
+start answers struct(10,18):
+0
+//end answers struct(10,18)
+start answers struct(10,19):
+0
+//end answers struct(10,19)
+start answers struct(10,20):
+0
+//end answers struct(10,20)
+start answers struct(10,21):
+0
+//end answers struct(10,21)
+start answers struct(10,22):
+0
+//end answers struct(10,22)
+start answers struct(10,23):
+0
+//end answers struct(10,23)
+start answers struct(10,24):
+0
+//end answers struct(10,24)
+start answers struct(10,25):
+0
+//end answers struct(10,25)
+start answers struct(10,26):
+0
+//end answers struct(10,26)
+start answers struct(10,27):
+0
+//end answers struct(10,27)
+start answers struct(10,28):
+0
+//end answers struct(10,28)
+start answers struct(10,29):
+0
+//end answers struct(10,29)
+start answers struct(11,11):
+0
+//end answers struct(11,11)
+start answers struct(11,12):
+0
+//end answers struct(11,12)
+start answers struct(11,13):
+0
+//end answers struct(11,13)
+start answers struct(11,14):
+0
+//end answers struct(11,14)
+start answers struct(11,15):
+0
+//end answers struct(11,15)
+start answers struct(11,16):
+0
+//end answers struct(11,16)
+start answers struct(11,17):
+0
+//end answers struct(11,17)
+start answers struct(11,18):
+0
+//end answers struct(11,18)
+start answers struct(11,19):
+0
+//end answers struct(11,19)
+start answers struct(11,20):
+0
+//end answers struct(11,20)
+start answers struct(11,21):
+0
+//end answers struct(11,21)
+start answers struct(11,22):
+0
+//end answers struct(11,22)
+start answers struct(11,23):
+0
+//end answers struct(11,23)
+start answers struct(11,24):
+0
+//end answers struct(11,24)
+start answers struct(11,25):
+0
+//end answers struct(11,25)
+start answers struct(11,26):
+0
+//end answers struct(11,26)
+start answers struct(11,27):
+0
+//end answers struct(11,27)
+start answers struct(11,28):
+0
+//end answers struct(11,28)
+start answers struct(11,29):
+0
+//end answers struct(11,29)
+start answers struct(12,12):
+0
+//end answers struct(12,12)
+start answers struct(12,13):
+0
+//end answers struct(12,13)
+start answers struct(12,14):
+0
+//end answers struct(12,14)
+start answers struct(12,15):
+0
+//end answers struct(12,15)
+start answers struct(12,16):
+0
+//end answers struct(12,16)
+start answers struct(12,17):
+0
+//end answers struct(12,17)
+start answers struct(12,18):
+0
+//end answers struct(12,18)
+start answers struct(12,19):
+0
+//end answers struct(12,19)
+start answers struct(12,20):
+0
+//end answers struct(12,20)
+start answers struct(12,21):
+0
+//end answers struct(12,21)
+start answers struct(12,22):
+0
+//end answers struct(12,22)
+start answers struct(12,23):
+0
+//end answers struct(12,23)
+start answers struct(12,24):
+0
+//end answers struct(12,24)
+start answers struct(12,25):
+0
+//end answers struct(12,25)
+start answers struct(12,26):
+0
+//end answers struct(12,26)
+start answers struct(12,27):
+0
+//end answers struct(12,27)
+start answers struct(12,28):
+0
+//end answers struct(12,28)
+start answers struct(12,29):
+0
+//end answers struct(12,29)
+start answers struct(13,13):
+0
+//end answers struct(13,13)
+start answers struct(13,14):
+0
+//end answers struct(13,14)
+start answers struct(13,15):
+0
+//end answers struct(13,15)
+start answers struct(13,16):
+0
+//end answers struct(13,16)
+start answers struct(13,17):
+0
+//end answers struct(13,17)
+start answers struct(13,18):
+0
+//end answers struct(13,18)
+start answers struct(13,19):
+0
+//end answers struct(13,19)
+start answers struct(13,20):
+0
+//end answers struct(13,20)
+start answers struct(13,21):
+0
+//end answers struct(13,21)
+start answers struct(13,22):
+0
+//end answers struct(13,22)
+start answers struct(13,23):
+0
+//end answers struct(13,23)
+start answers struct(13,24):
+0
+//end answers struct(13,24)
+start answers struct(13,25):
+0
+//end answers struct(13,25)
+start answers struct(13,26):
+0
+//end answers struct(13,26)
+start answers struct(13,27):
+0
+//end answers struct(13,27)
+start answers struct(13,28):
+0
+//end answers struct(13,28)
+start answers struct(13,29):
+0
+//end answers struct(13,29)
+start answers struct(14,14):
+0
+//end answers struct(14,14)
+start answers struct(14,15):
+0
+//end answers struct(14,15)
+start answers struct(14,16):
+0
+//end answers struct(14,16)
+start answers struct(14,17):
+0
+//end answers struct(14,17)
+start answers struct(14,18):
+0
+//end answers struct(14,18)
+start answers struct(14,19):
+0
+//end answers struct(14,19)
+start answers struct(14,20):
+0
+//end answers struct(14,20)
+start answers struct(14,21):
+0
+//end answers struct(14,21)
+start answers struct(14,22):
+0
+//end answers struct(14,22)
+start answers struct(14,23):
+0
+//end answers struct(14,23)
+start answers struct(14,24):
+0
+//end answers struct(14,24)
+start answers struct(14,25):
+0
+//end answers struct(14,25)
+start answers struct(14,26):
+0
+//end answers struct(14,26)
+start answers struct(14,27):
+0
+//end answers struct(14,27)
+start answers struct(14,28):
+0
+//end answers struct(14,28)
+start answers struct(14,29):
+0
+//end answers struct(14,29)
+start answers struct(15,15):
+0
+//end answers struct(15,15)
+start answers struct(15,16):
+0
+//end answers struct(15,16)
+start answers struct(15,17):
+0
+//end answers struct(15,17)
+start answers struct(15,18):
+0
+//end answers struct(15,18)
+start answers struct(15,19):
+0
+//end answers struct(15,19)
+start answers struct(15,20):
+0
+//end answers struct(15,20)
+start answers struct(15,21):
+0
+//end answers struct(15,21)
+start answers struct(15,22):
+0
+//end answers struct(15,22)
+start answers struct(15,23):
+0
+//end answers struct(15,23)
+start answers struct(15,24):
+0
+//end answers struct(15,24)
+start answers struct(15,25):
+0
+//end answers struct(15,25)
+start answers struct(15,26):
+0
+//end answers struct(15,26)
+start answers struct(15,27):
+0
+//end answers struct(15,27)
+start answers struct(15,28):
+0
+//end answers struct(15,28)
+start answers struct(15,29):
+0
+//end answers struct(15,29)
+start answers struct(16,16):
+0
+//end answers struct(16,16)
+start answers struct(16,17):
+0
+//end answers struct(16,17)
+start answers struct(16,18):
+0
+//end answers struct(16,18)
+start answers struct(16,19):
+0
+//end answers struct(16,19)
+start answers struct(16,20):
+0
+//end answers struct(16,20)
+start answers struct(16,21):
+0
+//end answers struct(16,21)
+start answers struct(16,22):
+0
+//end answers struct(16,22)
+start answers struct(16,23):
+0
+//end answers struct(16,23)
+start answers struct(16,24):
+0
+//end answers struct(16,24)
+start answers struct(16,25):
+0
+//end answers struct(16,25)
+start answers struct(16,26):
+0
+//end answers struct(16,26)
+start answers struct(16,27):
+0
+//end answers struct(16,27)
+start answers struct(16,28):
+0
+//end answers struct(16,28)
+start answers struct(16,29):
+0
+//end answers struct(16,29)
+start answers struct(17,17):
+0
+//end answers struct(17,17)
+start answers struct(17,18):
+0
+//end answers struct(17,18)
+start answers struct(17,19):
+0
+//end answers struct(17,19)
+start answers struct(17,20):
+0
+//end answers struct(17,20)
+start answers struct(17,21):
+0
+//end answers struct(17,21)
+start answers struct(17,22):
+0
+//end answers struct(17,22)
+start answers struct(17,23):
+0
+//end answers struct(17,23)
+start answers struct(17,24):
+0
+//end answers struct(17,24)
+start answers struct(17,25):
+0
+//end answers struct(17,25)
+start answers struct(17,26):
+0
+//end answers struct(17,26)
+start answers struct(17,27):
+0
+//end answers struct(17,27)
+start answers struct(17,28):
+0
+//end answers struct(17,28)
+start answers struct(17,29):
+0
+//end answers struct(17,29)
+start answers struct(18,18):
+0
+//end answers struct(18,18)
+start answers struct(18,19):
+0
+//end answers struct(18,19)
+start answers struct(18,20):
+0
+//end answers struct(18,20)
+start answers struct(18,21):
+0
+//end answers struct(18,21)
+start answers struct(18,22):
+0
+//end answers struct(18,22)
+start answers struct(18,23):
+0
+//end answers struct(18,23)
+start answers struct(18,24):
+0
+//end answers struct(18,24)
+start answers struct(18,25):
+0
+//end answers struct(18,25)
+start answers struct(18,26):
+0
+//end answers struct(18,26)
+start answers struct(18,27):
+0
+//end answers struct(18,27)
+start answers struct(18,28):
+0
+//end answers struct(18,28)
+start answers struct(18,29):
+0
+//end answers struct(18,29)
+start answers struct(19,19):
+0
+//end answers struct(19,19)
+start answers struct(19,20):
+0
+//end answers struct(19,20)
+start answers struct(19,21):
+0
+//end answers struct(19,21)
+start answers struct(19,22):
+0
+//end answers struct(19,22)
+start answers struct(19,23):
+0
+//end answers struct(19,23)
+start answers struct(19,24):
+0
+//end answers struct(19,24)
+start answers struct(19,25):
+0
+//end answers struct(19,25)
+start answers struct(19,26):
+0
+//end answers struct(19,26)
+start answers struct(19,27):
+0
+//end answers struct(19,27)
+start answers struct(19,28):
+0
+//end answers struct(19,28)
+start answers struct(19,29):
+0
+//end answers struct(19,29)
+start answers struct(20,20):
+0
+//end answers struct(20,20)
+start answers struct(20,21):
+0
+//end answers struct(20,21)
+start answers struct(20,22):
+0
+//end answers struct(20,22)
+start answers struct(20,23):
+0
+//end answers struct(20,23)
+start answers struct(20,24):
+0
+//end answers struct(20,24)
+start answers struct(20,25):
+0
+//end answers struct(20,25)
+start answers struct(20,26):
+0
+//end answers struct(20,26)
+start answers struct(20,27):
+0
+//end answers struct(20,27)
+start answers struct(20,28):
+0
+//end answers struct(20,28)
+start answers struct(20,29):
+0
+//end answers struct(20,29)
+start answers struct(21,21):
+0
+//end answers struct(21,21)
+start answers struct(21,22):
+0
+//end answers struct(21,22)
+start answers struct(21,23):
+0
+//end answers struct(21,23)
+start answers struct(21,24):
+0
+//end answers struct(21,24)
+start answers struct(21,25):
+0
+//end answers struct(21,25)
+start answers struct(21,26):
+0
+//end answers struct(21,26)
+start answers struct(21,27):
+0
+//end answers struct(21,27)
+start answers struct(21,28):
+0
+//end answers struct(21,28)
+start answers struct(21,29):
+0
+//end answers struct(21,29)
+start answers struct(22,22):
+0
+//end answers struct(22,22)
+start answers struct(22,23):
+0
+//end answers struct(22,23)
+start answers struct(22,24):
+0
+//end answers struct(22,24)
+start answers struct(22,25):
+0
+//end answers struct(22,25)
+start answers struct(22,26):
+0
+//end answers struct(22,26)
+start answers struct(22,27):
+0
+//end answers struct(22,27)
+start answers struct(22,28):
+0
+//end answers struct(22,28)
+start answers struct(22,29):
+0
+//end answers struct(22,29)
+start answers struct(23,23):
+0
+//end answers struct(23,23)
+start answers struct(23,24):
+0
+//end answers struct(23,24)
+start answers struct(23,25):
+0
+//end answers struct(23,25)
+start answers struct(23,26):
+0
+//end answers struct(23,26)
+start answers struct(23,27):
+0
+//end answers struct(23,27)
+start answers struct(23,28):
+0
+//end answers struct(23,28)
+start answers struct(23,29):
+0
+//end answers struct(23,29)
+start answers struct(24,24):
+0
+//end answers struct(24,24)
+start answers struct(24,25):
+0
+//end answers struct(24,25)
+start answers struct(24,26):
+0
+//end answers struct(24,26)
+start answers struct(24,27):
+0
+//end answers struct(24,27)
+start answers struct(24,28):
+0
+//end answers struct(24,28)
+start answers struct(24,29):
+0
+//end answers struct(24,29)
+start answers struct(25,25):
+0
+//end answers struct(25,25)
+start answers struct(25,26):
+0
+//end answers struct(25,26)
+start answers struct(25,27):
+0
+//end answers struct(25,27)
+start answers struct(25,28):
+0
+//end answers struct(25,28)
+start answers struct(25,29):
+0
+//end answers struct(25,29)
+start answers struct(26,26):
+0
+//end answers struct(26,26)
+start answers struct(26,27):
+0
+//end answers struct(26,27)
+start answers struct(26,28):
+0
+//end answers struct(26,28)
+start answers struct(26,29):
+0
+//end answers struct(26,29)
+start answers struct(27,27):
+0
+//end answers struct(27,27)
+start answers struct(27,28):
+0
+//end answers struct(27,28)
+start answers struct(27,29):
+0
+//end answers struct(27,29)
+start answers struct(28,28):
+0
+//end answers struct(28,28)
+start answers struct(28,29):
+0
+//end answers struct(28,29)
+start answers struct(29,29):
+0
+//end answers struct(29,29)
+start answers outside_struct(0,0):
+[]
+//end answers outside_struct(0,0)
+start answers outside_struct(0,1):
+[]
+//end answers outside_struct(0,1)
+start answers outside_struct(0,2):
+[]
+//end answers outside_struct(0,2)
+start answers outside_struct(0,3):
+[]
+//end answers outside_struct(0,3)
+start answers outside_struct(0,4):
+[]
+//end answers outside_struct(0,4)
+start answers outside_struct(0,5):
+[]
+//end answers outside_struct(0,5)
+start answers outside_struct(0,6):
+[]
+//end answers outside_struct(0,6)
+start answers outside_struct(0,7):
+[]
+//end answers outside_struct(0,7)
+start answers outside_struct(0,8):
+[]
+//end answers outside_struct(0,8)
+start answers outside_struct(0,9):
+[]
+//end answers outside_struct(0,9)
+start answers outside_struct(0,10):
+[]
+//end answers outside_struct(0,10)
+start answers outside_struct(0,11):
+[]
+//end answers outside_struct(0,11)
+start answers outside_struct(0,12):
+[]
+//end answers outside_struct(0,12)
+start answers outside_struct(0,13):
+[]
+//end answers outside_struct(0,13)
+start answers outside_struct(0,14):
+[]
+//end answers outside_struct(0,14)
+start answers outside_struct(0,15):
+[]
+//end answers outside_struct(0,15)
+start answers outside_struct(0,16):
+[]
+//end answers outside_struct(0,16)
+start answers outside_struct(0,17):
+[]
+//end answers outside_struct(0,17)
+start answers outside_struct(0,18):
+[]
+//end answers outside_struct(0,18)
+start answers outside_struct(0,19):
+[]
+//end answers outside_struct(0,19)
+start answers outside_struct(0,20):
+[]
+//end answers outside_struct(0,20)
+start answers outside_struct(0,21):
+[]
+//end answers outside_struct(0,21)
+start answers outside_struct(0,22):
+[]
+//end answers outside_struct(0,22)
+start answers outside_struct(0,23):
+[]
+//end answers outside_struct(0,23)
+start answers outside_struct(0,24):
+[]
+//end answers outside_struct(0,24)
+start answers outside_struct(0,25):
+[]
+//end answers outside_struct(0,25)
+start answers outside_struct(0,26):
+[]
+//end answers outside_struct(0,26)
+start answers outside_struct(0,27):
+[]
+//end answers outside_struct(0,27)
+start answers outside_struct(0,28):
+[]
+//end answers outside_struct(0,28)
+start answers outside_struct(0,29):
+0
+//end answers outside_struct(0,29)
+start answers outside_struct(1,1):
+[]
+//end answers outside_struct(1,1)
+start answers outside_struct(1,2):
+[]
+//end answers outside_struct(1,2)
+start answers outside_struct(1,3):
+[]
+//end answers outside_struct(1,3)
+start answers outside_struct(1,4):
+[]
+//end answers outside_struct(1,4)
+start answers outside_struct(1,5):
+[]
+//end answers outside_struct(1,5)
+start answers outside_struct(1,6):
+[]
+//end answers outside_struct(1,6)
+start answers outside_struct(1,7):
+[]
+//end answers outside_struct(1,7)
+start answers outside_struct(1,8):
+[]
+//end answers outside_struct(1,8)
+start answers outside_struct(1,9):
+[]
+//end answers outside_struct(1,9)
+start answers outside_struct(1,10):
+[]
+//end answers outside_struct(1,10)
+start answers outside_struct(1,11):
+[]
+//end answers outside_struct(1,11)
+start answers outside_struct(1,12):
+[]
+//end answers outside_struct(1,12)
+start answers outside_struct(1,13):
+[]
+//end answers outside_struct(1,13)
+start answers outside_struct(1,14):
+[]
+//end answers outside_struct(1,14)
+start answers outside_struct(1,15):
+[]
+//end answers outside_struct(1,15)
+start answers outside_struct(1,16):
+[]
+//end answers outside_struct(1,16)
+start answers outside_struct(1,17):
+[]
+//end answers outside_struct(1,17)
+start answers outside_struct(1,18):
+[]
+//end answers outside_struct(1,18)
+start answers outside_struct(1,19):
+[]
+//end answers outside_struct(1,19)
+start answers outside_struct(1,20):
+[]
+//end answers outside_struct(1,20)
+start answers outside_struct(1,21):
+[]
+//end answers outside_struct(1,21)
+start answers outside_struct(1,22):
+[]
+//end answers outside_struct(1,22)
+start answers outside_struct(1,23):
+[]
+//end answers outside_struct(1,23)
+start answers outside_struct(1,24):
+[]
+//end answers outside_struct(1,24)
+start answers outside_struct(1,25):
+[]
+//end answers outside_struct(1,25)
+start answers outside_struct(1,26):
+[]
+//end answers outside_struct(1,26)
+start answers outside_struct(1,27):
+[]
+//end answers outside_struct(1,27)
+start answers outside_struct(1,28):
+[]
+//end answers outside_struct(1,28)
+start answers outside_struct(1,29):
+0
+//end answers outside_struct(1,29)
+start answers outside_struct(2,2):
+[]
+//end answers outside_struct(2,2)
+start answers outside_struct(2,3):
+[]
+//end answers outside_struct(2,3)
+start answers outside_struct(2,4):
+[]
+//end answers outside_struct(2,4)
+start answers outside_struct(2,5):
+[]
+//end answers outside_struct(2,5)
+start answers outside_struct(2,6):
+[]
+//end answers outside_struct(2,6)
+start answers outside_struct(2,7):
+[]
+//end answers outside_struct(2,7)
+start answers outside_struct(2,8):
+[]
+//end answers outside_struct(2,8)
+start answers outside_struct(2,9):
+[]
+//end answers outside_struct(2,9)
+start answers outside_struct(2,10):
+[]
+//end answers outside_struct(2,10)
+start answers outside_struct(2,11):
+[]
+//end answers outside_struct(2,11)
+start answers outside_struct(2,12):
+[]
+//end answers outside_struct(2,12)
+start answers outside_struct(2,13):
+[]
+//end answers outside_struct(2,13)
+start answers outside_struct(2,14):
+[]
+//end answers outside_struct(2,14)
+start answers outside_struct(2,15):
+[]
+//end answers outside_struct(2,15)
+start answers outside_struct(2,16):
+[]
+//end answers outside_struct(2,16)
+start answers outside_struct(2,17):
+[]
+//end answers outside_struct(2,17)
+start answers outside_struct(2,18):
+[]
+//end answers outside_struct(2,18)
+start answers outside_struct(2,19):
+[]
+//end answers outside_struct(2,19)
+start answers outside_struct(2,20):
+[]
+//end answers outside_struct(2,20)
+start answers outside_struct(2,21):
+[]
+//end answers outside_struct(2,21)
+start answers outside_struct(2,22):
+[]
+//end answers outside_struct(2,22)
+start answers outside_struct(2,23):
+[]
+//end answers outside_struct(2,23)
+start answers outside_struct(2,24):
+[]
+//end answers outside_struct(2,24)
+start answers outside_struct(2,25):
+[]
+//end answers outside_struct(2,25)
+start answers outside_struct(2,26):
+[]
+//end answers outside_struct(2,26)
+start answers outside_struct(2,27):
+[]
+//end answers outside_struct(2,27)
+start answers outside_struct(2,28):
+[]
+//end answers outside_struct(2,28)
+start answers outside_struct(2,29):
+0
+//end answers outside_struct(2,29)
+start answers outside_struct(3,3):
+[]
+//end answers outside_struct(3,3)
+start answers outside_struct(3,4):
+[]
+//end answers outside_struct(3,4)
+start answers outside_struct(3,5):
+[]
+//end answers outside_struct(3,5)
+start answers outside_struct(3,6):
+[]
+//end answers outside_struct(3,6)
+start answers outside_struct(3,7):
+[]
+//end answers outside_struct(3,7)
+start answers outside_struct(3,8):
+[]
+//end answers outside_struct(3,8)
+start answers outside_struct(3,9):
+[]
+//end answers outside_struct(3,9)
+start answers outside_struct(3,10):
+[]
+//end answers outside_struct(3,10)
+start answers outside_struct(3,11):
+[]
+//end answers outside_struct(3,11)
+start answers outside_struct(3,12):
+[]
+//end answers outside_struct(3,12)
+start answers outside_struct(3,13):
+[]
+//end answers outside_struct(3,13)
+start answers outside_struct(3,14):
+[]
+//end answers outside_struct(3,14)
+start answers outside_struct(3,15):
+[]
+//end answers outside_struct(3,15)
+start answers outside_struct(3,16):
+[]
+//end answers outside_struct(3,16)
+start answers outside_struct(3,17):
+[]
+//end answers outside_struct(3,17)
+start answers outside_struct(3,18):
+[]
+//end answers outside_struct(3,18)
+start answers outside_struct(3,19):
+[]
+//end answers outside_struct(3,19)
+start answers outside_struct(3,20):
+[]
+//end answers outside_struct(3,20)
+start answers outside_struct(3,21):
+[]
+//end answers outside_struct(3,21)
+start answers outside_struct(3,22):
+[]
+//end answers outside_struct(3,22)
+start answers outside_struct(3,23):
+[]
+//end answers outside_struct(3,23)
+start answers outside_struct(3,24):
+[]
+//end answers outside_struct(3,24)
+start answers outside_struct(3,25):
+[]
+//end answers outside_struct(3,25)
+start answers outside_struct(3,26):
+[]
+//end answers outside_struct(3,26)
+start answers outside_struct(3,27):
+[]
+//end answers outside_struct(3,27)
+start answers outside_struct(3,28):
+[]
+//end answers outside_struct(3,28)
+start answers outside_struct(3,29):
+0
+//end answers outside_struct(3,29)
+start answers outside_struct(4,4):
+[]
+//end answers outside_struct(4,4)
+start answers outside_struct(4,5):
+[]
+//end answers outside_struct(4,5)
+start answers outside_struct(4,6):
+[]
+//end answers outside_struct(4,6)
+start answers outside_struct(4,7):
+[]
+//end answers outside_struct(4,7)
+start answers outside_struct(4,8):
+[]
+//end answers outside_struct(4,8)
+start answers outside_struct(4,9):
+[]
+//end answers outside_struct(4,9)
+start answers outside_struct(4,10):
+[]
+//end answers outside_struct(4,10)
+start answers outside_struct(4,11):
+[]
+//end answers outside_struct(4,11)
+start answers outside_struct(4,12):
+[]
+//end answers outside_struct(4,12)
+start answers outside_struct(4,13):
+[]
+//end answers outside_struct(4,13)
+start answers outside_struct(4,14):
+[]
+//end answers outside_struct(4,14)
+start answers outside_struct(4,15):
+[]
+//end answers outside_struct(4,15)
+start answers outside_struct(4,16):
+[]
+//end answers outside_struct(4,16)
+start answers outside_struct(4,17):
+[]
+//end answers outside_struct(4,17)
+start answers outside_struct(4,18):
+[]
+//end answers outside_struct(4,18)
+start answers outside_struct(4,19):
+[]
+//end answers outside_struct(4,19)
+start answers outside_struct(4,20):
+[]
+//end answers outside_struct(4,20)
+start answers outside_struct(4,21):
+[]
+//end answers outside_struct(4,21)
+start answers outside_struct(4,22):
+[]
+//end answers outside_struct(4,22)
+start answers outside_struct(4,23):
+[]
+//end answers outside_struct(4,23)
+start answers outside_struct(4,24):
+[]
+//end answers outside_struct(4,24)
+start answers outside_struct(4,25):
+[]
+//end answers outside_struct(4,25)
+start answers outside_struct(4,26):
+[]
+//end answers outside_struct(4,26)
+start answers outside_struct(4,27):
+[]
+//end answers outside_struct(4,27)
+start answers outside_struct(4,28):
+[]
+//end answers outside_struct(4,28)
+start answers outside_struct(4,29):
+0
+//end answers outside_struct(4,29)
+start answers outside_struct(5,5):
+[]
+//end answers outside_struct(5,5)
+start answers outside_struct(5,6):
+[]
+//end answers outside_struct(5,6)
+start answers outside_struct(5,7):
+[]
+//end answers outside_struct(5,7)
+start answers outside_struct(5,8):
+[]
+//end answers outside_struct(5,8)
+start answers outside_struct(5,9):
+[]
+//end answers outside_struct(5,9)
+start answers outside_struct(5,10):
+[]
+//end answers outside_struct(5,10)
+start answers outside_struct(5,11):
+[]
+//end answers outside_struct(5,11)
+start answers outside_struct(5,12):
+[]
+//end answers outside_struct(5,12)
+start answers outside_struct(5,13):
+[]
+//end answers outside_struct(5,13)
+start answers outside_struct(5,14):
+[]
+//end answers outside_struct(5,14)
+start answers outside_struct(5,15):
+[]
+//end answers outside_struct(5,15)
+start answers outside_struct(5,16):
+[]
+//end answers outside_struct(5,16)
+start answers outside_struct(5,17):
+[]
+//end answers outside_struct(5,17)
+start answers outside_struct(5,18):
+[]
+//end answers outside_struct(5,18)
+start answers outside_struct(5,19):
+[]
+//end answers outside_struct(5,19)
+start answers outside_struct(5,20):
+[]
+//end answers outside_struct(5,20)
+start answers outside_struct(5,21):
+[]
+//end answers outside_struct(5,21)
+start answers outside_struct(5,22):
+[]
+//end answers outside_struct(5,22)
+start answers outside_struct(5,23):
+[]
+//end answers outside_struct(5,23)
+start answers outside_struct(5,24):
+[]
+//end answers outside_struct(5,24)
+start answers outside_struct(5,25):
+[]
+//end answers outside_struct(5,25)
+start answers outside_struct(5,26):
+[]
+//end answers outside_struct(5,26)
+start answers outside_struct(5,27):
+[]
+//end answers outside_struct(5,27)
+start answers outside_struct(5,28):
+[]
+//end answers outside_struct(5,28)
+start answers outside_struct(5,29):
+0
+//end answers outside_struct(5,29)
+start answers outside_struct(6,6):
+[]
+//end answers outside_struct(6,6)
+start answers outside_struct(6,7):
+[]
+//end answers outside_struct(6,7)
+start answers outside_struct(6,8):
+[]
+//end answers outside_struct(6,8)
+start answers outside_struct(6,9):
+[]
+//end answers outside_struct(6,9)
+start answers outside_struct(6,10):
+[]
+//end answers outside_struct(6,10)
+start answers outside_struct(6,11):
+[]
+//end answers outside_struct(6,11)
+start answers outside_struct(6,12):
+[]
+//end answers outside_struct(6,12)
+start answers outside_struct(6,13):
+[]
+//end answers outside_struct(6,13)
+start answers outside_struct(6,14):
+[]
+//end answers outside_struct(6,14)
+start answers outside_struct(6,15):
+[]
+//end answers outside_struct(6,15)
+start answers outside_struct(6,16):
+[]
+//end answers outside_struct(6,16)
+start answers outside_struct(6,17):
+[]
+//end answers outside_struct(6,17)
+start answers outside_struct(6,18):
+[]
+//end answers outside_struct(6,18)
+start answers outside_struct(6,19):
+[]
+//end answers outside_struct(6,19)
+start answers outside_struct(6,20):
+[]
+//end answers outside_struct(6,20)
+start answers outside_struct(6,21):
+[]
+//end answers outside_struct(6,21)
+start answers outside_struct(6,22):
+[]
+//end answers outside_struct(6,22)
+start answers outside_struct(6,23):
+[]
+//end answers outside_struct(6,23)
+start answers outside_struct(6,24):
+[]
+//end answers outside_struct(6,24)
+start answers outside_struct(6,25):
+[]
+//end answers outside_struct(6,25)
+start answers outside_struct(6,26):
+[]
+//end answers outside_struct(6,26)
+start answers outside_struct(6,27):
+[]
+//end answers outside_struct(6,27)
+start answers outside_struct(6,28):
+[]
+//end answers outside_struct(6,28)
+start answers outside_struct(6,29):
+0
+//end answers outside_struct(6,29)
+start answers outside_struct(7,7):
+[]
+//end answers outside_struct(7,7)
+start answers outside_struct(7,8):
+[]
+//end answers outside_struct(7,8)
+start answers outside_struct(7,9):
+[]
+//end answers outside_struct(7,9)
+start answers outside_struct(7,10):
+[]
+//end answers outside_struct(7,10)
+start answers outside_struct(7,11):
+[]
+//end answers outside_struct(7,11)
+start answers outside_struct(7,12):
+[]
+//end answers outside_struct(7,12)
+start answers outside_struct(7,13):
+[]
+//end answers outside_struct(7,13)
+start answers outside_struct(7,14):
+[]
+//end answers outside_struct(7,14)
+start answers outside_struct(7,15):
+[]
+//end answers outside_struct(7,15)
+start answers outside_struct(7,16):
+[]
+//end answers outside_struct(7,16)
+start answers outside_struct(7,17):
+[]
+//end answers outside_struct(7,17)
+start answers outside_struct(7,18):
+[]
+//end answers outside_struct(7,18)
+start answers outside_struct(7,19):
+[]
+//end answers outside_struct(7,19)
+start answers outside_struct(7,20):
+[]
+//end answers outside_struct(7,20)
+start answers outside_struct(7,21):
+[]
+//end answers outside_struct(7,21)
+start answers outside_struct(7,22):
+[]
+//end answers outside_struct(7,22)
+start answers outside_struct(7,23):
+[]
+//end answers outside_struct(7,23)
+start answers outside_struct(7,24):
+[]
+//end answers outside_struct(7,24)
+start answers outside_struct(7,25):
+[]
+//end answers outside_struct(7,25)
+start answers outside_struct(7,26):
+[]
+//end answers outside_struct(7,26)
+start answers outside_struct(7,27):
+[]
+//end answers outside_struct(7,27)
+start answers outside_struct(7,28):
+[]
+//end answers outside_struct(7,28)
+start answers outside_struct(7,29):
+0
+//end answers outside_struct(7,29)
+start answers outside_struct(8,8):
+[]
+//end answers outside_struct(8,8)
+start answers outside_struct(8,9):
+[]
+//end answers outside_struct(8,9)
+start answers outside_struct(8,10):
+[]
+//end answers outside_struct(8,10)
+start answers outside_struct(8,11):
+[]
+//end answers outside_struct(8,11)
+start answers outside_struct(8,12):
+[]
+//end answers outside_struct(8,12)
+start answers outside_struct(8,13):
+[]
+//end answers outside_struct(8,13)
+start answers outside_struct(8,14):
+[]
+//end answers outside_struct(8,14)
+start answers outside_struct(8,15):
+[]
+//end answers outside_struct(8,15)
+start answers outside_struct(8,16):
+[]
+//end answers outside_struct(8,16)
+start answers outside_struct(8,17):
+[]
+//end answers outside_struct(8,17)
+start answers outside_struct(8,18):
+[]
+//end answers outside_struct(8,18)
+start answers outside_struct(8,19):
+[]
+//end answers outside_struct(8,19)
+start answers outside_struct(8,20):
+[]
+//end answers outside_struct(8,20)
+start answers outside_struct(8,21):
+[]
+//end answers outside_struct(8,21)
+start answers outside_struct(8,22):
+[]
+//end answers outside_struct(8,22)
+start answers outside_struct(8,23):
+[]
+//end answers outside_struct(8,23)
+start answers outside_struct(8,24):
+[]
+//end answers outside_struct(8,24)
+start answers outside_struct(8,25):
+[]
+//end answers outside_struct(8,25)
+start answers outside_struct(8,26):
+[]
+//end answers outside_struct(8,26)
+start answers outside_struct(8,27):
+[]
+//end answers outside_struct(8,27)
+start answers outside_struct(8,28):
+[]
+//end answers outside_struct(8,28)
+start answers outside_struct(8,29):
+0
+//end answers outside_struct(8,29)
+start answers outside_struct(9,9):
+[]
+//end answers outside_struct(9,9)
+start answers outside_struct(9,10):
+[]
+//end answers outside_struct(9,10)
+start answers outside_struct(9,11):
+[]
+//end answers outside_struct(9,11)
+start answers outside_struct(9,12):
+[]
+//end answers outside_struct(9,12)
+start answers outside_struct(9,13):
+[]
+//end answers outside_struct(9,13)
+start answers outside_struct(9,14):
+[]
+//end answers outside_struct(9,14)
+start answers outside_struct(9,15):
+[]
+//end answers outside_struct(9,15)
+start answers outside_struct(9,16):
+[]
+//end answers outside_struct(9,16)
+start answers outside_struct(9,17):
+[]
+//end answers outside_struct(9,17)
+start answers outside_struct(9,18):
+[]
+//end answers outside_struct(9,18)
+start answers outside_struct(9,19):
+[]
+//end answers outside_struct(9,19)
+start answers outside_struct(9,20):
+[]
+//end answers outside_struct(9,20)
+start answers outside_struct(9,21):
+[]
+//end answers outside_struct(9,21)
+start answers outside_struct(9,22):
+[]
+//end answers outside_struct(9,22)
+start answers outside_struct(9,23):
+[]
+//end answers outside_struct(9,23)
+start answers outside_struct(9,24):
+[]
+//end answers outside_struct(9,24)
+start answers outside_struct(9,25):
+[]
+//end answers outside_struct(9,25)
+start answers outside_struct(9,26):
+[]
+//end answers outside_struct(9,26)
+start answers outside_struct(9,27):
+[]
+//end answers outside_struct(9,27)
+start answers outside_struct(9,28):
+[]
+//end answers outside_struct(9,28)
+start answers outside_struct(9,29):
+0
+//end answers outside_struct(9,29)
+start answers outside_struct(10,10):
+[]
+//end answers outside_struct(10,10)
+start answers outside_struct(10,11):
+[]
+//end answers outside_struct(10,11)
+start answers outside_struct(10,12):
+[]
+//end answers outside_struct(10,12)
+start answers outside_struct(10,13):
+[]
+//end answers outside_struct(10,13)
+start answers outside_struct(10,14):
+[]
+//end answers outside_struct(10,14)
+start answers outside_struct(10,15):
+[]
+//end answers outside_struct(10,15)
+start answers outside_struct(10,16):
+[]
+//end answers outside_struct(10,16)
+start answers outside_struct(10,17):
+[]
+//end answers outside_struct(10,17)
+start answers outside_struct(10,18):
+[]
+//end answers outside_struct(10,18)
+start answers outside_struct(10,19):
+[]
+//end answers outside_struct(10,19)
+start answers outside_struct(10,20):
+[]
+//end answers outside_struct(10,20)
+start answers outside_struct(10,21):
+[]
+//end answers outside_struct(10,21)
+start answers outside_struct(10,22):
+[]
+//end answers outside_struct(10,22)
+start answers outside_struct(10,23):
+[]
+//end answers outside_struct(10,23)
+start answers outside_struct(10,24):
+[]
+//end answers outside_struct(10,24)
+start answers outside_struct(10,25):
+[]
+//end answers outside_struct(10,25)
+start answers outside_struct(10,26):
+[]
+//end answers outside_struct(10,26)
+start answers outside_struct(10,27):
+[]
+//end answers outside_struct(10,27)
+start answers outside_struct(10,28):
+[]
+//end answers outside_struct(10,28)
+start answers outside_struct(10,29):
+0
+//end answers outside_struct(10,29)
+start answers outside_struct(11,11):
+[]
+//end answers outside_struct(11,11)
+start answers outside_struct(11,12):
+[]
+//end answers outside_struct(11,12)
+start answers outside_struct(11,13):
+[]
+//end answers outside_struct(11,13)
+start answers outside_struct(11,14):
+[]
+//end answers outside_struct(11,14)
+start answers outside_struct(11,15):
+[]
+//end answers outside_struct(11,15)
+start answers outside_struct(11,16):
+[]
+//end answers outside_struct(11,16)
+start answers outside_struct(11,17):
+[]
+//end answers outside_struct(11,17)
+start answers outside_struct(11,18):
+[]
+//end answers outside_struct(11,18)
+start answers outside_struct(11,19):
+[]
+//end answers outside_struct(11,19)
+start answers outside_struct(11,20):
+[]
+//end answers outside_struct(11,20)
+start answers outside_struct(11,21):
+[]
+//end answers outside_struct(11,21)
+start answers outside_struct(11,22):
+[]
+//end answers outside_struct(11,22)
+start answers outside_struct(11,23):
+[]
+//end answers outside_struct(11,23)
+start answers outside_struct(11,24):
+[]
+//end answers outside_struct(11,24)
+start answers outside_struct(11,25):
+[]
+//end answers outside_struct(11,25)
+start answers outside_struct(11,26):
+[]
+//end answers outside_struct(11,26)
+start answers outside_struct(11,27):
+[]
+//end answers outside_struct(11,27)
+start answers outside_struct(11,28):
+[]
+//end answers outside_struct(11,28)
+start answers outside_struct(11,29):
+0
+//end answers outside_struct(11,29)
+start answers outside_struct(12,12):
+[]
+//end answers outside_struct(12,12)
+start answers outside_struct(12,13):
+[]
+//end answers outside_struct(12,13)
+start answers outside_struct(12,14):
+[]
+//end answers outside_struct(12,14)
+start answers outside_struct(12,15):
+[]
+//end answers outside_struct(12,15)
+start answers outside_struct(12,16):
+[]
+//end answers outside_struct(12,16)
+start answers outside_struct(12,17):
+[]
+//end answers outside_struct(12,17)
+start answers outside_struct(12,18):
+[]
+//end answers outside_struct(12,18)
+start answers outside_struct(12,19):
+[]
+//end answers outside_struct(12,19)
+start answers outside_struct(12,20):
+[]
+//end answers outside_struct(12,20)
+start answers outside_struct(12,21):
+[]
+//end answers outside_struct(12,21)
+start answers outside_struct(12,22):
+[]
+//end answers outside_struct(12,22)
+start answers outside_struct(12,23):
+[]
+//end answers outside_struct(12,23)
+start answers outside_struct(12,24):
+[]
+//end answers outside_struct(12,24)
+start answers outside_struct(12,25):
+[]
+//end answers outside_struct(12,25)
+start answers outside_struct(12,26):
+[]
+//end answers outside_struct(12,26)
+start answers outside_struct(12,27):
+[]
+//end answers outside_struct(12,27)
+start answers outside_struct(12,28):
+[]
+//end answers outside_struct(12,28)
+start answers outside_struct(12,29):
+0
+//end answers outside_struct(12,29)
+start answers outside_struct(13,13):
+[]
+//end answers outside_struct(13,13)
+start answers outside_struct(13,14):
+[]
+//end answers outside_struct(13,14)
+start answers outside_struct(13,15):
+[]
+//end answers outside_struct(13,15)
+start answers outside_struct(13,16):
+[]
+//end answers outside_struct(13,16)
+start answers outside_struct(13,17):
+[]
+//end answers outside_struct(13,17)
+start answers outside_struct(13,18):
+[]
+//end answers outside_struct(13,18)
+start answers outside_struct(13,19):
+[]
+//end answers outside_struct(13,19)
+start answers outside_struct(13,20):
+[]
+//end answers outside_struct(13,20)
+start answers outside_struct(13,21):
+[]
+//end answers outside_struct(13,21)
+start answers outside_struct(13,22):
+[]
+//end answers outside_struct(13,22)
+start answers outside_struct(13,23):
+[]
+//end answers outside_struct(13,23)
+start answers outside_struct(13,24):
+[]
+//end answers outside_struct(13,24)
+start answers outside_struct(13,25):
+[]
+//end answers outside_struct(13,25)
+start answers outside_struct(13,26):
+[]
+//end answers outside_struct(13,26)
+start answers outside_struct(13,27):
+[]
+//end answers outside_struct(13,27)
+start answers outside_struct(13,28):
+[]
+//end answers outside_struct(13,28)
+start answers outside_struct(13,29):
+0
+//end answers outside_struct(13,29)
+start answers outside_struct(14,14):
+[]
+//end answers outside_struct(14,14)
+start answers outside_struct(14,15):
+[]
+//end answers outside_struct(14,15)
+start answers outside_struct(14,16):
+[]
+//end answers outside_struct(14,16)
+start answers outside_struct(14,17):
+[]
+//end answers outside_struct(14,17)
+start answers outside_struct(14,18):
+[]
+//end answers outside_struct(14,18)
+start answers outside_struct(14,19):
+[]
+//end answers outside_struct(14,19)
+start answers outside_struct(14,20):
+[]
+//end answers outside_struct(14,20)
+start answers outside_struct(14,21):
+[]
+//end answers outside_struct(14,21)
+start answers outside_struct(14,22):
+[]
+//end answers outside_struct(14,22)
+start answers outside_struct(14,23):
+[]
+//end answers outside_struct(14,23)
+start answers outside_struct(14,24):
+[]
+//end answers outside_struct(14,24)
+start answers outside_struct(14,25):
+[]
+//end answers outside_struct(14,25)
+start answers outside_struct(14,26):
+[]
+//end answers outside_struct(14,26)
+start answers outside_struct(14,27):
+[]
+//end answers outside_struct(14,27)
+start answers outside_struct(14,28):
+[]
+//end answers outside_struct(14,28)
+start answers outside_struct(14,29):
+0
+//end answers outside_struct(14,29)
+start answers outside_struct(15,15):
+[]
+//end answers outside_struct(15,15)
+start answers outside_struct(15,16):
+[]
+//end answers outside_struct(15,16)
+start answers outside_struct(15,17):
+[]
+//end answers outside_struct(15,17)
+start answers outside_struct(15,18):
+[]
+//end answers outside_struct(15,18)
+start answers outside_struct(15,19):
+[]
+//end answers outside_struct(15,19)
+start answers outside_struct(15,20):
+[]
+//end answers outside_struct(15,20)
+start answers outside_struct(15,21):
+[]
+//end answers outside_struct(15,21)
+start answers outside_struct(15,22):
+[]
+//end answers outside_struct(15,22)
+start answers outside_struct(15,23):
+[]
+//end answers outside_struct(15,23)
+start answers outside_struct(15,24):
+[]
+//end answers outside_struct(15,24)
+start answers outside_struct(15,25):
+[]
+//end answers outside_struct(15,25)
+start answers outside_struct(15,26):
+[]
+//end answers outside_struct(15,26)
+start answers outside_struct(15,27):
+[]
+//end answers outside_struct(15,27)
+start answers outside_struct(15,28):
+[]
+//end answers outside_struct(15,28)
+start answers outside_struct(15,29):
+0
+//end answers outside_struct(15,29)
+start answers outside_struct(16,16):
+[]
+//end answers outside_struct(16,16)
+start answers outside_struct(16,17):
+[]
+//end answers outside_struct(16,17)
+start answers outside_struct(16,18):
+[]
+//end answers outside_struct(16,18)
+start answers outside_struct(16,19):
+[]
+//end answers outside_struct(16,19)
+start answers outside_struct(16,20):
+[]
+//end answers outside_struct(16,20)
+start answers outside_struct(16,21):
+[]
+//end answers outside_struct(16,21)
+start answers outside_struct(16,22):
+[]
+//end answers outside_struct(16,22)
+start answers outside_struct(16,23):
+[]
+//end answers outside_struct(16,23)
+start answers outside_struct(16,24):
+[]
+//end answers outside_struct(16,24)
+start answers outside_struct(16,25):
+[]
+//end answers outside_struct(16,25)
+start answers outside_struct(16,26):
+[]
+//end answers outside_struct(16,26)
+start answers outside_struct(16,27):
+[]
+//end answers outside_struct(16,27)
+start answers outside_struct(16,28):
+[]
+//end answers outside_struct(16,28)
+start answers outside_struct(16,29):
+0
+//end answers outside_struct(16,29)
+start answers outside_struct(17,17):
+[]
+//end answers outside_struct(17,17)
+start answers outside_struct(17,18):
+[]
+//end answers outside_struct(17,18)
+start answers outside_struct(17,19):
+[]
+//end answers outside_struct(17,19)
+start answers outside_struct(17,20):
+[]
+//end answers outside_struct(17,20)
+start answers outside_struct(17,21):
+[]
+//end answers outside_struct(17,21)
+start answers outside_struct(17,22):
+[]
+//end answers outside_struct(17,22)
+start answers outside_struct(17,23):
+[]
+//end answers outside_struct(17,23)
+start answers outside_struct(17,24):
+[]
+//end answers outside_struct(17,24)
+start answers outside_struct(17,25):
+[]
+//end answers outside_struct(17,25)
+start answers outside_struct(17,26):
+[]
+//end answers outside_struct(17,26)
+start answers outside_struct(17,27):
+[]
+//end answers outside_struct(17,27)
+start answers outside_struct(17,28):
+[]
+//end answers outside_struct(17,28)
+start answers outside_struct(17,29):
+0
+//end answers outside_struct(17,29)
+start answers outside_struct(18,18):
+[]
+//end answers outside_struct(18,18)
+start answers outside_struct(18,19):
+[]
+//end answers outside_struct(18,19)
+start answers outside_struct(18,20):
+[]
+//end answers outside_struct(18,20)
+start answers outside_struct(18,21):
+[]
+//end answers outside_struct(18,21)
+start answers outside_struct(18,22):
+[]
+//end answers outside_struct(18,22)
+start answers outside_struct(18,23):
+[]
+//end answers outside_struct(18,23)
+start answers outside_struct(18,24):
+[]
+//end answers outside_struct(18,24)
+start answers outside_struct(18,25):
+[]
+//end answers outside_struct(18,25)
+start answers outside_struct(18,26):
+[]
+//end answers outside_struct(18,26)
+start answers outside_struct(18,27):
+[]
+//end answers outside_struct(18,27)
+start answers outside_struct(18,28):
+[]
+//end answers outside_struct(18,28)
+start answers outside_struct(18,29):
+0
+//end answers outside_struct(18,29)
+start answers outside_struct(19,19):
+[]
+//end answers outside_struct(19,19)
+start answers outside_struct(19,20):
+[]
+//end answers outside_struct(19,20)
+start answers outside_struct(19,21):
+[]
+//end answers outside_struct(19,21)
+start answers outside_struct(19,22):
+[]
+//end answers outside_struct(19,22)
+start answers outside_struct(19,23):
+[]
+//end answers outside_struct(19,23)
+start answers outside_struct(19,24):
+[]
+//end answers outside_struct(19,24)
+start answers outside_struct(19,25):
+[]
+//end answers outside_struct(19,25)
+start answers outside_struct(19,26):
+[]
+//end answers outside_struct(19,26)
+start answers outside_struct(19,27):
+[]
+//end answers outside_struct(19,27)
+start answers outside_struct(19,28):
+[]
+//end answers outside_struct(19,28)
+start answers outside_struct(19,29):
+0
+//end answers outside_struct(19,29)
+start answers outside_struct(20,20):
+[]
+//end answers outside_struct(20,20)
+start answers outside_struct(20,21):
+[]
+//end answers outside_struct(20,21)
+start answers outside_struct(20,22):
+[]
+//end answers outside_struct(20,22)
+start answers outside_struct(20,23):
+[]
+//end answers outside_struct(20,23)
+start answers outside_struct(20,24):
+[]
+//end answers outside_struct(20,24)
+start answers outside_struct(20,25):
+[]
+//end answers outside_struct(20,25)
+start answers outside_struct(20,26):
+[]
+//end answers outside_struct(20,26)
+start answers outside_struct(20,27):
+[]
+//end answers outside_struct(20,27)
+start answers outside_struct(20,28):
+[]
+//end answers outside_struct(20,28)
+start answers outside_struct(20,29):
+0
+//end answers outside_struct(20,29)
+start answers outside_struct(21,21):
+[]
+//end answers outside_struct(21,21)
+start answers outside_struct(21,22):
+[]
+//end answers outside_struct(21,22)
+start answers outside_struct(21,23):
+[]
+//end answers outside_struct(21,23)
+start answers outside_struct(21,24):
+[]
+//end answers outside_struct(21,24)
+start answers outside_struct(21,25):
+[]
+//end answers outside_struct(21,25)
+start answers outside_struct(21,26):
+[]
+//end answers outside_struct(21,26)
+start answers outside_struct(21,27):
+[]
+//end answers outside_struct(21,27)
+start answers outside_struct(21,28):
+[]
+//end answers outside_struct(21,28)
+start answers outside_struct(21,29):
+-40
+//end answers outside_struct(21,29)
+start answers outside_struct(22,22):
+[]
+//end answers outside_struct(22,22)
+start answers outside_struct(22,23):
+[]
+//end answers outside_struct(22,23)
+start answers outside_struct(22,24):
+[]
+//end answers outside_struct(22,24)
+start answers outside_struct(22,25):
+[]
+//end answers outside_struct(22,25)
+start answers outside_struct(22,26):
+[]
+//end answers outside_struct(22,26)
+start answers outside_struct(22,27):
+[]
+//end answers outside_struct(22,27)
+start answers outside_struct(22,28):
+[]
+//end answers outside_struct(22,28)
+start answers outside_struct(22,29):
+-40
+//end answers outside_struct(22,29)
+start answers outside_struct(23,23):
+[]
+//end answers outside_struct(23,23)
+start answers outside_struct(23,24):
+[]
+//end answers outside_struct(23,24)
+start answers outside_struct(23,25):
+[]
+//end answers outside_struct(23,25)
+start answers outside_struct(23,26):
+[]
+//end answers outside_struct(23,26)
+start answers outside_struct(23,27):
+[]
+//end answers outside_struct(23,27)
+start answers outside_struct(23,28):
+[]
+//end answers outside_struct(23,28)
+start answers outside_struct(23,29):
+-40
+//end answers outside_struct(23,29)
+start answers outside_struct(24,24):
+[]
+//end answers outside_struct(24,24)
+start answers outside_struct(24,25):
+[]
+//end answers outside_struct(24,25)
+start answers outside_struct(24,26):
+[]
+//end answers outside_struct(24,26)
+start answers outside_struct(24,27):
+[]
+//end answers outside_struct(24,27)
+start answers outside_struct(24,28):
+[]
+//end answers outside_struct(24,28)
+start answers outside_struct(24,29):
+-40
+//end answers outside_struct(24,29)
+start answers outside_struct(25,25):
+[]
+//end answers outside_struct(25,25)
+start answers outside_struct(25,26):
+[]
+//end answers outside_struct(25,26)
+start answers outside_struct(25,27):
+[]
+//end answers outside_struct(25,27)
+start answers outside_struct(25,28):
+[]
+//end answers outside_struct(25,28)
+start answers outside_struct(25,29):
+-40
+//end answers outside_struct(25,29)
+start answers outside_struct(26,26):
+[]
+//end answers outside_struct(26,26)
+start answers outside_struct(26,27):
+[]
+//end answers outside_struct(26,27)
+start answers outside_struct(26,28):
+[]
+//end answers outside_struct(26,28)
+start answers outside_struct(26,29):
+-170
+//end answers outside_struct(26,29)
+start answers outside_struct(27,27):
+[]
+//end answers outside_struct(27,27)
+start answers outside_struct(27,28):
+[]
+//end answers outside_struct(27,28)
+start answers outside_struct(27,29):
+-170
+//end answers outside_struct(27,29)
+start answers outside_struct(28,28):
+[]
+//end answers outside_struct(28,28)
+start answers outside_struct(28,29):
+-170
+//end answers outside_struct(28,29)
+start answers outside_struct(29,29):
 -410
-//end answers outside_struct(29)
+//end answers outside_struct(29,29)
