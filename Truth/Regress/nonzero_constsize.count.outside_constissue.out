@@ -25,15 +25,12 @@ start answers state_D_17(0,1):
 start answers state_D_17(1,1):
 1
 //end answers state_D_17(1,1)
-start answers outside_state_D_17(0,0):
+start answers outside_state_D_17(0):
 []
-//end answers outside_state_D_17(0,0)
-start answers outside_state_D_17(0,1):
-[]
-//end answers outside_state_D_17(0,1)
-start answers outside_state_D_17(1,1):
+//end answers outside_state_D_17(0)
+start answers outside_state_D_17(1):
 1
-//end answers outside_state_D_17(1,1)
+//end answers outside_state_D_17(1)
 start answers state_D_8(0,0):
 1
 //end answers state_D_8(0,0)
@@ -76,15 +73,12 @@ start answers state_E_20(0,1):
 start answers state_E_20(1,1):
 1
 //end answers state_E_20(1,1)
-start answers outside_state_E_20(0,0):
+start answers outside_state_E_20(0):
 []
-//end answers outside_state_E_20(0,0)
-start answers outside_state_E_20(0,1):
-[]
-//end answers outside_state_E_20(0,1)
-start answers outside_state_E_20(1,1):
+//end answers outside_state_E_20(0)
+start answers outside_state_E_20(1):
 2
-//end answers outside_state_E_20(1,1)
+//end answers outside_state_E_20(1)
 start answers state_ML_15(0,0):
 []
 //end answers state_ML_15(0,0)
@@ -94,15 +88,12 @@ start answers state_ML_15(0,1):
 start answers state_ML_15(1,1):
 []
 //end answers state_ML_15(1,1)
-start answers outside_state_ML_15(0,0):
-[]
-//end answers outside_state_ML_15(0,0)
-start answers outside_state_ML_15(0,1):
+start answers outside_state_ML_15(0):
 1
-//end answers outside_state_ML_15(0,1)
-start answers outside_state_ML_15(1,1):
+//end answers outside_state_ML_15(0)
+start answers outside_state_ML_15(1):
 []
-//end answers outside_state_ML_15(1,1)
+//end answers outside_state_ML_15(1)
 start answers state_ML_6(0,0):
 []
 //end answers state_ML_6(0,0)
@@ -130,15 +121,12 @@ start answers state_S_12(0,1):
 start answers state_S_12(1,1):
 1
 //end answers state_S_12(1,1)
-start answers outside_state_S_12(0,0):
-[]
-//end answers outside_state_S_12(0,0)
-start answers outside_state_S_12(0,1):
+start answers outside_state_S_12(0):
 1
-//end answers outside_state_S_12(0,1)
-start answers outside_state_S_12(1,1):
+//end answers outside_state_S_12(0)
+start answers outside_state_S_12(1):
 1
-//end answers outside_state_S_12(1,1)
+//end answers outside_state_S_12(1)
 start answers state_S_4(0,0):
 1
 //end answers state_S_4(0,0)
