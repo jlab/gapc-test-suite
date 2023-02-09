@@ -1,1 +1,1 @@
-../../Mod_ubuntu/multi_plot_grammar_full101/nussinov2.gap
+../../Mod_ubuntu/multi_plot_grammar_level3101/nussinov2.gap

@@ -1,1 +1,1 @@
-../../Mod_ubuntu/multi_plot_grammar_full101/structure2shape.gap
+../../Mod_ubuntu/multi_plot_grammar_level3101/structure2shape.gap
