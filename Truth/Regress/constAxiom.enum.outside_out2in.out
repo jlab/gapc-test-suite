@@ -1,0 +1,70 @@
+start answers S0():
+silent( B consume_left( C G silent( E nil( Z 1 ) ) ) )
+silent( B consume_right( D silent( E nil( Z 1 ) ) G ) )
+
+//end answers S0()
+start answers outside_S0():
+dummy( dummy( silent( A nil( Z 1 ) ) ) )
+dummy( dummy( silent( B silent( E nil( Z 1 ) ) ) ) )
+
+//end answers outside_S0()
+start answers S1(0,0):
+silent( E nil( Z 1 ) )
+
+//end answers S1(0,0)
+start answers S1(0,1):
+consume_left( C G silent( E nil( Z 1 ) ) )
+consume_right( D silent( E nil( Z 1 ) ) G )
+
+//end answers S1(0,1)
+start answers S1(1,1):
+silent( E nil( Z 1 ) )
+
+//end answers S1(1,1)
+start answers outside_S1(0,0):
+consume_right( D silent( B dummy( dummy( silent( A nil( Z 1 ) ) ) ) ) G )
+consume_right( D silent( B dummy( dummy( silent( B silent( E nil( Z 1 ) ) ) ) ) ) G )
+
+//end answers outside_S1(0,0)
+start answers outside_S1(0,1):
+silent( B dummy( dummy( silent( A nil( Z 1 ) ) ) ) )
+silent( B dummy( dummy( silent( B silent( E nil( Z 1 ) ) ) ) ) )
+
+//end answers outside_S1(0,1)
+start answers outside_S1(1,1):
+consume_left( C G silent( B dummy( dummy( silent( A nil( Z 1 ) ) ) ) ) )
+consume_left( C G silent( B dummy( dummy( silent( B silent( E nil( Z 1 ) ) ) ) ) ) )
+
+//end answers outside_S1(1,1)
+start answers S9(0,0):
+nil( Z 1 )
+//end answers S9(0,0)
+start answers S9(0,1):
+[]
+//end answers S9(0,1)
+start answers S9(1,1):
+nil( Z 1 )
+//end answers S9(1,1)
+start answers outside_S9(0,0):
+silent( E consume_right( D silent( B dummy( dummy( silent( A nil( Z 1 ) ) ) ) ) G ) )
+silent( E consume_right( D silent( B dummy( dummy( silent( B silent( E nil( Z 1 ) ) ) ) ) ) G ) )
+
+//end answers outside_S9(0,0)
+start answers outside_S9(0,1):
+[]
+//end answers outside_S9(0,1)
+start answers outside_S9(1,1):
+silent( E consume_left( C G silent( B dummy( dummy( silent( A nil( Z 1 ) ) ) ) ) ) )
+silent( E consume_left( C G silent( B dummy( dummy( silent( B silent( E nil( Z 1 ) ) ) ) ) ) ) )
+
+//end answers outside_S9(1,1)
+start answers Sm1():
+dummy( silent( B consume_left( C G silent( E nil( Z 1 ) ) ) ) )
+dummy( silent( B consume_right( D silent( E nil( Z 1 ) ) G ) ) )
+
+//end answers Sm1()
+start answers outside_Sm1():
+dummy( silent( A nil( Z 1 ) ) )
+dummy( silent( B silent( E nil( Z 1 ) ) ) )
+
+//end answers outside_Sm1()
