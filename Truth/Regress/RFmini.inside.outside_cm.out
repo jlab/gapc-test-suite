@@ -1,0 +1,324 @@
+start answers state_B_3(0,0):
+-23.357
+//end answers state_B_3(0,0)
+start answers state_B_3(0,1):
+-20.6657
+//end answers state_B_3(0,1)
+start answers state_B_3(1,1):
+-23.357
+//end answers state_B_3(1,1)
+start answers outside_state_B_3(0,0):
+-43.793
+//end answers outside_state_B_3(0,0)
+start answers outside_state_B_3(0,1):
+-23.361
+//end answers outside_state_B_3(0,1)
+start answers outside_state_B_3(1,1):
+-34.581
+//end answers outside_state_B_3(1,1)
+start answers state_D_17(0,0):
+-1
+//end answers state_D_17(0,0)
+start answers state_D_17(0,1):
+-2.67
+//end answers state_D_17(0,1)
+start answers state_D_17(1,1):
+-1
+//end answers state_D_17(1,1)
+start answers outside_state_D_17(0,0):
+-66.15
+//end answers outside_state_D_17(0,0)
+start answers outside_state_D_17(0,1):
+-45.718
+//end answers outside_state_D_17(0,1)
+start answers outside_state_D_17(1,1):
+-44.3194
+//end answers outside_state_D_17(1,1)
+start answers state_D_8(0,0):
+-1
+//end answers state_D_8(0,0)
+start answers state_D_8(0,1):
+-2.67
+//end answers state_D_8(0,1)
+start answers state_D_8(1,1):
+-1
+//end answers state_D_8(1,1)
+start answers outside_state_D_8(0,0):
+-43.764
+//end answers outside_state_D_8(0,0)
+start answers outside_state_D_8(0,1):
+-45.718
+//end answers outside_state_D_8(0,1)
+start answers outside_state_D_8(1,1):
+-56.938
+//end answers outside_state_D_8(1,1)
+start answers state_E_11(0,0):
+0
+//end answers state_E_11(0,0)
+start answers state_E_11(0,1):
+[]
+//end answers state_E_11(0,1)
+start answers state_E_11(1,1):
+0
+//end answers state_E_11(1,1)
+start answers outside_state_E_11(0,0):
+-44.3285
+//end answers outside_state_E_11(0,0)
+start answers outside_state_E_11(0,1):
+[]
+//end answers outside_state_E_11(0,1)
+start answers outside_state_E_11(1,1):
+-46.4315
+//end answers outside_state_E_11(1,1)
+start answers state_E_20(0,0):
+0
+//end answers state_E_20(0,0)
+start answers state_E_20(0,1):
+[]
+//end answers state_E_20(0,1)
+start answers state_E_20(1,1):
+0
+//end answers state_E_20(1,1)
+start answers outside_state_E_20(0,0):
+-46.017
+//end answers outside_state_E_20(0,0)
+start answers outside_state_E_20(0,1):
+[]
+//end answers outside_state_E_20(0,1)
+start answers outside_state_E_20(1,1):
+-44.4449
+//end answers outside_state_E_20(1,1)
+start answers state_IL_1(0):
+-25.093
+//end answers state_IL_1(0)
+start answers state_IL_1(1):
+[]
+//end answers state_IL_1(1)
+start answers outside_state_IL_1(0):
+-32.845
+//end answers outside_state_IL_1(0)
+start answers outside_state_IL_1(1):
+[]
+//end answers outside_state_IL_1(1)
+start answers state_IL_13(0,0):
+[]
+//end answers state_IL_13(0,0)
+start answers state_IL_13(0,1):
+-6.193
+//end answers state_IL_13(0,1)
+start answers state_IL_13(1,1):
+[]
+//end answers state_IL_13(1,1)
+start answers outside_state_IL_13(0,0):
+[]
+//end answers outside_state_IL_13(0,0)
+start answers outside_state_IL_13(0,1):
+-44.799
+//end answers outside_state_IL_13(0,1)
+start answers outside_state_IL_13(1,1):
+[]
+//end answers outside_state_IL_13(1,1)
+start answers state_IL_18(0,0):
+[]
+//end answers state_IL_18(0,0)
+start answers state_IL_18(0,1):
+-1.67
+//end answers state_IL_18(0,1)
+start answers state_IL_18(1,1):
+[]
+//end answers state_IL_18(1,1)
+start answers outside_state_IL_18(0,0):
+[]
+//end answers outside_state_IL_18(0,0)
+start answers outside_state_IL_18(0,1):
+-46.718
+//end answers outside_state_IL_18(0,1)
+start answers outside_state_IL_18(1,1):
+[]
+//end answers outside_state_IL_18(1,1)
+start answers state_IL_9(0,0):
+[]
+//end answers state_IL_9(0,0)
+start answers state_IL_9(0,1):
+-1.67
+//end answers state_IL_9(0,1)
+start answers state_IL_9(1,1):
+[]
+//end answers state_IL_9(1,1)
+start answers outside_state_IL_9(0,0):
+[]
+//end answers outside_state_IL_9(0,0)
+start answers outside_state_IL_9(0,1):
+-46.718
+//end answers outside_state_IL_9(0,1)
+start answers outside_state_IL_9(1,1):
+[]
+//end answers outside_state_IL_9(1,1)
+start answers state_IR_2(0,0):
+[]
+//end answers state_IR_2(0,0)
+start answers state_IR_2(0,1):
+-23.836
+//end answers state_IR_2(0,1)
+start answers state_IR_2(1,1):
+[]
+//end answers state_IR_2(1,1)
+start answers outside_state_IR_2(0,0):
+[]
+//end answers outside_state_IR_2(0,0)
+start answers outside_state_IR_2(0,1):
+-43.314
+//end answers outside_state_IR_2(0,1)
+start answers outside_state_IR_2(1,1):
+[]
+//end answers outside_state_IR_2(1,1)
+start answers state_ML_15(0,0):
+[]
+//end answers state_ML_15(0,0)
+start answers state_ML_15(0,1):
+-1.191
+//end answers state_ML_15(0,1)
+start answers state_ML_15(1,1):
+[]
+//end answers state_ML_15(1,1)
+start answers outside_state_ML_15(0,0):
+[]
+//end answers outside_state_ML_15(0,0)
+start answers outside_state_ML_15(0,1):
+-44.614
+//end answers outside_state_ML_15(0,1)
+start answers outside_state_ML_15(1,1):
+[]
+//end answers outside_state_ML_15(1,1)
+start answers state_ML_6(0,0):
+[]
+//end answers state_ML_6(0,0)
+start answers state_ML_6(0,1):
+-1.191
+//end answers state_ML_6(0,1)
+start answers state_ML_6(1,1):
+[]
+//end answers state_ML_6(1,1)
+start answers outside_state_ML_6(0,0):
+[]
+//end answers outside_state_ML_6(0,0)
+start answers outside_state_ML_6(0,1):
+-45.671
+//end answers outside_state_ML_6(0,1)
+start answers outside_state_ML_6(1,1):
+[]
+//end answers outside_state_ML_6(1,1)
+start answers state_MP_14(0,0):
+[]
+//end answers state_MP_14(0,0)
+start answers state_MP_14(0,1):
+[]
+//end answers state_MP_14(0,1)
+start answers state_MP_14(1,1):
+[]
+//end answers state_MP_14(1,1)
+start answers outside_state_MP_14(0,0):
+[]
+//end answers outside_state_MP_14(0,0)
+start answers outside_state_MP_14(0,1):
+[]
+//end answers outside_state_MP_14(0,1)
+start answers outside_state_MP_14(1,1):
+[]
+//end answers outside_state_MP_14(1,1)
+start answers state_MP_5(0,0):
+[]
+//end answers state_MP_5(0,0)
+start answers state_MP_5(0,1):
+[]
+//end answers state_MP_5(0,1)
+start answers state_MP_5(1,1):
+[]
+//end answers state_MP_5(1,1)
+start answers outside_state_MP_5(0,0):
+[]
+//end answers outside_state_MP_5(0,0)
+start answers outside_state_MP_5(0,1):
+[]
+//end answers outside_state_MP_5(0,1)
+start answers outside_state_MP_5(1,1):
+[]
+//end answers outside_state_MP_5(1,1)
+start answers state_MR_16(0,0):
+[]
+//end answers state_MR_16(0,0)
+start answers state_MR_16(0,1):
+-1.191
+//end answers state_MR_16(0,1)
+start answers state_MR_16(1,1):
+[]
+//end answers state_MR_16(1,1)
+start answers outside_state_MR_16(0,0):
+[]
+//end answers outside_state_MR_16(0,0)
+start answers outside_state_MR_16(0,1):
+-44.826
+//end answers outside_state_MR_16(0,1)
+start answers outside_state_MR_16(1,1):
+[]
+//end answers outside_state_MR_16(1,1)
+start answers state_MR_7(0,0):
+[]
+//end answers state_MR_7(0,0)
+start answers state_MR_7(0,1):
+-1.191
+//end answers state_MR_7(0,1)
+start answers state_MR_7(1,1):
+[]
+//end answers state_MR_7(1,1)
+start answers outside_state_MR_7(0,0):
+[]
+//end answers outside_state_MR_7(0,0)
+start answers outside_state_MR_7(0,1):
+-45.078
+//end answers outside_state_MR_7(0,1)
+start answers outside_state_MR_7(1,1):
+[]
+//end answers outside_state_MR_7(1,1)
+start answers state_S_0():
+-20.6676
+//end answers state_S_0()
+start answers outside_state_S_0():
+-23.359
+//end answers outside_state_S_0()
+start answers state_S_12(0,0):
+-12.549
+//end answers state_S_12(0,0)
+start answers state_S_12(0,1):
+-10.595
+//end answers state_S_12(0,1)
+start answers state_S_12(1,1):
+-12.549
+//end answers state_S_12(1,1)
+start answers outside_state_S_12(0,0):
+-54.601
+//end answers outside_state_S_12(0,0)
+start answers outside_state_S_12(0,1):
+-34.169
+//end answers outside_state_S_12(0,1)
+start answers outside_state_S_12(1,1):
+-32.799
+//end answers outside_state_S_12(1,1)
+start answers state_S_4(0,0):
+-10.808
+//end answers state_S_4(0,0)
+start answers state_S_4(0,1):
+-9.4382
+//end answers state_S_4(0,1)
+start answers state_S_4(1,1):
+-10.808
+//end answers state_S_4(1,1)
+start answers outside_state_S_4(0,0):
+-33.956
+//end answers outside_state_S_4(0,0)
+start answers outside_state_S_4(0,1):
+-35.91
+//end answers outside_state_S_4(0,1)
+start answers outside_state_S_4(1,1):
+-47.13
+//end answers outside_state_S_4(1,1)
