@@ -1,12 +1,6 @@
-start answers state_B_3(0,0):
-1
-//end answers state_B_3(0,0)
-start answers state_B_3(0,1):
+start answers state_B_3():
 2
-//end answers state_B_3(0,1)
-start answers state_B_3(1,1):
-1
-//end answers state_B_3(1,1)
+//end answers state_B_3()
 start answers outside_state_B_3():
 1
 //end answers outside_state_B_3()
