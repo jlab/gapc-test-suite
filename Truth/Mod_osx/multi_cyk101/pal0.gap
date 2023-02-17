@@ -1,2 +1,1 @@
-  unsigned int t_0_n = t_0_seq.size();
-
+../../Mod_ubuntu/multi_cyk101/pal0.gap

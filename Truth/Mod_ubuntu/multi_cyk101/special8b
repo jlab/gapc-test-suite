@@ -1,11 +1,13 @@
   unsigned int t_0_n = t_0_seq.size();
 
+  // C: linear loops
   unsigned int t_0_j = t_0_n;
   for (unsigned int t_0_i = t_0_j + 1; t_0_i > 1; t_0_i--) {
     nt_tabulate_b(t_0_i-1);
     nt_tabulate_a(t_0_i-1);
   }
 
+  // D: constant loops
   unsigned int t_0_i = 1;
   nt_tabulate_b(t_0_i-1);
   nt_tabulate_a(t_0_i-1);
