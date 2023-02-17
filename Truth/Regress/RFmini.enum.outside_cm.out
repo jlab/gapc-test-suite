@@ -1,0 +1,426 @@
+start answers state_B_3(0,0):
+bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 )
+
+//end answers state_B_3(0,0)
+start answers state_B_3(0,1):
+bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -10.63 left_transition( -5.193 G silent_transition( -1 nil( 0 1; 20 ) ); 13 ) ); 3 )
+bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -10.445 left_transition( -1 G nil( 0 1; 20 ); 15 ) ); 3 )
+bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -10.657 right_transition( -1 nil( 0 1; 20 ) G; 16 ) ); 3 )
+bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 left_transition( -1.67 G nil( 0 1; 20 ); 18 ) ) ); 3 )
+bifurcation_transition( 0 0 silent_transition( -9.761 left_transition( -1 G nil( 0 1; 11 ); 6 ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 )
+bifurcation_transition( 0 0 silent_transition( -9.168 right_transition( -1 nil( 0 1; 11 ) G; 7 ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 )
+bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 left_transition( -1.67 G nil( 0 1; 11 ); 9 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 )
+
+//end answers state_B_3(0,1)
+start answers state_B_3(1,1):
+bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 )
+
+//end answers state_B_3(1,1)
+start answers outside_state_B_3(0,0):
+right_transition( -0.479 silent_transition( -19.955 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) G; 2 )
+
+//end answers outside_state_B_3(0,0)
+start answers outside_state_B_3(0,1):
+silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) )
+
+//end answers outside_state_B_3(0,1)
+start answers outside_state_B_3(1,1):
+left_transition( -1.736 G silent_transition( -9.486 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 1 )
+
+//end answers outside_state_B_3(1,1)
+start answers state_D_17(0,0):
+silent_transition( -1 nil( 0 1; 20 ) )
+
+//end answers state_D_17(0,0)
+start answers state_D_17(0,1):
+silent_transition( -1 left_transition( -1.67 G nil( 0 1; 20 ); 18 ) )
+
+//end answers state_D_17(0,1)
+start answers state_D_17(1,1):
+silent_transition( -1 nil( 0 1; 20 ) )
+
+//end answers state_D_17(1,1)
+start answers outside_state_D_17(0,0):
+silent_transition( -11.549 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) right_transition( -0.479 silent_transition( -19.955 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) G; 2 ); 3 ) )
+
+//end answers outside_state_D_17(0,0)
+start answers outside_state_D_17(0,1):
+silent_transition( -11.549 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 ) )
+
+//end answers outside_state_D_17(0,1)
+start answers outside_state_D_17(1,1):
+left_transition( -5.193 G silent_transition( -10.63 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 ) ); 13 )
+silent_transition( -11.549 bifurcation_transition( 0 0 silent_transition( -9.761 left_transition( -1 G nil( 0 1; 11 ); 6 ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 ) )
+silent_transition( -11.549 bifurcation_transition( 0 0 silent_transition( -9.168 right_transition( -1 nil( 0 1; 11 ) G; 7 ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 ) )
+silent_transition( -11.549 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 left_transition( -1.67 G nil( 0 1; 11 ); 9 ) ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 ) )
+silent_transition( -11.549 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) left_transition( -1.736 G silent_transition( -9.486 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 1 ); 3 ) )
+
+//end answers outside_state_D_17(1,1)
+start answers state_D_8(0,0):
+silent_transition( -1 nil( 0 1; 11 ) )
+
+//end answers state_D_8(0,0)
+start answers state_D_8(0,1):
+silent_transition( -1 left_transition( -1.67 G nil( 0 1; 11 ); 9 ) )
+
+//end answers state_D_8(0,1)
+start answers state_D_8(1,1):
+silent_transition( -1 nil( 0 1; 11 ) )
+
+//end answers state_D_8(1,1)
+start answers outside_state_D_8(0,0):
+silent_transition( -9.808 bifurcation_transition( 0 0 right_transition( -0.479 silent_transition( -19.955 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) G; 2 ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) )
+silent_transition( -9.808 bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -10.63 left_transition( -5.193 G silent_transition( -1 nil( 0 1; 20 ) ); 13 ) ); 3 ) )
+silent_transition( -9.808 bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -10.445 left_transition( -1 G nil( 0 1; 20 ); 15 ) ); 3 ) )
+silent_transition( -9.808 bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -10.657 right_transition( -1 nil( 0 1; 20 ) G; 16 ) ); 3 ) )
+silent_transition( -9.808 bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -11.549 silent_transition( -1 left_transition( -1.67 G nil( 0 1; 20 ); 18 ) ) ); 3 ) )
+
+//end answers outside_state_D_8(0,0)
+start answers outside_state_D_8(0,1):
+silent_transition( -9.808 bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) )
+
+//end answers outside_state_D_8(0,1)
+start answers outside_state_D_8(1,1):
+silent_transition( -9.808 bifurcation_transition( 0 0 left_transition( -1.736 G silent_transition( -9.486 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 1 ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) )
+
+//end answers outside_state_D_8(1,1)
+start answers state_E_11(0,0):
+nil( 0 1; 11 )
+//end answers state_E_11(0,0)
+start answers state_E_11(0,1):
+[]
+//end answers state_E_11(0,1)
+start answers state_E_11(1,1):
+nil( 0 1; 11 )
+//end answers state_E_11(1,1)
+start answers outside_state_E_11(0,0):
+silent_transition( -1 silent_transition( -9.808 bifurcation_transition( 0 0 right_transition( -0.479 silent_transition( -19.955 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) G; 2 ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) )
+silent_transition( -1 silent_transition( -9.808 bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -10.63 left_transition( -5.193 G silent_transition( -1 nil( 0 1; 20 ) ); 13 ) ); 3 ) ) )
+silent_transition( -1 silent_transition( -9.808 bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -10.445 left_transition( -1 G nil( 0 1; 20 ); 15 ) ); 3 ) ) )
+silent_transition( -1 silent_transition( -9.808 bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -10.657 right_transition( -1 nil( 0 1; 20 ) G; 16 ) ); 3 ) ) )
+silent_transition( -1 silent_transition( -9.808 bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -11.549 silent_transition( -1 left_transition( -1.67 G nil( 0 1; 20 ); 18 ) ) ); 3 ) ) )
+right_transition( -1 silent_transition( -9.168 bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) G; 7 )
+
+//end answers outside_state_E_11(0,0)
+start answers outside_state_E_11(0,1):
+[]
+//end answers outside_state_E_11(0,1)
+start answers outside_state_E_11(1,1):
+silent_transition( -1 silent_transition( -9.808 bifurcation_transition( 0 0 left_transition( -1.736 G silent_transition( -9.486 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 1 ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) )
+left_transition( -1.67 G silent_transition( -1 silent_transition( -9.808 bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 9 )
+left_transition( -1 G silent_transition( -9.761 bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ); 6 )
+
+//end answers outside_state_E_11(1,1)
+start answers state_E_20(0,0):
+nil( 0 1; 20 )
+//end answers state_E_20(0,0)
+start answers state_E_20(0,1):
+[]
+//end answers state_E_20(0,1)
+start answers state_E_20(1,1):
+nil( 0 1; 20 )
+//end answers state_E_20(1,1)
+start answers outside_state_E_20(0,0):
+silent_transition( -1 silent_transition( -11.549 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) right_transition( -0.479 silent_transition( -19.955 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) G; 2 ); 3 ) ) )
+right_transition( -1 silent_transition( -10.657 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 ) ) G; 16 )
+
+//end answers outside_state_E_20(0,0)
+start answers outside_state_E_20(0,1):
+[]
+//end answers outside_state_E_20(0,1)
+start answers outside_state_E_20(1,1):
+silent_transition( -1 left_transition( -5.193 G silent_transition( -10.63 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 ) ); 13 ) )
+silent_transition( -1 silent_transition( -11.549 bifurcation_transition( 0 0 silent_transition( -9.761 left_transition( -1 G nil( 0 1; 11 ); 6 ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 ) ) )
+silent_transition( -1 silent_transition( -11.549 bifurcation_transition( 0 0 silent_transition( -9.168 right_transition( -1 nil( 0 1; 11 ) G; 7 ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 ) ) )
+silent_transition( -1 silent_transition( -11.549 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 left_transition( -1.67 G nil( 0 1; 11 ); 9 ) ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 ) ) )
+silent_transition( -1 silent_transition( -11.549 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) left_transition( -1.736 G silent_transition( -9.486 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 1 ); 3 ) ) )
+left_transition( -1.67 G silent_transition( -1 silent_transition( -11.549 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 ) ) ); 18 )
+left_transition( -1 G silent_transition( -10.445 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 ) ); 15 )
+
+//end answers outside_state_E_20(1,1)
+start answers state_IL_1(0):
+left_transition( -1.736 G bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ); 1 )
+
+//end answers state_IL_1(0)
+start answers state_IL_1(1):
+[]
+//end answers state_IL_1(1)
+start answers outside_state_IL_1(0):
+silent_transition( -9.486 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) )
+
+//end answers outside_state_IL_1(0)
+start answers outside_state_IL_1(1):
+[]
+//end answers outside_state_IL_1(1)
+start answers state_IL_13(0,0):
+[]
+//end answers state_IL_13(0,0)
+start answers state_IL_13(0,1):
+left_transition( -5.193 G silent_transition( -1 nil( 0 1; 20 ) ); 13 )
+
+//end answers state_IL_13(0,1)
+start answers state_IL_13(1,1):
+[]
+//end answers state_IL_13(1,1)
+start answers outside_state_IL_13(0,0):
+[]
+//end answers outside_state_IL_13(0,0)
+start answers outside_state_IL_13(0,1):
+silent_transition( -10.63 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 ) )
+
+//end answers outside_state_IL_13(0,1)
+start answers outside_state_IL_13(1,1):
+[]
+//end answers outside_state_IL_13(1,1)
+start answers state_IL_18(0,0):
+[]
+//end answers state_IL_18(0,0)
+start answers state_IL_18(0,1):
+left_transition( -1.67 G nil( 0 1; 20 ); 18 )
+
+//end answers state_IL_18(0,1)
+start answers state_IL_18(1,1):
+[]
+//end answers state_IL_18(1,1)
+start answers outside_state_IL_18(0,0):
+[]
+//end answers outside_state_IL_18(0,0)
+start answers outside_state_IL_18(0,1):
+silent_transition( -1 silent_transition( -11.549 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 ) ) )
+
+//end answers outside_state_IL_18(0,1)
+start answers outside_state_IL_18(1,1):
+[]
+//end answers outside_state_IL_18(1,1)
+start answers state_IL_9(0,0):
+[]
+//end answers state_IL_9(0,0)
+start answers state_IL_9(0,1):
+left_transition( -1.67 G nil( 0 1; 11 ); 9 )
+
+//end answers state_IL_9(0,1)
+start answers state_IL_9(1,1):
+[]
+//end answers state_IL_9(1,1)
+start answers outside_state_IL_9(0,0):
+[]
+//end answers outside_state_IL_9(0,0)
+start answers outside_state_IL_9(0,1):
+silent_transition( -1 silent_transition( -9.808 bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) )
+
+//end answers outside_state_IL_9(0,1)
+start answers outside_state_IL_9(1,1):
+[]
+//end answers outside_state_IL_9(1,1)
+start answers state_IR_2(0,0):
+[]
+//end answers state_IR_2(0,0)
+start answers state_IR_2(0,1):
+right_transition( -0.479 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) G; 2 )
+
+//end answers state_IR_2(0,1)
+start answers state_IR_2(1,1):
+[]
+//end answers state_IR_2(1,1)
+start answers outside_state_IR_2(0,0):
+[]
+//end answers outside_state_IR_2(0,0)
+start answers outside_state_IR_2(0,1):
+silent_transition( -19.955 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) )
+
+//end answers outside_state_IR_2(0,1)
+start answers outside_state_IR_2(1,1):
+[]
+//end answers outside_state_IR_2(1,1)
+start answers state_ML_15(0,0):
+[]
+//end answers state_ML_15(0,0)
+start answers state_ML_15(0,1):
+left_transition( -1 G nil( 0 1; 20 ); 15 )
+
+//end answers state_ML_15(0,1)
+start answers state_ML_15(1,1):
+[]
+//end answers state_ML_15(1,1)
+start answers outside_state_ML_15(0,0):
+[]
+//end answers outside_state_ML_15(0,0)
+start answers outside_state_ML_15(0,1):
+silent_transition( -10.445 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 ) )
+
+//end answers outside_state_ML_15(0,1)
+start answers outside_state_ML_15(1,1):
+[]
+//end answers outside_state_ML_15(1,1)
+start answers state_ML_6(0,0):
+[]
+//end answers state_ML_6(0,0)
+start answers state_ML_6(0,1):
+left_transition( -1 G nil( 0 1; 11 ); 6 )
+
+//end answers state_ML_6(0,1)
+start answers state_ML_6(1,1):
+[]
+//end answers state_ML_6(1,1)
+start answers outside_state_ML_6(0,0):
+[]
+//end answers outside_state_ML_6(0,0)
+start answers outside_state_ML_6(0,1):
+silent_transition( -9.761 bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) )
+
+//end answers outside_state_ML_6(0,1)
+start answers outside_state_ML_6(1,1):
+[]
+//end answers outside_state_ML_6(1,1)
+start answers state_MP_14(0,0):
+[]
+//end answers state_MP_14(0,0)
+start answers state_MP_14(0,1):
+[]
+//end answers state_MP_14(0,1)
+start answers state_MP_14(1,1):
+[]
+//end answers state_MP_14(1,1)
+start answers outside_state_MP_14(0,0):
+[]
+//end answers outside_state_MP_14(0,0)
+start answers outside_state_MP_14(0,1):
+[]
+//end answers outside_state_MP_14(0,1)
+start answers outside_state_MP_14(1,1):
+[]
+//end answers outside_state_MP_14(1,1)
+start answers state_MP_5(0,0):
+[]
+//end answers state_MP_5(0,0)
+start answers state_MP_5(0,1):
+[]
+//end answers state_MP_5(0,1)
+start answers state_MP_5(1,1):
+[]
+//end answers state_MP_5(1,1)
+start answers outside_state_MP_5(0,0):
+[]
+//end answers outside_state_MP_5(0,0)
+start answers outside_state_MP_5(0,1):
+[]
+//end answers outside_state_MP_5(0,1)
+start answers outside_state_MP_5(1,1):
+[]
+//end answers outside_state_MP_5(1,1)
+start answers state_MR_16(0,0):
+[]
+//end answers state_MR_16(0,0)
+start answers state_MR_16(0,1):
+right_transition( -1 nil( 0 1; 20 ) G; 16 )
+
+//end answers state_MR_16(0,1)
+start answers state_MR_16(1,1):
+[]
+//end answers state_MR_16(1,1)
+start answers outside_state_MR_16(0,0):
+[]
+//end answers outside_state_MR_16(0,0)
+start answers outside_state_MR_16(0,1):
+silent_transition( -10.657 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 ) )
+
+//end answers outside_state_MR_16(0,1)
+start answers outside_state_MR_16(1,1):
+[]
+//end answers outside_state_MR_16(1,1)
+start answers state_MR_7(0,0):
+[]
+//end answers state_MR_7(0,0)
+start answers state_MR_7(0,1):
+right_transition( -1 nil( 0 1; 11 ) G; 7 )
+
+//end answers state_MR_7(0,1)
+start answers state_MR_7(1,1):
+[]
+//end answers state_MR_7(1,1)
+start answers outside_state_MR_7(0,0):
+[]
+//end answers outside_state_MR_7(0,0)
+start answers outside_state_MR_7(0,1):
+silent_transition( -9.168 bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) )
+
+//end answers outside_state_MR_7(0,1)
+start answers outside_state_MR_7(1,1):
+[]
+//end answers outside_state_MR_7(1,1)
+start answers state_S_0():
+silent_transition( -9.486 left_transition( -1.736 G bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ); 1 ) )
+silent_transition( -19.955 right_transition( -0.479 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) G; 2 ) )
+silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -10.63 left_transition( -5.193 G silent_transition( -1 nil( 0 1; 20 ) ); 13 ) ); 3 ) )
+silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -10.445 left_transition( -1 G nil( 0 1; 20 ); 15 ) ); 3 ) )
+silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -10.657 right_transition( -1 nil( 0 1; 20 ) G; 16 ) ); 3 ) )
+silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 left_transition( -1.67 G nil( 0 1; 20 ); 18 ) ) ); 3 ) )
+silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.761 left_transition( -1 G nil( 0 1; 11 ); 6 ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) )
+silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.168 right_transition( -1 nil( 0 1; 11 ) G; 7 ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) )
+silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 left_transition( -1.67 G nil( 0 1; 11 ); 9 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) )
+
+//end answers state_S_0()
+start answers outside_state_S_0():
+silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) )
+
+//end answers outside_state_S_0()
+start answers state_S_12(0,0):
+silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) )
+
+//end answers state_S_12(0,0)
+start answers state_S_12(0,1):
+silent_transition( -10.63 left_transition( -5.193 G silent_transition( -1 nil( 0 1; 20 ) ); 13 ) )
+silent_transition( -10.445 left_transition( -1 G nil( 0 1; 20 ); 15 ) )
+silent_transition( -10.657 right_transition( -1 nil( 0 1; 20 ) G; 16 ) )
+silent_transition( -11.549 silent_transition( -1 left_transition( -1.67 G nil( 0 1; 20 ); 18 ) ) )
+
+//end answers state_S_12(0,1)
+start answers state_S_12(1,1):
+silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) )
+
+//end answers state_S_12(1,1)
+start answers outside_state_S_12(0,0):
+bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) right_transition( -0.479 silent_transition( -19.955 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) G; 2 ); 3 )
+
+//end answers outside_state_S_12(0,0)
+start answers outside_state_S_12(0,1):
+bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 )
+
+//end answers outside_state_S_12(0,1)
+start answers outside_state_S_12(1,1):
+bifurcation_transition( 0 0 silent_transition( -9.761 left_transition( -1 G nil( 0 1; 11 ); 6 ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 )
+bifurcation_transition( 0 0 silent_transition( -9.168 right_transition( -1 nil( 0 1; 11 ) G; 7 ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 )
+bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 left_transition( -1.67 G nil( 0 1; 11 ); 9 ) ) ) silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 3 )
+bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) left_transition( -1.736 G silent_transition( -9.486 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 1 ); 3 )
+
+//end answers outside_state_S_12(1,1)
+start answers state_S_4(0,0):
+silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) )
+
+//end answers state_S_4(0,0)
+start answers state_S_4(0,1):
+silent_transition( -9.761 left_transition( -1 G nil( 0 1; 11 ); 6 ) )
+silent_transition( -9.168 right_transition( -1 nil( 0 1; 11 ) G; 7 ) )
+silent_transition( -9.808 silent_transition( -1 left_transition( -1.67 G nil( 0 1; 11 ); 9 ) ) )
+
+//end answers state_S_4(0,1)
+start answers state_S_4(1,1):
+silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) )
+
+//end answers state_S_4(1,1)
+start answers outside_state_S_4(0,0):
+bifurcation_transition( 0 0 right_transition( -0.479 silent_transition( -19.955 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) G; 2 ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 )
+bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -10.63 left_transition( -5.193 G silent_transition( -1 nil( 0 1; 20 ) ); 13 ) ); 3 )
+bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -10.445 left_transition( -1 G nil( 0 1; 20 ); 15 ) ); 3 )
+bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -10.657 right_transition( -1 nil( 0 1; 20 ) G; 16 ) ); 3 )
+bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -11.549 silent_transition( -1 left_transition( -1.67 G nil( 0 1; 20 ); 18 ) ) ); 3 )
+
+//end answers outside_state_S_4(0,0)
+start answers outside_state_S_4(0,1):
+bifurcation_transition( 0 0 silent_transition( -0.002 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 )
+
+//end answers outside_state_S_4(0,1)
+start answers outside_state_S_4(1,1):
+bifurcation_transition( 0 0 left_transition( -1.736 G silent_transition( -9.486 silent_transition( -0.002 bifurcation_transition( 0 0 silent_transition( -9.808 silent_transition( -1 nil( 0 1; 11 ) ) ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 ) ) ); 1 ) silent_transition( -11.549 silent_transition( -1 nil( 0 1; 20 ) ) ); 3 )
+
+//end answers outside_state_S_4(1,1)
