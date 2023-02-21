@@ -102,53 +102,17 @@ start answers outside_state_hoch(1,1):
 //end answers outside_state_hoch(1,1)
 start answers outside_state_hoch(1,2):
 0.4
-//end answers outside_state_hoch(1,2)
-start answers outside_state_hoch(2,2):
+//end answers outside_state_hoch(1)
+start answers outside_state_hoch(2):
 []
-//end answers outside_state_hoch(2,2)
-start answers state_start(0,0):
-1
-//end answers state_start(0,0)
-start answers state_start(0,1):
-0.45
-//end answers state_start(0,1)
-start answers state_start(0,2):
+//end answers outside_state_hoch(2)
+start answers state_start():
 0.255
-//end answers state_start(0,2)
-start answers state_start(1,1):
+//end answers state_start()
+start answers outside_state_start():
 1
-//end answers state_start(1,1)
-start answers state_start(1,2):
-0.45
-//end answers state_start(1,2)
-start answers state_start(2,2):
-1
-//end answers state_start(2,2)
-start answers outside_state_start(0,0):
-[]
-//end answers outside_state_start(0,0)
-start answers outside_state_start(0,1):
-[]
-//end answers outside_state_start(0,1)
-start answers outside_state_start(0,2):
-1
-//end answers outside_state_start(0,2)
-start answers outside_state_start(1,1):
-[]
-//end answers outside_state_start(1,1)
-start answers outside_state_start(1,2):
-[]
-//end answers outside_state_start(1,2)
-start answers outside_state_start(2,2):
-[]
-//end answers outside_state_start(2,2)
-start answers state_tief(0,0):
-1
-//end answers state_tief(0,0)
-start answers state_tief(0,1):
-0.38
-//end answers state_tief(0,1)
-start answers state_tief(0,2):
+//end answers outside_state_start()
+start answers state_tief(0):
 0.2116
 //end answers state_tief(0,2)
 start answers state_tief(1,1):
@@ -174,7 +138,7 @@ start answers outside_state_tief(1,1):
 //end answers outside_state_tief(1,1)
 start answers outside_state_tief(1,2):
 0.05
-//end answers outside_state_tief(1,2)
-start answers outside_state_tief(2,2):
+//end answers outside_state_tief(1)
+start answers outside_state_tief(2):
 []
-//end answers outside_state_tief(2,2)
+//end answers outside_state_tief(2)
