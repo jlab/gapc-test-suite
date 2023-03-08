@@ -1,0 +1,12 @@
+Warning: 
+  choice [integer] h([integer] es) {
+                   ^
+adpf.new:87.20: Declared role of algebra choice function h (in algebra count) does not match autodetected role none(n).
+Warning: 
+  choice [integer] h_l([integer] es) {
+                   ^-^
+adpf.new:94.20-22: Declared role of algebra choice function h_l (in algebra count) does not match autodetected role none(n).
+Warning: 
+  choice [integer] h_s([integer] es) {
+                   ^-^
+adpf.new:101.20-22: Declared role of algebra choice function h_s (in algebra count) does not match autodetected role none(n).
