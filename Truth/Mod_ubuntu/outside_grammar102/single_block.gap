@@ -683,11 +683,11 @@ subgraph cluster_13 {
     node_321 -> node_322 [ style=invis, weight=99 ];
     node_322 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_322 -> node_323 [ style=invis ];
-    node_323 [ label=<<table border='0'><tr><td>outside_struct</td></tr></table>>, color="black" ];
+    node_323 [ label=<<table border='0'><tr><td>outside_stem</td></tr></table>>, color="black" ];
     node_323 -> node_324 [ style=invis ];
     node_324 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_324 -> node_325 [ style=invis ];
-    node_325 [ label=<<table border='0'><tr><td>outside_stem</td></tr></table>>, color="black" ];
+    node_325 [ label=<<table border='0'><tr><td>outside_struct</td></tr></table>>, color="black" ];
     { rank=same node_321 node_322 node_323 node_324 node_325 }
 }
 }

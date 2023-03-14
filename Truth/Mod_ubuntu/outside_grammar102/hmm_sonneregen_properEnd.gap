@@ -363,7 +363,7 @@ subgraph cluster_13 {
     node_161 -> node_162 [ style=invis, weight=99 ];
     node_162 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_162 -> node_163 [ style=invis ];
-    node_163 [ label=<<table border='0'><tr><td>outside_ende</td></tr></table>>, color="black" ];
+    node_163 [ label=<<table border='0'><tr><td>outside_tief_emission</td></tr></table>>, color="black" ];
     node_163 -> node_164 [ style=invis ];
     node_164 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_164 -> node_165 [ style=invis ];
@@ -371,7 +371,7 @@ subgraph cluster_13 {
     node_165 -> node_166 [ style=invis ];
     node_166 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_166 -> node_167 [ style=invis ];
-    node_167 [ label=<<table border='0'><tr><td>outside_tief_emission</td></tr></table>>, color="black" ];
+    node_167 [ label=<<table border='0'><tr><td>outside_ende</td></tr></table>>, color="black" ];
     { rank=same node_161 node_162 node_163 node_164 node_165 node_166 node_167 }
 }
 }

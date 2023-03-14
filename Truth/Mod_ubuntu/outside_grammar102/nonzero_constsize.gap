@@ -327,11 +327,11 @@ subgraph cluster_19 {
     node_134 -> node_135 [ style=invis, weight=99 ];
     node_135 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_135 -> node_136 [ style=invis ];
-    node_136 [ label=<<table border='0'><tr><td>outside_state_E_11</td></tr></table>>, color="black" ];
+    node_136 [ label=<<table border='0'><tr><td>outside_state_E_20</td></tr></table>>, color="black" ];
     node_136 -> node_137 [ style=invis ];
     node_137 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_137 -> node_138 [ style=invis ];
-    node_138 [ label=<<table border='0'><tr><td>outside_state_E_20</td></tr></table>>, color="black" ];
+    node_138 [ label=<<table border='0'><tr><td>outside_state_E_11</td></tr></table>>, color="black" ];
     { rank=same node_134 node_135 node_136 node_137 node_138 }
 }
 }

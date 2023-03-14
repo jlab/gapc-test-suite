@@ -1831,11 +1831,11 @@ subgraph cluster_53 {
     node_835 -> node_836 [ style=invis, weight=99 ];
     node_836 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_836 -> node_837 [ style=invis ];
-    node_837 [ label=<<table border='0'><tr><td>outside_left_dangle</td></tr></table>>, color="black" ];
+    node_837 [ label=<<table border='0'><tr><td>outside_hairpin</td></tr></table>>, color="black" ];
     node_837 -> node_838 [ style=invis ];
     node_838 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_838 -> node_839 [ style=invis ];
-    node_839 [ label=<<table border='0'><tr><td>outside_hairpin</td></tr></table>>, color="black" ];
+    node_839 [ label=<<table border='0'><tr><td>outside_left_dangle</td></tr></table>>, color="black" ];
     { rank=same node_835 node_836 node_837 node_838 node_839 }
 }
 }

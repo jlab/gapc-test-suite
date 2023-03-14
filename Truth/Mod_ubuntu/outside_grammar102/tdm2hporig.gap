@@ -1035,11 +1035,11 @@ subgraph cluster_37 {
     node_461 -> node_462 [ style=invis, weight=99 ];
     node_462 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_462 -> node_463 [ style=invis ];
-    node_463 [ label=<<table border='0'><tr><td>outside_hairpin__LJ</td></tr></table>>, color="black" ];
+    node_463 [ label=<<table border='0'><tr><td>outside_left_unpairedEnd</td></tr></table>>, color="black" ];
     node_463 -> node_464 [ style=invis ];
     node_464 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_464 -> node_465 [ style=invis ];
-    node_465 [ label=<<table border='0'><tr><td>outside_left_unpairedEnd</td></tr></table>>, color="black" ];
+    node_465 [ label=<<table border='0'><tr><td>outside_hairpin__LJ</td></tr></table>>, color="black" ];
     { rank=same node_461 node_462 node_463 node_464 node_465 }
 }
 }
