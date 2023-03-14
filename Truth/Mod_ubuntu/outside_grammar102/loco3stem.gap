@@ -8293,19 +8293,19 @@ subgraph cluster_47 {
     node_4075 -> node_4076 [ style=invis ];
     node_4076 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_4076 -> node_4077 [ style=invis ];
-    node_4077 [ label=<<table border='0'><tr><td>outside_motif2</td></tr></table>>, color="black" ];
+    node_4077 [ label=<<table border='0'><tr><td>outside_hairpin4</td></tr></table>>, color="black" ];
     node_4077 -> node_4078 [ style=invis ];
     node_4078 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_4078 -> node_4079 [ style=invis ];
-    node_4079 [ label=<<table border='0'><tr><td>outside_hairpin4</td></tr></table>>, color="black" ];
+    node_4079 [ label=<<table border='0'><tr><td>outside_hairpin7</td></tr></table>>, color="black" ];
     node_4079 -> node_4080 [ style=invis ];
     node_4080 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_4080 -> node_4081 [ style=invis ];
-    node_4081 [ label=<<table border='0'><tr><td>outside_motif5</td></tr></table>>, color="black" ];
+    node_4081 [ label=<<table border='0'><tr><td>outside_motif2</td></tr></table>>, color="black" ];
     node_4081 -> node_4082 [ style=invis ];
     node_4082 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     node_4082 -> node_4083 [ style=invis ];
-    node_4083 [ label=<<table border='0'><tr><td>outside_hairpin7</td></tr></table>>, color="black" ];
+    node_4083 [ label=<<table border='0'><tr><td>outside_motif5</td></tr></table>>, color="black" ];
     { rank=same node_4073 node_4074 node_4075 node_4076 node_4077 node_4078 node_4079 node_4080 node_4081 node_4082 node_4083 }
 }
 }
