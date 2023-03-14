@@ -601,7 +601,7 @@ subgraph cluster_22 {
 }
 node_266 -> node_267 [ style=invis ];
 subgraph cluster_23 {
-    node_267 [ label=<<table border='0'><tr><td>outside_axioms</td></tr></table>>, color="black", shape="box", penwidth=3, style="dotted" ];
+    node_267 [ label=<<table border='0'><tr><td>outside_axioms</td></tr></table>>, color="black", shape="box", penwidth=3 ];
     node_267 -> node_268 [ style=invis, weight=99 ];
     node_268 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_268 -> node_269 [ style=invis ];

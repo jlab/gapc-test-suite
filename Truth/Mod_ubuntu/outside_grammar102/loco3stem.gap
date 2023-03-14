@@ -8285,7 +8285,7 @@ subgraph cluster_46 {
 }
 node_4072 -> node_4073 [ style=invis ];
 subgraph cluster_47 {
-    node_4073 [ label=<<table border='0'><tr><td>outside_axioms</td></tr></table>>, color="black", shape="box", penwidth=3, style="dotted" ];
+    node_4073 [ label=<<table border='0'><tr><td>outside_axioms</td></tr></table>>, color="black", shape="box", penwidth=3 ];
     node_4073 -> node_4074 [ style=invis, weight=99 ];
     node_4074 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     node_4074 -> node_4075 [ style=invis ];
