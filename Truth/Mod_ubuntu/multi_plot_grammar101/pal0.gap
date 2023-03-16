@@ -23,10 +23,10 @@ subgraph cluster_1 {
     node_10 [ label=<<table border='0'><tr><td>EMPTY</td></tr></table>>, color="blue" ];
     node_9 -> node_10 [ arrowhead=none ];
     node_11 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_1 -> node_11 [ arrowhead=none, color="purple" ];
     node_12 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_12 node_5}
     node_1:sw -> node_12:nw [style="invis", weight=999 ];
+    node_1 -> node_11 [ arrowhead=none, color="purple" ];
     { rank=same node_1 node_2 node_3 node_8 node_9 }
 }
 }

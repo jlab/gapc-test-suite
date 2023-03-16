@@ -27,10 +27,10 @@ subgraph cluster_1 {
     node_12 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>EMPTY<br/><font color='orange'>void</font></td><td><font point-size='8' color='#555555'>t_0_i</font></td></tr><tr><td colspan="3">yield size: (0, 0)</td></tr></table>>, color="blue" ];
     node_11 -> node_12 [ arrowhead=none ];
     node_13 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1 -> node_13 [ arrowhead=none, color="purple" ];
     node_14 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_14 node_4}
     node_1:sw -> node_14:nw [style="invis", weight=999 ];
+    node_1 -> node_13 [ arrowhead=none, color="purple" ];
     { rank=same node_1 node_2 node_3 node_6 node_7 node_10 node_11 }
 }
 node_14:sw -> node_15:nw [ style="invis" ];
@@ -141,10 +141,10 @@ subgraph cluster_2 {
     node_67 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>CHAR(')')<br/><font color='orange'>[char]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_62 -> node_67 [ arrowhead=none ];
     node_68 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_15 -> node_68 [ arrowhead=none, color="purple" ];
     node_69 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_69 node_22}
     node_15:sw -> node_69:nw [style="invis", weight=999 ];
+    node_15 -> node_68 [ arrowhead=none, color="purple" ];
     { rank=same node_15 node_16 node_17 node_25 node_26 node_30 node_31 node_39 node_40 node_48 node_49 node_61 node_62 }
 }
 node_69:sw -> node_70:nw [ style="invis" ];
@@ -159,10 +159,10 @@ subgraph cluster_3 {
     node_74 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_0</font></td><td>comps<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_72 -> node_74 [ arrowhead=none ];
     node_75 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_70 -> node_75 [ arrowhead=none, color="purple" ];
     node_76 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_76 node_73}
     node_70:sw -> node_76:nw [style="invis", weight=999 ];
+    node_70 -> node_75 [ arrowhead=none, color="purple" ];
     { rank=same node_70 node_71 node_72 }
 }
 node_76:sw -> node_77:nw [ style="invis" ];
@@ -183,10 +183,10 @@ subgraph cluster_4 {
     node_84 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_0</font></td><td>closed<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_81 -> node_84 [ arrowhead=none ];
     node_85 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_77 -> node_85 [ arrowhead=none, color="purple" ];
     node_86 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_86 node_83}
     node_77:sw -> node_86:nw [style="invis", weight=999 ];
+    node_77 -> node_85 [ arrowhead=none, color="purple" ];
     { rank=same node_77 node_78 node_79 node_80 node_81 }
 }
 node_86:sw -> node_87:nw [ style="invis" ];
@@ -215,10 +215,10 @@ subgraph cluster_5 {
     node_97 -> node_98 [ arrowhead=none, color="magenta" ];
     node_95 -> node_97 [ arrowhead=none ];
     node_99 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_87 -> node_99 [ arrowhead=none, color="purple" ];
     node_100 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_100 node_98}
     node_87:sw -> node_100:nw [style="invis", weight=999 ];
+    node_87 -> node_99 [ arrowhead=none, color="purple" ];
     { rank=same node_87 node_88 node_89 node_92 node_93 node_94 node_95 }
 }
 }

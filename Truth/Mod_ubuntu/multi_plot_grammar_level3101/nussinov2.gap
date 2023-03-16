@@ -35,10 +35,10 @@ subgraph cluster_1 {
     node_12 -> node_16 [ arrowhead=none ];
     node_10 -> node_12 [ arrowhead=none ];
     node_17 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1 -> node_17 [ arrowhead=none, color="purple" ];
     node_18 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_18 node_14}
     node_1:sw -> node_18:nw [style="invis", weight=999 ];
+    node_1 -> node_17 [ arrowhead=none, color="purple" ];
     { rank=same node_1 node_2 node_3 node_5 node_6 node_9 node_10 }
 }
 }

@@ -25,10 +25,10 @@ subgraph cluster_1 {
     node_11 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_1</font></td><td>matrix<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
     node_9 -> node_11 [ arrowhead=none ];
     node_12 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1 -> node_12 [ arrowhead=none, color="purple" ];
     node_13 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_13 node_4}
     node_1:sw -> node_13:nw [style="invis", weight=999 ];
+    node_1 -> node_12 [ arrowhead=none, color="purple" ];
     { rank=same node_1 node_2 node_3 node_8 node_9 }
 }
 }

@@ -17,10 +17,10 @@ subgraph cluster_1 {
     node_7 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_left_most</font></td><td>INT<br/><font color='orange'>int</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr><tr><td colspan="3">yield size: (1, n)</td></tr></table>>, color="blue" ];
     node_6 -> node_7 [ arrowhead=none ];
     node_8 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1 -> node_8 [ arrowhead=none, color="purple" ];
     node_9 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_9 node_4}
     node_1:sw -> node_9:nw [style="invis", weight=999 ];
+    node_1 -> node_8 [ arrowhead=none, color="purple" ];
     { rank=same node_1 node_2 node_3 node_5 node_6 }
 }
 }

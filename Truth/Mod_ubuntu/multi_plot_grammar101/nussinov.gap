@@ -27,10 +27,10 @@ subgraph cluster_1 {
     node_12 [ label=<<table border='0'><tr><td>bp</td></tr></table>>, color="black" ];
     node_10 -> node_12 [ arrowhead=none ];
     node_13 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_1 -> node_13 [ arrowhead=none, color="purple" ];
     node_14 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_14 node_4}
     node_1:sw -> node_14:nw [style="invis", weight=999 ];
+    node_1 -> node_13 [ arrowhead=none, color="purple" ];
     { rank=same node_1 node_2 node_3 node_5 node_6 node_9 node_10 }
 }
 node_14:sw -> node_15:nw [ style="invis" ];

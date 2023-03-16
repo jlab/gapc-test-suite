@@ -19,10 +19,10 @@ subgraph cluster_1 {
     node_7 -> node_8 [ style="invis" ];
     node_8 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_left_most</font></td><td>left_unpaired1<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr><tr><td colspan="3">yield size: (81, n)</td></tr></table>>, color="black" ];
     node_9 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1 -> node_9 [ arrowhead=none, color="purple" ];
     node_10 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_10 node_6}
     node_1:sw -> node_10:nw [style="invis", weight=999 ];
+    node_1 -> node_9 [ arrowhead=none, color="purple" ];
     { rank=same node_1 node_2 node_3 node_4 node_5 node_7 node_8 }
 }
 node_10:sw -> node_11:nw [ style="invis" ];
@@ -45,10 +45,10 @@ subgraph cluster_2 {
     node_19 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td><td>left_dangle1<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr><tr><td colspan="3">yield size: (80, n)</td></tr></table>>, color="black" ];
     node_17 -> node_19 [ arrowhead=none ];
     node_20 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_11 -> node_20 [ arrowhead=none, color="purple" ];
     node_21 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_21 node_14}
     node_11:sw -> node_21:nw [style="invis", weight=999 ];
+    node_11 -> node_20 [ arrowhead=none, color="purple" ];
     { rank=same node_11 node_12 node_13 node_16 node_17 }
 }
 node_21:sw -> node_22:nw [ style="invis" ];
@@ -85,10 +85,10 @@ subgraph cluster_3 {
     node_35 -> node_37 [ ];
     node_33 -> node_35 [ arrowhead=none ];
     node_38 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_22 -> node_38 [ arrowhead=none, color="purple" ];
     node_39 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_39 node_36}
     node_22:sw -> node_39:nw [style="invis", weight=999 ];
+    node_22 -> node_38 [ arrowhead=none, color="purple" ];
     { rank=same node_22 node_23 node_24 node_28 node_29 node_32 node_33 }
 }
 node_39:sw -> node_40:nw [ style="invis" ];
@@ -125,10 +125,10 @@ subgraph cluster_4 {
     node_55 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>noleft_dangle4<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr><tr><td colspan="3">yield size: (61, n)</td></tr></table>>, color="black" ];
     node_52 -> node_55 [ arrowhead=none ];
     node_56 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_40 -> node_56 [ arrowhead=none, color="purple" ];
     node_57 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_57 node_45}
     node_40:sw -> node_57:nw [style="invis", weight=999 ];
+    node_40 -> node_56 [ arrowhead=none, color="purple" ];
     { rank=same node_40 node_41 node_42 node_47 node_48 node_51 node_52 }
 }
 node_57:sw -> node_58:nw [ style="invis" ];
@@ -143,10 +143,10 @@ subgraph cluster_5 {
     node_62 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td><td>motif1<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (18, n)</td></tr></table>>, color="black" ];
     node_60 -> node_62 [ arrowhead=none ];
     node_63 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_58 -> node_63 [ arrowhead=none, color="purple" ];
     node_64 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_64 node_61}
     node_58:sw -> node_64:nw [style="invis", weight=999 ];
+    node_58 -> node_63 [ arrowhead=none, color="purple" ];
     { rank=same node_58 node_59 node_60 }
 }
 node_64:sw -> node_65:nw [ style="invis" ];
@@ -161,10 +161,10 @@ subgraph cluster_6 {
     node_69 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_67 -> node_69 [ arrowhead=none ];
     node_70 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_65 -> node_70 [ arrowhead=none, color="purple" ];
     node_71 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_71 node_68}
     node_65:sw -> node_71:nw [style="invis", weight=999 ];
+    node_65 -> node_70 [ arrowhead=none, color="purple" ];
     { rank=same node_65 node_66 node_67 }
 }
 node_71:sw -> node_72:nw [ style="invis" ];
@@ -181,10 +181,10 @@ subgraph cluster_7 {
     node_77 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_74 -> node_77 [ arrowhead=none ];
     node_78 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_72 -> node_78 [ arrowhead=none, color="purple" ];
     node_79 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_79 node_75}
     node_72:sw -> node_79:nw [style="invis", weight=999 ];
+    node_72 -> node_78 [ arrowhead=none, color="purple" ];
     { rank=same node_72 node_73 node_74 }
 }
 node_79:sw -> node_80:nw [ style="invis" ];
@@ -197,10 +197,10 @@ subgraph cluster_8 {
     node_83 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_left_most</font></td><td>motif1<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (18, n)</td></tr></table>>, color="black" ];
     node_82 -> node_83 [ arrowhead=none ];
     node_84 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_80 -> node_84 [ arrowhead=none, color="purple" ];
     node_85 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_85 node_83}
     node_80:sw -> node_85:nw [style="invis", weight=999 ];
+    node_80 -> node_84 [ arrowhead=none, color="purple" ];
     { rank=same node_80 node_81 node_82 }
 }
 node_85:sw -> node_86:nw [ style="invis" ];
@@ -223,10 +223,10 @@ subgraph cluster_10 {
     node_92 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>endMultiloop1<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (18, n)</td></tr></table>>, color="black" ];
     node_91 -> node_92 [ arrowhead=none ];
     node_93 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_89 -> node_93 [ arrowhead=none, color="purple" ];
     node_94 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_94 node_92}
     node_89:sw -> node_94:nw [style="invis", weight=999 ];
+    node_89 -> node_93 [ arrowhead=none, color="purple" ];
     { rank=same node_89 node_90 node_91 }
 }
 node_94:sw -> node_95:nw [ style="invis" ];
@@ -253,10 +253,10 @@ subgraph cluster_11 {
     node_104 -> node_105 [ style="invis" ];
     node_105 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>iloop1<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (24, n)</td></tr></table>>, color="black" ];
     node_106 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_95 -> node_106 [ arrowhead=none, color="purple" ];
     node_107 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_107 node_106}
     node_95:sw -> node_107:nw [style="invis", weight=999 ];
+    node_95 -> node_106 [ arrowhead=none, color="purple" ];
     { rank=same node_95 node_96 node_97 node_98 node_99 node_100 node_101 node_102 node_103 node_104 node_105 }
 }
 node_107:sw -> node_108:nw [ style="invis" ];
@@ -545,10 +545,10 @@ subgraph cluster_17 {
     node_239 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>no_dl_no_ss_end2<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_236 -> node_239 [ arrowhead=none ];
     node_240 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_226 -> node_240 [ arrowhead=none, color="purple" ];
     node_241 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_241 node_229}
     node_226:sw -> node_241:nw [style="invis", weight=999 ];
+    node_226 -> node_240 [ arrowhead=none, color="purple" ];
     { rank=same node_226 node_227 node_228 node_231 node_232 node_235 node_236 }
 }
 node_241:sw -> node_242:nw [ style="invis" ];
@@ -587,10 +587,10 @@ subgraph cluster_18 {
     node_258 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>no_dl_no_ss_end2<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_254 -> node_258 [ arrowhead=none ];
     node_259 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_242 -> node_259 [ arrowhead=none, color="purple" ];
     node_260 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_260 node_246}
     node_242:sw -> node_260:nw [style="invis", weight=999 ];
+    node_242 -> node_259 [ arrowhead=none, color="purple" ];
     { rank=same node_242 node_243 node_244 node_248 node_249 node_253 node_254 }
 }
 node_260:sw -> node_261:nw [ style="invis" ];
@@ -629,10 +629,10 @@ subgraph cluster_19 {
     node_277 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>no_dl_ss_end2<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (8, n)</td></tr></table>>, color="black" ];
     node_273 -> node_277 [ arrowhead=none ];
     node_278 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_261 -> node_278 [ arrowhead=none, color="purple" ];
     node_279 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_279 node_265}
     node_261:sw -> node_279:nw [style="invis", weight=999 ];
+    node_261 -> node_278 [ arrowhead=none, color="purple" ];
     { rank=same node_261 node_262 node_263 node_267 node_268 node_272 node_273 }
 }
 node_279:sw -> node_280:nw [ style="invis" ];
@@ -665,10 +665,10 @@ subgraph cluster_20 {
     node_293 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>no_dl_ss_end2<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (8, n)</td></tr></table>>, color="black" ];
     node_290 -> node_293 [ arrowhead=none ];
     node_294 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_280 -> node_294 [ arrowhead=none, color="purple" ];
     node_295 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_295 node_283}
     node_280:sw -> node_295:nw [style="invis", weight=999 ];
+    node_280 -> node_294 [ arrowhead=none, color="purple" ];
     { rank=same node_280 node_281 node_282 node_285 node_286 node_289 node_290 }
 }
 node_295:sw -> node_296:nw [ style="invis" ];
@@ -681,10 +681,10 @@ subgraph cluster_21 {
     node_299 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>nodangle3<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_298 -> node_299 [ arrowhead=none ];
     node_300 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_296 -> node_300 [ arrowhead=none, color="purple" ];
     node_301 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_301 node_299}
     node_296:sw -> node_301:nw [style="invis", weight=999 ];
+    node_296 -> node_300 [ arrowhead=none, color="purple" ];
     { rank=same node_296 node_297 node_298 }
 }
 node_301:sw -> node_302:nw [ style="invis" ];
@@ -695,10 +695,10 @@ subgraph cluster_22 {
     node_303 -> node_304 [ style="invis" ];
     node_304 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>block_dl3<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (8, n)</td></tr></table>>, color="black" ];
     node_305 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_302 -> node_305 [ arrowhead=none, color="purple" ];
     node_306 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_306 node_305}
     node_302:sw -> node_306:nw [style="invis", weight=999 ];
+    node_302 -> node_305 [ arrowhead=none, color="purple" ];
     { rank=same node_302 node_303 node_304 }
 }
 node_306:sw -> node_307:nw [ style="invis" ];
@@ -721,10 +721,10 @@ subgraph cluster_23 {
     node_315 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_0</font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, n)</td></tr></table>>, color="blue" ];
     node_312 -> node_315 [ arrowhead=none ];
     node_316 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_307 -> node_316 [ arrowhead=none, color="purple" ];
     node_317 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_317 node_314}
     node_307:sw -> node_317:nw [style="invis", weight=999 ];
+    node_307 -> node_316 [ arrowhead=none, color="purple" ];
     { rank=same node_307 node_308 node_309 node_311 node_312 }
 }
 node_317:sw -> node_318:nw [ style="invis" ];
@@ -743,10 +743,10 @@ subgraph cluster_24 {
     node_324 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_0</font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, n)</td></tr></table>>, color="blue" ];
     node_322 -> node_324 [ arrowhead=none ];
     node_325 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_318 -> node_325 [ arrowhead=none, color="purple" ];
     node_326 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_326 node_323}
     node_318:sw -> node_326:nw [style="invis", weight=999 ];
+    node_318 -> node_325 [ arrowhead=none, color="purple" ];
     { rank=same node_318 node_319 node_320 node_321 node_322 }
 }
 node_326:sw -> node_327:nw [ style="invis" ];
@@ -767,10 +767,10 @@ subgraph cluster_25 {
     node_334 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>edanglel2<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (8, n)</td></tr></table>>, color="black" ];
     node_333 -> node_334 [ arrowhead=none ];
     node_335 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_327 -> node_335 [ arrowhead=none, color="purple" ];
     node_336 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_336 node_330}
     node_327:sw -> node_336:nw [style="invis", weight=999 ];
+    node_327 -> node_335 [ arrowhead=none, color="purple" ];
     { rank=same node_327 node_328 node_329 node_332 node_333 }
 }
 node_336:sw -> node_337:nw [ style="invis" ];
@@ -791,10 +791,10 @@ subgraph cluster_26 {
     node_344 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>edanglelr2<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (9, n)</td></tr></table>>, color="black" ];
     node_343 -> node_344 [ arrowhead=none ];
     node_345 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_337 -> node_345 [ arrowhead=none, color="purple" ];
     node_346 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_346 node_340}
     node_337:sw -> node_346:nw [style="invis", weight=999 ];
+    node_337 -> node_345 [ arrowhead=none, color="purple" ];
     { rank=same node_337 node_338 node_339 node_342 node_343 }
 }
 node_346:sw -> node_347:nw [ style="invis" ];
@@ -809,10 +809,10 @@ subgraph cluster_27 {
     node_351 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td><td>motif2<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_349 -> node_351 [ arrowhead=none ];
     node_352 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_347 -> node_352 [ arrowhead=none, color="purple" ];
     node_353 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_353 node_350}
     node_347:sw -> node_353:nw [style="invis", weight=999 ];
+    node_347 -> node_352 [ arrowhead=none, color="purple" ];
     { rank=same node_347 node_348 node_349 }
 }
 node_353:sw -> node_354:nw [ style="invis" ];
@@ -827,10 +827,10 @@ subgraph cluster_28 {
     node_358 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_356 -> node_358 [ arrowhead=none ];
     node_359 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_354 -> node_359 [ arrowhead=none, color="purple" ];
     node_360 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_360 node_357}
     node_354:sw -> node_360:nw [style="invis", weight=999 ];
+    node_354 -> node_359 [ arrowhead=none, color="purple" ];
     { rank=same node_354 node_355 node_356 }
 }
 node_360:sw -> node_361:nw [ style="invis" ];
@@ -847,10 +847,10 @@ subgraph cluster_29 {
     node_366 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_363 -> node_366 [ arrowhead=none ];
     node_367 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_361 -> node_367 [ arrowhead=none, color="purple" ];
     node_368 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_368 node_364}
     node_361:sw -> node_368:nw [style="invis", weight=999 ];
+    node_361 -> node_367 [ arrowhead=none, color="purple" ];
     { rank=same node_361 node_362 node_363 }
 }
 node_368:sw -> node_369:nw [ style="invis" ];
@@ -863,10 +863,10 @@ subgraph cluster_30 {
     node_372 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>motif2<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_371 -> node_372 [ arrowhead=none ];
     node_373 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_369 -> node_373 [ arrowhead=none, color="purple" ];
     node_374 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_374 node_372}
     node_369:sw -> node_374:nw [style="invis", weight=999 ];
+    node_369 -> node_373 [ arrowhead=none, color="purple" ];
     { rank=same node_369 node_370 node_371 }
 }
 node_374:sw -> node_375:nw [ style="invis" ];
@@ -897,10 +897,10 @@ subgraph cluster_32 {
     node_385 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>edanglel3<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (8, n)</td></tr></table>>, color="black" ];
     node_384 -> node_385 [ arrowhead=none ];
     node_386 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_378 -> node_386 [ arrowhead=none, color="purple" ];
     node_387 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_387 node_381}
     node_378:sw -> node_387:nw [style="invis", weight=999 ];
+    node_378 -> node_386 [ arrowhead=none, color="purple" ];
     { rank=same node_378 node_379 node_380 node_383 node_384 }
 }
 node_387:sw -> node_388:nw [ style="invis" ];
@@ -921,10 +921,10 @@ subgraph cluster_33 {
     node_395 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>edanglelr3<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (9, n)</td></tr></table>>, color="black" ];
     node_394 -> node_395 [ arrowhead=none ];
     node_396 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_388 -> node_396 [ arrowhead=none, color="purple" ];
     node_397 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_397 node_391}
     node_388:sw -> node_397:nw [style="invis", weight=999 ];
+    node_388 -> node_396 [ arrowhead=none, color="purple" ];
     { rank=same node_388 node_389 node_390 node_393 node_394 }
 }
 node_397:sw -> node_398:nw [ style="invis" ];
@@ -939,10 +939,10 @@ subgraph cluster_34 {
     node_402 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td><td>motif3<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_400 -> node_402 [ arrowhead=none ];
     node_403 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_398 -> node_403 [ arrowhead=none, color="purple" ];
     node_404 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_404 node_401}
     node_398:sw -> node_404:nw [style="invis", weight=999 ];
+    node_398 -> node_403 [ arrowhead=none, color="purple" ];
     { rank=same node_398 node_399 node_400 }
 }
 node_404:sw -> node_405:nw [ style="invis" ];
@@ -957,10 +957,10 @@ subgraph cluster_35 {
     node_409 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_407 -> node_409 [ arrowhead=none ];
     node_410 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_405 -> node_410 [ arrowhead=none, color="purple" ];
     node_411 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_411 node_408}
     node_405:sw -> node_411:nw [style="invis", weight=999 ];
+    node_405 -> node_410 [ arrowhead=none, color="purple" ];
     { rank=same node_405 node_406 node_407 }
 }
 node_411:sw -> node_412:nw [ style="invis" ];
@@ -977,10 +977,10 @@ subgraph cluster_36 {
     node_417 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_414 -> node_417 [ arrowhead=none ];
     node_418 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_412 -> node_418 [ arrowhead=none, color="purple" ];
     node_419 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_419 node_415}
     node_412:sw -> node_419:nw [style="invis", weight=999 ];
+    node_412 -> node_418 [ arrowhead=none, color="purple" ];
     { rank=same node_412 node_413 node_414 }
 }
 node_419:sw -> node_420:nw [ style="invis" ];
@@ -993,10 +993,10 @@ subgraph cluster_37 {
     node_423 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>motif3<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_422 -> node_423 [ arrowhead=none ];
     node_424 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_420 -> node_424 [ arrowhead=none, color="purple" ];
     node_425 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_425 node_423}
     node_420:sw -> node_425:nw [style="invis", weight=999 ];
+    node_420 -> node_424 [ arrowhead=none, color="purple" ];
     { rank=same node_420 node_421 node_422 }
 }
 node_425:sw -> node_426:nw [ style="invis" ];
@@ -1029,10 +1029,10 @@ subgraph cluster_39 {
     node_437 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td><td>left_dangle4<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr><tr><td colspan="3">yield size: (62, n)</td></tr></table>>, color="black" ];
     node_435 -> node_437 [ arrowhead=none ];
     node_438 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_429 -> node_438 [ arrowhead=none, color="purple" ];
     node_439 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_439 node_432}
     node_429:sw -> node_439:nw [style="invis", weight=999 ];
+    node_429 -> node_438 [ arrowhead=none, color="purple" ];
     { rank=same node_429 node_430 node_431 node_434 node_435 }
 }
 node_439:sw -> node_440:nw [ style="invis" ];
@@ -1069,10 +1069,10 @@ subgraph cluster_40 {
     node_453 -> node_455 [ ];
     node_451 -> node_453 [ arrowhead=none ];
     node_456 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_440 -> node_456 [ arrowhead=none, color="purple" ];
     node_457 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_457 node_454}
     node_440:sw -> node_457:nw [style="invis", weight=999 ];
+    node_440 -> node_456 [ arrowhead=none, color="purple" ];
     { rank=same node_440 node_441 node_442 node_446 node_447 node_450 node_451 }
 }
 node_457:sw -> node_458:nw [ style="invis" ];
@@ -1109,10 +1109,10 @@ subgraph cluster_41 {
     node_473 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>noleft_dangle10<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_470 -> node_473 [ arrowhead=none ];
     node_474 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_458 -> node_474 [ arrowhead=none, color="purple" ];
     node_475 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_475 node_463}
     node_458:sw -> node_475:nw [style="invis", weight=999 ];
+    node_458 -> node_474 [ arrowhead=none, color="purple" ];
     { rank=same node_458 node_459 node_460 node_465 node_466 node_469 node_470 }
 }
 node_475:sw -> node_476:nw [ style="invis" ];
@@ -1127,10 +1127,10 @@ subgraph cluster_42 {
     node_480 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td><td>motif4<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (54, n)</td></tr></table>>, color="black" ];
     node_478 -> node_480 [ arrowhead=none ];
     node_481 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_476 -> node_481 [ arrowhead=none, color="purple" ];
     node_482 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_482 node_479}
     node_476:sw -> node_482:nw [style="invis", weight=999 ];
+    node_476 -> node_481 [ arrowhead=none, color="purple" ];
     { rank=same node_476 node_477 node_478 }
 }
 node_482:sw -> node_483:nw [ style="invis" ];
@@ -1145,10 +1145,10 @@ subgraph cluster_43 {
     node_487 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_485 -> node_487 [ arrowhead=none ];
     node_488 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_483 -> node_488 [ arrowhead=none, color="purple" ];
     node_489 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_489 node_486}
     node_483:sw -> node_489:nw [style="invis", weight=999 ];
+    node_483 -> node_488 [ arrowhead=none, color="purple" ];
     { rank=same node_483 node_484 node_485 }
 }
 node_489:sw -> node_490:nw [ style="invis" ];
@@ -1165,10 +1165,10 @@ subgraph cluster_44 {
     node_495 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_492 -> node_495 [ arrowhead=none ];
     node_496 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_490 -> node_496 [ arrowhead=none, color="purple" ];
     node_497 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_497 node_493}
     node_490:sw -> node_497:nw [style="invis", weight=999 ];
+    node_490 -> node_496 [ arrowhead=none, color="purple" ];
     { rank=same node_490 node_491 node_492 }
 }
 node_497:sw -> node_498:nw [ style="invis" ];
@@ -1181,10 +1181,10 @@ subgraph cluster_45 {
     node_501 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>motif4<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (54, n)</td></tr></table>>, color="black" ];
     node_500 -> node_501 [ arrowhead=none ];
     node_502 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_498 -> node_502 [ arrowhead=none, color="purple" ];
     node_503 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_503 node_501}
     node_498:sw -> node_503:nw [style="invis", weight=999 ];
+    node_498 -> node_502 [ arrowhead=none, color="purple" ];
     { rank=same node_498 node_499 node_500 }
 }
 node_503:sw -> node_504:nw [ style="invis" ];
@@ -1207,10 +1207,10 @@ subgraph cluster_47 {
     node_510 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>endMultiloop4<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (54, n)</td></tr></table>>, color="black" ];
     node_509 -> node_510 [ arrowhead=none ];
     node_511 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_507 -> node_511 [ arrowhead=none, color="purple" ];
     node_512 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_512 node_510}
     node_507:sw -> node_512:nw [style="invis", weight=999 ];
+    node_507 -> node_511 [ arrowhead=none, color="purple" ];
     { rank=same node_507 node_508 node_509 }
 }
 node_512:sw -> node_513:nw [ style="invis" ];
@@ -1237,10 +1237,10 @@ subgraph cluster_48 {
     node_522 -> node_523 [ style="invis" ];
     node_523 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>iloop4<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (60, n)</td></tr></table>>, color="black" ];
     node_524 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_513 -> node_524 [ arrowhead=none, color="purple" ];
     node_525 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_525 node_524}
     node_513:sw -> node_525:nw [style="invis", weight=999 ];
+    node_513 -> node_524 [ arrowhead=none, color="purple" ];
     { rank=same node_513 node_514 node_515 node_516 node_517 node_518 node_519 node_520 node_521 node_522 node_523 }
 }
 node_525:sw -> node_526:nw [ style="invis" ];
@@ -1529,10 +1529,10 @@ subgraph cluster_54 {
     node_657 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>no_dl_no_ss_end5<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (14, n)</td></tr></table>>, color="black" ];
     node_654 -> node_657 [ arrowhead=none ];
     node_658 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_644 -> node_658 [ arrowhead=none, color="purple" ];
     node_659 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_659 node_647}
     node_644:sw -> node_659:nw [style="invis", weight=999 ];
+    node_644 -> node_658 [ arrowhead=none, color="purple" ];
     { rank=same node_644 node_645 node_646 node_649 node_650 node_653 node_654 }
 }
 node_659:sw -> node_660:nw [ style="invis" ];
@@ -1571,10 +1571,10 @@ subgraph cluster_55 {
     node_676 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>no_dl_no_ss_end5<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (14, n)</td></tr></table>>, color="black" ];
     node_672 -> node_676 [ arrowhead=none ];
     node_677 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_660 -> node_677 [ arrowhead=none, color="purple" ];
     node_678 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_678 node_664}
     node_660:sw -> node_678:nw [style="invis", weight=999 ];
+    node_660 -> node_677 [ arrowhead=none, color="purple" ];
     { rank=same node_660 node_661 node_662 node_666 node_667 node_671 node_672 }
 }
 node_678:sw -> node_679:nw [ style="invis" ];
@@ -1613,10 +1613,10 @@ subgraph cluster_56 {
     node_695 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>no_dl_ss_end5<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (15, n)</td></tr></table>>, color="black" ];
     node_691 -> node_695 [ arrowhead=none ];
     node_696 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_679 -> node_696 [ arrowhead=none, color="purple" ];
     node_697 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_697 node_683}
     node_679:sw -> node_697:nw [style="invis", weight=999 ];
+    node_679 -> node_696 [ arrowhead=none, color="purple" ];
     { rank=same node_679 node_680 node_681 node_685 node_686 node_690 node_691 }
 }
 node_697:sw -> node_698:nw [ style="invis" ];
@@ -1649,10 +1649,10 @@ subgraph cluster_57 {
     node_711 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>no_dl_ss_end5<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (15, n)</td></tr></table>>, color="black" ];
     node_708 -> node_711 [ arrowhead=none ];
     node_712 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_698 -> node_712 [ arrowhead=none, color="purple" ];
     node_713 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_713 node_701}
     node_698:sw -> node_713:nw [style="invis", weight=999 ];
+    node_698 -> node_712 [ arrowhead=none, color="purple" ];
     { rank=same node_698 node_699 node_700 node_703 node_704 node_707 node_708 }
 }
 node_713:sw -> node_714:nw [ style="invis" ];
@@ -1713,10 +1713,10 @@ subgraph cluster_62 {
     node_733 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>edanglel5<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (37, n)</td></tr></table>>, color="black" ];
     node_732 -> node_733 [ arrowhead=none ];
     node_734 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_726 -> node_734 [ arrowhead=none, color="purple" ];
     node_735 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_735 node_729}
     node_726:sw -> node_735:nw [style="invis", weight=999 ];
+    node_726 -> node_734 [ arrowhead=none, color="purple" ];
     { rank=same node_726 node_727 node_728 node_731 node_732 }
 }
 node_735:sw -> node_736:nw [ style="invis" ];
@@ -1737,10 +1737,10 @@ subgraph cluster_63 {
     node_743 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>edanglelr5<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (38, n)</td></tr></table>>, color="black" ];
     node_742 -> node_743 [ arrowhead=none ];
     node_744 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_736 -> node_744 [ arrowhead=none, color="purple" ];
     node_745 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_745 node_739}
     node_736:sw -> node_745:nw [style="invis", weight=999 ];
+    node_736 -> node_744 [ arrowhead=none, color="purple" ];
     { rank=same node_736 node_737 node_738 node_741 node_742 }
 }
 node_745:sw -> node_746:nw [ style="invis" ];
@@ -1755,10 +1755,10 @@ subgraph cluster_64 {
     node_750 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td><td>motif5<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (36, n)</td></tr></table>>, color="black" ];
     node_748 -> node_750 [ arrowhead=none ];
     node_751 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_746 -> node_751 [ arrowhead=none, color="purple" ];
     node_752 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_752 node_749}
     node_746:sw -> node_752:nw [style="invis", weight=999 ];
+    node_746 -> node_751 [ arrowhead=none, color="purple" ];
     { rank=same node_746 node_747 node_748 }
 }
 node_752:sw -> node_753:nw [ style="invis" ];
@@ -1773,10 +1773,10 @@ subgraph cluster_65 {
     node_757 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_755 -> node_757 [ arrowhead=none ];
     node_758 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_753 -> node_758 [ arrowhead=none, color="purple" ];
     node_759 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_759 node_756}
     node_753:sw -> node_759:nw [style="invis", weight=999 ];
+    node_753 -> node_758 [ arrowhead=none, color="purple" ];
     { rank=same node_753 node_754 node_755 }
 }
 node_759:sw -> node_760:nw [ style="invis" ];
@@ -1793,10 +1793,10 @@ subgraph cluster_66 {
     node_765 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_762 -> node_765 [ arrowhead=none ];
     node_766 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_760 -> node_766 [ arrowhead=none, color="purple" ];
     node_767 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_767 node_763}
     node_760:sw -> node_767:nw [style="invis", weight=999 ];
+    node_760 -> node_766 [ arrowhead=none, color="purple" ];
     { rank=same node_760 node_761 node_762 }
 }
 node_767:sw -> node_768:nw [ style="invis" ];
@@ -1809,10 +1809,10 @@ subgraph cluster_67 {
     node_771 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>motif5<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (36, n)</td></tr></table>>, color="black" ];
     node_770 -> node_771 [ arrowhead=none ];
     node_772 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_768 -> node_772 [ arrowhead=none, color="purple" ];
     node_773 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_773 node_771}
     node_768:sw -> node_773:nw [style="invis", weight=999 ];
+    node_768 -> node_772 [ arrowhead=none, color="purple" ];
     { rank=same node_768 node_769 node_770 }
 }
 node_773:sw -> node_774:nw [ style="invis" ];
@@ -1835,10 +1835,10 @@ subgraph cluster_69 {
     node_780 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>endMultiloop5<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (36, n)</td></tr></table>>, color="black" ];
     node_779 -> node_780 [ arrowhead=none ];
     node_781 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_777 -> node_781 [ arrowhead=none, color="purple" ];
     node_782 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_782 node_780}
     node_777:sw -> node_782:nw [style="invis", weight=999 ];
+    node_777 -> node_781 [ arrowhead=none, color="purple" ];
     { rank=same node_777 node_778 node_779 }
 }
 node_782:sw -> node_783:nw [ style="invis" ];
@@ -1865,10 +1865,10 @@ subgraph cluster_70 {
     node_792 -> node_793 [ style="invis" ];
     node_793 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>iloop5<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (42, n)</td></tr></table>>, color="black" ];
     node_794 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_783 -> node_794 [ arrowhead=none, color="purple" ];
     node_795 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_795 node_794}
     node_783:sw -> node_795:nw [style="invis", weight=999 ];
+    node_783 -> node_794 [ arrowhead=none, color="purple" ];
     { rank=same node_783 node_784 node_785 node_786 node_787 node_788 node_789 node_790 node_791 node_792 node_793 }
 }
 node_795:sw -> node_796:nw [ style="invis" ];
@@ -2157,10 +2157,10 @@ subgraph cluster_76 {
     node_927 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>no_dl_no_ss_end6<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (25, n)</td></tr></table>>, color="black" ];
     node_924 -> node_927 [ arrowhead=none ];
     node_928 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_914 -> node_928 [ arrowhead=none, color="purple" ];
     node_929 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_929 node_917}
     node_914:sw -> node_929:nw [style="invis", weight=999 ];
+    node_914 -> node_928 [ arrowhead=none, color="purple" ];
     { rank=same node_914 node_915 node_916 node_919 node_920 node_923 node_924 }
 }
 node_929:sw -> node_930:nw [ style="invis" ];
@@ -2199,10 +2199,10 @@ subgraph cluster_77 {
     node_946 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>no_dl_no_ss_end6<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (25, n)</td></tr></table>>, color="black" ];
     node_942 -> node_946 [ arrowhead=none ];
     node_947 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_930 -> node_947 [ arrowhead=none, color="purple" ];
     node_948 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_948 node_934}
     node_930:sw -> node_948:nw [style="invis", weight=999 ];
+    node_930 -> node_947 [ arrowhead=none, color="purple" ];
     { rank=same node_930 node_931 node_932 node_936 node_937 node_941 node_942 }
 }
 node_948:sw -> node_949:nw [ style="invis" ];
@@ -2241,10 +2241,10 @@ subgraph cluster_78 {
     node_965 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>no_dl_ss_end6<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (26, n)</td></tr></table>>, color="black" ];
     node_961 -> node_965 [ arrowhead=none ];
     node_966 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_949 -> node_966 [ arrowhead=none, color="purple" ];
     node_967 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_967 node_953}
     node_949:sw -> node_967:nw [style="invis", weight=999 ];
+    node_949 -> node_966 [ arrowhead=none, color="purple" ];
     { rank=same node_949 node_950 node_951 node_955 node_956 node_960 node_961 }
 }
 node_967:sw -> node_968:nw [ style="invis" ];
@@ -2277,10 +2277,10 @@ subgraph cluster_79 {
     node_981 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>no_dl_ss_end6<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (26, n)</td></tr></table>>, color="black" ];
     node_978 -> node_981 [ arrowhead=none ];
     node_982 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_968 -> node_982 [ arrowhead=none, color="purple" ];
     node_983 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_983 node_971}
     node_968:sw -> node_983:nw [style="invis", weight=999 ];
+    node_968 -> node_982 [ arrowhead=none, color="purple" ];
     { rank=same node_968 node_969 node_970 node_973 node_974 node_977 node_978 }
 }
 node_983:sw -> node_984:nw [ style="invis" ];
@@ -2341,10 +2341,10 @@ subgraph cluster_84 {
     node_1003 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>edanglel6<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (8, n)</td></tr></table>>, color="black" ];
     node_1002 -> node_1003 [ arrowhead=none ];
     node_1004 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_996 -> node_1004 [ arrowhead=none, color="purple" ];
     node_1005 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1005 node_999}
     node_996:sw -> node_1005:nw [style="invis", weight=999 ];
+    node_996 -> node_1004 [ arrowhead=none, color="purple" ];
     { rank=same node_996 node_997 node_998 node_1001 node_1002 }
 }
 node_1005:sw -> node_1006:nw [ style="invis" ];
@@ -2365,10 +2365,10 @@ subgraph cluster_85 {
     node_1013 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>edanglelr6<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (9, n)</td></tr></table>>, color="black" ];
     node_1012 -> node_1013 [ arrowhead=none ];
     node_1014 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1006 -> node_1014 [ arrowhead=none, color="purple" ];
     node_1015 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1015 node_1009}
     node_1006:sw -> node_1015:nw [style="invis", weight=999 ];
+    node_1006 -> node_1014 [ arrowhead=none, color="purple" ];
     { rank=same node_1006 node_1007 node_1008 node_1011 node_1012 }
 }
 node_1015:sw -> node_1016:nw [ style="invis" ];
@@ -2383,10 +2383,10 @@ subgraph cluster_86 {
     node_1020 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td><td>motif6<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_1018 -> node_1020 [ arrowhead=none ];
     node_1021 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1016 -> node_1021 [ arrowhead=none, color="purple" ];
     node_1022 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1022 node_1019}
     node_1016:sw -> node_1022:nw [style="invis", weight=999 ];
+    node_1016 -> node_1021 [ arrowhead=none, color="purple" ];
     { rank=same node_1016 node_1017 node_1018 }
 }
 node_1022:sw -> node_1023:nw [ style="invis" ];
@@ -2401,10 +2401,10 @@ subgraph cluster_87 {
     node_1027 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_1025 -> node_1027 [ arrowhead=none ];
     node_1028 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1023 -> node_1028 [ arrowhead=none, color="purple" ];
     node_1029 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1029 node_1026}
     node_1023:sw -> node_1029:nw [style="invis", weight=999 ];
+    node_1023 -> node_1028 [ arrowhead=none, color="purple" ];
     { rank=same node_1023 node_1024 node_1025 }
 }
 node_1029:sw -> node_1030:nw [ style="invis" ];
@@ -2421,10 +2421,10 @@ subgraph cluster_88 {
     node_1035 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_1032 -> node_1035 [ arrowhead=none ];
     node_1036 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1030 -> node_1036 [ arrowhead=none, color="purple" ];
     node_1037 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1037 node_1033}
     node_1030:sw -> node_1037:nw [style="invis", weight=999 ];
+    node_1030 -> node_1036 [ arrowhead=none, color="purple" ];
     { rank=same node_1030 node_1031 node_1032 }
 }
 node_1037:sw -> node_1038:nw [ style="invis" ];
@@ -2437,10 +2437,10 @@ subgraph cluster_89 {
     node_1041 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>motif6<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_1040 -> node_1041 [ arrowhead=none ];
     node_1042 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1038 -> node_1042 [ arrowhead=none, color="purple" ];
     node_1043 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1043 node_1041}
     node_1038:sw -> node_1043:nw [style="invis", weight=999 ];
+    node_1038 -> node_1042 [ arrowhead=none, color="purple" ];
     { rank=same node_1038 node_1039 node_1040 }
 }
 node_1043:sw -> node_1044:nw [ style="invis" ];
@@ -2483,10 +2483,10 @@ subgraph cluster_91 {
     node_1060 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>no_dl_no_ss_end7<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_1057 -> node_1060 [ arrowhead=none ];
     node_1061 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1047 -> node_1061 [ arrowhead=none, color="purple" ];
     node_1062 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1062 node_1050}
     node_1047:sw -> node_1062:nw [style="invis", weight=999 ];
+    node_1047 -> node_1061 [ arrowhead=none, color="purple" ];
     { rank=same node_1047 node_1048 node_1049 node_1052 node_1053 node_1056 node_1057 }
 }
 node_1062:sw -> node_1063:nw [ style="invis" ];
@@ -2525,10 +2525,10 @@ subgraph cluster_92 {
     node_1079 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>no_dl_no_ss_end7<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_1075 -> node_1079 [ arrowhead=none ];
     node_1080 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1063 -> node_1080 [ arrowhead=none, color="purple" ];
     node_1081 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1081 node_1067}
     node_1063:sw -> node_1081:nw [style="invis", weight=999 ];
+    node_1063 -> node_1080 [ arrowhead=none, color="purple" ];
     { rank=same node_1063 node_1064 node_1065 node_1069 node_1070 node_1074 node_1075 }
 }
 node_1081:sw -> node_1082:nw [ style="invis" ];
@@ -2567,10 +2567,10 @@ subgraph cluster_93 {
     node_1098 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>no_dl_ss_end7<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (8, n)</td></tr></table>>, color="black" ];
     node_1094 -> node_1098 [ arrowhead=none ];
     node_1099 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1082 -> node_1099 [ arrowhead=none, color="purple" ];
     node_1100 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1100 node_1086}
     node_1082:sw -> node_1100:nw [style="invis", weight=999 ];
+    node_1082 -> node_1099 [ arrowhead=none, color="purple" ];
     { rank=same node_1082 node_1083 node_1084 node_1088 node_1089 node_1093 node_1094 }
 }
 node_1100:sw -> node_1101:nw [ style="invis" ];
@@ -2603,10 +2603,10 @@ subgraph cluster_94 {
     node_1114 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>no_dl_ss_end7<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (8, n)</td></tr></table>>, color="black" ];
     node_1111 -> node_1114 [ arrowhead=none ];
     node_1115 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1101 -> node_1115 [ arrowhead=none, color="purple" ];
     node_1116 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1116 node_1104}
     node_1101:sw -> node_1116:nw [style="invis", weight=999 ];
+    node_1101 -> node_1115 [ arrowhead=none, color="purple" ];
     { rank=same node_1101 node_1102 node_1103 node_1106 node_1107 node_1110 node_1111 }
 }
 node_1116:sw -> node_1117:nw [ style="invis" ];
@@ -2619,10 +2619,10 @@ subgraph cluster_95 {
     node_1120 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>nodangle3<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_1119 -> node_1120 [ arrowhead=none ];
     node_1121 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1117 -> node_1121 [ arrowhead=none, color="purple" ];
     node_1122 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1122 node_1120}
     node_1117:sw -> node_1122:nw [style="invis", weight=999 ];
+    node_1117 -> node_1121 [ arrowhead=none, color="purple" ];
     { rank=same node_1117 node_1118 node_1119 }
 }
 node_1122:sw -> node_1123:nw [ style="invis" ];
@@ -2633,10 +2633,10 @@ subgraph cluster_96 {
     node_1124 -> node_1125 [ style="invis" ];
     node_1125 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>block_dl3<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (8, n)</td></tr></table>>, color="black" ];
     node_1126 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1123 -> node_1126 [ arrowhead=none, color="purple" ];
     node_1127 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1127 node_1126}
     node_1123:sw -> node_1127:nw [style="invis", weight=999 ];
+    node_1123 -> node_1126 [ arrowhead=none, color="purple" ];
     { rank=same node_1123 node_1124 node_1125 }
 }
 node_1127:sw -> node_1128:nw [ style="invis" ];
@@ -2659,10 +2659,10 @@ subgraph cluster_97 {
     node_1136 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_0</font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, n)</td></tr></table>>, color="blue" ];
     node_1133 -> node_1136 [ arrowhead=none ];
     node_1137 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1128 -> node_1137 [ arrowhead=none, color="purple" ];
     node_1138 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1138 node_1135}
     node_1128:sw -> node_1138:nw [style="invis", weight=999 ];
+    node_1128 -> node_1137 [ arrowhead=none, color="purple" ];
     { rank=same node_1128 node_1129 node_1130 node_1132 node_1133 }
 }
 node_1138:sw -> node_1139:nw [ style="invis" ];
@@ -2681,10 +2681,10 @@ subgraph cluster_98 {
     node_1145 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_0</font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, n)</td></tr></table>>, color="blue" ];
     node_1143 -> node_1145 [ arrowhead=none ];
     node_1146 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1139 -> node_1146 [ arrowhead=none, color="purple" ];
     node_1147 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1147 node_1144}
     node_1139:sw -> node_1147:nw [style="invis", weight=999 ];
+    node_1139 -> node_1146 [ arrowhead=none, color="purple" ];
     { rank=same node_1139 node_1140 node_1141 node_1142 node_1143 }
 }
 node_1147:sw -> node_1148:nw [ style="invis" ];
@@ -2705,10 +2705,10 @@ subgraph cluster_99 {
     node_1155 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>edanglel7<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (19, n)</td></tr></table>>, color="black" ];
     node_1154 -> node_1155 [ arrowhead=none ];
     node_1156 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1148 -> node_1156 [ arrowhead=none, color="purple" ];
     node_1157 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1157 node_1151}
     node_1148:sw -> node_1157:nw [style="invis", weight=999 ];
+    node_1148 -> node_1156 [ arrowhead=none, color="purple" ];
     { rank=same node_1148 node_1149 node_1150 node_1153 node_1154 }
 }
 node_1157:sw -> node_1158:nw [ style="invis" ];
@@ -2729,10 +2729,10 @@ subgraph cluster_100 {
     node_1165 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>edanglelr7<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (20, n)</td></tr></table>>, color="black" ];
     node_1164 -> node_1165 [ arrowhead=none ];
     node_1166 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1158 -> node_1166 [ arrowhead=none, color="purple" ];
     node_1167 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1167 node_1161}
     node_1158:sw -> node_1167:nw [style="invis", weight=999 ];
+    node_1158 -> node_1166 [ arrowhead=none, color="purple" ];
     { rank=same node_1158 node_1159 node_1160 node_1163 node_1164 }
 }
 node_1167:sw -> node_1168:nw [ style="invis" ];
@@ -2747,10 +2747,10 @@ subgraph cluster_101 {
     node_1172 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td><td>motif7<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (18, n)</td></tr></table>>, color="black" ];
     node_1170 -> node_1172 [ arrowhead=none ];
     node_1173 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1168 -> node_1173 [ arrowhead=none, color="purple" ];
     node_1174 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1174 node_1171}
     node_1168:sw -> node_1174:nw [style="invis", weight=999 ];
+    node_1168 -> node_1173 [ arrowhead=none, color="purple" ];
     { rank=same node_1168 node_1169 node_1170 }
 }
 node_1174:sw -> node_1175:nw [ style="invis" ];
@@ -2765,10 +2765,10 @@ subgraph cluster_102 {
     node_1179 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_1177 -> node_1179 [ arrowhead=none ];
     node_1180 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1175 -> node_1180 [ arrowhead=none, color="purple" ];
     node_1181 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1181 node_1178}
     node_1175:sw -> node_1181:nw [style="invis", weight=999 ];
+    node_1175 -> node_1180 [ arrowhead=none, color="purple" ];
     { rank=same node_1175 node_1176 node_1177 }
 }
 node_1181:sw -> node_1182:nw [ style="invis" ];
@@ -2785,10 +2785,10 @@ subgraph cluster_103 {
     node_1187 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_1184 -> node_1187 [ arrowhead=none ];
     node_1188 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1182 -> node_1188 [ arrowhead=none, color="purple" ];
     node_1189 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1189 node_1185}
     node_1182:sw -> node_1189:nw [style="invis", weight=999 ];
+    node_1182 -> node_1188 [ arrowhead=none, color="purple" ];
     { rank=same node_1182 node_1183 node_1184 }
 }
 node_1189:sw -> node_1190:nw [ style="invis" ];
@@ -2801,10 +2801,10 @@ subgraph cluster_104 {
     node_1193 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>motif7<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (18, n)</td></tr></table>>, color="black" ];
     node_1192 -> node_1193 [ arrowhead=none ];
     node_1194 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1190 -> node_1194 [ arrowhead=none, color="purple" ];
     node_1195 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1195 node_1193}
     node_1190:sw -> node_1195:nw [style="invis", weight=999 ];
+    node_1190 -> node_1194 [ arrowhead=none, color="purple" ];
     { rank=same node_1190 node_1191 node_1192 }
 }
 node_1195:sw -> node_1196:nw [ style="invis" ];
@@ -2837,10 +2837,10 @@ subgraph cluster_106 {
     node_1207 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td><td>left_dangle10<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr><tr><td colspan="3">yield size: (8, n)</td></tr></table>>, color="black" ];
     node_1205 -> node_1207 [ arrowhead=none ];
     node_1208 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1199 -> node_1208 [ arrowhead=none, color="purple" ];
     node_1209 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1209 node_1202}
     node_1199:sw -> node_1209:nw [style="invis", weight=999 ];
+    node_1199 -> node_1208 [ arrowhead=none, color="purple" ];
     { rank=same node_1199 node_1200 node_1201 node_1204 node_1205 }
 }
 node_1209:sw -> node_1210:nw [ style="invis" ];
@@ -2871,10 +2871,10 @@ subgraph cluster_107 {
     node_1219 -> node_1222 [ ];
     node_1217 -> node_1219 [ arrowhead=none ];
     node_1223 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1210 -> node_1223 [ arrowhead=none, color="purple" ];
     node_1224 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1224 node_1221}
     node_1210:sw -> node_1224:nw [style="invis", weight=999 ];
+    node_1210 -> node_1223 [ arrowhead=none, color="purple" ];
     { rank=same node_1210 node_1211 node_1212 node_1216 node_1217 }
 }
 node_1224:sw -> node_1225:nw [ style="invis" ];
@@ -2905,10 +2905,10 @@ subgraph cluster_108 {
     node_1236 -> node_1237 [ arrowhead=none ];
     node_1234 -> node_1236 [ arrowhead=none ];
     node_1238 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1225 -> node_1238 [ arrowhead=none, color="purple" ];
     node_1239 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1239 node_1231}
     node_1225:sw -> node_1239:nw [style="invis", weight=999 ];
+    node_1225 -> node_1238 [ arrowhead=none, color="purple" ];
     { rank=same node_1225 node_1226 node_1227 node_1233 node_1234 }
 }
 node_1239:sw -> node_1240:nw [ style="invis" ];
@@ -2923,10 +2923,10 @@ subgraph cluster_109 {
     node_1244 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i + 1)</font></td><td>motif10<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_1242 -> node_1244 [ arrowhead=none ];
     node_1245 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1240 -> node_1245 [ arrowhead=none, color="purple" ];
     node_1246 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1246 node_1243}
     node_1240:sw -> node_1246:nw [style="invis", weight=999 ];
+    node_1240 -> node_1245 [ arrowhead=none, color="purple" ];
     { rank=same node_1240 node_1241 node_1242 }
 }
 node_1246:sw -> node_1247:nw [ style="invis" ];
@@ -2941,10 +2941,10 @@ subgraph cluster_110 {
     node_1251 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_1249 -> node_1251 [ arrowhead=none ];
     node_1252 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1247 -> node_1252 [ arrowhead=none, color="purple" ];
     node_1253 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1253 node_1250}
     node_1247:sw -> node_1253:nw [style="invis", weight=999 ];
+    node_1247 -> node_1252 [ arrowhead=none, color="purple" ];
     { rank=same node_1247 node_1248 node_1249 }
 }
 node_1253:sw -> node_1254:nw [ style="invis" ];
@@ -2961,10 +2961,10 @@ subgraph cluster_111 {
     node_1259 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_1256 -> node_1259 [ arrowhead=none ];
     node_1260 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1254 -> node_1260 [ arrowhead=none, color="purple" ];
     node_1261 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1261 node_1257}
     node_1254:sw -> node_1261:nw [style="invis", weight=999 ];
+    node_1254 -> node_1260 [ arrowhead=none, color="purple" ];
     { rank=same node_1254 node_1255 node_1256 }
 }
 node_1261:sw -> node_1262:nw [ style="invis" ];
@@ -2977,10 +2977,10 @@ subgraph cluster_112 {
     node_1265 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>motif10<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_1264 -> node_1265 [ arrowhead=none ];
     node_1266 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1262 -> node_1266 [ arrowhead=none, color="purple" ];
     node_1267 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1267 node_1265}
     node_1262:sw -> node_1267:nw [style="invis", weight=999 ];
+    node_1262 -> node_1266 [ arrowhead=none, color="purple" ];
     { rank=same node_1262 node_1263 node_1264 }
 }
 node_1267:sw -> node_1268:nw [ style="invis" ];
@@ -3003,10 +3003,10 @@ subgraph cluster_114 {
     node_1274 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>endHairpin<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (7, n)</td></tr></table>>, color="black" ];
     node_1273 -> node_1274 [ arrowhead=none ];
     node_1275 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1271 -> node_1275 [ arrowhead=none, color="purple" ];
     node_1276 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1276 node_1274}
     node_1271:sw -> node_1276:nw [style="invis", weight=999 ];
+    node_1271 -> node_1275 [ arrowhead=none, color="purple" ];
     { rank=same node_1271 node_1272 node_1273 }
 }
 node_1276:sw -> node_1277:nw [ style="invis" ];
@@ -3033,10 +3033,10 @@ subgraph cluster_115 {
     node_1286 -> node_1287 [ style="invis" ];
     node_1287 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>iloop<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (13, n)</td></tr></table>>, color="black" ];
     node_1288 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1277 -> node_1288 [ arrowhead=none, color="purple" ];
     node_1289 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1289 node_1288}
     node_1277:sw -> node_1289:nw [style="invis", weight=999 ];
+    node_1277 -> node_1288 [ arrowhead=none, color="purple" ];
     { rank=same node_1277 node_1278 node_1279 node_1280 node_1281 node_1282 node_1283 node_1284 node_1285 node_1286 node_1287 }
 }
 node_1289:sw -> node_1290:nw [ style="invis" ];
@@ -3197,10 +3197,10 @@ subgraph cluster_121 {
     node_1356 -> node_1357 [ arrowhead=none ];
     node_1354 -> node_1356 [ arrowhead=none ];
     node_1358 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1348 -> node_1358 [ arrowhead=none, color="purple" ];
     node_1359 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1359 node_1357}
     node_1348:sw -> node_1359:nw [style="invis", weight=999 ];
+    node_1348 -> node_1358 [ arrowhead=none, color="purple" ];
     { rank=same node_1348 node_1349 node_1350 node_1353 node_1354 }
 }
 }
