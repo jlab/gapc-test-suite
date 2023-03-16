@@ -35,10 +35,10 @@ subgraph cluster_node_10 {
     node_16 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_0<br/>t_1_k_0</font></td><td>bp<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j<br/>t_1_j</font></td></tr></table>>, color="black" ];
     node_14 -> node_16 [ arrowhead=none ];
     node_17 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1 -> node_17 [ arrowhead=none, color="purple" ];
     node_18 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_18 node_6}
     node_1:sw -> node_18:nw [style="invis", weight=999 ];
+    node_1 -> node_17 [ arrowhead=none, color="purple" ];
     { rank=same node_1 node_2 node_3 node_7 node_8 node_13 node_14 }
 }
 node_18:sw -> node_19:nw [ style="invis" ];
@@ -65,10 +65,10 @@ subgraph cluster_node_27 {
 };
     node_21 -> node_28 [ arrowhead=none , lhead=cluster_node_27 ];
     node_30 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_19 -> node_30 [ arrowhead=none, color="purple" ];
     node_31 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_31 node_25}
     node_19:sw -> node_31:nw [style="invis", weight=999 ];
+    node_19 -> node_30 [ arrowhead=none, color="purple" ];
     { rank=same node_19 node_20 node_21 }
 }
 }

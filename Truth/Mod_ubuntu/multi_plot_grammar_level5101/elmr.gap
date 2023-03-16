@@ -29,10 +29,10 @@ subgraph cluster_1 {
     node_13 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_1 + 1)</font></td><td>formula<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (0, n)</td></tr></table>>, color="black" ];
     node_10 -> node_13 [ arrowhead=none ];
     node_14 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1 -> node_14 [ arrowhead=none, color="purple" ];
     node_15 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_15 node_6}
     node_1:sw -> node_15:nw [style="invis", weight=999 ];
+    node_1 -> node_14 [ arrowhead=none, color="purple" ];
     { rank=same node_1 node_2 node_3 node_4 node_5 node_9 node_10 }
 }
 node_15:sw -> node_16:nw [ style="invis" ];

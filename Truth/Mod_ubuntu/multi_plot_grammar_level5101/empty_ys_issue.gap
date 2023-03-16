@@ -17,10 +17,10 @@ subgraph cluster_1 {
     node_7 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_left_most</font></td><td>state_E_12<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_left_most</font></td></tr><tr><td colspan="3">yield size: (0, 0)</td></tr></table>>, color="black" ];
     node_6 -> node_7 [ arrowhead=none ];
     node_8 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_1 -> node_8 [ arrowhead=none, color="purple" ];
     node_9 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_9 node_4}
     node_1:sw -> node_9:nw [style="invis", weight=999 ];
+    node_1 -> node_8 [ arrowhead=none, color="purple" ];
     { rank=same node_1 node_2 node_3 node_5 node_6 }
 }
 node_9:sw -> node_10:nw [ style="invis" ];
@@ -37,10 +37,10 @@ subgraph cluster_2 {
     node_15 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_left_most + 1)</font></td><td>CHAR<br/><font color='orange'>char</font></td><td><font point-size='8' color='#555555'>((t_0_left_most + 1) + 1)</font></td></tr><tr><td colspan="3">yield size: (1, 1)</td></tr></table>>, color="blue" ];
     node_12 -> node_15 [ arrowhead=none ];
     node_16 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_10 -> node_16 [ arrowhead=none, color="purple" ];
     node_17 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_17 node_13}
     node_10:sw -> node_17:nw [style="invis", weight=999 ];
+    node_10 -> node_16 [ arrowhead=none, color="purple" ];
     { rank=same node_10 node_11 node_12 }
 }
 node_17:sw -> node_18:nw [ style="invis" ];
@@ -53,10 +53,10 @@ subgraph cluster_3 {
     node_21 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>EMPTY<br/><font color='orange'>void</font></td><td><font point-size='8' color='#555555'>t_0_i</font></td></tr><tr><td colspan="3">yield size: (0, 0)</td></tr></table>>, color="blue" ];
     node_20 -> node_21 [ arrowhead=none ];
     node_22 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
-    node_18 -> node_22 [ arrowhead=none, color="purple" ];
     node_23 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_23 node_21}
     node_18:sw -> node_23:nw [style="invis", weight=999 ];
+    node_18 -> node_22 [ arrowhead=none, color="purple" ];
     { rank=same node_18 node_19 node_20 }
 }
 }
