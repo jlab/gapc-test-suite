@@ -19,10 +19,10 @@ subgraph cluster_1 {
     node_7 -> node_8 [ style="invis" ];
     node_8 [ label=<<table border='0'><tr><td>left_unpaired</td></tr></table>>, color="black" ];
     node_9 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_1 -> node_9 [ arrowhead=none, color="purple" ];
     node_10 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_10 node_6}
     node_1:sw -> node_10:nw [style="invis", weight=999 ];
+    node_1 -> node_9 [ arrowhead=none, color="purple" ];
     { rank=same node_1 node_2 node_3 node_4 node_5 node_7 node_8 }
 }
 node_10:sw -> node_11:nw [ style="invis" ];
@@ -45,10 +45,10 @@ subgraph cluster_2 {
     node_19 [ label=<<table border='0'><tr><td>left_dangle</td></tr></table>>, color="black" ];
     node_17 -> node_19 [ arrowhead=none ];
     node_20 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_11 -> node_20 [ arrowhead=none, color="purple" ];
     node_21 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_21 node_14}
     node_11:sw -> node_21:nw [style="invis", weight=999 ];
+    node_11 -> node_20 [ arrowhead=none, color="purple" ];
     { rank=same node_11 node_12 node_13 node_16 node_17 }
 }
 node_21:sw -> node_22:nw [ style="invis" ];
@@ -97,10 +97,10 @@ subgraph cluster_3 {
     node_43 [ label=<<table border='0'><tr><td>LOC</td></tr></table>>, color="blue" ];
     node_42 -> node_43 [ arrowhead=none ];
     node_44 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_22 -> node_44 [ arrowhead=none, color="purple" ];
     node_45 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_45 node_34}
     node_22:sw -> node_45:nw [style="invis", weight=999 ];
+    node_22 -> node_44 [ arrowhead=none, color="purple" ];
     { rank=same node_22 node_23 node_24 node_28 node_29 node_35 node_36 node_41 node_42 }
 }
 node_45:sw -> node_46:nw [ style="invis" ];
@@ -143,10 +143,10 @@ subgraph cluster_4 {
     node_64 [ label=<<table border='0'><tr><td>noleft_dangle</td></tr></table>>, color="black" ];
     node_61 -> node_64 [ arrowhead=none ];
     node_65 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_46 -> node_65 [ arrowhead=none, color="purple" ];
     node_66 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_66 node_59}
     node_46:sw -> node_66:nw [style="invis", weight=999 ];
+    node_46 -> node_65 [ arrowhead=none, color="purple" ];
     { rank=same node_46 node_47 node_48 node_53 node_54 node_60 node_61 }
 }
 node_66:sw -> node_67:nw [ style="invis" ];
@@ -161,10 +161,10 @@ subgraph cluster_5 {
     node_71 [ label=<<table border='0'><tr><td>initstem</td></tr></table>>, color="black" ];
     node_69 -> node_71 [ arrowhead=none ];
     node_72 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_67 -> node_72 [ arrowhead=none, color="purple" ];
     node_73 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_73 node_70}
     node_67:sw -> node_73:nw [style="invis", weight=999 ];
+    node_67 -> node_72 [ arrowhead=none, color="purple" ];
     { rank=same node_67 node_68 node_69 }
 }
 node_73:sw -> node_74:nw [ style="invis" ];
@@ -179,10 +179,10 @@ subgraph cluster_6 {
     node_78 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
     node_76 -> node_78 [ arrowhead=none ];
     node_79 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_74 -> node_79 [ arrowhead=none, color="purple" ];
     node_80 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_80 node_77}
     node_74:sw -> node_80:nw [style="invis", weight=999 ];
+    node_74 -> node_79 [ arrowhead=none, color="purple" ];
     { rank=same node_74 node_75 node_76 }
 }
 node_80:sw -> node_81:nw [ style="invis" ];
@@ -199,10 +199,10 @@ subgraph cluster_7 {
     node_86 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
     node_83 -> node_86 [ arrowhead=none ];
     node_87 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_81 -> node_87 [ arrowhead=none, color="purple" ];
     node_88 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_88 node_84}
     node_81:sw -> node_88:nw [style="invis", weight=999 ];
+    node_81 -> node_87 [ arrowhead=none, color="purple" ];
     { rank=same node_81 node_82 node_83 }
 }
 node_88:sw -> node_89:nw [ style="invis" ];
@@ -215,10 +215,10 @@ subgraph cluster_8 {
     node_92 [ label=<<table border='0'><tr><td>initstem</td></tr></table>>, color="black" ];
     node_91 -> node_92 [ arrowhead=none ];
     node_93 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_89 -> node_93 [ arrowhead=none, color="purple" ];
     node_94 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_94 node_92}
     node_89:sw -> node_94:nw [style="invis", weight=999 ];
+    node_89 -> node_93 [ arrowhead=none, color="purple" ];
     { rank=same node_89 node_90 node_91 }
 }
 node_94:sw -> node_95:nw [ style="invis" ];
@@ -231,10 +231,10 @@ subgraph cluster_9 {
     node_98 [ label=<<table border='0'><tr><td>closed</td></tr></table>>, color="black" ];
     node_97 -> node_98 [ arrowhead=none ];
     node_99 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_95 -> node_99 [ arrowhead=none, color="purple" ];
     node_100 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_100 node_98}
     node_95:sw -> node_100:nw [style="invis", weight=999 ];
+    node_95 -> node_99 [ arrowhead=none, color="purple" ];
     { rank=same node_95 node_96 node_97 }
 }
 node_100:sw -> node_101:nw [ style="invis" ];
@@ -265,10 +265,10 @@ subgraph cluster_10 {
     node_112 -> node_113 [ style="invis" ];
     node_113 [ label=<<table border='0'><tr><td>iloop</td></tr></table>>, color="black" ];
     node_114 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_101 -> node_114 [ arrowhead=none, color="purple" ];
     node_115 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_115 node_114}
     node_101:sw -> node_115:nw [style="invis", weight=999 ];
+    node_101 -> node_114 [ arrowhead=none, color="purple" ];
     { rank=same node_101 node_102 node_103 node_104 node_105 node_106 node_107 node_108 node_109 node_110 node_111 node_112 node_113 }
 }
 node_115:sw -> node_116:nw [ style="invis" ];
@@ -447,10 +447,10 @@ subgraph cluster_12 {
     node_200 [ label=<<table border='0'><tr><td>no_dl_no_ss_end</td></tr></table>>, color="black" ];
     node_197 -> node_200 [ arrowhead=none ];
     node_201 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_187 -> node_201 [ arrowhead=none, color="purple" ];
     node_202 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_202 node_190}
     node_187:sw -> node_202:nw [style="invis", weight=999 ];
+    node_187 -> node_201 [ arrowhead=none, color="purple" ];
     { rank=same node_187 node_188 node_189 node_192 node_193 node_196 node_197 }
 }
 node_202:sw -> node_203:nw [ style="invis" ];
@@ -489,10 +489,10 @@ subgraph cluster_13 {
     node_219 [ label=<<table border='0'><tr><td>no_dl_no_ss_end</td></tr></table>>, color="black" ];
     node_215 -> node_219 [ arrowhead=none ];
     node_220 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_203 -> node_220 [ arrowhead=none, color="purple" ];
     node_221 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_221 node_207}
     node_203:sw -> node_221:nw [style="invis", weight=999 ];
+    node_203 -> node_220 [ arrowhead=none, color="purple" ];
     { rank=same node_203 node_204 node_205 node_209 node_210 node_214 node_215 }
 }
 node_221:sw -> node_222:nw [ style="invis" ];
@@ -531,10 +531,10 @@ subgraph cluster_14 {
     node_238 [ label=<<table border='0'><tr><td>no_dl_ss_end</td></tr></table>>, color="black" ];
     node_234 -> node_238 [ arrowhead=none ];
     node_239 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_222 -> node_239 [ arrowhead=none, color="purple" ];
     node_240 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_240 node_226}
     node_222:sw -> node_240:nw [style="invis", weight=999 ];
+    node_222 -> node_239 [ arrowhead=none, color="purple" ];
     { rank=same node_222 node_223 node_224 node_228 node_229 node_233 node_234 }
 }
 node_240:sw -> node_241:nw [ style="invis" ];
@@ -567,10 +567,10 @@ subgraph cluster_15 {
     node_254 [ label=<<table border='0'><tr><td>no_dl_ss_end</td></tr></table>>, color="black" ];
     node_251 -> node_254 [ arrowhead=none ];
     node_255 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_241 -> node_255 [ arrowhead=none, color="purple" ];
     node_256 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_256 node_244}
     node_241:sw -> node_256:nw [style="invis", weight=999 ];
+    node_241 -> node_255 [ arrowhead=none, color="purple" ];
     { rank=same node_241 node_242 node_243 node_246 node_247 node_250 node_251 }
 }
 node_256:sw -> node_257:nw [ style="invis" ];
@@ -591,10 +591,10 @@ subgraph cluster_16 {
     node_264 [ label=<<table border='0'><tr><td>edanglel</td></tr></table>>, color="black" ];
     node_263 -> node_264 [ arrowhead=none ];
     node_265 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_257 -> node_265 [ arrowhead=none, color="purple" ];
     node_266 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_266 node_260}
     node_257:sw -> node_266:nw [style="invis", weight=999 ];
+    node_257 -> node_265 [ arrowhead=none, color="purple" ];
     { rank=same node_257 node_258 node_259 node_262 node_263 }
 }
 node_266:sw -> node_267:nw [ style="invis" ];
@@ -615,10 +615,10 @@ subgraph cluster_17 {
     node_274 [ label=<<table border='0'><tr><td>edanglelr</td></tr></table>>, color="black" ];
     node_273 -> node_274 [ arrowhead=none ];
     node_275 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_267 -> node_275 [ arrowhead=none, color="purple" ];
     node_276 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_276 node_270}
     node_267:sw -> node_276:nw [style="invis", weight=999 ];
+    node_267 -> node_275 [ arrowhead=none, color="purple" ];
     { rank=same node_267 node_268 node_269 node_272 node_273 }
 }
 node_276:sw -> node_277:nw [ style="invis" ];
@@ -635,10 +635,10 @@ subgraph cluster_18 {
     node_282 [ label=<<table border='0'><tr><td>nodangle</td></tr></table>>, color="black" ];
     node_281 -> node_282 [ arrowhead=none ];
     node_283 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_277 -> node_283 [ arrowhead=none, color="purple" ];
     node_284 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_284 node_282}
     node_277:sw -> node_284:nw [style="invis", weight=999 ];
+    node_277 -> node_283 [ arrowhead=none, color="purple" ];
     { rank=same node_277 node_278 node_279 node_280 node_281 }
 }
 node_284:sw -> node_285:nw [ style="invis" ];
@@ -653,10 +653,10 @@ subgraph cluster_19 {
     node_288 -> node_289 [ style="invis" ];
     node_289 [ label=<<table border='0'><tr><td>block_dl</td></tr></table>>, color="black" ];
     node_290 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_285 -> node_290 [ arrowhead=none, color="purple" ];
     node_291 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_291 node_290}
     node_285:sw -> node_291:nw [style="invis", weight=999 ];
+    node_285 -> node_290 [ arrowhead=none, color="purple" ];
     { rank=same node_285 node_286 node_287 node_288 node_289 }
 }
 node_291:sw -> node_292:nw [ style="invis" ];
@@ -683,10 +683,10 @@ subgraph cluster_20 {
     node_302 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" ];
     node_299 -> node_302 [ arrowhead=none ];
     node_303 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_292 -> node_303 [ arrowhead=none, color="purple" ];
     node_304 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_304 node_301}
     node_292:sw -> node_304:nw [style="invis", weight=999 ];
+    node_292 -> node_303 [ arrowhead=none, color="purple" ];
     { rank=same node_292 node_293 node_294 node_295 node_296 node_298 node_299 }
 }
 node_304:sw -> node_305:nw [ style="invis" ];
@@ -709,10 +709,10 @@ subgraph cluster_21 {
     node_313 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" ];
     node_311 -> node_313 [ arrowhead=none ];
     node_314 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_305 -> node_314 [ arrowhead=none, color="purple" ];
     node_315 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_315 node_312}
     node_305:sw -> node_315:nw [style="invis", weight=999 ];
+    node_305 -> node_314 [ arrowhead=none, color="purple" ];
     { rank=same node_305 node_306 node_307 node_308 node_309 node_310 node_311 }
 }
 node_315:sw -> node_316:nw [ style="invis" ];
@@ -731,10 +731,10 @@ subgraph cluster_22 {
     node_322 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
     node_318 -> node_322 [ arrowhead=none ];
     node_323 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_316 -> node_323 [ arrowhead=none, color="purple" ];
     node_324 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_324 node_320}
     node_316:sw -> node_324:nw [style="invis", weight=999 ];
+    node_316 -> node_323 [ arrowhead=none, color="purple" ];
     { rank=same node_316 node_317 node_318 }
 }
 node_324:sw -> node_325:nw [ style="invis" ];
@@ -759,10 +759,10 @@ subgraph cluster_23 {
     node_334 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
     node_327 -> node_334 [ arrowhead=none ];
     node_335 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_325 -> node_335 [ arrowhead=none, color="purple" ];
     node_336 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_336 node_332}
     node_325:sw -> node_336:nw [style="invis", weight=999 ];
+    node_325 -> node_335 [ arrowhead=none, color="purple" ];
     { rank=same node_325 node_326 node_327 }
 }
 node_336:sw -> node_337:nw [ style="invis" ];
@@ -789,10 +789,10 @@ subgraph cluster_24 {
     node_347 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
     node_339 -> node_347 [ arrowhead=none ];
     node_348 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_337 -> node_348 [ arrowhead=none, color="purple" ];
     node_349 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_349 node_344}
     node_337:sw -> node_349:nw [style="invis", weight=999 ];
+    node_337 -> node_348 [ arrowhead=none, color="purple" ];
     { rank=same node_337 node_338 node_339 }
 }
 node_349:sw -> node_350:nw [ style="invis" ];
@@ -819,10 +819,10 @@ subgraph cluster_25 {
     node_360 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
     node_352 -> node_360 [ arrowhead=none ];
     node_361 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_350 -> node_361 [ arrowhead=none, color="purple" ];
     node_362 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_362 node_357}
     node_350:sw -> node_362:nw [style="invis", weight=999 ];
+    node_350 -> node_361 [ arrowhead=none, color="purple" ];
     { rank=same node_350 node_351 node_352 }
 }
 node_362:sw -> node_363:nw [ style="invis" ];
@@ -855,10 +855,10 @@ subgraph cluster_26 {
     node_376 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
     node_365 -> node_376 [ arrowhead=none ];
     node_377 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_363 -> node_377 [ arrowhead=none, color="purple" ];
     node_378 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_378 node_371}
     node_363:sw -> node_378:nw [style="invis", weight=999 ];
+    node_363 -> node_377 [ arrowhead=none, color="purple" ];
     { rank=same node_363 node_364 node_365 }
 }
 }

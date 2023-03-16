@@ -19,10 +19,10 @@ subgraph cluster_1 {
     node_8 [ label=<<table border='0'><tr><td>CHAR</td></tr></table>>, color="blue" ];
     node_7 -> node_8 [ arrowhead=none ];
     node_9 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_1 -> node_9 [ arrowhead=none, color="purple" ];
     node_10 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_10 node_4}
     node_1:sw -> node_10:nw [style="invis", weight=999 ];
+    node_1 -> node_9 [ arrowhead=none, color="purple" ];
     { rank=same node_1 node_2 node_3 node_6 node_7 }
 }
 }

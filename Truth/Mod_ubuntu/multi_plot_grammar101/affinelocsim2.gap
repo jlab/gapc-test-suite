@@ -21,10 +21,10 @@ subgraph cluster_node_4 {
     node_8 -> node_9 [ style="invis" ];
     node_9 [ label=<<table border='0'><tr><td>skipL</td></tr></table>>, color="black" ];
     node_10 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_1 -> node_10 [ arrowhead=none, color="purple" ];
     node_11 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_11 node_6}
     node_1:sw -> node_11:nw [style="invis", weight=999 ];
+    node_1 -> node_10 [ arrowhead=none, color="purple" ];
     { rank=same node_1 node_2 node_3 node_8 node_9 }
 }
 node_11:sw -> node_12:nw [ style="invis" ];
@@ -47,10 +47,10 @@ subgraph cluster_node_15 {
     node_19 -> node_20 [ style="invis" ];
     node_20 [ label=<<table border='0'><tr><td>alignment</td></tr></table>>, color="black" ];
     node_21 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_12 -> node_21 [ arrowhead=none, color="purple" ];
     node_22 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_22 node_17}
     node_12:sw -> node_22:nw [style="invis", weight=999 ];
+    node_12 -> node_21 [ arrowhead=none, color="purple" ];
     { rank=same node_12 node_13 node_14 node_19 node_20 }
 }
 node_22:sw -> node_23:nw [ style="invis" ];
@@ -103,10 +103,10 @@ subgraph cluster_node_43 {
     node_46 [ label=<<table border='0'><tr><td>alignment</td></tr></table>>, color="black" ];
     node_42 -> node_46 [ arrowhead=none ];
     node_47 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_23 -> node_47 [ arrowhead=none, color="purple" ];
     node_48 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_48 node_28}
     node_23:sw -> node_48:nw [style="invis", weight=999 ];
+    node_23 -> node_47 [ arrowhead=none, color="purple" ];
     { rank=same node_23 node_24 node_25 node_29 node_30 node_35 node_36 node_41 node_42 }
 }
 node_48:sw -> node_49:nw [ style="invis" ];
@@ -129,10 +129,10 @@ subgraph cluster_node_54 {
     node_57 [ label=<<table border='0'><tr><td>xDel</td></tr></table>>, color="black" ];
     node_53 -> node_57 [ arrowhead=none ];
     node_58 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_49 -> node_58 [ arrowhead=none, color="purple" ];
     node_59 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_59 node_56}
     node_49:sw -> node_59:nw [style="invis", weight=999 ];
+    node_49 -> node_58 [ arrowhead=none, color="purple" ];
     { rank=same node_49 node_50 node_51 node_52 node_53 }
 }
 node_59:sw -> node_60:nw [ style="invis" ];
@@ -155,10 +155,10 @@ subgraph cluster_node_65 {
     node_68 [ label=<<table border='0'><tr><td>xIns</td></tr></table>>, color="black" ];
     node_64 -> node_68 [ arrowhead=none ];
     node_69 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_60 -> node_69 [ arrowhead=none, color="purple" ];
     node_70 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_70 node_67}
     node_60:sw -> node_70:nw [style="invis", weight=999 ];
+    node_60 -> node_69 [ arrowhead=none, color="purple" ];
     { rank=same node_60 node_61 node_62 node_63 node_64 }
 }
 }

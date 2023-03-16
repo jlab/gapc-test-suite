@@ -13,10 +13,10 @@ subgraph cluster_1 {
     node_5 [ label=<<table border='0'><tr><td>hairpin</td></tr></table>>, color="black" ];
     node_3 -> node_5 [ arrowhead=none ];
     node_6 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_1 -> node_6 [ arrowhead=none, color="purple" ];
     node_7 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_7 node_4}
     node_1:sw -> node_7:nw [style="invis", weight=999 ];
+    node_1 -> node_6 [ arrowhead=none, color="purple" ];
     { rank=same node_1 node_2 node_3 }
 }
 node_7:sw -> node_8:nw [ style="invis" ];
@@ -37,10 +37,10 @@ subgraph cluster_2 {
     node_15 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
     node_10 -> node_15 [ arrowhead=none ];
     node_16 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_8 -> node_16 [ arrowhead=none, color="purple" ];
     node_17 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_17 node_11}
     node_8:sw -> node_17:nw [style="invis", weight=999 ];
+    node_8 -> node_16 [ arrowhead=none, color="purple" ];
     { rank=same node_8 node_9 node_10 }
 }
 }

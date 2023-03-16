@@ -71,10 +71,10 @@ subgraph cluster_node_32 {
 };
     node_31 -> node_33 [ arrowhead=none , lhead=cluster_node_32 ];
     node_35 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_1 -> node_35 [ arrowhead=none, color="purple" ];
     node_36 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_36 node_6}
     node_1:sw -> node_36:nw [style="invis", weight=999 ];
+    node_1 -> node_35 [ arrowhead=none, color="purple" ];
     { rank=same node_1 node_2 node_3 node_7 node_8 node_13 node_14 node_19 node_20 node_25 node_26 node_30 node_31 }
 }
 node_36:sw -> node_37:nw [ style="invis" ];

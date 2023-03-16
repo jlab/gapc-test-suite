@@ -51,10 +51,10 @@ subgraph cluster_node_21 {
     node_24 [ label=<<table border='0'><tr><td>alignment</td></tr></table>>, color="black" ];
     node_20 -> node_24 [ arrowhead=none ];
     node_25 [ label=<h>, fontcolor="purple", shape=plain ];
-    node_1 -> node_25 [ arrowhead=none, color="purple" ];
     node_26 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_26 node_6}
     node_1:sw -> node_26:nw [style="invis", weight=999 ];
+    node_1 -> node_25 [ arrowhead=none, color="purple" ];
     { rank=same node_1 node_2 node_3 node_7 node_8 node_13 node_14 node_19 node_20 }
 }
 }
