@@ -420,7 +420,7 @@ digraph gra_nodangle {
     node_119 -> node_137 [ arrowhead=none, color="purple" ];
     { rank=same node_119 node_120 node_121 node_125 node_126 node_128 node_129 node_133 node_134 }
   }
-  node_138 -> ln_anchor [ style="invis" ];
+  node_138:sw -> ln_anchor:nw [ style="invis" ];
   subgraph cluster_legend {
     labeljust="l";
     fontsize="18.0";
@@ -432,8 +432,8 @@ digraph gra_nodangle {
     ln_axiom [ label="axiom", color="black", penwidth=3, shape="box" ];
     ln_overlay [ label="index overlay", color="#555555", shape="polygon", sides=8 ];
     ln_block [ label="block", color="gray" ];
-    ln_lhs_nt_tab [ label="tabulated", color="black", shape="box", style="dotted" ];
-    ln_lhs_nt_nontab [ label="not tabulated", color="black", shape="box" ];
+    ln_lhs_nt_tab [ label="tabulated", color="black", shape="box" ];
+    ln_lhs_nt_nontab [ label="not tabulated", color="black", shape="box", style="dotted" ];
     ln_filter [ label="filter", fontcolor="magenta", shape=none ];
     ln_choice [ label="evaluation function", fontcolor="purple", shape=none ];
     ln_type [ label="data type", fontcolor="orange", shape=none ];

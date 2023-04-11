@@ -68,7 +68,7 @@ digraph fold {
     node_21 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_21 node_18 }
     node_15:sw -> node_21:nw [style="invis", weight=999 ];
-        { rank=same node_15 node_16 node_17 }
+    { rank=same node_15 node_16 node_17 }
   }
   node_21:sw -> node_22:nw [ style="invis" ];
   subgraph cluster_3 {
@@ -160,7 +160,7 @@ digraph fold {
     node_49 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_49 node_46 }
     node_43:sw -> node_49:nw [style="invis", weight=999 ];
-        { rank=same node_43 node_44 node_45 }
+    { rank=same node_43 node_44 node_45 }
   }
   node_49:sw -> node_50:nw [ style="invis" ];
   subgraph cluster_5 {
@@ -188,7 +188,7 @@ digraph fold {
     node_59 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_59 node_56 }
     node_50:sw -> node_59:nw [style="invis", weight=999 ];
-        { rank=same node_50 node_51 node_52 }
+    { rank=same node_50 node_51 node_52 }
   }
   node_59:sw -> node_60:nw [ style="invis" ];
   subgraph cluster_6 {
@@ -314,7 +314,7 @@ digraph fold {
     node_106 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_106 node_101 }
     node_98:sw -> node_106:nw [style="invis", weight=999 ];
-        { rank=same node_98 node_99 node_100 }
+    { rank=same node_98 node_99 node_100 }
   }
   node_106:sw -> node_107:nw [ style="invis" ];
   subgraph cluster_10 {
@@ -412,7 +412,7 @@ digraph fold {
     node_119 -> node_137 [ arrowhead=none, color="purple" ];
     { rank=same node_119 node_120 node_121 node_125 node_126 node_128 node_129 node_133 node_134 }
   }
-  node_138 -> ln_anchor [ style="invis" ];
+  node_138:sw -> ln_anchor:nw [ style="invis" ];
   subgraph cluster_legend {
     labeljust="l";
     fontsize="18.0";
@@ -424,8 +424,8 @@ digraph fold {
     ln_axiom [ label="axiom", color="black", penwidth=3, shape="box" ];
     ln_overlay [ label="index overlay", color="#555555", shape="polygon", sides=8 ];
     ln_block [ label="block", color="gray" ];
-    ln_lhs_nt_tab [ label="tabulated", color="black", shape="box", style="dotted" ];
-    ln_lhs_nt_nontab [ label="not tabulated", color="black", shape="box" ];
+    ln_lhs_nt_tab [ label="tabulated", color="black", shape="box" ];
+    ln_lhs_nt_nontab [ label="not tabulated", color="black", shape="box", style="dotted" ];
     ln_filter [ label="filter", fontcolor="magenta", shape=none ];
     ln_choice [ label="evaluation function", fontcolor="purple", shape=none ];
     ln_type [ label="data type", fontcolor="orange", shape=none ];

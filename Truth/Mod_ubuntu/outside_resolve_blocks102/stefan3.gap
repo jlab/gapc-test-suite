@@ -293,8 +293,7 @@ digraph canonicals_nonamb {
       peripheries=0;
       node_92 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>initMultiloop1<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
     };
-    node_90:sw -> node_90:nw [style="invis", weight=999 ];
-        { rank=same node_90 node_91 node_92 }
+    { rank=same node_90 node_91 node_92 }
   }
   node_90:sw -> node_93:nw [ style="invis" ];
   subgraph cluster_10 {
@@ -388,7 +387,7 @@ digraph canonicals_nonamb {
     node_119 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_119 node_116 }
     node_112:sw -> node_119:nw [style="invis", weight=999 ];
-        { rank=same node_112 node_113 node_114 }
+    { rank=same node_112 node_113 node_114 }
   }
   node_119:sw -> node_120:nw [ style="invis" ];
   subgraph cluster_13 {
@@ -600,7 +599,7 @@ digraph canonicals_nonamb {
     node_205 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_205 node_124 }
     node_120:sw -> node_205:nw [style="invis", weight=999 ];
-        { rank=same node_120 node_121 node_122 node_129 node_130 node_139 node_140 node_149 node_150 node_159 node_160 node_169 node_170 node_178 node_179 node_187 node_188 node_196 node_197 }
+    { rank=same node_120 node_121 node_122 node_129 node_130 node_139 node_140 node_149 node_150 node_159 node_160 node_169 node_170 node_178 node_179 node_187 node_188 node_196 node_197 }
   }
   node_205:sw -> node_206:nw [ style="invis" ];
   subgraph cluster_14 {
@@ -632,7 +631,7 @@ digraph canonicals_nonamb {
     node_217 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_217 node_213 }
     node_206:sw -> node_217:nw [style="invis", weight=999 ];
-        { rank=same node_206 node_207 node_208 }
+    { rank=same node_206 node_207 node_208 }
   }
   node_217:sw -> node_218:nw [ style="invis" ];
   subgraph cluster_15 {
@@ -664,7 +663,7 @@ digraph canonicals_nonamb {
     node_229 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_229 node_225 }
     node_218:sw -> node_229:nw [style="invis", weight=999 ];
-        { rank=same node_218 node_219 node_220 }
+    { rank=same node_218 node_219 node_220 }
   }
   node_229:sw -> node_230:nw [ style="invis" ];
   subgraph cluster_16 {
@@ -702,7 +701,7 @@ digraph canonicals_nonamb {
     node_244 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_244 node_238 }
     node_230:sw -> node_244:nw [style="invis", weight=999 ];
-        { rank=same node_230 node_231 node_232 }
+    { rank=same node_230 node_231 node_232 }
   }
   node_244:sw -> node_245:nw [ style="invis" ];
   subgraph cluster_17 {
@@ -1173,8 +1172,7 @@ digraph canonicals_nonamb {
       peripheries=0;
       node_396 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>initHairpin<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
     };
-    node_394:sw -> node_394:nw [style="invis", weight=999 ];
-        { rank=same node_394 node_395 node_396 }
+    { rank=same node_394 node_395 node_396 }
   }
   node_394:sw -> node_397:nw [ style="invis" ];
   subgraph cluster_32 {
@@ -1339,8 +1337,7 @@ digraph canonicals_nonamb {
       peripheries=0;
       node_447 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>initHairpin<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
     };
-    node_445:sw -> node_445:nw [style="invis", weight=999 ];
-        { rank=same node_445 node_446 node_447 }
+    { rank=same node_445 node_446 node_447 }
   }
   node_445:sw -> node_448:nw [ style="invis" ];
   subgraph cluster_39 {
@@ -1595,8 +1592,7 @@ digraph canonicals_nonamb {
       peripheries=0;
       node_529 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>initMultiloop4<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
     };
-    node_527:sw -> node_527:nw [style="invis", weight=999 ];
-        { rank=same node_527 node_528 node_529 }
+    { rank=same node_527 node_528 node_529 }
   }
   node_527:sw -> node_530:nw [ style="invis" ];
   subgraph cluster_47 {
@@ -1690,7 +1686,7 @@ digraph canonicals_nonamb {
     node_556 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_556 node_553 }
     node_549:sw -> node_556:nw [style="invis", weight=999 ];
-        { rank=same node_549 node_550 node_551 }
+    { rank=same node_549 node_550 node_551 }
   }
   node_556:sw -> node_557:nw [ style="invis" ];
   subgraph cluster_50 {
@@ -1902,7 +1898,7 @@ digraph canonicals_nonamb {
     node_642 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_642 node_561 }
     node_557:sw -> node_642:nw [style="invis", weight=999 ];
-        { rank=same node_557 node_558 node_559 node_566 node_567 node_576 node_577 node_586 node_587 node_596 node_597 node_606 node_607 node_615 node_616 node_624 node_625 node_633 node_634 }
+    { rank=same node_557 node_558 node_559 node_566 node_567 node_576 node_577 node_586 node_587 node_596 node_597 node_606 node_607 node_615 node_616 node_624 node_625 node_633 node_634 }
   }
   node_642:sw -> node_643:nw [ style="invis" ];
   subgraph cluster_51 {
@@ -1934,7 +1930,7 @@ digraph canonicals_nonamb {
     node_654 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_654 node_650 }
     node_643:sw -> node_654:nw [style="invis", weight=999 ];
-        { rank=same node_643 node_644 node_645 }
+    { rank=same node_643 node_644 node_645 }
   }
   node_654:sw -> node_655:nw [ style="invis" ];
   subgraph cluster_52 {
@@ -1966,7 +1962,7 @@ digraph canonicals_nonamb {
     node_666 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_666 node_662 }
     node_655:sw -> node_666:nw [style="invis", weight=999 ];
-        { rank=same node_655 node_656 node_657 }
+    { rank=same node_655 node_656 node_657 }
   }
   node_666:sw -> node_667:nw [ style="invis" ];
   subgraph cluster_53 {
@@ -2004,7 +2000,7 @@ digraph canonicals_nonamb {
     node_681 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_681 node_675 }
     node_667:sw -> node_681:nw [style="invis", weight=999 ];
-        { rank=same node_667 node_668 node_669 }
+    { rank=same node_667 node_668 node_669 }
   }
   node_681:sw -> node_682:nw [ style="invis" ];
   subgraph cluster_54 {
@@ -2221,8 +2217,7 @@ digraph canonicals_nonamb {
       peripheries=0;
       node_754 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>ml_comps22<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
     };
-    node_752:sw -> node_752:nw [style="invis", weight=999 ];
-        { rank=same node_752 node_753 node_754 }
+    { rank=same node_752 node_753 node_754 }
   }
   node_752:sw -> node_755:nw [ style="invis" ];
   subgraph cluster_59 {
@@ -2235,8 +2230,7 @@ digraph canonicals_nonamb {
       peripheries=0;
       node_757 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>ml_comps12<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
     };
-    node_755:sw -> node_755:nw [style="invis", weight=999 ];
-        { rank=same node_755 node_756 node_757 }
+    { rank=same node_755 node_756 node_757 }
   }
   node_755:sw -> node_758:nw [ style="invis" ];
   subgraph cluster_60 {
@@ -2249,8 +2243,7 @@ digraph canonicals_nonamb {
       peripheries=0;
       node_760 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>ml_comps32<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
     };
-    node_758:sw -> node_758:nw [style="invis", weight=999 ];
-        { rank=same node_758 node_759 node_760 }
+    { rank=same node_758 node_759 node_760 }
   }
   node_758:sw -> node_761:nw [ style="invis" ];
   subgraph cluster_61 {
@@ -2263,8 +2256,7 @@ digraph canonicals_nonamb {
       peripheries=0;
       node_763 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>ml_comps42<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
     };
-    node_761:sw -> node_761:nw [style="invis", weight=999 ];
-        { rank=same node_761 node_762 node_763 }
+    { rank=same node_761 node_762 node_763 }
   }
   node_761:sw -> node_764:nw [ style="invis" ];
   subgraph cluster_62 {
@@ -2429,8 +2421,7 @@ digraph canonicals_nonamb {
       peripheries=0;
       node_814 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>initMultiloop5<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
     };
-    node_812:sw -> node_812:nw [style="invis", weight=999 ];
-        { rank=same node_812 node_813 node_814 }
+    { rank=same node_812 node_813 node_814 }
   }
   node_812:sw -> node_815:nw [ style="invis" ];
   subgraph cluster_69 {
@@ -2524,7 +2515,7 @@ digraph canonicals_nonamb {
     node_841 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_841 node_838 }
     node_834:sw -> node_841:nw [style="invis", weight=999 ];
-        { rank=same node_834 node_835 node_836 }
+    { rank=same node_834 node_835 node_836 }
   }
   node_841:sw -> node_842:nw [ style="invis" ];
   subgraph cluster_72 {
@@ -2736,7 +2727,7 @@ digraph canonicals_nonamb {
     node_927 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_927 node_846 }
     node_842:sw -> node_927:nw [style="invis", weight=999 ];
-        { rank=same node_842 node_843 node_844 node_851 node_852 node_861 node_862 node_871 node_872 node_881 node_882 node_891 node_892 node_900 node_901 node_909 node_910 node_918 node_919 }
+    { rank=same node_842 node_843 node_844 node_851 node_852 node_861 node_862 node_871 node_872 node_881 node_882 node_891 node_892 node_900 node_901 node_909 node_910 node_918 node_919 }
   }
   node_927:sw -> node_928:nw [ style="invis" ];
   subgraph cluster_73 {
@@ -2768,7 +2759,7 @@ digraph canonicals_nonamb {
     node_939 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_939 node_935 }
     node_928:sw -> node_939:nw [style="invis", weight=999 ];
-        { rank=same node_928 node_929 node_930 }
+    { rank=same node_928 node_929 node_930 }
   }
   node_939:sw -> node_940:nw [ style="invis" ];
   subgraph cluster_74 {
@@ -2800,7 +2791,7 @@ digraph canonicals_nonamb {
     node_951 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_951 node_947 }
     node_940:sw -> node_951:nw [style="invis", weight=999 ];
-        { rank=same node_940 node_941 node_942 }
+    { rank=same node_940 node_941 node_942 }
   }
   node_951:sw -> node_952:nw [ style="invis" ];
   subgraph cluster_75 {
@@ -2838,7 +2829,7 @@ digraph canonicals_nonamb {
     node_966 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_966 node_960 }
     node_952:sw -> node_966:nw [style="invis", weight=999 ];
-        { rank=same node_952 node_953 node_954 }
+    { rank=same node_952 node_953 node_954 }
   }
   node_966:sw -> node_967:nw [ style="invis" ];
   subgraph cluster_76 {
@@ -3055,8 +3046,7 @@ digraph canonicals_nonamb {
       peripheries=0;
       node_1039 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>ml_comps27<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
     };
-    node_1037:sw -> node_1037:nw [style="invis", weight=999 ];
-        { rank=same node_1037 node_1038 node_1039 }
+    { rank=same node_1037 node_1038 node_1039 }
   }
   node_1037:sw -> node_1040:nw [ style="invis" ];
   subgraph cluster_81 {
@@ -3069,8 +3059,7 @@ digraph canonicals_nonamb {
       peripheries=0;
       node_1042 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>ml_comps17<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
     };
-    node_1040:sw -> node_1040:nw [style="invis", weight=999 ];
-        { rank=same node_1040 node_1041 node_1042 }
+    { rank=same node_1040 node_1041 node_1042 }
   }
   node_1040:sw -> node_1043:nw [ style="invis" ];
   subgraph cluster_82 {
@@ -3083,8 +3072,7 @@ digraph canonicals_nonamb {
       peripheries=0;
       node_1045 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>ml_comps37<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
     };
-    node_1043:sw -> node_1043:nw [style="invis", weight=999 ];
-        { rank=same node_1043 node_1044 node_1045 }
+    { rank=same node_1043 node_1044 node_1045 }
   }
   node_1043:sw -> node_1046:nw [ style="invis" ];
   subgraph cluster_83 {
@@ -3097,8 +3085,7 @@ digraph canonicals_nonamb {
       peripheries=0;
       node_1048 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>ml_comps47<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
     };
-    node_1046:sw -> node_1046:nw [style="invis", weight=999 ];
-        { rank=same node_1046 node_1047 node_1048 }
+    { rank=same node_1046 node_1047 node_1048 }
   }
   node_1046:sw -> node_1049:nw [ style="invis" ];
   subgraph cluster_84 {
@@ -3263,8 +3250,7 @@ digraph canonicals_nonamb {
       peripheries=0;
       node_1099 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>initHairpin<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
     };
-    node_1097:sw -> node_1097:nw [style="invis", weight=999 ];
-        { rank=same node_1097 node_1098 node_1099 }
+    { rank=same node_1097 node_1098 node_1099 }
   }
   node_1097:sw -> node_1100:nw [ style="invis" ];
   subgraph cluster_91 {
@@ -3735,8 +3721,7 @@ digraph canonicals_nonamb {
       peripheries=0;
       node_1251 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>motif1<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
     };
-    node_1249:sw -> node_1249:nw [style="invis", weight=999 ];
-        { rank=same node_1249 node_1250 node_1251 }
+    { rank=same node_1249 node_1250 node_1251 }
   }
   node_1249:sw -> node_1252:nw [ style="invis" ];
   subgraph cluster_106 {
@@ -3971,8 +3956,7 @@ digraph canonicals_nonamb {
       peripheries=0;
       node_1327 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>initHairpin<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
     };
-    node_1325:sw -> node_1325:nw [style="invis", weight=999 ];
-        { rank=same node_1325 node_1326 node_1327 }
+    { rank=same node_1325 node_1326 node_1327 }
   }
   node_1325:sw -> node_1328:nw [ style="invis" ];
   subgraph cluster_114 {
@@ -4066,7 +4050,7 @@ digraph canonicals_nonamb {
     node_1354 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1354 node_1351 }
     node_1347:sw -> node_1354:nw [style="invis", weight=999 ];
-        { rank=same node_1347 node_1348 node_1349 }
+    { rank=same node_1347 node_1348 node_1349 }
   }
   node_1354:sw -> node_1355:nw [ style="invis" ];
   subgraph cluster_117 {
@@ -4096,7 +4080,7 @@ digraph canonicals_nonamb {
     node_1365 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1365 node_1362 }
     node_1355:sw -> node_1365:nw [style="invis", weight=999 ];
-        { rank=same node_1355 node_1356 node_1357 }
+    { rank=same node_1355 node_1356 node_1357 }
   }
   node_1365:sw -> node_1366:nw [ style="invis" ];
   subgraph cluster_118 {
@@ -4128,7 +4112,7 @@ digraph canonicals_nonamb {
     node_1377 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1377 node_1373 }
     node_1366:sw -> node_1377:nw [style="invis", weight=999 ];
-        { rank=same node_1366 node_1367 node_1368 }
+    { rank=same node_1366 node_1367 node_1368 }
   }
   node_1377:sw -> node_1378:nw [ style="invis" ];
   subgraph cluster_119 {
@@ -4160,7 +4144,7 @@ digraph canonicals_nonamb {
     node_1389 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1389 node_1385 }
     node_1378:sw -> node_1389:nw [style="invis", weight=999 ];
-        { rank=same node_1378 node_1379 node_1380 }
+    { rank=same node_1378 node_1379 node_1380 }
   }
   node_1389:sw -> node_1390:nw [ style="invis" ];
   subgraph cluster_120 {
@@ -4198,7 +4182,7 @@ digraph canonicals_nonamb {
     node_1404 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_1404 node_1398 }
     node_1390:sw -> node_1404:nw [style="invis", weight=999 ];
-        { rank=same node_1390 node_1391 node_1392 }
+    { rank=same node_1390 node_1391 node_1392 }
   }
   node_1404:sw -> node_1405:nw [ style="invis" ];
   subgraph cluster_121 {
@@ -4236,7 +4220,7 @@ digraph canonicals_nonamb {
     node_1405 -> node_1415 [ arrowhead=none, color="purple" ];
     { rank=same node_1405 node_1406 node_1407 node_1411 node_1412 }
   }
-  node_1416 -> ln_anchor [ style="invis" ];
+  node_1416:sw -> ln_anchor:nw [ style="invis" ];
   subgraph cluster_legend {
     labeljust="l";
     fontsize="18.0";
@@ -4248,8 +4232,8 @@ digraph canonicals_nonamb {
     ln_axiom [ label="axiom", color="black", penwidth=3, shape="box" ];
     ln_overlay [ label="index overlay", color="#555555", shape="polygon", sides=8 ];
     ln_block [ label="block", color="gray" ];
-    ln_lhs_nt_tab [ label="tabulated", color="black", shape="box", style="dotted" ];
-    ln_lhs_nt_nontab [ label="not tabulated", color="black", shape="box" ];
+    ln_lhs_nt_tab [ label="tabulated", color="black", shape="box" ];
+    ln_lhs_nt_nontab [ label="not tabulated", color="black", shape="box", style="dotted" ];
     ln_filter [ label="filter", fontcolor="magenta", shape=none ];
     ln_choice [ label="evaluation function", fontcolor="purple", shape=none ];
     ln_type [ label="data type", fontcolor="orange", shape=none ];
