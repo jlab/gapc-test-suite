@@ -55,6 +55,7 @@ digraph gra_nodangle {
     node_1:sw -> node_16:nw [style="invis", weight=999 ];
     node_1 -> node_15 [ arrowhead=none, color="purple" ];
     { rank=same node_1 node_2 node_3 node_5 node_6 node_7 node_8 node_11 node_12 }
+
   }
   node_16:sw -> node_17:nw [ style="invis" ];
   subgraph cluster_2 {
