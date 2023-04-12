@@ -608,7 +608,7 @@ digraph canonicals_nonamb {
     node_209 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_209 node_128 }
     node_124:sw -> node_209:nw [style="invis", weight=999 ];
-        { rank=same node_124 node_125 node_126 node_133 node_134 node_143 node_144 node_153 node_154 node_163 node_164 node_173 node_174 node_182 node_183 node_191 node_192 node_200 node_201 }
+    { rank=same node_124 node_125 node_126 node_133 node_134 node_143 node_144 node_153 node_154 node_163 node_164 node_173 node_174 node_182 node_183 node_191 node_192 node_200 node_201 }
   }
   node_209:sw -> node_210:nw [ style="invis" ];
   subgraph cluster_12 {
@@ -1178,7 +1178,7 @@ digraph canonicals_nonamb {
     node_386 -> node_400 [ arrowhead=none, color="purple" ];
     { rank=same node_386 node_387 node_388 }
   }
-  node_401 -> ln_anchor [ style="invis" ];
+  node_401:sw -> ln_anchor:nw [ style="invis" ];
   subgraph cluster_legend {
     labeljust="l";
     fontsize="18.0";
@@ -1190,8 +1190,8 @@ digraph canonicals_nonamb {
     ln_axiom [ label="axiom", color="black", penwidth=3, shape="box" ];
     ln_overlay [ label="index overlay", color="#555555", shape="polygon", sides=8 ];
     ln_block [ label="block", color="gray" ];
-    ln_lhs_nt_tab [ label="tabulated", color="black", shape="box", style="dotted" ];
-    ln_lhs_nt_nontab [ label="not tabulated", color="black", shape="box" ];
+    ln_lhs_nt_tab [ label="tabulated", color="black", shape="box" ];
+    ln_lhs_nt_nontab [ label="not tabulated", color="black", shape="box", style="dotted" ];
     ln_filter [ label="filter", fontcolor="magenta", shape=none ];
     ln_choice [ label="evaluation function", fontcolor="purple", shape=none ];
     ln_type [ label="data type", fontcolor="orange", shape=none ];

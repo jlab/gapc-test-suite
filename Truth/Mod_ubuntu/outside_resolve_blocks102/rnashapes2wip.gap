@@ -608,7 +608,7 @@ digraph canonicals_nonamb {
     node_209 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_209 node_128 }
     node_124:sw -> node_209:nw [style="invis", weight=999 ];
-        { rank=same node_124 node_125 node_126 node_133 node_134 node_143 node_144 node_153 node_154 node_163 node_164 node_173 node_174 node_182 node_183 node_191 node_192 node_200 node_201 }
+    { rank=same node_124 node_125 node_126 node_133 node_134 node_143 node_144 node_153 node_154 node_163 node_164 node_173 node_174 node_182 node_183 node_191 node_192 node_200 node_201 }
   }
   node_209:sw -> node_210:nw [ style="invis" ];
   subgraph cluster_12 {
@@ -1034,7 +1034,7 @@ digraph canonicals_nonamb {
     node_346 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_346 node_343 }
     node_339:sw -> node_346:nw [style="invis", weight=999 ];
-        { rank=same node_339 node_340 node_341 }
+    { rank=same node_339 node_340 node_341 }
   }
   node_346:sw -> node_347:nw [ style="invis" ];
   subgraph cluster_23 {
@@ -1064,7 +1064,7 @@ digraph canonicals_nonamb {
     node_357 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_357 node_354 }
     node_347:sw -> node_357:nw [style="invis", weight=999 ];
-        { rank=same node_347 node_348 node_349 }
+    { rank=same node_347 node_348 node_349 }
   }
   node_357:sw -> node_358:nw [ style="invis" ];
   subgraph cluster_24 {
@@ -1096,7 +1096,7 @@ digraph canonicals_nonamb {
     node_369 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_369 node_365 }
     node_358:sw -> node_369:nw [style="invis", weight=999 ];
-        { rank=same node_358 node_359 node_360 }
+    { rank=same node_358 node_359 node_360 }
   }
   node_369:sw -> node_370:nw [ style="invis" ];
   subgraph cluster_25 {
@@ -1128,7 +1128,7 @@ digraph canonicals_nonamb {
     node_381 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_381 node_377 }
     node_370:sw -> node_381:nw [style="invis", weight=999 ];
-        { rank=same node_370 node_371 node_372 }
+    { rank=same node_370 node_371 node_372 }
   }
   node_381:sw -> node_382:nw [ style="invis" ];
   subgraph cluster_26 {
@@ -1166,9 +1166,9 @@ digraph canonicals_nonamb {
     node_396 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_396 node_390 }
     node_382:sw -> node_396:nw [style="invis", weight=999 ];
-        { rank=same node_382 node_383 node_384 }
+    { rank=same node_382 node_383 node_384 }
   }
-  node_396 -> ln_anchor [ style="invis" ];
+  node_396:sw -> ln_anchor:nw [ style="invis" ];
   subgraph cluster_legend {
     labeljust="l";
     fontsize="18.0";
@@ -1180,8 +1180,8 @@ digraph canonicals_nonamb {
     ln_axiom [ label="axiom", color="black", penwidth=3, shape="box" ];
     ln_overlay [ label="index overlay", color="#555555", shape="polygon", sides=8 ];
     ln_block [ label="block", color="gray" ];
-    ln_lhs_nt_tab [ label="tabulated", color="black", shape="box", style="dotted" ];
-    ln_lhs_nt_nontab [ label="not tabulated", color="black", shape="box" ];
+    ln_lhs_nt_tab [ label="tabulated", color="black", shape="box" ];
+    ln_lhs_nt_nontab [ label="not tabulated", color="black", shape="box", style="dotted" ];
     ln_filter [ label="filter", fontcolor="magenta", shape=none ];
     ln_choice [ label="evaluation function", fontcolor="purple", shape=none ];
     ln_type [ label="data type", fontcolor="orange", shape=none ];

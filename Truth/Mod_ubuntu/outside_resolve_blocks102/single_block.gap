@@ -432,7 +432,7 @@ digraph stefansDangle {
     node_73 -> node_155 [ arrowhead=none, color="purple" ];
     { rank=same node_73 node_74 node_75 node_83 node_84 node_92 node_93 node_102 node_103 node_110 node_111 node_122 node_123 node_131 node_132 node_140 node_141 node_149 node_150 }
   }
-  node_156 -> ln_anchor [ style="invis" ];
+  node_156:sw -> ln_anchor:nw [ style="invis" ];
   subgraph cluster_legend {
     labeljust="l";
     fontsize="18.0";
@@ -444,8 +444,8 @@ digraph stefansDangle {
     ln_axiom [ label="axiom", color="black", penwidth=3, shape="box" ];
     ln_overlay [ label="index overlay", color="#555555", shape="polygon", sides=8 ];
     ln_block [ label="block", color="gray" ];
-    ln_lhs_nt_tab [ label="tabulated", color="black", shape="box", style="dotted" ];
-    ln_lhs_nt_nontab [ label="not tabulated", color="black", shape="box" ];
+    ln_lhs_nt_tab [ label="tabulated", color="black", shape="box" ];
+    ln_lhs_nt_nontab [ label="not tabulated", color="black", shape="box", style="dotted" ];
     ln_filter [ label="filter", fontcolor="magenta", shape=none ];
     ln_choice [ label="evaluation function", fontcolor="purple", shape=none ];
     ln_type [ label="data type", fontcolor="orange", shape=none ];

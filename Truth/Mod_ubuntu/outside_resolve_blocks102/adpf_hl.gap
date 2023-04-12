@@ -26,7 +26,7 @@ digraph fold {
     node_8 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_8 node_5 }
     node_1:sw -> node_8:nw [style="invis", weight=999 ];
-        { rank=same node_1 node_2 node_3 }
+    { rank=same node_1 node_2 node_3 }
   }
   node_8:sw -> node_9:nw [ style="invis" ];
   subgraph cluster_2 {
@@ -108,7 +108,7 @@ digraph fold {
     node_33 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_33 node_30 }
     node_27:sw -> node_33:nw [style="invis", weight=999 ];
-        { rank=same node_27 node_28 node_29 }
+    { rank=same node_27 node_28 node_29 }
   }
   node_33:sw -> node_34:nw [ style="invis" ];
   subgraph cluster_4 {
@@ -136,7 +136,7 @@ digraph fold {
     node_43 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_43 node_40 }
     node_34:sw -> node_43:nw [style="invis", weight=999 ];
-        { rank=same node_34 node_35 node_36 }
+    { rank=same node_34 node_35 node_36 }
   }
   node_43:sw -> node_44:nw [ style="invis" ];
   subgraph cluster_5 {
@@ -238,7 +238,7 @@ digraph fold {
     node_68 -> node_80 [ arrowhead=none, color="purple" ];
     { rank=same node_68 node_69 node_70 }
   }
-  node_81 -> ln_anchor [ style="invis" ];
+  node_81:sw -> ln_anchor:nw [ style="invis" ];
   subgraph cluster_legend {
     labeljust="l";
     fontsize="18.0";
@@ -250,8 +250,8 @@ digraph fold {
     ln_axiom [ label="axiom", color="black", penwidth=3, shape="box" ];
     ln_overlay [ label="index overlay", color="#555555", shape="polygon", sides=8 ];
     ln_block [ label="block", color="gray" ];
-    ln_lhs_nt_tab [ label="tabulated", color="black", shape="box", style="dotted" ];
-    ln_lhs_nt_nontab [ label="not tabulated", color="black", shape="box" ];
+    ln_lhs_nt_tab [ label="tabulated", color="black", shape="box" ];
+    ln_lhs_nt_nontab [ label="not tabulated", color="black", shape="box", style="dotted" ];
     ln_filter [ label="filter", fontcolor="magenta", shape=none ];
     ln_choice [ label="evaluation function", fontcolor="purple", shape=none ];
     ln_type [ label="data type", fontcolor="orange", shape=none ];

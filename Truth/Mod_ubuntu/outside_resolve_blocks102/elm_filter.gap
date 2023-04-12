@@ -68,7 +68,7 @@ digraph bill {
     node_21 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
     { rank=same node_21 node_20 }
     node_17:sw -> node_21:nw [style="invis", weight=999 ];
-        { rank=same node_17 node_18 node_19 }
+    { rank=same node_17 node_18 node_19 }
   }
   node_21:sw -> node_22:nw [ style="invis" ];
   subgraph cluster_3 {
@@ -81,8 +81,7 @@ digraph bill {
       peripheries=0;
       node_24 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>CHAR('+')<br/><font color='orange'>[char]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="blue" ];
     };
-    node_22:sw -> node_22:nw [style="invis", weight=999 ];
-        { rank=same node_22 node_23 node_24 }
+    { rank=same node_22 node_23 node_24 }
   }
   node_22:sw -> node_25:nw [ style="invis" ];
   subgraph cluster_4 {
@@ -95,10 +94,9 @@ digraph bill {
       peripheries=0;
       node_27 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>CHAR('*')<br/><font color='orange'>[char]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="blue" ];
     };
-    node_25:sw -> node_25:nw [style="invis", weight=999 ];
-        { rank=same node_25 node_26 node_27 }
+    { rank=same node_25 node_26 node_27 }
   }
-  node_27 -> ln_anchor [ style="invis" ];
+  node_25:sw -> ln_anchor:nw [ style="invis" ];
   subgraph cluster_legend {
     labeljust="l";
     fontsize="18.0";
@@ -110,8 +108,8 @@ digraph bill {
     ln_axiom [ label="axiom", color="black", penwidth=3, shape="box" ];
     ln_overlay [ label="index overlay", color="#555555", shape="polygon", sides=8 ];
     ln_block [ label="block", color="gray" ];
-    ln_lhs_nt_tab [ label="tabulated", color="black", shape="box", style="dotted" ];
-    ln_lhs_nt_nontab [ label="not tabulated", color="black", shape="box" ];
+    ln_lhs_nt_tab [ label="tabulated", color="black", shape="box" ];
+    ln_lhs_nt_nontab [ label="not tabulated", color="black", shape="box", style="dotted" ];
     ln_filter [ label="filter", fontcolor="magenta", shape=none ];
     ln_choice [ label="evaluation function", fontcolor="purple", shape=none ];
     ln_type [ label="data type", fontcolor="orange", shape=none ];
