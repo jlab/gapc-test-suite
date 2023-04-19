@@ -1012,7 +1012,7 @@ digraph pknotsRG {
       node_343 [ label=<<table border='0'><tr><td>bkd (alphaLeftOuter)</td></tr></table>>, color="green" ];
       node_344 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
       node_343 -> node_344 [ arrowhead=none ];
-      node_345 [ label=<<table border='0'><tr><td>outside_back</td></tr></table>>, color="black" ];
+      node_345 [ label=<<table border='0'><tr><td>outside_back (alphaLeftOuter)</td></tr></table>>, color="black" ];
       node_343 -> node_345 [ arrowhead=none ];
     };
     subgraph cluster_bar_346 {
@@ -1021,7 +1021,7 @@ digraph pknotsRG {
     };
     subgraph cluster_alt_347 {
       peripheries=0;
-      node_347 [ label=<<table border='0'><tr><td>outside_back</td></tr></table>>, color="black" ];
+      node_347 [ label=<<table border='0'><tr><td>outside_back (alphaLeftOuter)</td></tr></table>>, color="black" ];
     };
     node_348 [ label=<h>, fontcolor="purple", shape=plain ];
     node_349 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
@@ -1358,7 +1358,7 @@ digraph pknotsRG {
     subgraph cluster_alt_463 {
       peripheries=0;
       node_463 [ label=<<table border='0'><tr><td>frd (betaRightOuter)</td></tr></table>>, color="green" ];
-      node_464 [ label=<<table border='0'><tr><td>outside_front</td></tr></table>>, color="black" ];
+      node_464 [ label=<<table border='0'><tr><td>outside_front (betaRightOuter)</td></tr></table>>, color="black" ];
       node_463 -> node_464 [ arrowhead=none ];
       node_465 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
       node_463 -> node_465 [ arrowhead=none ];
@@ -1369,7 +1369,7 @@ digraph pknotsRG {
     };
     subgraph cluster_alt_467 {
       peripheries=0;
-      node_467 [ label=<<table border='0'><tr><td>outside_front</td></tr></table>>, color="black" ];
+      node_467 [ label=<<table border='0'><tr><td>outside_front (betaRightOuter)</td></tr></table>>, color="black" ];
     };
     node_468 [ label=<h>, fontcolor="purple", shape=plain ];
     node_469 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
@@ -1526,7 +1526,7 @@ digraph pknotsRG {
       node_514 [ label=<<table border='0'><tr><td>middlr (betaRightInner, alphaLeftInner)</td></tr></table>>, color="green" ];
       node_515 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
       node_514 -> node_515 [ arrowhead=none ];
-      node_516 [ label=<<table border='0'><tr><td>outside_middle</td></tr></table>>, color="black" ];
+      node_516 [ label=<<table border='0'><tr><td>outside_middle (betaRightInner, alphaLeftInner)</td></tr></table>>, color="black" ];
       node_514 -> node_516 [ arrowhead=none ];
       node_517 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
       node_514 -> node_517 [ arrowhead=none ];
@@ -1538,7 +1538,7 @@ digraph pknotsRG {
     subgraph cluster_alt_519 {
       peripheries=0;
       node_519 [ label=<<table border='0'><tr><td>middr (alphaLeftInner)</td></tr></table>>, color="green" ];
-      node_520 [ label=<<table border='0'><tr><td>outside_middle</td></tr></table>>, color="black" ];
+      node_520 [ label=<<table border='0'><tr><td>outside_middle (betaRightInner, alphaLeftInner)</td></tr></table>>, color="black" ];
       node_519 -> node_520 [ arrowhead=none ];
       node_521 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
       node_519 -> node_521 [ arrowhead=none ];
@@ -1552,7 +1552,7 @@ digraph pknotsRG {
       node_523 [ label=<<table border='0'><tr><td>middl (betaRightInner)</td></tr></table>>, color="green" ];
       node_524 [ label=<<table border='0'><tr><td>BASE</td></tr></table>>, color="blue" ];
       node_523 -> node_524 [ arrowhead=none ];
-      node_525 [ label=<<table border='0'><tr><td>outside_middle</td></tr></table>>, color="black" ];
+      node_525 [ label=<<table border='0'><tr><td>outside_middle (betaRightInner, alphaLeftInner)</td></tr></table>>, color="black" ];
       node_523 -> node_525 [ arrowhead=none ];
     };
     subgraph cluster_bar_526 {
@@ -1562,7 +1562,7 @@ digraph pknotsRG {
     subgraph cluster_alt_527 {
       peripheries=0;
       node_527 [ label=<<table border='0'><tr><td>midregion</td></tr></table>>, color="green" ];
-      node_528 [ label=<<table border='0'><tr><td>outside_middle</td></tr></table>>, color="black" ];
+      node_528 [ label=<<table border='0'><tr><td>outside_middle (betaRightInner, alphaLeftInner)</td></tr></table>>, color="black" ];
       node_527 -> node_528 [ arrowhead=none ];
     };
     node_529 [ label=<h>, fontcolor="purple", shape=plain ];
