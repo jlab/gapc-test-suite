@@ -988,7 +988,7 @@ digraph pknotsRG {
       node_331 -> node_335 [ arrowhead=none ];
       node_336 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" , shape="polygon", sides=8];
       node_331 -> node_336 [ arrowhead=none ];
-      node_337 [ label=<<table border='0'><tr><td>outside_help_pknot (i)</td></tr></table>>, color="black" , shape="polygon", sides=8];
+      node_337 [ label=<<table border='0'><tr><td>outside_help_pknot</td></tr></table>>, color="black" , shape="polygon", sides=8];
       node_331 -> node_337 [ arrowhead=none ];
       node_338 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" , shape="polygon", sides=8];
       node_331 -> node_338 [ arrowhead=none ];
@@ -1328,7 +1328,7 @@ digraph pknotsRG {
       node_451 [ label=<<table border='0'><tr><td>.[ pknot (stackenergies) ].</td></tr></table>>, color="green" , shape="polygon", sides=8];
       node_452 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" , shape="polygon", sides=8];
       node_451 -> node_452 [ arrowhead=none ];
-      node_453 [ label=<<table border='0'><tr><td>outside_help_pknot (j)</td></tr></table>>, color="black" , shape="polygon", sides=8];
+      node_453 [ label=<<table border='0'><tr><td>outside_help_pknot</td></tr></table>>, color="black" , shape="polygon", sides=8];
       node_451 -> node_453 [ arrowhead=none ];
       node_454 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" , shape="polygon", sides=8];
       node_451 -> node_454 [ arrowhead=none ];
@@ -1588,7 +1588,7 @@ digraph pknotsRG {
       node_533 -> node_535 [ arrowhead=none ];
       node_536 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" , shape="polygon", sides=8];
       node_533 -> node_536 [ arrowhead=none ];
-      node_537 [ label=<<table border='0'><tr><td>outside_help_pknot ((j - betareallen), (i + alphareallen))</td></tr></table>>, color="black" , shape="polygon", sides=8];
+      node_537 [ label=<<table border='0'><tr><td>outside_help_pknot</td></tr></table>>, color="black" , shape="polygon", sides=8];
       node_533 -> node_537 [ arrowhead=none ];
       node_538 [ label=<<table border='0'><tr><td>REGION</td></tr></table>>, color="blue" , shape="polygon", sides=8];
       node_533 -> node_538 [ arrowhead=none ];
@@ -2051,7 +2051,7 @@ digraph pknotsRG {
     };
     subgraph cluster_alt_690 {
       peripheries=0;
-      node_690 [ label=<<table border='0'><tr><td>outside_middle</td></tr></table>>, color="black" ];
+      node_690 [ label=<<table border='0'><tr><td>outside_middle (betaRightInner, alphaLeftInner)</td></tr></table>>, color="black" ];
     };
     subgraph cluster_bar_691 {
       peripheries=0;
