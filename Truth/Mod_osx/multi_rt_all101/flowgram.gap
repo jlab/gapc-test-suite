@@ -1,1 +1,1 @@
-24n^2  + 24
+../../Mod_ubuntu/multi_rt_all101/flowgram.gap

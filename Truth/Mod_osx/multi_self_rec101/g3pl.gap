@@ -1,4 +1,1 @@
-struct 2
-pair 11
-r 1
-t 10
+../../Mod_ubuntu/multi_self_rec101/g3pl.gap

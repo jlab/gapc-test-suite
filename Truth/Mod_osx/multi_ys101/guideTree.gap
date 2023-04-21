@@ -1,3 +1,1 @@
-start {(0, n)}
-s {(0, n)}
-p {(1, n)}
+../../Mod_ubuntu/multi_ys101/guideTree.gap

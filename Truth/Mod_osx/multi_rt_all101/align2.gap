@@ -1,1 +1,1 @@
-15n^2  + 15
+../../Mod_ubuntu/multi_rt_all101/align2.gap

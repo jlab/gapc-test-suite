@@ -1,1 +1,1 @@
-2n^3  + 13n^2  + 2n + 13
+../../Mod_ubuntu/multi_rt_all101/nussinovDurbin.gap

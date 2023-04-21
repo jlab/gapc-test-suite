@@ -1,1 +1,1 @@
-36n^3  + 4576n^2  + 18n + 8
+../../Mod_ubuntu/multi_rt_all101/macrostate.gap

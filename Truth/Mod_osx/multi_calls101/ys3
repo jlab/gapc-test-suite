@@ -1,9 +1,1 @@
-NT b: -> CHAR (1)
- -> CHAR (1) -> CHAR (1)
- -> CHAR (1) -> CHAR (1) -> CHAR (1)
-
-
-NT start: -> REGION (1)
- -> b (1)
-
-
+../../Mod_ubuntu/multi_calls101/ys3

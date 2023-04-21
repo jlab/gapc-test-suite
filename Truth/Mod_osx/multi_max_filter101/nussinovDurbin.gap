@@ -1,1 +1,1 @@
-start {(0, n)}
+../../Mod_ubuntu/multi_max_filter101/nussinovDurbin.gap

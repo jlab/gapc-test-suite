@@ -1,5 +1,1 @@
-struct [(linear,right(1),right:(0, 0))]
-closed [(quadratic)]
-ml_components [(quadratic)]
-block [(quadratic)]
-comps [(quadratic)]
+../../Mod_ubuntu/multi_table_dim101/structure2shape.gap

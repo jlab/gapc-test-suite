@@ -1,1 +1,1 @@
-48n^3  + 6042n^2  + 18n + 8
+../../Mod_ubuntu/multi_rt_all101/rnashapespf.gap

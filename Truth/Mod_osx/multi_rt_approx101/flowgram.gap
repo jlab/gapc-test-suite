@@ -1,2 +1,1 @@
-24n^2  + 24
-{ali, } #1 of 1 
+../../Mod_ubuntu/multi_rt_approx101/flowgram.gap

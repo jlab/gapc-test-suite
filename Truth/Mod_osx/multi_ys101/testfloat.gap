@@ -1,1 +1,1 @@
-entry {(1, n)}
+../../Mod_ubuntu/multi_ys101/testfloat.gap

@@ -1,2 +1,1 @@
-sl -> sr
-sr -> pl
+../../Mod_ubuntu/multi_deps101/palloc.gap

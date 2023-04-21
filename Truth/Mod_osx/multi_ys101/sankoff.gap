@@ -1,1 +1,1 @@
-sank {(0, n), (0, n)}
+../../Mod_ubuntu/multi_ys101/sankoff.gap

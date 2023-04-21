@@ -1,4 +1,1 @@
-formula 4
-number 0
-plus 0
-times 0
+../../Mod_ubuntu/multi_self_rec101/elm.gap

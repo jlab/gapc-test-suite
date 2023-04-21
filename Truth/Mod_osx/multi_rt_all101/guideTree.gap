@@ -1,1 +1,1 @@
-2n^3  + 20n^2  + 4
+../../Mod_ubuntu/multi_rt_all101/guideTree.gap

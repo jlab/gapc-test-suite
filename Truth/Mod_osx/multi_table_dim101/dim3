@@ -1,3 +1,1 @@
-start [(const,left:(0, 0),right:(0, 0))]
-foo [(linear,left(1),left:(0, 0))]
-bar [(quadratic)]
+../../Mod_ubuntu/multi_table_dim101/dim3

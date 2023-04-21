@@ -1,1 +1,1 @@
-2n^3  + 2898n^2  + 30n + 60
+../../Mod_ubuntu/multi_rt_all101/hsinfernal.gap

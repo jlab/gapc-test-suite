@@ -1,1 +1,1 @@
-2n^3  + 10n^2  + 2n + 6
+../../Mod_ubuntu/multi_rt_all101/nussinov.gap

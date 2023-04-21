@@ -1,2 +1,1 @@
-struct {(10, n)}
-hairpin {(5, n)}
+../../Mod_ubuntu/multi_ys101/tdm2hp.gap

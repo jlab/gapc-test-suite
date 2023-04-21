@@ -1,3 +1,1 @@
-ali 3
-gap 0
-gap_1 0
+../../Mod_ubuntu/multi_self_rec101/flowgram2b.gap

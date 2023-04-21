@@ -1,17 +1,1 @@
-Error: 
-   start =  f(REGION with maxsize(2), start) |
-            ^
-tab4:10.13: Function f is not defined
-Error: 
-signature Foo(alphabet, answer) {
-^-----------^
-tab4:1.1-13: in signature Foo.
-Error: 
-            g(CHAR) ;
-            ^
-tab4:11.13: Function g is not defined
-Error: 
-signature Foo(alphabet, answer) {
-^-----------^
-tab4:1.1-13: in signature Foo.
-Return: 0
+../../Mod_ubuntu/multi_signature101/tab4

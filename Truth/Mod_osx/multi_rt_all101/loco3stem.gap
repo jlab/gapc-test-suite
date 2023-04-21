@@ -1,1 +1,1 @@
-8n^3  + 311n^2  + 6n + 4
+../../Mod_ubuntu/multi_rt_all101/loco3stem.gap

@@ -1,4 +1,1 @@
-NT alignment: <  -> SEQ (1),  -> SEQ (1),  > 
- <  -> CHAR (1),  -> CHAR (1),  >  -> alignment (1)
-
-
+../../Mod_ubuntu/multi_calls101/ali2.gap

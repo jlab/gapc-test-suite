@@ -1,1 +1,1 @@
-sank [(quadratic), (quadratic)]
+../../Mod_ubuntu/multi_table_dim101/sankoff.gap

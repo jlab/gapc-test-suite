@@ -1,3 +1,1 @@
-     start in                              1      out                              1
-         A in                              1      out                              1
-         B in                              1      out                             2n
+../../Mod_ubuntu/multi_in_out101/mchoice.gap

@@ -1,1 +1,1 @@
-pl 1
+../../Mod_ubuntu/multi_self_rec101/pal0.gap

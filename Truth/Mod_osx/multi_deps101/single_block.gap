@@ -1,4 +1,1 @@
-component -> initstem
-hlcons -> component
-initstem -> stem
-struct -> hlcons
+../../Mod_ubuntu/multi_deps101/single_block.gap

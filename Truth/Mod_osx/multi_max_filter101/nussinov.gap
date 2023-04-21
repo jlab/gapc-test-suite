@@ -1,2 +1,1 @@
-start {(0, n)}
-bp {(2, n)}
+../../Mod_ubuntu/multi_max_filter101/nussinov.gap

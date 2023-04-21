@@ -1,1 +1,1 @@
-matrix {(4, n)}
+../../Mod_ubuntu/multi_ys101/matrix.gap

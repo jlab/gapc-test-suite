@@ -1,1 +1,1 @@
-7n
+../../Mod_ubuntu/multi_rt_all101/ali2.gap

@@ -1,1 +1,1 @@
-pl {(0, n)}
+../../Mod_ubuntu/multi_max_filter101/pal0.gap

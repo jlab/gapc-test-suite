@@ -1,12 +1,1 @@
-NT b: -> REGION (n) -> start (n)
- -> EMPTY (1)
-
-
-NT c: -> REGION (n) -> start (n)
- -> EMPTY (1)
-
-
-NT start: -> REGION (n) -> b (n)
- -> REGION (n) -> c (n)
-
-
+../../Mod_ubuntu/multi_calls101/special5

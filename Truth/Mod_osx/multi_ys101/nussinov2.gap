@@ -1,1 +1,1 @@
-start {(0, n)}
+../../Mod_ubuntu/multi_ys101/nussinov2.gap
