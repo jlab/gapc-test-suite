@@ -810,7 +810,7 @@ digraph fold {
   subgraph cluster_23 {
     peripheries=1;
     label="";
-    node_276 [ label=<<table border='0'><tr><td>outside_axioms</td></tr></table>>, color="black", shape="box", penwidth=3 ];
+    node_276 [ label=<<table border='0'><tr><td>outside_axioms</td></tr></table>>, color="black", shape="box", penwidth=3, style="dotted" ];
     node_276 -> node_277 [ style="invis", weight=99 ];
     node_277 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     subgraph cluster_alt_278 {

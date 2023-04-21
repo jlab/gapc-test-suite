@@ -8477,7 +8477,7 @@ digraph tdm {
   subgraph cluster_47 {
     peripheries=1;
     label="";
-    node_3928 [ label=<<table border='0'><tr><td>outside_axioms</td></tr></table>>, color="black", shape="box", penwidth=3 ];
+    node_3928 [ label=<<table border='0'><tr><td>outside_axioms</td></tr></table>>, color="black", shape="box", penwidth=3, style="dotted" ];
     node_3928 -> node_3929 [ style="invis", weight=99 ];
     node_3929 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     subgraph cluster_alt_3930 {
