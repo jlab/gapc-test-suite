@@ -1,2 +1,1 @@
-24n^2  + 3n
-{alignment, xDel, xIns, } #3 of 5 
+../../Mod_ubuntu/multi_rt_approx101/affinelocsim.gap

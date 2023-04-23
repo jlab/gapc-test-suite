@@ -1,1 +1,1 @@
-alignment 1
+../../Mod_ubuntu/multi_self_rec101/ali2.gap

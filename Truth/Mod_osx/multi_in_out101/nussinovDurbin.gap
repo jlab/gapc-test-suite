@@ -1,1 +1,1 @@
-     start in                         2n + 4      out                         2n + 8
+../../Mod_ubuntu/multi_in_out101/nussinovDurbin.gap

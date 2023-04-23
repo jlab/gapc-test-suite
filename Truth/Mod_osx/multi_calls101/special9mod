@@ -1,15 +1,1 @@
-NT b: -> CHAR (1) -> b (1)
- -> CHAR (1) -> c (1)
- -> c (1) -> CHAR (1)
-
-
-NT c: -> REGION (n) -> d (n)
-
-
-NT d: -> REGION (n) -> REGION (n)
-
-
-NT start: -> CHAR (1) -> start (1)
- -> b (1)
-
-
+../../Mod_ubuntu/multi_calls101/special9mod

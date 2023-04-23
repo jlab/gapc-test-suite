@@ -1,3 +1,1 @@
-block -> closed
-comps -> block
-struct -> closed
+../../Mod_ubuntu/multi_deps101/structure2shape.gap

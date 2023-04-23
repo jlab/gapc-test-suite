@@ -1,17 +1,1 @@
-Error: 
-start = x(start, CHAR) |
-        ^
-lin1:9.9: Function x is not defined
-Error: 
-signature Foo(alphabet, answer) {
-^-----------^
-lin1:1.1-13: in signature Foo.
-Error: 
-        x(start, CHAR, CHAR) |
-        ^
-lin1:10.9: Function x is not defined
-Error: 
-signature Foo(alphabet, answer) {
-^-----------^
-lin1:1.1-13: in signature Foo.
-Return: 0
+../../Mod_ubuntu/multi_signature101/lin1

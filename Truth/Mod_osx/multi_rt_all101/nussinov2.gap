@@ -1,1 +1,1 @@
-4n^3  + 7n^2  + 4n + 7
+../../Mod_ubuntu/multi_rt_all101/nussinov2.gap

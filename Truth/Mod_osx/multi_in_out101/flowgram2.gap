@@ -1,1 +1,1 @@
-       ali in                              4      out                             27
+../../Mod_ubuntu/multi_in_out101/flowgram2.gap

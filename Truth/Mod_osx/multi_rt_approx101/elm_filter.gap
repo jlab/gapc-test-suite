@@ -1,2 +1,1 @@
-3n^3  + 8n^2  + 3n + 10
-{formula, times<<, } #2 of 4 
+../../Mod_ubuntu/multi_rt_approx101/elm_filter.gap

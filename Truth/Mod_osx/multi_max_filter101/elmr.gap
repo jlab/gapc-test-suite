@@ -1,4 +1,1 @@
-formula {(0, n)}
-number {(0, 0)}
-plus {(1, 1)}
-times {(1, 1)}
+../../Mod_ubuntu/multi_max_filter101/elmr.gap

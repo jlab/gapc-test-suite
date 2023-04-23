@@ -1,1 +1,1 @@
-30n^8  + 14n^3  + 6348n^2  + 8n + 6
+../../Mod_ubuntu/multi_rt_all101/pknotsRG.gap

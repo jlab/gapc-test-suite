@@ -1,2 +1,1 @@
-4n^3  + 7n^2  + 4n + 7
-{start, } #1 of 1 
+../../Mod_ubuntu/multi_rt_approx101/nussinov2.gap

@@ -1,2 +1,1 @@
-2n^3  + 32017616n^2  + 37762366n + 18881184
-{b_63, il_105, il_111, il_117, il_123, il_127, il_13, il_130, il_133, il_136, il_139, il_19, il_25, il_31, il_37, il_41, il_44, il_47, il_50, il_53, il_56, il_59, il_65, il_68, il_7, il_71, il_74, il_79, il_85, il_91, ir_106, ir_112, ir_118, ir_124, ir_14, ir_20, ir_26, ir_32, ir_38, ir_62, ir_8, ir_80, ir_86, ir_92, s_100, s_64, } #46 of 141 
+../../Mod_ubuntu/multi_rt_approx101/hsinfernal.gap

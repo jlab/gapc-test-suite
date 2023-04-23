@@ -1,5 +1,1 @@
-struct {(0, n)}
-closed {(7, n)}
-ml_components {(14, n)}
-block {(7, n)}
-comps {(7, n)}
+../../Mod_ubuntu/multi_ys101/structure2shape.gap

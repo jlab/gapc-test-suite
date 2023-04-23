@@ -1,12 +1,1 @@
-NT pal: -> CHAR (1) -> pal (1) -> CHAR (1)
- -> SEQ1 (1)
-
-
-NT sl: -> CHAR (1) -> sl (1)
- -> sr (1)
-
-
-NT sr: -> sr (1) -> CHAR (1)
- -> pal (1)
-
-
+../../Mod_ubuntu/multi_calls101/palloc

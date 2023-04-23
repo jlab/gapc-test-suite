@@ -1,6 +1,1 @@
-formula [(quadratic)]
-foo [(quadratic)]
-bar [(quadratic)]
-number [(quadratic)]
-plus [(quadratic)]
-times [(quadratic)]
+../../Mod_ubuntu/multi_table_dim101/elmmultiple.gap

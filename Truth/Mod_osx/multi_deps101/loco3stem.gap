@@ -1,10 +1,1 @@
-motif0 -> stem0
-motif1 -> hairpin1
-motif3 -> stem3
-motif4 -> hairpin4
-motif6 -> stem6
-motif7 -> hairpin7
-rnastruct -> structstart
-tail0 -> tail1
-tail2 -> tail3
-tail3 -> motif6
+../../Mod_ubuntu/multi_deps101/loco3stem.gap

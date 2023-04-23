@@ -1,2 +1,1 @@
-     start in                          n + 3      out                         2n + 3
-        bp in                              n      out                              3
+../../Mod_ubuntu/multi_in_out101/nussinov.gap

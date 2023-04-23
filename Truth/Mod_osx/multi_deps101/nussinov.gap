@@ -1,1 +1,1 @@
-start -> bp
+../../Mod_ubuntu/multi_deps101/nussinov.gap

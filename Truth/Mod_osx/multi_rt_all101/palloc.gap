@@ -1,1 +1,1 @@
-10n^2  + 4n + 4
+../../Mod_ubuntu/multi_rt_all101/palloc.gap

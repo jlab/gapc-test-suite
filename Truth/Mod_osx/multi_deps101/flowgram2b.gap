@@ -1,2 +1,1 @@
-ali -> gap
-ali -> gap_1
+../../Mod_ubuntu/multi_deps101/flowgram2b.gap

@@ -1,1 +1,1 @@
-3n^3  + 8n^2  + 3n + 8
+../../Mod_ubuntu/multi_rt_all101/elm_filter.gap

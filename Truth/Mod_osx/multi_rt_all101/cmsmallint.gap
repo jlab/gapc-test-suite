@@ -1,1 +1,1 @@
-1577n^2  + 19n + 38
+../../Mod_ubuntu/multi_rt_all101/cmsmallint.gap

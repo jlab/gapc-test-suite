@@ -1,3 +1,1 @@
-start 0
-A 0
-B 0
+../../Mod_ubuntu/multi_self_rec101/mchoice.gap

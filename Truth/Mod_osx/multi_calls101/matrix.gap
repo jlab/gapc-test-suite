@@ -1,4 +1,1 @@
-NT matrix: -> INT (n) -> INT (n)
- -> matrix (n) -> matrix (n)
-
-
+../../Mod_ubuntu/multi_calls101/matrix.gap

@@ -24,7 +24,7 @@ number [ < (t_0_i, t_0_j) > ] = f( CONST_RATIO( Rational("1/4"), ), )
 f( \t_0_i ,t_0_i/, )
 
 CONST_RATIO( Rational("1/4"), )
-CONST_RATIO( \t_0_i ,(t_0_i + 3)/, )
+CONST_RATIO( \t_0_i ,t_0_i/, )
 
  | 
 	

@@ -1,1 +1,1 @@
-6259n^2  + 2
+../../Mod_ubuntu/multi_rt_all101/adpf_hl.gap

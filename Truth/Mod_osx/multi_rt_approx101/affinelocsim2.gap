@@ -1,2 +1,1 @@
-30n^2  + 4n
-{ < %alignment, %alignment > ,  < %xDel, %xDel > ,  < %xIns, %xIns > , } #3 of 5 
+../../Mod_ubuntu/multi_rt_approx101/affinelocsim2.gap

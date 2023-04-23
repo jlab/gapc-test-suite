@@ -1,2 +1,1 @@
-2n^3  + 23n^2  + 4
-{p, } #1 of 3 
+../../Mod_ubuntu/multi_rt_approx101/guideTree.gap

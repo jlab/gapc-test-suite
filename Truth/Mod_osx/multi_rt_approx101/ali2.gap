@@ -1,2 +1,1 @@
-7n
-{} #0 of 1 
+../../Mod_ubuntu/multi_rt_approx101/ali2.gap

@@ -1,3 +1,1 @@
-start [(const,left:(0, 0),right:(0, 0))]
-foo [(linear,right(1),right:(0, 0))]
-bar [(linear,right(1),right:(0, 0))]
+../../Mod_ubuntu/multi_table_dim101/dep1

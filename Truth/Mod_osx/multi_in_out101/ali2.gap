@@ -1,1 +1,1 @@
- alignment in                              2      out                              5
+../../Mod_ubuntu/multi_in_out101/ali2.gap

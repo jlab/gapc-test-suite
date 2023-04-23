@@ -1,11 +1,1 @@
-struct 2
-dangle 9
-closed 41
-stack 1
-hairpin 0
-leftB 1
-rightB 1
-iloop 1
-multiloop 1
-ml_comps 11
-ml_comps1 21
+../../Mod_ubuntu/multi_self_rec101/adpf.gap

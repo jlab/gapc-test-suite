@@ -1,2 +1,1 @@
-12n + 1
-{} #0 of 2 
+../../Mod_ubuntu/multi_rt_approx101/tdm2hp.gap

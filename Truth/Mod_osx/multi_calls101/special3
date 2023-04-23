@@ -1,18 +1,1 @@
-NT b: -> CHAR (1) -> d (1)
- -> CHAR (1) -> e (1)
-
-
-NT c: -> REGION (1)
-
-
-NT d: -> CHAR (1) -> b (1)
- -> EMPTY (1)
-
-
-NT e: -> CHAR (1) -> e (1)
- -> EMPTY (1)
-
-
-NT start: -> b (n) -> c (n)
-
-
+../../Mod_ubuntu/multi_calls101/special3

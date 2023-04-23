@@ -1,5 +1,1 @@
-skipR [(const,left:(0, 0),right:(0, 0)), (linear,right(1),right:(0, 0))]
-skipL [(linear,right(1),right:(0, 0)), (linear,right(1),right:(0, 0))]
-alignment [(linear,right(1),right:(0, 0)), (linear,right(1),right:(0, 0))]
-xDel [(linear,right(1),right:(0, 0)), (linear,right(1),right:(0, 0))]
-xIns [(linear,right(1),right:(0, 0)), (linear,right(1),right:(0, 0))]
+../../Mod_ubuntu/multi_table_dim101/affinelocsim2.gap

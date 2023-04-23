@@ -1,11 +1,1 @@
-struct {(0, n)}
-dangle {(5, n)}
-closed {(5, n)}
-stack {(7, n)}
-hairpin {(5, n)}
-leftB {(10, n)}
-rightB {(10, n)}
-iloop {(11, n)}
-multiloop {(14, n)}
-ml_comps {(10, n)}
-ml_comps1 {(5, n)}
+../../Mod_ubuntu/multi_max_filter101/adpf.new

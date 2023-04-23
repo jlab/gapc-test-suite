@@ -1,3 +1,1 @@
-start 0
-s 6
-p 7
+../../Mod_ubuntu/multi_self_rec101/guideTree.gap

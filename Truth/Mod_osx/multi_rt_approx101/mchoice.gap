@@ -1,2 +1,1 @@
-2n + 2
-{} #0 of 3 
+../../Mod_ubuntu/multi_rt_approx101/mchoice.gap
