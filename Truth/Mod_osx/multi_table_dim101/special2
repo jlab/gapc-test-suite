@@ -1,4 +1,1 @@
-start [(const,left:(0, 0),right:(0, 0))]
-a [(quadratic)]
-b [(linear,right(1),right:(0, 0))]
-c [(quadratic)]
+../../Mod_ubuntu/multi_table_dim101/special2

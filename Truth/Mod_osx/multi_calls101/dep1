@@ -1,9 +1,1 @@
-NT bar: -> REGION (1)
-
-
-NT foo: -> REGION (1)
-
-
-NT start: -> REGION (n^3 ) -> REGION (n^3 ) -> REGION (n^3 ) -> foo (n^3 ) -> bar (n^2 )
-
-
+../../Mod_ubuntu/multi_calls101/dep1

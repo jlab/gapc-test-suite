@@ -1,13 +1,1 @@
-Error: 
-signature Sig(alphabet, answer) {
-^-----------^
-pal:2.1-13: There is no choice function defined in signature Sig.
-Error: 
-inner = sep(REGION)          |
-        ^-^
-pal:24.9-11: Function sep is not defined
-Error: 
-signature Sig(alphabet, answer) {
-^-----------^
-pal:2.1-13: in signature Sig.
-Return: 0
+../../Mod_ubuntu/multi_signature101/pal

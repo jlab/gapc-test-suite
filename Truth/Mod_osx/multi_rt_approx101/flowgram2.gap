@@ -1,2 +1,1 @@
-33n^2  + 33
-{ < %ali, %ali > , } #1 of 1 
+../../Mod_ubuntu/multi_rt_approx101/flowgram2.gap

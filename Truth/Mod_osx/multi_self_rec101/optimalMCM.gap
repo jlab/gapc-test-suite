@@ -1,5 +1,1 @@
-matrices 2
-boxl 0
-boxr 0
-by 0
-times 0
+../../Mod_ubuntu/multi_self_rec101/optimalMCM.gap

@@ -1,17 +1,1 @@
-Error: 
-  bar = x(CHAR, bar) | CHAR;
-        ^
-dim4:13.9: Function x is not defined
-Error: 
-signature Foo(alphabet, answer) {
-^-----------^
-dim4:1.1-13: in signature Foo.
-Error: 
-  foo = bar | x(foo, CHAR);
-              ^
-dim4:11.15: Function x is not defined
-Error: 
-signature Foo(alphabet, answer) {
-^-----------^
-dim4:1.1-13: in signature Foo.
-Return: 0
+../../Mod_ubuntu/multi_signature101/dim4

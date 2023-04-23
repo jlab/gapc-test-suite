@@ -1,1 +1,1 @@
-8n^3  + 36n^2  + 18n + 14
+../../Mod_ubuntu/multi_rt_all101/g3pl.gap

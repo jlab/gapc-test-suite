@@ -1,11 +1,1 @@
-struct [(linear,right(1),right:(0, 0))]
-dangle [(quadratic)]
-closed [(quadratic)]
-stack [(quadratic)]
-hairpin [(quadratic)]
-leftB [(quadratic)]
-rightB [(quadratic)]
-iloop [(quadratic)]
-multiloop [(quadratic)]
-ml_comps [(quadratic)]
-ml_comps1 [(quadratic)]
+../../Mod_ubuntu/multi_table_dim101/adpf_multi.gap

@@ -1,9 +1,1 @@
-NT A: -> B (1)
-
-
-NT B: -> REGION (n) -> REGION (n)
-
-
-NT start: -> A (1)
-
-
+../../Mod_ubuntu/multi_calls101/mchoice.gap

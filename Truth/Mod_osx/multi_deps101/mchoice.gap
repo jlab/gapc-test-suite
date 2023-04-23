@@ -1,2 +1,1 @@
-A -> B
-start -> A
+../../Mod_ubuntu/multi_deps101/mchoice.gap

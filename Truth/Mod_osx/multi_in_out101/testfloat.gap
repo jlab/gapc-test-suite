@@ -1,1 +1,1 @@
-     entry in                              1      out                              2
+../../Mod_ubuntu/multi_in_out101/testfloat.gap

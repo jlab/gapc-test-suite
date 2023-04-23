@@ -1,5 +1,1 @@
-struct 2
-closed 24
-ml_components 1
-block 5
-comps 6
+../../Mod_ubuntu/multi_self_rec101/structure2shape.gap

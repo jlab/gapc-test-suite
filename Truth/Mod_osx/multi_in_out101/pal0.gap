@@ -1,1 +1,1 @@
-        pl in                              2      out                              4
+../../Mod_ubuntu/multi_in_out101/pal0.gap

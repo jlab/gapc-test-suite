@@ -1,1 +1,1 @@
- alignment in                              4      out                             11
+../../Mod_ubuntu/multi_in_out101/align2.gap

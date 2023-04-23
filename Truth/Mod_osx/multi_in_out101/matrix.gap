@@ -1,1 +1,1 @@
-    matrix in                         2n + 1      out                         4n + 2
+../../Mod_ubuntu/multi_in_out101/matrix.gap

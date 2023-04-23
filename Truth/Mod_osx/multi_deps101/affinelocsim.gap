@@ -1,4 +1,1 @@
-skipL -> alignment
-skipR -> skipL
-xDel -> alignment
-xIns -> alignment
+../../Mod_ubuntu/multi_deps101/affinelocsim.gap

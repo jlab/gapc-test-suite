@@ -1,2 +1,1 @@
-7n^3  + 4n^2  + 7n + 6
-{formula, times<<, } #2 of 4 
+../../Mod_ubuntu/multi_rt_approx101/elmsyn.gap

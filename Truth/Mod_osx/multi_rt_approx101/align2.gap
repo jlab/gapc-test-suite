@@ -1,2 +1,1 @@
-15n^2  + 15
-{ < %alignment, %alignment > , } #1 of 1 
+../../Mod_ubuntu/multi_rt_approx101/align2.gap

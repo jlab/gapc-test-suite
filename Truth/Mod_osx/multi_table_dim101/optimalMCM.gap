@@ -1,5 +1,1 @@
-matrices [(quadratic)]
-boxl [(quadratic)]
-boxr [(quadratic)]
-by [(quadratic)]
-times [(quadratic)]
+../../Mod_ubuntu/multi_table_dim101/optimalMCM.gap

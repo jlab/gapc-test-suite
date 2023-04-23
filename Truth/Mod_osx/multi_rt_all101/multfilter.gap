@@ -1,1 +1,1 @@
-2n^6  + 14n^4  + 2n^2  + 8
+../../Mod_ubuntu/multi_rt_all101/multfilter.gap

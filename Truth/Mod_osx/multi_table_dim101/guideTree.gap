@@ -1,3 +1,1 @@
-start [(const,left:(0, 0),right:(0, 0))]
-s [(quadratic)]
-p [(quadratic)]
+../../Mod_ubuntu/multi_table_dim101/guideTree.gap

@@ -1,3 +1,1 @@
-sl 1
-sr 2
-pl 3
+../../Mod_ubuntu/multi_self_rec101/palloc.gap

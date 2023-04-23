@@ -1,1 +1,1 @@
-matrix [(quadratic)]
+../../Mod_ubuntu/multi_table_dim101/matrix.gap

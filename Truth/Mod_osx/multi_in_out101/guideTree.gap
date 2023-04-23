@@ -1,3 +1,1 @@
-     start in                              1      out                              1
-         s in                              4      out                              2
-         p in                         2n + 1      out                         2n + 7
+../../Mod_ubuntu/multi_in_out101/guideTree.gap

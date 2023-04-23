@@ -1,2 +1,1 @@
-struct {(0, n), (0, n)}
-bp {(2, n), (2, n)}
+../../Mod_ubuntu/multi_ys101/multfilter.gap

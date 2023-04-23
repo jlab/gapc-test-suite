@@ -1,11 +1,1 @@
-NT a: -> REGION (n) -> b (n)
-
-
-NT b: -> REGION (1)
-
-
-NT start: -> CHAR (1) -> a (1)
- -> a (1) -> CHAR (1)
- -> CHAR (1) -> a (1) -> CHAR (1)
-
-
+../../Mod_ubuntu/multi_calls101/special10

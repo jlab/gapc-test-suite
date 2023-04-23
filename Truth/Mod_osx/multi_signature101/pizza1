@@ -1,17 +1,1 @@
-Error: 
-   formula = f(CHAR, formula) | g(CHAR, STRING ) # h ;
-             ^
-pizza1:11.14: Function f is not defined
-Error: 
-signature Foo(alphabet, answer) {
-^-----------^
-pizza1:1.1-13: in signature Foo.
-Error: 
-   formula = f(CHAR, formula) | g(CHAR, STRING ) # h ;
-                                ^
-pizza1:11.33: Function g is not defined
-Error: 
-signature Foo(alphabet, answer) {
-^-----------^
-pizza1:1.1-13: in signature Foo.
-Return: 0
+../../Mod_ubuntu/multi_signature101/pizza1

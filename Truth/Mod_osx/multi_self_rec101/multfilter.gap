@@ -1,2 +1,1 @@
-struct 5
-bp 1
+../../Mod_ubuntu/multi_self_rec101/multfilter.gap

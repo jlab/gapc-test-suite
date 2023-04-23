@@ -1,1 +1,1 @@
-ali [(quadratic)]
+../../Mod_ubuntu/multi_table_dim101/flowgram.gap

@@ -1,3 +1,1 @@
-ali {(0, n), (0, n)}
-gap {(4, 4)}
-gap_1 {(4, 4)}
+../../Mod_ubuntu/multi_ys101/flowgram2b.gap

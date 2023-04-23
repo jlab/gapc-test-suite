@@ -1,3 +1,1 @@
-sl {(1, n)}
-sr {(1, n)}
-pl {(1, n)}
+../../Mod_ubuntu/multi_ys101/palloc.gap

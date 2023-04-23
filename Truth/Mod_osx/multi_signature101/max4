@@ -1,9 +1,1 @@
-Error: 
-  A = foo(REGION with minsize(12), P , REGION with minsize(7)) with maxsize(42);
-      ^-^
-max4:12.7-9: Function foo is not defined
-Error: 
-signature Foo(alphabet, answer) {
-^-----------^
-max4:1.1-13: in signature Foo.
-Return: 0
+../../Mod_ubuntu/multi_signature101/max4

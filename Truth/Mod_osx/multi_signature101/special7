@@ -1,9 +1,1 @@
-Error: 
-   start = f (a ,b) ;
-           ^
-special7:11.12: Function f is not defined
-Error: 
-signature Foo(alphabet, answer) {
-^-----------^
-special7:1.1-13: in signature Foo.
-Return: 0
+../../Mod_ubuntu/multi_signature101/special7

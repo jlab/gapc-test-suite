@@ -1,2 +1,1 @@
-start 5
-bp 1
+../../Mod_ubuntu/multi_self_rec101/nussinov.gap

@@ -1,1 +1,1 @@
-8n^3  + 2n^2  + 8n + 10
+../../Mod_ubuntu/multi_rt_all101/optimalMCM.gap

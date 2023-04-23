@@ -1,11 +1,1 @@
-
-
-multiloop [ < (t_0_left_most, t_0_right_most) > ] = ml( BASE, BASE, REGION, BASE, BASE, REGION, BASE, BASE, )
-ml( \t_0_left_most ,(t_0_left_most + 1)/, \(t_0_left_most + 1) ,((t_0_left_most + 1) + 1)/, \(t_0_left_most + 2) ,t_0_k_0/, \t_0_k_0 ,(t_0_k_0 + 1)/, \(t_0_k_0 + 1) ,((t_0_k_0 + 1) + 1)/, \(t_0_k_0 + 2) ,(t_0_right_most - 2)/, \(t_0_right_most - 2) ,(t_0_right_most - 1)/, \(t_0_right_most - 1) ,t_0_right_most/, )
-for(size t_0_k_0 = (t_0_left_most + 3); (t_0_k_0 <= (t_0_right_most - 5)); ++t_0_k_0)
-{
-}
-
-
- | 
-	
+../../Mod_ubuntu/multi_indices101/forloops4

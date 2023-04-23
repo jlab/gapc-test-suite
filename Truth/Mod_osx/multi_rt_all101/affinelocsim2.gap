@@ -1,1 +1,1 @@
-30n^2  + 5n + 5
+../../Mod_ubuntu/multi_rt_all101/affinelocsim2.gap

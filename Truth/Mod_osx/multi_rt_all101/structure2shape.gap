@@ -1,1 +1,1 @@
-12n^3  + 2584n^2  + 9n + 7
+../../Mod_ubuntu/multi_rt_all101/structure2shape.gap

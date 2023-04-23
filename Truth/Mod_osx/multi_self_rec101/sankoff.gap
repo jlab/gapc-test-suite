@@ -1,1 +1,1 @@
-sank 5
+../../Mod_ubuntu/multi_self_rec101/sankoff.gap

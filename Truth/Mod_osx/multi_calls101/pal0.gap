@@ -1,4 +1,1 @@
-NT pl: -> CHAR (1) -> pl (1) -> CHAR (1)
- -> EMPTY (1)
-
-
+../../Mod_ubuntu/multi_calls101/pal0.gap

@@ -1,1 +1,1 @@
-33n^2  + 33
+../../Mod_ubuntu/multi_rt_all101/flowgram2.gap

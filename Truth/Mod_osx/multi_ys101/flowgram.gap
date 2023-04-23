@@ -1,1 +1,1 @@
-ali {(1, n)}
+../../Mod_ubuntu/multi_ys101/flowgram.gap

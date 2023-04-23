@@ -1,6 +1,1 @@
-NT hairpin: -> BASE (1) -> BASE (1) -> REGION (1) -> BASE (1) -> BASE (1)
-
-
-NT struct: -> hairpin (n) -> hairpin (n)
-
-
+../../Mod_ubuntu/multi_calls101/tdm2hp.gap

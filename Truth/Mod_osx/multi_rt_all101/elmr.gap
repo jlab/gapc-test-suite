@@ -1,1 +1,1 @@
-6n^3  + 3n^2  + 6n + 7
+../../Mod_ubuntu/multi_rt_all101/elmr.gap

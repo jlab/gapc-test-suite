@@ -1,1 +1,1 @@
-12n^3  + 5936n^2  + 44n + 11
+../../Mod_ubuntu/multi_rt_all101/tdm2hporig.gap

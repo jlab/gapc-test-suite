@@ -1,1 +1,1 @@
-alignment 3
+../../Mod_ubuntu/multi_self_rec101/aliglob2.gap

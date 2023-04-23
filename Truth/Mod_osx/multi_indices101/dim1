@@ -1,7 +1,1 @@
-
-
-A [ < (t_0_left_most, t_0_right_most) > ] = foo( CHAR, REGION, CHAR, )
-foo( \t_0_left_most ,(t_0_left_most + 1)/, \(t_0_left_most + 1) ,(t_0_right_most - 1)/, \(t_0_right_most - 1) ,t_0_right_most/, )
-
- | 
-	
+../../Mod_ubuntu/multi_indices101/dim1

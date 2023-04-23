@@ -1,2 +1,1 @@
-struct [(const,left:(0, 0),right:(0, 0))]
-hairpin [(quadratic)]
+../../Mod_ubuntu/multi_table_dim101/tdm2hp.gap

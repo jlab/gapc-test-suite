@@ -1,1 +1,1 @@
-matrix 2
+../../Mod_ubuntu/multi_self_rec101/matrix.gap

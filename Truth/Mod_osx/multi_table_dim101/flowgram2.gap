@@ -1,1 +1,1 @@
-ali [(linear,right(1),right:(0, 0)), (linear,right(1),right:(0, 0))]
+../../Mod_ubuntu/multi_table_dim101/flowgram2.gap

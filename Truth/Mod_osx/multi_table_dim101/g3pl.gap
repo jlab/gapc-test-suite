@@ -1,4 +1,1 @@
-struct [(linear,left(1),left:(0, 0))]
-pair [(quadratic)]
-r [(quadratic)]
-t [(quadratic)]
+../../Mod_ubuntu/multi_table_dim101/g3pl.gap

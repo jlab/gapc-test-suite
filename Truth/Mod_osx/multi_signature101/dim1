@@ -1,9 +1,1 @@
-Error: 
-  A = foo (CHAR, REGION, CHAR) ;
-      ^-^
-dim1:9.7-9: Function foo is not defined
-Error: 
-signature Foo(alphabet, answer) {
-^-----------^
-dim1:1.1-13: in signature Foo.
-Return: 0
+../../Mod_ubuntu/multi_signature101/dim1

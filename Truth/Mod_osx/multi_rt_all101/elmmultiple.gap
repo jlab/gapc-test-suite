@@ -1,1 +1,1 @@
-6n^3  + 7n^2  + 7
+../../Mod_ubuntu/multi_rt_all101/elmmultiple.gap
