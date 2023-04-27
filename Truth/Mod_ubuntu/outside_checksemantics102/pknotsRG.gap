@@ -10,6 +10,10 @@ Warning:
     middleNoDangling                                          = mid                                                                                         |
     ^--------------^
 pknotsRG.gap:1601.5-20: Nonterminal middleNoDangling is not reachable from the axiom.
+Warning: 
+           pknot(REGION[i, i+alphareallen],
+           ^---^
+pknotsRG.gap:1517.12-16: You requested outside grammar generation, but your inside grammar contains manual index overlays. As these cannot be automatically converted from an inside to an outside fashion, the resulting program most likely produces wrong results!
 Error: 
 algebra mfe implements Algebra(alphabet = char, comp = int, compKnot = mfeanswer) {
 ^---------^
