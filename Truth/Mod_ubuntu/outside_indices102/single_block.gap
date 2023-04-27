@@ -485,12 +485,12 @@ digraph stefansDangle {
     };
     subgraph cluster_alt_177 {
       peripheries=0;
-      node_177 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>lastmlss<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_5</font></td></tr></table>>, color="green" ];
-      node_178 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>outside_mlcons<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_5</font></td></tr></table>>, color="black" ];
+      node_177 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>lastmlss<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_4</font></td></tr></table>>, color="green" ];
+      node_178 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>outside_mlcons<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_4</font></td></tr></table>>, color="black" ];
       node_177 -> node_178 [ arrowhead=none ];
-      node_179 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_j</font></td><td>component<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_4</font></td></tr></table>>, color="black" ];
+      node_179 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_j</font></td><td>component<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_5</font></td></tr></table>>, color="black" ];
       node_177 -> node_179 [ arrowhead=none ];
-      node_180 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_4</font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_k_5</font></td></tr></table>>, color="blue" ];
+      node_180 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_5</font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_k_4</font></td></tr></table>>, color="blue" ];
       node_177 -> node_180 [ arrowhead=none ];
     };
     subgraph cluster_bar_181 {
@@ -631,20 +631,20 @@ digraph stefansDangle {
     node_223 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     subgraph cluster_alt_224 {
       peripheries=0;
-      node_224 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 2)</font></td><td>multiloop_edr<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>((t_0_j + 2) + 1)</font></td></tr></table>>, color="green" ];
+      node_224 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 2)</font></td><td>multiloop_edr<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_j + 3)</font></td></tr></table>>, color="green" ];
       node_225 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
       node_224 -> node_225 [ arrowhead=none, color="magenta" ];
       node_226 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 2)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_i - 1)</font></td></tr></table>>, color="blue" ];
       node_224 -> node_226 [ arrowhead=none ];
       node_227 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_i</font></td></tr></table>>, color="blue" ];
       node_224 -> node_227 [ arrowhead=none ];
-      node_228 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 2)</font></td><td>outside_stem<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>((t_0_j + 2) + 1)</font></td></tr></table>>, color="black" ];
+      node_228 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 2)</font></td><td>outside_stem<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_j + 3)</font></td></tr></table>>, color="black" ];
       node_224 -> node_228 [ arrowhead=none ];
       node_229 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_j</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td></tr></table>>, color="blue" ];
       node_224 -> node_229 [ arrowhead=none ];
-      node_230 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>((t_0_j + 1) + 1)</font></td></tr></table>>, color="blue" ];
+      node_230 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td></tr></table>>, color="blue" ];
       node_224 -> node_230 [ arrowhead=none ];
-      node_231 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>((t_0_j + 2) + 1)</font></td></tr></table>>, color="blue" ];
+      node_231 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_j + 3)</font></td></tr></table>>, color="blue" ];
       node_224 -> node_231 [ arrowhead=none ];
     };
     subgraph cluster_bar_232 {
@@ -653,7 +653,7 @@ digraph stefansDangle {
     };
     subgraph cluster_alt_233 {
       peripheries=0;
-      node_233 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 3)</font></td><td>multiloop_edl<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>((t_0_j + 1) + 1)</font></td></tr></table>>, color="green" ];
+      node_233 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 3)</font></td><td>multiloop_edl<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td></tr></table>>, color="green" ];
       node_234 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
       node_233 -> node_234 [ arrowhead=none, color="magenta" ];
       node_235 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 3)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_i - 2)</font></td></tr></table>>, color="blue" ];
@@ -662,11 +662,11 @@ digraph stefansDangle {
       node_233 -> node_236 [ arrowhead=none ];
       node_237 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_i</font></td></tr></table>>, color="blue" ];
       node_233 -> node_237 [ arrowhead=none ];
-      node_238 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 3)</font></td><td>outside_stem<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>((t_0_j + 1) + 1)</font></td></tr></table>>, color="black" ];
+      node_238 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 3)</font></td><td>outside_stem<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td></tr></table>>, color="black" ];
       node_233 -> node_238 [ arrowhead=none ];
       node_239 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_j</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td></tr></table>>, color="blue" ];
       node_233 -> node_239 [ arrowhead=none ];
-      node_240 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>((t_0_j + 1) + 1)</font></td></tr></table>>, color="blue" ];
+      node_240 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td></tr></table>>, color="blue" ];
       node_233 -> node_240 [ arrowhead=none ];
     };
     subgraph cluster_bar_241 {
@@ -675,7 +675,7 @@ digraph stefansDangle {
     };
     subgraph cluster_alt_242 {
       peripheries=0;
-      node_242 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 3)</font></td><td>multiloop_edlr<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>((t_0_j + 2) + 1)</font></td></tr></table>>, color="green" ];
+      node_242 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 3)</font></td><td>multiloop_edlr<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_j + 3)</font></td></tr></table>>, color="green" ];
       node_243 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
       node_242 -> node_243 [ arrowhead=none, color="magenta" ];
       node_244 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 3)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_i - 2)</font></td></tr></table>>, color="blue" ];
@@ -684,13 +684,13 @@ digraph stefansDangle {
       node_242 -> node_245 [ arrowhead=none ];
       node_246 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_i</font></td></tr></table>>, color="blue" ];
       node_242 -> node_246 [ arrowhead=none ];
-      node_247 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 3)</font></td><td>outside_stem<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>((t_0_j + 2) + 1)</font></td></tr></table>>, color="black" ];
+      node_247 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 3)</font></td><td>outside_stem<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_j + 3)</font></td></tr></table>>, color="black" ];
       node_242 -> node_247 [ arrowhead=none ];
       node_248 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_j</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td></tr></table>>, color="blue" ];
       node_242 -> node_248 [ arrowhead=none ];
-      node_249 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>((t_0_j + 1) + 1)</font></td></tr></table>>, color="blue" ];
+      node_249 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td></tr></table>>, color="blue" ];
       node_242 -> node_249 [ arrowhead=none ];
-      node_250 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>((t_0_j + 2) + 1)</font></td></tr></table>>, color="blue" ];
+      node_250 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_j + 3)</font></td></tr></table>>, color="blue" ];
       node_242 -> node_250 [ arrowhead=none ];
     };
     subgraph cluster_bar_251 {
@@ -699,18 +699,18 @@ digraph stefansDangle {
     };
     subgraph cluster_alt_252 {
       peripheries=0;
-      node_252 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 2)</font></td><td>multiloop_drem<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>((t_0_j + 1) + 1)</font></td></tr></table>>, color="green" ];
+      node_252 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 2)</font></td><td>multiloop_drem<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td></tr></table>>, color="green" ];
       node_253 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
       node_252 -> node_253 [ arrowhead=none, color="magenta" ];
       node_254 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 2)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_i - 1)</font></td></tr></table>>, color="blue" ];
       node_252 -> node_254 [ arrowhead=none ];
       node_255 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_i</font></td></tr></table>>, color="blue" ];
       node_252 -> node_255 [ arrowhead=none ];
-      node_256 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 2)</font></td><td>outside_stem<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>((t_0_j + 1) + 1)</font></td></tr></table>>, color="black" ];
+      node_256 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 2)</font></td><td>outside_stem<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td></tr></table>>, color="black" ];
       node_252 -> node_256 [ arrowhead=none ];
       node_257 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_j</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td></tr></table>>, color="blue" ];
       node_252 -> node_257 [ arrowhead=none ];
-      node_258 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>((t_0_j + 1) + 1)</font></td></tr></table>>, color="blue" ];
+      node_258 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td></tr></table>>, color="blue" ];
       node_252 -> node_258 [ arrowhead=none ];
     };
     subgraph cluster_bar_259 {
@@ -758,7 +758,7 @@ digraph stefansDangle {
       node_275 [ label="maxsize(30)" , fontcolor="magenta" , shape=none ];
       node_274 -> node_275 [ arrowhead=none, color="magenta" ];
       node_267 -> node_274 [ arrowhead=none ];
-      node_276 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_3 - 2)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_k_3 - 1)</font></td></tr></table>>, color="blue" ];
+      node_276 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>((t_0_k_3 - 1) - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_k_3 - 1)</font></td></tr></table>>, color="blue" ];
       node_267 -> node_276 [ arrowhead=none ];
       node_277 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_3 - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_k_3</font></td></tr></table>>, color="blue" ];
       node_267 -> node_277 [ arrowhead=none ];
@@ -780,7 +780,7 @@ digraph stefansDangle {
       node_279 -> node_283 [ arrowhead=none ];
       node_284 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_j</font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_k_1 - 2)</font></td></tr></table>>, color="blue" ];
       node_279 -> node_284 [ arrowhead=none ];
-      node_285 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_1 - 2)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_k_1 - 1)</font></td></tr></table>>, color="blue" ];
+      node_285 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>((t_0_k_1 - 1) - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_k_1 - 1)</font></td></tr></table>>, color="blue" ];
       node_279 -> node_285 [ arrowhead=none ];
       node_286 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_1 - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_k_1</font></td></tr></table>>, color="blue" ];
       node_279 -> node_286 [ arrowhead=none ];
@@ -791,7 +791,7 @@ digraph stefansDangle {
     };
     subgraph cluster_alt_288 {
       peripheries=0;
-      node_288 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_0</font></td><td>bulgeleft<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>((t_0_j + 1) + 1)</font></td></tr></table>>, color="green" ];
+      node_288 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_0</font></td><td>bulgeleft<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td></tr></table>>, color="green" ];
       node_289 [ label="stackpairing" , fontcolor="magenta" , shape=none ];
       node_288 -> node_289 [ arrowhead=none, color="magenta" ];
       node_290 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_0</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_k_0 + 1)</font></td></tr></table>>, color="blue" ];
@@ -800,11 +800,11 @@ digraph stefansDangle {
       node_288 -> node_291 [ arrowhead=none ];
       node_292 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_0 + 2)</font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_i</font></td></tr></table>>, color="blue" ];
       node_288 -> node_292 [ arrowhead=none ];
-      node_293 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_0</font></td><td>outside_stem<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>((t_0_j + 1) + 1)</font></td></tr></table>>, color="black" ];
+      node_293 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_0</font></td><td>outside_stem<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td></tr></table>>, color="black" ];
       node_288 -> node_293 [ arrowhead=none ];
       node_294 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_j</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td></tr></table>>, color="blue" ];
       node_288 -> node_294 [ arrowhead=none ];
-      node_295 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>((t_0_j + 1) + 1)</font></td></tr></table>>, color="blue" ];
+      node_295 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td></tr></table>>, color="blue" ];
       node_288 -> node_295 [ arrowhead=none ];
     };
     subgraph cluster_bar_296 {

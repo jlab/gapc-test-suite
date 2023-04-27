@@ -242,7 +242,7 @@ digraph fold {
       node_87 [ label="maxsize(30)" , fontcolor="magenta" , shape=none ];
       node_86 -> node_87 [ arrowhead=none, color="magenta" ];
       node_82 -> node_86 [ arrowhead=none ];
-      node_88 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_5 - 2)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_k_5 - 1)</font></td></tr></table>>, color="blue" ];
+      node_88 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>((t_0_k_5 - 1) - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_k_5 - 1)</font></td></tr></table>>, color="blue" ];
       node_82 -> node_88 [ arrowhead=none ];
       node_89 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_5 - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_k_5</font></td></tr></table>>, color="blue" ];
       node_82 -> node_89 [ arrowhead=none ];
@@ -253,7 +253,7 @@ digraph fold {
     };
     subgraph cluster_alt_91 {
       peripheries=0;
-      node_91 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_4</font></td><td>bl<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>((t_0_j + 1) + 1)</font></td></tr></table>>, color="green" ];
+      node_91 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_4</font></td><td>bl<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td></tr></table>>, color="green" ];
       node_92 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_4</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_k_4 + 1)</font></td></tr></table>>, color="blue" ];
       node_91 -> node_92 [ arrowhead=none ];
       node_93 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_4 + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>((t_0_k_4 + 1) + 1)</font></td></tr></table>>, color="blue" ];
@@ -262,11 +262,11 @@ digraph fold {
       node_95 [ label="maxsize(30)" , fontcolor="magenta" , shape=none ];
       node_94 -> node_95 [ arrowhead=none, color="magenta" ];
       node_91 -> node_94 [ arrowhead=none ];
-      node_96 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_4</font></td><td>outside_leftB<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>((t_0_j + 1) + 1)</font></td></tr></table>>, color="black" ];
+      node_96 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_4</font></td><td>outside_leftB<br/><font color='orange'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td></tr></table>>, color="black" ];
       node_91 -> node_96 [ arrowhead=none ];
       node_97 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_j</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td></tr></table>>, color="blue" ];
       node_91 -> node_97 [ arrowhead=none ];
-      node_98 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>((t_0_j + 1) + 1)</font></td></tr></table>>, color="blue" ];
+      node_98 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_j + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_j + 2)</font></td></tr></table>>, color="blue" ];
       node_91 -> node_98 [ arrowhead=none ];
     };
     subgraph cluster_bar_99 {
@@ -290,7 +290,7 @@ digraph fold {
       node_107 [ label="maxsize(30)" , fontcolor="magenta" , shape=none ];
       node_106 -> node_107 [ arrowhead=none, color="magenta" ];
       node_100 -> node_106 [ arrowhead=none ];
-      node_108 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_3 - 2)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_k_3 - 1)</font></td></tr></table>>, color="blue" ];
+      node_108 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>((t_0_k_3 - 1) - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_k_3 - 1)</font></td></tr></table>>, color="blue" ];
       node_100 -> node_108 [ arrowhead=none ];
       node_109 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_3 - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_k_3</font></td></tr></table>>, color="blue" ];
       node_100 -> node_109 [ arrowhead=none ];
