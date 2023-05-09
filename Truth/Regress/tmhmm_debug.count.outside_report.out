@@ -1,0 +1,936 @@
+start answers state_begin(0,0):
+1
+//end answers state_begin(0,0)
+start answers state_begin(0,1):
+3
+//end answers state_begin(0,1)
+start answers state_begin(0,2):
+15
+//end answers state_begin(0,2)
+start answers state_begin(1,1):
+1
+//end answers state_begin(1,1)
+start answers state_begin(1,2):
+3
+//end answers state_begin(1,2)
+start answers state_begin(2,2):
+1
+//end answers state_begin(2,2)
+start answers outside_state_begin(0,0):
+[]
+//end answers outside_state_begin(0,0)
+start answers outside_state_begin(0,1):
+[]
+//end answers outside_state_begin(0,1)
+start answers outside_state_begin(0,2):
+1
+//end answers outside_state_begin(0,2)
+start answers outside_state_begin(1,1):
+[]
+//end answers outside_state_begin(1,1)
+start answers outside_state_begin(1,2):
+[]
+//end answers outside_state_begin(1,2)
+start answers outside_state_begin(2,2):
+[]
+//end answers outside_state_begin(2,2)
+start answers transitions_begin(0,0):
+1
+//end answers transitions_begin(0,0)
+start answers transitions_begin(0,1):
+3
+//end answers transitions_begin(0,1)
+start answers transitions_begin(0,2):
+15
+//end answers transitions_begin(0,2)
+start answers transitions_begin(1,1):
+1
+//end answers transitions_begin(1,1)
+start answers transitions_begin(1,2):
+3
+//end answers transitions_begin(1,2)
+start answers transitions_begin(2,2):
+1
+//end answers transitions_begin(2,2)
+start answers outside_transitions_begin(0,0):
+[]
+//end answers outside_transitions_begin(0,0)
+start answers outside_transitions_begin(0,1):
+[]
+//end answers outside_transitions_begin(0,1)
+start answers outside_transitions_begin(0,2):
+1
+//end answers outside_transitions_begin(0,2)
+start answers outside_transitions_begin(1,1):
+[]
+//end answers outside_transitions_begin(1,1)
+start answers outside_transitions_begin(1,2):
+[]
+//end answers outside_transitions_begin(1,2)
+start answers outside_transitions_begin(2,2):
+[]
+//end answers outside_transitions_begin(2,2)
+start answers state_in10(0,0):
+[]
+//end answers state_in10(0,0)
+start answers state_in10(0,1):
+1
+//end answers state_in10(0,1)
+start answers state_in10(0,2):
+5
+//end answers state_in10(0,2)
+start answers state_in10(1,1):
+[]
+//end answers state_in10(1,1)
+start answers state_in10(1,2):
+1
+//end answers state_in10(1,2)
+start answers state_in10(2,2):
+[]
+//end answers state_in10(2,2)
+start answers outside_state_in10(0,0):
+[]
+//end answers outside_state_in10(0,0)
+start answers outside_state_in10(0,1):
+[]
+//end answers outside_state_in10(0,1)
+start answers outside_state_in10(0,2):
+1
+//end answers outside_state_in10(0,2)
+start answers outside_state_in10(1,1):
+[]
+//end answers outside_state_in10(1,1)
+start answers outside_state_in10(1,2):
+[]
+//end answers outside_state_in10(1,2)
+start answers outside_state_in10(2,2):
+[]
+//end answers outside_state_in10(2,2)
+start answers emissions_in10(0,0):
+[]
+//end answers emissions_in10(0,0)
+start answers emissions_in10(0,1):
+1
+//end answers emissions_in10(0,1)
+start answers emissions_in10(0,2):
+[]
+//end answers emissions_in10(0,2)
+start answers emissions_in10(1,1):
+[]
+//end answers emissions_in10(1,1)
+start answers emissions_in10(1,2):
+1
+//end answers emissions_in10(1,2)
+start answers emissions_in10(2,2):
+[]
+//end answers emissions_in10(2,2)
+start answers outside_emissions_in10(0,0):
+2
+//end answers outside_emissions_in10(0,0)
+start answers outside_emissions_in10(0,1):
+5
+//end answers outside_emissions_in10(0,1)
+start answers outside_emissions_in10(0,2):
+1
+//end answers outside_emissions_in10(0,2)
+start answers outside_emissions_in10(1,1):
+2
+//end answers outside_emissions_in10(1,1)
+start answers outside_emissions_in10(1,2):
+4
+//end answers outside_emissions_in10(1,2)
+start answers outside_emissions_in10(2,2):
+[]
+//end answers outside_emissions_in10(2,2)
+start answers transitions_in10(0,0):
+[]
+//end answers transitions_in10(0,0)
+start answers transitions_in10(0,1):
+5
+//end answers transitions_in10(0,1)
+start answers transitions_in10(0,2):
+2
+//end answers transitions_in10(0,2)
+start answers transitions_in10(1,1):
+[]
+//end answers transitions_in10(1,1)
+start answers transitions_in10(1,2):
+5
+//end answers transitions_in10(1,2)
+start answers transitions_in10(2,2):
+[]
+//end answers transitions_in10(2,2)
+start answers outside_transitions_in10(0,0):
+[]
+//end answers outside_transitions_in10(0,0)
+start answers outside_transitions_in10(0,1):
+[]
+//end answers outside_transitions_in10(0,1)
+start answers outside_transitions_in10(0,2):
+[]
+//end answers outside_transitions_in10(0,2)
+start answers outside_transitions_in10(1,1):
+[]
+//end answers outside_transitions_in10(1,1)
+start answers outside_transitions_in10(1,2):
+1
+//end answers outside_transitions_in10(1,2)
+start answers outside_transitions_in10(2,2):
+[]
+//end answers outside_transitions_in10(2,2)
+start answers state_in11(0,0):
+[]
+//end answers state_in11(0,0)
+start answers state_in11(0,1):
+3
+//end answers state_in11(0,1)
+start answers state_in11(0,2):
+1
+//end answers state_in11(0,2)
+start answers state_in11(1,1):
+[]
+//end answers state_in11(1,1)
+start answers state_in11(1,2):
+3
+//end answers state_in11(1,2)
+start answers state_in11(2,2):
+[]
+//end answers state_in11(2,2)
+start answers outside_state_in11(0,0):
+[]
+//end answers outside_state_in11(0,0)
+start answers outside_state_in11(0,1):
+[]
+//end answers outside_state_in11(0,1)
+start answers outside_state_in11(0,2):
+[]
+//end answers outside_state_in11(0,2)
+start answers outside_state_in11(1,1):
+[]
+//end answers outside_state_in11(1,1)
+start answers outside_state_in11(1,2):
+1
+//end answers outside_state_in11(1,2)
+start answers outside_state_in11(2,2):
+[]
+//end answers outside_state_in11(2,2)
+start answers transitions_in11(0,0):
+2
+//end answers transitions_in11(0,0)
+start answers transitions_in11(0,1):
+1
+//end answers transitions_in11(0,1)
+start answers transitions_in11(0,2):
+1
+//end answers transitions_in11(0,2)
+start answers transitions_in11(1,1):
+2
+//end answers transitions_in11(1,1)
+start answers transitions_in11(1,2):
+1
+//end answers transitions_in11(1,2)
+start answers transitions_in11(2,2):
+2
+//end answers transitions_in11(2,2)
+start answers outside_transitions_in11(0,0):
+[]
+//end answers outside_transitions_in11(0,0)
+start answers outside_transitions_in11(0,1):
+[]
+//end answers outside_transitions_in11(0,1)
+start answers outside_transitions_in11(0,2):
+[]
+//end answers outside_transitions_in11(0,2)
+start answers outside_transitions_in11(1,1):
+[]
+//end answers outside_transitions_in11(1,1)
+start answers outside_transitions_in11(1,2):
+[]
+//end answers outside_transitions_in11(1,2)
+start answers outside_transitions_in11(2,2):
+[]
+//end answers outside_transitions_in11(2,2)
+start answers state_in29(0,0):
+[]
+//end answers state_in29(0,0)
+start answers state_in29(0,1):
+1
+//end answers state_in29(0,1)
+start answers state_in29(0,2):
+1
+//end answers state_in29(0,2)
+start answers state_in29(1,1):
+[]
+//end answers state_in29(1,1)
+start answers state_in29(1,2):
+1
+//end answers state_in29(1,2)
+start answers state_in29(2,2):
+[]
+//end answers state_in29(2,2)
+start answers outside_state_in29(0,0):
+[]
+//end answers outside_state_in29(0,0)
+start answers outside_state_in29(0,1):
+[]
+//end answers outside_state_in29(0,1)
+start answers outside_state_in29(0,2):
+[]
+//end answers outside_state_in29(0,2)
+start answers outside_state_in29(1,1):
+[]
+//end answers outside_state_in29(1,1)
+start answers outside_state_in29(1,2):
+1
+//end answers outside_state_in29(1,2)
+start answers outside_state_in29(2,2):
+[]
+//end answers outside_state_in29(2,2)
+start answers transitions_in29(0,0):
+[]
+//end answers transitions_in29(0,0)
+start answers transitions_in29(0,1):
+1
+//end answers transitions_in29(0,1)
+start answers transitions_in29(0,2):
+[]
+//end answers transitions_in29(0,2)
+start answers transitions_in29(1,1):
+[]
+//end answers transitions_in29(1,1)
+start answers transitions_in29(1,2):
+1
+//end answers transitions_in29(1,2)
+start answers transitions_in29(2,2):
+[]
+//end answers transitions_in29(2,2)
+start answers outside_transitions_in29(0):
+[]
+//end answers outside_transitions_in29(0)
+start answers outside_transitions_in29(1):
+[]
+//end answers outside_transitions_in29(1)
+start answers outside_transitions_in29(2):
+[]
+//end answers outside_transitions_in29(2)
+start answers state_ohelixi1(0,0):
+[]
+//end answers state_ohelixi1(0,0)
+start answers state_ohelixi1(0,1):
+1
+//end answers state_ohelixi1(0,1)
+start answers state_ohelixi1(0,2):
+[]
+//end answers state_ohelixi1(0,2)
+start answers state_ohelixi1(1,1):
+[]
+//end answers state_ohelixi1(1,1)
+start answers state_ohelixi1(1,2):
+1
+//end answers state_ohelixi1(1,2)
+start answers state_ohelixi1(2,2):
+[]
+//end answers state_ohelixi1(2,2)
+start answers outside_state_ohelixi1(0):
+[]
+//end answers outside_state_ohelixi1(0)
+start answers outside_state_ohelixi1(1):
+1
+//end answers outside_state_ohelixi1(1)
+start answers outside_state_ohelixi1(2):
+[]
+//end answers outside_state_ohelixi1(2)
+start answers emissions_ohelixi1(0,0):
+[]
+//end answers emissions_ohelixi1(0,0)
+start answers emissions_ohelixi1(0,1):
+1
+//end answers emissions_ohelixi1(0,1)
+start answers emissions_ohelixi1(0,2):
+[]
+//end answers emissions_ohelixi1(0,2)
+start answers emissions_ohelixi1(1,1):
+[]
+//end answers emissions_ohelixi1(1,1)
+start answers emissions_ohelixi1(1,2):
+1
+//end answers emissions_ohelixi1(1,2)
+start answers emissions_ohelixi1(2,2):
+[]
+//end answers emissions_ohelixi1(2,2)
+start answers outside_emissions_ohelixi1(0):
+[]
+//end answers outside_emissions_ohelixi1(0)
+start answers outside_emissions_ohelixi1(1):
+1
+//end answers outside_emissions_ohelixi1(1)
+start answers outside_emissions_ohelixi1(2):
+[]
+//end answers outside_emissions_ohelixi1(2)
+start answers transitions_ohelixi1(0,0):
+1
+//end answers transitions_ohelixi1(0,0)
+start answers transitions_ohelixi1(0,1):
+[]
+//end answers transitions_ohelixi1(0,1)
+start answers transitions_ohelixi1(0,2):
+[]
+//end answers transitions_ohelixi1(0,2)
+start answers transitions_ohelixi1(1,1):
+1
+//end answers transitions_ohelixi1(1,1)
+start answers transitions_ohelixi1(1,2):
+[]
+//end answers transitions_ohelixi1(1,2)
+start answers transitions_ohelixi1(2,2):
+1
+//end answers transitions_ohelixi1(2,2)
+start answers outside_transitions_ohelixi1(0):
+[]
+//end answers outside_transitions_ohelixi1(0)
+start answers outside_transitions_ohelixi1(1):
+[]
+//end answers outside_transitions_ohelixi1(1)
+start answers outside_transitions_ohelixi1(2):
+[]
+//end answers outside_transitions_ohelixi1(2)
+start answers state_outglob10(0,0):
+[]
+//end answers state_outglob10(0,0)
+start answers state_outglob10(0,1):
+1
+//end answers state_outglob10(0,1)
+start answers state_outglob10(0,2):
+5
+//end answers state_outglob10(0,2)
+start answers state_outglob10(1,1):
+[]
+//end answers state_outglob10(1,1)
+start answers state_outglob10(1,2):
+1
+//end answers state_outglob10(1,2)
+start answers state_outglob10(2,2):
+[]
+//end answers state_outglob10(2,2)
+start answers outside_state_outglob10(0,0):
+[]
+//end answers outside_state_outglob10(0,0)
+start answers outside_state_outglob10(0,1):
+[]
+//end answers outside_state_outglob10(0,1)
+start answers outside_state_outglob10(0,2):
+1
+//end answers outside_state_outglob10(0,2)
+start answers outside_state_outglob10(1,1):
+[]
+//end answers outside_state_outglob10(1,1)
+start answers outside_state_outglob10(1,2):
+[]
+//end answers outside_state_outglob10(1,2)
+start answers outside_state_outglob10(2,2):
+[]
+//end answers outside_state_outglob10(2,2)
+start answers emissions_outglob10(0,0):
+[]
+//end answers emissions_outglob10(0,0)
+start answers emissions_outglob10(0,1):
+1
+//end answers emissions_outglob10(0,1)
+start answers emissions_outglob10(0,2):
+[]
+//end answers emissions_outglob10(0,2)
+start answers emissions_outglob10(1,1):
+[]
+//end answers emissions_outglob10(1,1)
+start answers emissions_outglob10(1,2):
+1
+//end answers emissions_outglob10(1,2)
+start answers emissions_outglob10(2,2):
+[]
+//end answers emissions_outglob10(2,2)
+start answers outside_emissions_outglob10(0,0):
+2
+//end answers outside_emissions_outglob10(0,0)
+start answers outside_emissions_outglob10(0,1):
+5
+//end answers outside_emissions_outglob10(0,1)
+start answers outside_emissions_outglob10(0,2):
+1
+//end answers outside_emissions_outglob10(0,2)
+start answers outside_emissions_outglob10(1,1):
+2
+//end answers outside_emissions_outglob10(1,1)
+start answers outside_emissions_outglob10(1,2):
+4
+//end answers outside_emissions_outglob10(1,2)
+start answers outside_emissions_outglob10(2,2):
+[]
+//end answers outside_emissions_outglob10(2,2)
+start answers transitions_outglob10(0,0):
+[]
+//end answers transitions_outglob10(0,0)
+start answers transitions_outglob10(0,1):
+5
+//end answers transitions_outglob10(0,1)
+start answers transitions_outglob10(0,2):
+2
+//end answers transitions_outglob10(0,2)
+start answers transitions_outglob10(1,1):
+[]
+//end answers transitions_outglob10(1,1)
+start answers transitions_outglob10(1,2):
+5
+//end answers transitions_outglob10(1,2)
+start answers transitions_outglob10(2,2):
+[]
+//end answers transitions_outglob10(2,2)
+start answers outside_transitions_outglob10(0,0):
+[]
+//end answers outside_transitions_outglob10(0,0)
+start answers outside_transitions_outglob10(0,1):
+[]
+//end answers outside_transitions_outglob10(0,1)
+start answers outside_transitions_outglob10(0,2):
+[]
+//end answers outside_transitions_outglob10(0,2)
+start answers outside_transitions_outglob10(1,1):
+[]
+//end answers outside_transitions_outglob10(1,1)
+start answers outside_transitions_outglob10(1,2):
+1
+//end answers outside_transitions_outglob10(1,2)
+start answers outside_transitions_outglob10(2,2):
+[]
+//end answers outside_transitions_outglob10(2,2)
+start answers state_outglob11(0,0):
+[]
+//end answers state_outglob11(0,0)
+start answers state_outglob11(0,1):
+3
+//end answers state_outglob11(0,1)
+start answers state_outglob11(0,2):
+1
+//end answers state_outglob11(0,2)
+start answers state_outglob11(1,1):
+[]
+//end answers state_outglob11(1,1)
+start answers state_outglob11(1,2):
+3
+//end answers state_outglob11(1,2)
+start answers state_outglob11(2,2):
+[]
+//end answers state_outglob11(2,2)
+start answers outside_state_outglob11(0,0):
+[]
+//end answers outside_state_outglob11(0,0)
+start answers outside_state_outglob11(0,1):
+[]
+//end answers outside_state_outglob11(0,1)
+start answers outside_state_outglob11(0,2):
+[]
+//end answers outside_state_outglob11(0,2)
+start answers outside_state_outglob11(1,1):
+[]
+//end answers outside_state_outglob11(1,1)
+start answers outside_state_outglob11(1,2):
+1
+//end answers outside_state_outglob11(1,2)
+start answers outside_state_outglob11(2,2):
+[]
+//end answers outside_state_outglob11(2,2)
+start answers transitions_outglob11(0,0):
+2
+//end answers transitions_outglob11(0,0)
+start answers transitions_outglob11(0,1):
+1
+//end answers transitions_outglob11(0,1)
+start answers transitions_outglob11(0,2):
+1
+//end answers transitions_outglob11(0,2)
+start answers transitions_outglob11(1,1):
+2
+//end answers transitions_outglob11(1,1)
+start answers transitions_outglob11(1,2):
+1
+//end answers transitions_outglob11(1,2)
+start answers transitions_outglob11(2,2):
+2
+//end answers transitions_outglob11(2,2)
+start answers outside_transitions_outglob11(0,0):
+[]
+//end answers outside_transitions_outglob11(0,0)
+start answers outside_transitions_outglob11(0,1):
+[]
+//end answers outside_transitions_outglob11(0,1)
+start answers outside_transitions_outglob11(0,2):
+[]
+//end answers outside_transitions_outglob11(0,2)
+start answers outside_transitions_outglob11(1,1):
+[]
+//end answers outside_transitions_outglob11(1,1)
+start answers outside_transitions_outglob11(1,2):
+[]
+//end answers outside_transitions_outglob11(1,2)
+start answers outside_transitions_outglob11(2,2):
+[]
+//end answers outside_transitions_outglob11(2,2)
+start answers state_outglob29(0,0):
+[]
+//end answers state_outglob29(0,0)
+start answers state_outglob29(0,1):
+1
+//end answers state_outglob29(0,1)
+start answers state_outglob29(0,2):
+1
+//end answers state_outglob29(0,2)
+start answers state_outglob29(1,1):
+[]
+//end answers state_outglob29(1,1)
+start answers state_outglob29(1,2):
+1
+//end answers state_outglob29(1,2)
+start answers state_outglob29(2,2):
+[]
+//end answers state_outglob29(2,2)
+start answers outside_state_outglob29(0,0):
+[]
+//end answers outside_state_outglob29(0,0)
+start answers outside_state_outglob29(0,1):
+[]
+//end answers outside_state_outglob29(0,1)
+start answers outside_state_outglob29(0,2):
+[]
+//end answers outside_state_outglob29(0,2)
+start answers outside_state_outglob29(1,1):
+[]
+//end answers outside_state_outglob29(1,1)
+start answers outside_state_outglob29(1,2):
+1
+//end answers outside_state_outglob29(1,2)
+start answers outside_state_outglob29(2,2):
+[]
+//end answers outside_state_outglob29(2,2)
+start answers transitions_outglob29(0,0):
+[]
+//end answers transitions_outglob29(0,0)
+start answers transitions_outglob29(0,1):
+1
+//end answers transitions_outglob29(0,1)
+start answers transitions_outglob29(0,2):
+[]
+//end answers transitions_outglob29(0,2)
+start answers transitions_outglob29(1,1):
+[]
+//end answers transitions_outglob29(1,1)
+start answers transitions_outglob29(1,2):
+1
+//end answers transitions_outglob29(1,2)
+start answers transitions_outglob29(2,2):
+[]
+//end answers transitions_outglob29(2,2)
+start answers outside_transitions_outglob29(0):
+[]
+//end answers outside_transitions_outglob29(0)
+start answers outside_transitions_outglob29(1):
+[]
+//end answers outside_transitions_outglob29(1)
+start answers outside_transitions_outglob29(2):
+[]
+//end answers outside_transitions_outglob29(2)
+start answers state_ihelixo1(0,0):
+[]
+//end answers state_ihelixo1(0,0)
+start answers state_ihelixo1(0,1):
+1
+//end answers state_ihelixo1(0,1)
+start answers state_ihelixo1(0,2):
+[]
+//end answers state_ihelixo1(0,2)
+start answers state_ihelixo1(1,1):
+[]
+//end answers state_ihelixo1(1,1)
+start answers state_ihelixo1(1,2):
+1
+//end answers state_ihelixo1(1,2)
+start answers state_ihelixo1(2,2):
+[]
+//end answers state_ihelixo1(2,2)
+start answers outside_state_ihelixo1(0):
+[]
+//end answers outside_state_ihelixo1(0)
+start answers outside_state_ihelixo1(1):
+2
+//end answers outside_state_ihelixo1(1)
+start answers outside_state_ihelixo1(2):
+[]
+//end answers outside_state_ihelixo1(2)
+start answers transitions_ihelixo1(0,0):
+1
+//end answers transitions_ihelixo1(0,0)
+start answers transitions_ihelixo1(0,1):
+[]
+//end answers transitions_ihelixo1(0,1)
+start answers transitions_ihelixo1(0,2):
+[]
+//end answers transitions_ihelixo1(0,2)
+start answers transitions_ihelixo1(1,1):
+1
+//end answers transitions_ihelixo1(1,1)
+start answers transitions_ihelixo1(1,2):
+[]
+//end answers transitions_ihelixo1(1,2)
+start answers transitions_ihelixo1(2,2):
+1
+//end answers transitions_ihelixo1(2,2)
+start answers outside_transitions_ihelixo1(0):
+[]
+//end answers outside_transitions_ihelixo1(0)
+start answers outside_transitions_ihelixo1(1):
+[]
+//end answers outside_transitions_ihelixo1(1)
+start answers outside_transitions_ihelixo1(2):
+[]
+//end answers outside_transitions_ihelixo1(2)
+start answers state_out10(0,0):
+[]
+//end answers state_out10(0,0)
+start answers state_out10(0,1):
+1
+//end answers state_out10(0,1)
+start answers state_out10(0,2):
+5
+//end answers state_out10(0,2)
+start answers state_out10(1,1):
+[]
+//end answers state_out10(1,1)
+start answers state_out10(1,2):
+1
+//end answers state_out10(1,2)
+start answers state_out10(2,2):
+[]
+//end answers state_out10(2,2)
+start answers outside_state_out10(0,0):
+[]
+//end answers outside_state_out10(0,0)
+start answers outside_state_out10(0,1):
+[]
+//end answers outside_state_out10(0,1)
+start answers outside_state_out10(0,2):
+1
+//end answers outside_state_out10(0,2)
+start answers outside_state_out10(1,1):
+[]
+//end answers outside_state_out10(1,1)
+start answers outside_state_out10(1,2):
+[]
+//end answers outside_state_out10(1,2)
+start answers outside_state_out10(2,2):
+[]
+//end answers outside_state_out10(2,2)
+start answers emissions_out10(0,0):
+[]
+//end answers emissions_out10(0,0)
+start answers emissions_out10(0,1):
+1
+//end answers emissions_out10(0,1)
+start answers emissions_out10(0,2):
+[]
+//end answers emissions_out10(0,2)
+start answers emissions_out10(1,1):
+[]
+//end answers emissions_out10(1,1)
+start answers emissions_out10(1,2):
+1
+//end answers emissions_out10(1,2)
+start answers emissions_out10(2,2):
+[]
+//end answers emissions_out10(2,2)
+start answers outside_emissions_out10(0,0):
+2
+//end answers outside_emissions_out10(0,0)
+start answers outside_emissions_out10(0,1):
+5
+//end answers outside_emissions_out10(0,1)
+start answers outside_emissions_out10(0,2):
+1
+//end answers outside_emissions_out10(0,2)
+start answers outside_emissions_out10(1,1):
+2
+//end answers outside_emissions_out10(1,1)
+start answers outside_emissions_out10(1,2):
+6
+//end answers outside_emissions_out10(1,2)
+start answers outside_emissions_out10(2,2):
+[]
+//end answers outside_emissions_out10(2,2)
+start answers transitions_out10(0,0):
+[]
+//end answers transitions_out10(0,0)
+start answers transitions_out10(0,1):
+5
+//end answers transitions_out10(0,1)
+start answers transitions_out10(0,2):
+2
+//end answers transitions_out10(0,2)
+start answers transitions_out10(1,1):
+[]
+//end answers transitions_out10(1,1)
+start answers transitions_out10(1,2):
+5
+//end answers transitions_out10(1,2)
+start answers transitions_out10(2,2):
+[]
+//end answers transitions_out10(2,2)
+start answers outside_transitions_out10(0,0):
+[]
+//end answers outside_transitions_out10(0,0)
+start answers outside_transitions_out10(0,1):
+[]
+//end answers outside_transitions_out10(0,1)
+start answers outside_transitions_out10(0,2):
+[]
+//end answers outside_transitions_out10(0,2)
+start answers outside_transitions_out10(1,1):
+[]
+//end answers outside_transitions_out10(1,1)
+start answers outside_transitions_out10(1,2):
+1
+//end answers outside_transitions_out10(1,2)
+start answers outside_transitions_out10(2,2):
+[]
+//end answers outside_transitions_out10(2,2)
+start answers state_out11(0,0):
+[]
+//end answers state_out11(0,0)
+start answers state_out11(0,1):
+3
+//end answers state_out11(0,1)
+start answers state_out11(0,2):
+1
+//end answers state_out11(0,2)
+start answers state_out11(1,1):
+[]
+//end answers state_out11(1,1)
+start answers state_out11(1,2):
+3
+//end answers state_out11(1,2)
+start answers state_out11(2,2):
+[]
+//end answers state_out11(2,2)
+start answers outside_state_out11(0,0):
+[]
+//end answers outside_state_out11(0,0)
+start answers outside_state_out11(0,1):
+[]
+//end answers outside_state_out11(0,1)
+start answers outside_state_out11(0,2):
+[]
+//end answers outside_state_out11(0,2)
+start answers outside_state_out11(1,1):
+[]
+//end answers outside_state_out11(1,1)
+start answers outside_state_out11(1,2):
+1
+//end answers outside_state_out11(1,2)
+start answers outside_state_out11(2,2):
+[]
+//end answers outside_state_out11(2,2)
+start answers transitions_out11(0,0):
+2
+//end answers transitions_out11(0,0)
+start answers transitions_out11(0,1):
+1
+//end answers transitions_out11(0,1)
+start answers transitions_out11(0,2):
+1
+//end answers transitions_out11(0,2)
+start answers transitions_out11(1,1):
+2
+//end answers transitions_out11(1,1)
+start answers transitions_out11(1,2):
+1
+//end answers transitions_out11(1,2)
+start answers transitions_out11(2,2):
+2
+//end answers transitions_out11(2,2)
+start answers outside_transitions_out11(0,0):
+[]
+//end answers outside_transitions_out11(0,0)
+start answers outside_transitions_out11(0,1):
+[]
+//end answers outside_transitions_out11(0,1)
+start answers outside_transitions_out11(0,2):
+[]
+//end answers outside_transitions_out11(0,2)
+start answers outside_transitions_out11(1,1):
+[]
+//end answers outside_transitions_out11(1,1)
+start answers outside_transitions_out11(1,2):
+[]
+//end answers outside_transitions_out11(1,2)
+start answers outside_transitions_out11(2,2):
+[]
+//end answers outside_transitions_out11(2,2)
+start answers state_out29(0,0):
+[]
+//end answers state_out29(0,0)
+start answers state_out29(0,1):
+1
+//end answers state_out29(0,1)
+start answers state_out29(0,2):
+1
+//end answers state_out29(0,2)
+start answers state_out29(1,1):
+[]
+//end answers state_out29(1,1)
+start answers state_out29(1,2):
+1
+//end answers state_out29(1,2)
+start answers state_out29(2,2):
+[]
+//end answers state_out29(2,2)
+start answers outside_state_out29(0,0):
+[]
+//end answers outside_state_out29(0,0)
+start answers outside_state_out29(0,1):
+[]
+//end answers outside_state_out29(0,1)
+start answers outside_state_out29(0,2):
+[]
+//end answers outside_state_out29(0,2)
+start answers outside_state_out29(1,1):
+[]
+//end answers outside_state_out29(1,1)
+start answers outside_state_out29(1,2):
+1
+//end answers outside_state_out29(1,2)
+start answers outside_state_out29(2,2):
+[]
+//end answers outside_state_out29(2,2)
+start answers transitions_out29(0,0):
+[]
+//end answers transitions_out29(0,0)
+start answers transitions_out29(0,1):
+1
+//end answers transitions_out29(0,1)
+start answers transitions_out29(0,2):
+[]
+//end answers transitions_out29(0,2)
+start answers transitions_out29(1,1):
+[]
+//end answers transitions_out29(1,1)
+start answers transitions_out29(1,2):
+1
+//end answers transitions_out29(1,2)
+start answers transitions_out29(2,2):
+[]
+//end answers transitions_out29(2,2)
+start answers outside_transitions_out29(0):
+[]
+//end answers outside_transitions_out29(0)
+start answers outside_transitions_out29(1):
+[]
+//end answers outside_transitions_out29(1)
+start answers outside_transitions_out29(2):
+[]
+//end answers outside_transitions_out29(2)
