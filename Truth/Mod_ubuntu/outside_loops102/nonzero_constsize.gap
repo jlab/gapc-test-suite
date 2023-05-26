@@ -119,7 +119,7 @@ CONST_FLOAT( \t_0_i ,t_0_i/, )
 
 state_B_3 [ < (t_0_i, t_0_j) > ] = bifurcation_transition( CONST_FLOAT( 0.000000e+00, ), CONST_FLOAT( 0.000000e+00, ), state_S_4, state_S_12, )
 bifurcation_transition( \t_0_i ,t_0_i/, \t_0_i ,t_0_i/, \t_0_i ,t_0_k_0/, \t_0_k_0 ,t_0_j/, )
-for(size t_0_k_0 = (((t_0_j - t_0_i) >= 1)) ? ((t_0_j - 1)) : (t_0_i); ((t_0_k_0 <= t_0_j) && (t_0_k_0 <= (t_0_i + 1))); ++t_0_k_0)
+for(size t_0_k_0 = ((((t_0_j - t_0_i) >= 1)) ? ((t_0_j - 1)) : (t_0_i)); ((t_0_k_0 <= t_0_j) && (t_0_k_0 <= (t_0_i + 1))); ++t_0_k_0)
 {
 }
 
