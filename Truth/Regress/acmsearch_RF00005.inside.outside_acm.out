@@ -1,0 +1,810 @@
+start answers a_1(0,0):
+-458.636
+//end answers a_1(0,0)
+start answers a_1(0,1):
+-444.618
+//end answers a_1(0,1)
+start answers a_1(0,2):
+-430.222
+//end answers a_1(0,2)
+start answers a_1(0,3):
+-418.298
+//end answers a_1(0,3)
+start answers a_1(0,4):
+-407.438
+//end answers a_1(0,4)
+start answers a_1(0,5):
+-397.622
+//end answers a_1(0,5)
+start answers a_1(0,6):
+-386.266
+//end answers a_1(0,6)
+start answers a_1(0,7):
+-374.634
+//end answers a_1(0,7)
+start answers a_1(0,8):
+-363.568
+//end answers a_1(0,8)
+start answers a_1(1,1):
+-458.636
+//end answers a_1(1,1)
+start answers a_1(1,2):
+-443.495
+//end answers a_1(1,2)
+start answers a_1(1,3):
+-430.967
+//end answers a_1(1,3)
+start answers a_1(1,4):
+-418.866
+//end answers a_1(1,4)
+start answers a_1(1,5):
+-407.023
+//end answers a_1(1,5)
+start answers a_1(1,6):
+-394.9
+//end answers a_1(1,6)
+start answers a_1(1,7):
+-383.086
+//end answers a_1(1,7)
+start answers a_1(1,8):
+-371.87
+//end answers a_1(1,8)
+start answers a_1(2,2):
+-458.636
+//end answers a_1(2,2)
+start answers a_1(2,3):
+-444.281
+//end answers a_1(2,3)
+start answers a_1(2,4):
+-431.055
+//end answers a_1(2,4)
+start answers a_1(2,5):
+-418.757
+//end answers a_1(2,5)
+start answers a_1(2,6):
+-406.567
+//end answers a_1(2,6)
+start answers a_1(2,7):
+-394.706
+//end answers a_1(2,7)
+start answers a_1(2,8):
+-383.465
+//end answers a_1(2,8)
+start answers a_1(3,3):
+-458.636
+//end answers a_1(3,3)
+start answers a_1(3,4):
+-444.618
+//end answers a_1(3,4)
+start answers a_1(3,5):
+-431.856
+//end answers a_1(3,5)
+start answers a_1(3,6):
+-419.379
+//end answers a_1(3,6)
+start answers a_1(3,7):
+-406.822
+//end answers a_1(3,7)
+start answers a_1(3,8):
+-394.988
+//end answers a_1(3,8)
+start answers a_1(4,4):
+-458.636
+//end answers a_1(4,4)
+start answers a_1(4,5):
+-444.618
+//end answers a_1(4,5)
+start answers a_1(4,6):
+-431.293
+//end answers a_1(4,6)
+start answers a_1(4,7):
+-417.515
+//end answers a_1(4,7)
+start answers a_1(4,8):
+-405.246
+//end answers a_1(4,8)
+start answers a_1(5,5):
+-458.636
+//end answers a_1(5,5)
+start answers a_1(5,6):
+-443.372
+//end answers a_1(5,6)
+start answers a_1(5,7):
+-428.671
+//end answers a_1(5,7)
+start answers a_1(5,8):
+-416.174
+//end answers a_1(5,8)
+start answers a_1(6,6):
+-458.636
+//end answers a_1(6,6)
+start answers a_1(6,7):
+-443.495
+//end answers a_1(6,7)
+start answers a_1(6,8):
+-430.39
+//end answers a_1(6,8)
+start answers a_1(7,7):
+-458.636
+//end answers a_1(7,7)
+start answers a_1(7,8):
+-443.372
+//end answers a_1(7,8)
+start answers a_1(8,8):
+-458.636
+//end answers a_1(8,8)
+start answers outside_a_1(0,0):
+[]
+//end answers outside_a_1(0,0)
+start answers outside_a_1(0,1):
+[]
+//end answers outside_a_1(0,1)
+start answers outside_a_1(0,2):
+[]
+//end answers outside_a_1(0,2)
+start answers outside_a_1(0,3):
+[]
+//end answers outside_a_1(0,3)
+start answers outside_a_1(0,4):
+[]
+//end answers outside_a_1(0,4)
+start answers outside_a_1(0,5):
+[]
+//end answers outside_a_1(0,5)
+start answers outside_a_1(0,6):
+[]
+//end answers outside_a_1(0,6)
+start answers outside_a_1(0,7):
+[]
+//end answers outside_a_1(0,7)
+start answers outside_a_1(0,8):
+-458.636
+//end answers outside_a_1(0,8)
+start answers outside_a_1(1,1):
+[]
+//end answers outside_a_1(1,1)
+start answers outside_a_1(1,2):
+[]
+//end answers outside_a_1(1,2)
+start answers outside_a_1(1,3):
+[]
+//end answers outside_a_1(1,3)
+start answers outside_a_1(1,4):
+[]
+//end answers outside_a_1(1,4)
+start answers outside_a_1(1,5):
+[]
+//end answers outside_a_1(1,5)
+start answers outside_a_1(1,6):
+[]
+//end answers outside_a_1(1,6)
+start answers outside_a_1(1,7):
+[]
+//end answers outside_a_1(1,7)
+start answers outside_a_1(1,8):
+-470.351
+//end answers outside_a_1(1,8)
+start answers outside_a_1(2,2):
+[]
+//end answers outside_a_1(2,2)
+start answers outside_a_1(2,3):
+[]
+//end answers outside_a_1(2,3)
+start answers outside_a_1(2,4):
+[]
+//end answers outside_a_1(2,4)
+start answers outside_a_1(2,5):
+[]
+//end answers outside_a_1(2,5)
+start answers outside_a_1(2,6):
+[]
+//end answers outside_a_1(2,6)
+start answers outside_a_1(2,7):
+[]
+//end answers outside_a_1(2,7)
+start answers outside_a_1(2,8):
+-482.066
+//end answers outside_a_1(2,8)
+start answers outside_a_1(3,3):
+[]
+//end answers outside_a_1(3,3)
+start answers outside_a_1(3,4):
+[]
+//end answers outside_a_1(3,4)
+start answers outside_a_1(3,5):
+[]
+//end answers outside_a_1(3,5)
+start answers outside_a_1(3,6):
+[]
+//end answers outside_a_1(3,6)
+start answers outside_a_1(3,7):
+[]
+//end answers outside_a_1(3,7)
+start answers outside_a_1(3,8):
+-493.781
+//end answers outside_a_1(3,8)
+start answers outside_a_1(4,4):
+[]
+//end answers outside_a_1(4,4)
+start answers outside_a_1(4,5):
+[]
+//end answers outside_a_1(4,5)
+start answers outside_a_1(4,6):
+[]
+//end answers outside_a_1(4,6)
+start answers outside_a_1(4,7):
+[]
+//end answers outside_a_1(4,7)
+start answers outside_a_1(4,8):
+-505.496
+//end answers outside_a_1(4,8)
+start answers outside_a_1(5,5):
+[]
+//end answers outside_a_1(5,5)
+start answers outside_a_1(5,6):
+[]
+//end answers outside_a_1(5,6)
+start answers outside_a_1(5,7):
+[]
+//end answers outside_a_1(5,7)
+start answers outside_a_1(5,8):
+-517.211
+//end answers outside_a_1(5,8)
+start answers outside_a_1(6,6):
+[]
+//end answers outside_a_1(6,6)
+start answers outside_a_1(6,7):
+[]
+//end answers outside_a_1(6,7)
+start answers outside_a_1(6,8):
+-528.926
+//end answers outside_a_1(6,8)
+start answers outside_a_1(7,7):
+[]
+//end answers outside_a_1(7,7)
+start answers outside_a_1(7,8):
+-540.641
+//end answers outside_a_1(7,8)
+start answers outside_a_1(8,8):
+-552.356
+//end answers outside_a_1(8,8)
+start answers a_47(0,0):
+-135.638
+//end answers a_47(0,0)
+start answers a_47(0,1):
+-125.028
+//end answers a_47(0,1)
+start answers a_47(0,2):
+-115.012
+//end answers a_47(0,2)
+start answers a_47(0,3):
+-108.127
+//end answers a_47(0,3)
+start answers a_47(0,4):
+-99.8125
+//end answers a_47(0,4)
+start answers a_47(0,5):
+-93.9997
+//end answers a_47(0,5)
+start answers a_47(0,6):
+-86.206
+//end answers a_47(0,6)
+start answers a_47(0,7):
+-84.9468
+//end answers a_47(0,7)
+start answers a_47(0,8):
+-76.5868
+//end answers a_47(0,8)
+start answers a_47(1,1):
+-135.638
+//end answers a_47(1,1)
+start answers a_47(1,2):
+-124.449
+//end answers a_47(1,2)
+start answers a_47(1,3):
+-116.202
+//end answers a_47(1,3)
+start answers a_47(1,4):
+-106.059
+//end answers a_47(1,4)
+start answers a_47(1,5):
+-99.846
+//end answers a_47(1,5)
+start answers a_47(1,6):
+-92.832
+//end answers a_47(1,6)
+start answers a_47(1,7):
+-89.4889
+//end answers a_47(1,7)
+start answers a_47(1,8):
+-80.2137
+//end answers a_47(1,8)
+start answers a_47(2,2):
+-135.638
+//end answers a_47(2,2)
+start answers a_47(2,3):
+-124.152
+//end answers a_47(2,3)
+start answers a_47(2,4):
+-113.788
+//end answers a_47(2,4)
+start answers a_47(2,5):
+-106.87
+//end answers a_47(2,5)
+start answers a_47(2,6):
+-99.8898
+//end answers a_47(2,6)
+start answers a_47(2,7):
+-94.8779
+//end answers a_47(2,7)
+start answers a_47(2,8):
+-85.6509
+//end answers a_47(2,8)
+start answers a_47(3,3):
+-135.638
+//end answers a_47(3,3)
+start answers a_47(3,4):
+-125.028
+//end answers a_47(3,4)
+start answers a_47(3,5):
+-116.869
+//end answers a_47(3,5)
+start answers a_47(3,6):
+-109.443
+//end answers a_47(3,6)
+start answers a_47(3,7):
+-100.725
+//end answers a_47(3,7)
+start answers a_47(3,8):
+-92.2184
+//end answers a_47(3,8)
+start answers a_47(4,4):
+-135.638
+//end answers a_47(4,4)
+start answers a_47(4,5):
+-125.028
+//end answers a_47(4,5)
+start answers a_47(4,6):
+-116.357
+//end answers a_47(4,6)
+start answers a_47(4,7):
+-105.918
+//end answers a_47(4,7)
+start answers a_47(4,8):
+-98.5271
+//end answers a_47(4,8)
+start answers a_47(5,5):
+-135.638
+//end answers a_47(5,5)
+start answers a_47(5,6):
+-123.691
+//end answers a_47(5,6)
+start answers a_47(5,7):
+-112.79
+//end answers a_47(5,7)
+start answers a_47(5,8):
+-105.547
+//end answers a_47(5,8)
+start answers a_47(6,6):
+-135.638
+//end answers a_47(6,6)
+start answers a_47(6,7):
+-124.449
+//end answers a_47(6,7)
+start answers a_47(6,8):
+-115.468
+//end answers a_47(6,8)
+start answers a_47(7,7):
+-135.638
+//end answers a_47(7,7)
+start answers a_47(7,8):
+-123.691
+//end answers a_47(7,8)
+start answers a_47(8,8):
+-135.638
+//end answers a_47(8,8)
+start answers outside_a_47(0,0):
+-788.764
+//end answers outside_a_47(0,0)
+start answers outside_a_47(0,1):
+-786.24
+//end answers outside_a_47(0,1)
+start answers outside_a_47(0,2):
+-784.89
+//end answers outside_a_47(0,2)
+start answers outside_a_47(0,3):
+-784.399
+//end answers outside_a_47(0,3)
+start answers outside_a_47(0,4):
+-784.679
+//end answers outside_a_47(0,4)
+start answers outside_a_47(0,5):
+-785.75
+//end answers outside_a_47(0,5)
+start answers outside_a_47(0,6):
+-787.751
+//end answers outside_a_47(0,6)
+start answers outside_a_47(0,7):
+-791.073
+//end answers outside_a_47(0,7)
+start answers outside_a_47(0,8):
+-796.98
+//end answers outside_a_47(0,8)
+start answers outside_a_47(1,1):
+-771.389
+//end answers outside_a_47(1,1)
+start answers outside_a_47(1,2):
+-769.844
+//end answers outside_a_47(1,2)
+start answers outside_a_47(1,3):
+-770.359
+//end answers outside_a_47(1,3)
+start answers outside_a_47(1,4):
+-770.637
+//end answers outside_a_47(1,4)
+start answers outside_a_47(1,5):
+-771.708
+//end answers outside_a_47(1,5)
+start answers outside_a_47(1,6):
+-773.908
+//end answers outside_a_47(1,6)
+start answers outside_a_47(1,7):
+-777.212
+//end answers outside_a_47(1,7)
+start answers outside_a_47(1,8):
+-783.149
+//end answers outside_a_47(1,8)
+start answers outside_a_47(2,2):
+-755.063
+//end answers outside_a_47(2,2)
+start answers outside_a_47(2,3):
+-755.864
+//end answers outside_a_47(2,3)
+start answers outside_a_47(2,4):
+-756.142
+//end answers outside_a_47(2,4)
+start answers outside_a_47(2,5):
+-757.212
+//end answers outside_a_47(2,5)
+start answers outside_a_47(2,6):
+-759.513
+//end answers outside_a_47(2,6)
+start answers outside_a_47(2,7):
+-762.808
+//end answers outside_a_47(2,7)
+start answers outside_a_47(2,8):
+-768.761
+//end answers outside_a_47(2,8)
+start answers outside_a_47(3,3):
+-745.019
+//end answers outside_a_47(3,3)
+start answers outside_a_47(3,4):
+-745.3
+//end answers outside_a_47(3,4)
+start answers outside_a_47(3,5):
+-746.366
+//end answers outside_a_47(3,5)
+start answers outside_a_47(3,6):
+-749.031
+//end answers outside_a_47(3,6)
+start answers outside_a_47(3,7):
+-752.288
+//end answers outside_a_47(3,7)
+start answers outside_a_47(3,8):
+-758.305
+//end answers outside_a_47(3,8)
+start answers outside_a_47(4,4):
+-733.963
+//end answers outside_a_47(4,4)
+start answers outside_a_47(4,5):
+-735.027
+//end answers outside_a_47(4,5)
+start answers outside_a_47(4,6):
+-739.008
+//end answers outside_a_47(4,6)
+start answers outside_a_47(4,7):
+-742.044
+//end answers outside_a_47(4,7)
+start answers outside_a_47(4,8):
+-748.47
+//end answers outside_a_47(4,8)
+start answers outside_a_47(5,5):
+-723.31
+//end answers outside_a_47(5,5)
+start answers outside_a_47(5,6):
+-727.922
+//end answers outside_a_47(5,6)
+start answers outside_a_47(5,7):
+-730.784
+//end answers outside_a_47(5,7)
+start answers outside_a_47(5,8):
+-737.578
+//end answers outside_a_47(5,8)
+start answers outside_a_47(6,6):
+-717.063
+//end answers outside_a_47(6,6)
+start answers outside_a_47(6,7):
+-719.897
+//end answers outside_a_47(6,7)
+start answers outside_a_47(6,8):
+-726.754
+//end answers outside_a_47(6,8)
+start answers outside_a_47(7,7):
+-707.692
+//end answers outside_a_47(7,7)
+start answers outside_a_47(7,8):
+-714.603
+//end answers outside_a_47(7,8)
+start answers outside_a_47(8,8):
+-704.779
+//end answers outside_a_47(8,8)
+start answers a_82(0,0):
+-120.292
+//end answers a_82(0,0)
+start answers a_82(0,1):
+-109.354
+//end answers a_82(0,1)
+start answers a_82(0,2):
+-98.9647
+//end answers a_82(0,2)
+start answers a_82(0,3):
+-90.9058
+//end answers a_82(0,3)
+start answers a_82(0,4):
+-80.9851
+//end answers a_82(0,4)
+start answers a_82(0,5):
+-74.457
+//end answers a_82(0,5)
+start answers a_82(0,6):
+-67.4122
+//end answers a_82(0,6)
+start answers a_82(0,7):
+-63.4912
+//end answers a_82(0,7)
+start answers a_82(0,8):
+-54.074
+//end answers a_82(0,8)
+start answers a_82(1,1):
+-120.292
+//end answers a_82(1,1)
+start answers a_82(1,2):
+-108.848
+//end answers a_82(1,2)
+start answers a_82(1,3):
+-99.3584
+//end answers a_82(1,3)
+start answers a_82(1,4):
+-89.069
+//end answers a_82(1,4)
+start answers a_82(1,5):
+-82.348
+//end answers a_82(1,5)
+start answers a_82(1,6):
+-75.3654
+//end answers a_82(1,6)
+start answers a_82(1,7):
+-71.021
+//end answers a_82(1,7)
+start answers a_82(1,8):
+-61.5215
+//end answers a_82(1,8)
+start answers a_82(2,2):
+-120.292
+//end answers a_82(2,2)
+start answers a_82(2,3):
+-108.782
+//end answers a_82(2,3)
+start answers a_82(2,4):
+-98.4133
+//end answers a_82(2,4)
+start answers a_82(2,5):
+-91.4573
+//end answers a_82(2,5)
+start answers a_82(2,6):
+-84.4538
+//end answers a_82(2,6)
+start answers a_82(2,7):
+-78.663
+//end answers a_82(2,7)
+start answers a_82(2,8):
+-69.7141
+//end answers a_82(2,8)
+start answers a_82(3,3):
+-120.292
+//end answers a_82(3,3)
+start answers a_82(3,4):
+-109.354
+//end answers a_82(3,4)
+start answers a_82(3,5):
+-100.225
+//end answers a_82(3,5)
+start answers a_82(3,6):
+-91.5928
+//end answers a_82(3,6)
+start answers a_82(3,7):
+-81.203
+//end answers a_82(3,7)
+start answers a_82(3,8):
+-73.7896
+//end answers a_82(3,8)
+start answers a_82(4,4):
+-120.292
+//end answers a_82(4,4)
+start answers a_82(4,5):
+-109.354
+//end answers a_82(4,5)
+start answers a_82(4,6):
+-99.1439
+//end answers a_82(4,6)
+start answers a_82(4,7):
+-88.341
+//end answers a_82(4,7)
+start answers a_82(4,8):
+-80.9233
+//end answers a_82(4,8)
+start answers a_82(5,5):
+-120.292
+//end answers a_82(5,5)
+start answers a_82(5,6):
+-108.174
+//end answers a_82(5,6)
+start answers a_82(5,7):
+-97.236
+//end answers a_82(5,7)
+start answers a_82(5,8):
+-89.5848
+//end answers a_82(5,8)
+start answers a_82(6,6):
+-120.292
+//end answers a_82(6,6)
+start answers a_82(6,7):
+-108.848
+//end answers a_82(6,7)
+start answers a_82(6,8):
+-98.7722
+//end answers a_82(6,8)
+start answers a_82(7,7):
+-120.292
+//end answers a_82(7,7)
+start answers a_82(7,8):
+-108.174
+//end answers a_82(7,8)
+start answers a_82(8,8):
+-120.292
+//end answers a_82(8,8)
+start answers outside_a_82(0,0):
+-788.764
+//end answers outside_a_82(0,0)
+start answers outside_a_82(0,1):
+-786.24
+//end answers outside_a_82(0,1)
+start answers outside_a_82(0,2):
+-784.89
+//end answers outside_a_82(0,2)
+start answers outside_a_82(0,3):
+-784.399
+//end answers outside_a_82(0,3)
+start answers outside_a_82(0,4):
+-784.679
+//end answers outside_a_82(0,4)
+start answers outside_a_82(0,5):
+-785.75
+//end answers outside_a_82(0,5)
+start answers outside_a_82(0,6):
+-787.751
+//end answers outside_a_82(0,6)
+start answers outside_a_82(0,7):
+-791.073
+//end answers outside_a_82(0,7)
+start answers outside_a_82(0,8):
+-796.98
+//end answers outside_a_82(0,8)
+start answers outside_a_82(1,1):
+-771.389
+//end answers outside_a_82(1,1)
+start answers outside_a_82(1,2):
+-769.844
+//end answers outside_a_82(1,2)
+start answers outside_a_82(1,3):
+-770.359
+//end answers outside_a_82(1,3)
+start answers outside_a_82(1,4):
+-770.637
+//end answers outside_a_82(1,4)
+start answers outside_a_82(1,5):
+-771.708
+//end answers outside_a_82(1,5)
+start answers outside_a_82(1,6):
+-773.908
+//end answers outside_a_82(1,6)
+start answers outside_a_82(1,7):
+-777.212
+//end answers outside_a_82(1,7)
+start answers outside_a_82(1,8):
+-783.149
+//end answers outside_a_82(1,8)
+start answers outside_a_82(2,2):
+-755.063
+//end answers outside_a_82(2,2)
+start answers outside_a_82(2,3):
+-755.864
+//end answers outside_a_82(2,3)
+start answers outside_a_82(2,4):
+-756.142
+//end answers outside_a_82(2,4)
+start answers outside_a_82(2,5):
+-757.212
+//end answers outside_a_82(2,5)
+start answers outside_a_82(2,6):
+-759.513
+//end answers outside_a_82(2,6)
+start answers outside_a_82(2,7):
+-762.808
+//end answers outside_a_82(2,7)
+start answers outside_a_82(2,8):
+-768.761
+//end answers outside_a_82(2,8)
+start answers outside_a_82(3,3):
+-745.019
+//end answers outside_a_82(3,3)
+start answers outside_a_82(3,4):
+-745.3
+//end answers outside_a_82(3,4)
+start answers outside_a_82(3,5):
+-746.366
+//end answers outside_a_82(3,5)
+start answers outside_a_82(3,6):
+-749.031
+//end answers outside_a_82(3,6)
+start answers outside_a_82(3,7):
+-752.288
+//end answers outside_a_82(3,7)
+start answers outside_a_82(3,8):
+-758.305
+//end answers outside_a_82(3,8)
+start answers outside_a_82(4,4):
+-733.963
+//end answers outside_a_82(4,4)
+start answers outside_a_82(4,5):
+-735.027
+//end answers outside_a_82(4,5)
+start answers outside_a_82(4,6):
+-739.008
+//end answers outside_a_82(4,6)
+start answers outside_a_82(4,7):
+-742.044
+//end answers outside_a_82(4,7)
+start answers outside_a_82(4,8):
+-748.47
+//end answers outside_a_82(4,8)
+start answers outside_a_82(5,5):
+-723.31
+//end answers outside_a_82(5,5)
+start answers outside_a_82(5,6):
+-727.923
+//end answers outside_a_82(5,6)
+start answers outside_a_82(5,7):
+-730.784
+//end answers outside_a_82(5,7)
+start answers outside_a_82(5,8):
+-737.579
+//end answers outside_a_82(5,8)
+start answers outside_a_82(6,6):
+-717.063
+//end answers outside_a_82(6,6)
+start answers outside_a_82(6,7):
+-719.897
+//end answers outside_a_82(6,7)
+start answers outside_a_82(6,8):
+-726.754
+//end answers outside_a_82(6,8)
+start answers outside_a_82(7,7):
+-707.692
+//end answers outside_a_82(7,7)
+start answers outside_a_82(7,8):
+-714.603
+//end answers outside_a_82(7,8)
+start answers outside_a_82(8,8):
+-704.779
+//end answers outside_a_82(8,8)

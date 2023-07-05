@@ -2,7 +2,7 @@
 
 A [ < (t_0_left_most, t_0_right_most) > ] = foo( P, Q, )
 foo( \t_0_left_most ,t_0_k_0/, \t_0_k_0 ,t_0_right_most/, )
-for(size t_0_k_0 = (((t_0_right_most - t_0_left_most) >= 13)) ? ((t_0_right_most - 13)) : (t_0_left_most); ((t_0_k_0 <= t_0_right_most) && (t_0_k_0 <= (t_0_left_most + 10))); ++t_0_k_0)
+for(size t_0_k_0 = ((((t_0_right_most - t_0_left_most) >= 13)) ? ((t_0_right_most - 13)) : (t_0_left_most)); ((t_0_k_0 <= t_0_right_most) && (t_0_k_0 <= (t_0_left_most + 10))); ++t_0_k_0)
 {
 }
 

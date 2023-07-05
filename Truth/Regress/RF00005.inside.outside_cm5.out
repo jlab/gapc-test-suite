@@ -538,12 +538,276 @@ start answers outside_state_MP_6(7,8):
 start answers outside_state_MP_6(8,8):
 []
 //end answers outside_state_MP_6(8,8)
-start answers state_S_0():
--54.418
-//end answers state_S_0()
-start answers outside_state_S_0():
+start answers state_S_0(0,0):
 -80.675
-//end answers outside_state_S_0()
+//end answers state_S_0(0,0)
+start answers state_S_0(0,1):
+-72.6059
+//end answers state_S_0(0,1)
+start answers state_S_0(0,2):
+-66.6379
+//end answers state_S_0(0,2)
+start answers state_S_0(0,3):
+-64.0448
+//end answers state_S_0(0,3)
+start answers state_S_0(0,4):
+-61.5948
+//end answers state_S_0(0,4)
+start answers state_S_0(0,5):
+-59.1965
+//end answers state_S_0(0,5)
+start answers state_S_0(0,6):
+-57.3397
+//end answers state_S_0(0,6)
+start answers state_S_0(0,7):
+-56.2904
+//end answers state_S_0(0,7)
+start answers state_S_0(0,8):
+-54.418
+//end answers state_S_0(0,8)
+start answers state_S_0(1,1):
+-80.675
+//end answers state_S_0(1,1)
+start answers state_S_0(1,2):
+-70.3495
+//end answers state_S_0(1,2)
+start answers state_S_0(1,3):
+-65.1509
+//end answers state_S_0(1,3)
+start answers state_S_0(1,4):
+-62.8376
+//end answers state_S_0(1,4)
+start answers state_S_0(1,5):
+-60.0737
+//end answers state_S_0(1,5)
+start answers state_S_0(1,6):
+-58.5093
+//end answers state_S_0(1,6)
+start answers state_S_0(1,7):
+-57.9626
+//end answers state_S_0(1,7)
+start answers state_S_0(1,8):
+-55.7465
+//end answers state_S_0(1,8)
+start answers state_S_0(2,2):
+-80.675
+//end answers state_S_0(2,2)
+start answers state_S_0(2,3):
+-72.0268
+//end answers state_S_0(2,3)
+start answers state_S_0(2,4):
+-69.1408
+//end answers state_S_0(2,4)
+start answers state_S_0(2,5):
+-66.3413
+//end answers state_S_0(2,5)
+start answers state_S_0(2,6):
+-64.1168
+//end answers state_S_0(2,6)
+start answers state_S_0(2,7):
+-62.3582
+//end answers state_S_0(2,7)
+start answers state_S_0(2,8):
+-59.0724
+//end answers state_S_0(2,8)
+start answers state_S_0(3,3):
+-80.675
+//end answers state_S_0(3,3)
+start answers state_S_0(3,4):
+-72.6059
+//end answers state_S_0(3,4)
+start answers state_S_0(3,5):
+-68.5053
+//end answers state_S_0(3,5)
+start answers state_S_0(3,6):
+-65.1301
+//end answers state_S_0(3,6)
+start answers state_S_0(3,7):
+-62.1508
+//end answers state_S_0(3,7)
+start answers state_S_0(3,8):
+-57.9131
+//end answers state_S_0(3,8)
+start answers state_S_0(4,4):
+-80.675
+//end answers state_S_0(4,4)
+start answers state_S_0(4,5):
+-72.6059
+//end answers state_S_0(4,5)
+start answers state_S_0(4,6):
+-67.035
+//end answers state_S_0(4,6)
+start answers state_S_0(4,7):
+-64.274
+//end answers state_S_0(4,7)
+start answers state_S_0(4,8):
+-61.5682
+//end answers state_S_0(4,8)
+start answers state_S_0(5,5):
+-80.675
+//end answers state_S_0(5,5)
+start answers state_S_0(5,6):
+-70.8745
+//end answers state_S_0(5,6)
+start answers state_S_0(5,7):
+-66.5201
+//end answers state_S_0(5,7)
+start answers state_S_0(5,8):
+-63.4984
+//end answers state_S_0(5,8)
+start answers state_S_0(6,6):
+-80.675
+//end answers state_S_0(6,6)
+start answers state_S_0(6,7):
+-70.3495
+//end answers state_S_0(6,7)
+start answers state_S_0(6,8):
+-64.0374
+//end answers state_S_0(6,8)
+start answers state_S_0(7,7):
+-80.675
+//end answers state_S_0(7,7)
+start answers state_S_0(7,8):
+-70.8745
+//end answers state_S_0(7,8)
+start answers state_S_0(8,8):
+-80.675
+//end answers state_S_0(8,8)
+start answers outside_state_S_0(0,0):
+[]
+//end answers outside_state_S_0(0,0)
+start answers outside_state_S_0(0,1):
+[]
+//end answers outside_state_S_0(0,1)
+start answers outside_state_S_0(0,2):
+[]
+//end answers outside_state_S_0(0,2)
+start answers outside_state_S_0(0,3):
+[]
+//end answers outside_state_S_0(0,3)
+start answers outside_state_S_0(0,4):
+[]
+//end answers outside_state_S_0(0,4)
+start answers outside_state_S_0(0,5):
+[]
+//end answers outside_state_S_0(0,5)
+start answers outside_state_S_0(0,6):
+[]
+//end answers outside_state_S_0(0,6)
+start answers outside_state_S_0(0,7):
+[]
+//end answers outside_state_S_0(0,7)
+start answers outside_state_S_0(0,8):
+-80.675
+//end answers outside_state_S_0(0,8)
+start answers outside_state_S_0(1,1):
+[]
+//end answers outside_state_S_0(1,1)
+start answers outside_state_S_0(1,2):
+[]
+//end answers outside_state_S_0(1,2)
+start answers outside_state_S_0(1,3):
+[]
+//end answers outside_state_S_0(1,3)
+start answers outside_state_S_0(1,4):
+[]
+//end answers outside_state_S_0(1,4)
+start answers outside_state_S_0(1,5):
+[]
+//end answers outside_state_S_0(1,5)
+start answers outside_state_S_0(1,6):
+[]
+//end answers outside_state_S_0(1,6)
+start answers outside_state_S_0(1,7):
+[]
+//end answers outside_state_S_0(1,7)
+start answers outside_state_S_0(1,8):
+[]
+//end answers outside_state_S_0(1,8)
+start answers outside_state_S_0(2,2):
+[]
+//end answers outside_state_S_0(2,2)
+start answers outside_state_S_0(2,3):
+[]
+//end answers outside_state_S_0(2,3)
+start answers outside_state_S_0(2,4):
+[]
+//end answers outside_state_S_0(2,4)
+start answers outside_state_S_0(2,5):
+[]
+//end answers outside_state_S_0(2,5)
+start answers outside_state_S_0(2,6):
+[]
+//end answers outside_state_S_0(2,6)
+start answers outside_state_S_0(2,7):
+[]
+//end answers outside_state_S_0(2,7)
+start answers outside_state_S_0(2,8):
+[]
+//end answers outside_state_S_0(2,8)
+start answers outside_state_S_0(3,3):
+[]
+//end answers outside_state_S_0(3,3)
+start answers outside_state_S_0(3,4):
+[]
+//end answers outside_state_S_0(3,4)
+start answers outside_state_S_0(3,5):
+[]
+//end answers outside_state_S_0(3,5)
+start answers outside_state_S_0(3,6):
+[]
+//end answers outside_state_S_0(3,6)
+start answers outside_state_S_0(3,7):
+[]
+//end answers outside_state_S_0(3,7)
+start answers outside_state_S_0(3,8):
+[]
+//end answers outside_state_S_0(3,8)
+start answers outside_state_S_0(4,4):
+[]
+//end answers outside_state_S_0(4,4)
+start answers outside_state_S_0(4,5):
+[]
+//end answers outside_state_S_0(4,5)
+start answers outside_state_S_0(4,6):
+[]
+//end answers outside_state_S_0(4,6)
+start answers outside_state_S_0(4,7):
+[]
+//end answers outside_state_S_0(4,7)
+start answers outside_state_S_0(4,8):
+[]
+//end answers outside_state_S_0(4,8)
+start answers outside_state_S_0(5,5):
+[]
+//end answers outside_state_S_0(5,5)
+start answers outside_state_S_0(5,6):
+[]
+//end answers outside_state_S_0(5,6)
+start answers outside_state_S_0(5,7):
+[]
+//end answers outside_state_S_0(5,7)
+start answers outside_state_S_0(5,8):
+[]
+//end answers outside_state_S_0(5,8)
+start answers outside_state_S_0(6,6):
+[]
+//end answers outside_state_S_0(6,6)
+start answers outside_state_S_0(6,7):
+[]
+//end answers outside_state_S_0(6,7)
+start answers outside_state_S_0(6,8):
+[]
+//end answers outside_state_S_0(6,8)
+start answers outside_state_S_0(7,7):
+[]
+//end answers outside_state_S_0(7,7)
+start answers outside_state_S_0(7,8):
+[]
+//end answers outside_state_S_0(7,8)
+start answers outside_state_S_0(8,8):
+[]
+//end answers outside_state_S_0(8,8)
 start answers state_E_120(0,0):
 0
 //end answers state_E_120(0,0)

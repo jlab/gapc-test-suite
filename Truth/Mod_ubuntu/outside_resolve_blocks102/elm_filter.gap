@@ -13,29 +13,29 @@ digraph bill {
     node_2 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     subgraph cluster_alt_3 {
       peripheries=0;
-      node_3 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>add<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
-      node_4 [ label="maxsize(0)" , fontcolor="magenta" , shape=none ];
-      node_3 -> node_4 [ arrowhead=none, color="magenta" ];
-      node_5 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>formula<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_1</font></td></tr></table>>, color="black" ];
+      node_3 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>mult<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
+      node_4 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>formula<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_2</font></td></tr></table>>, color="black" ];
+      node_3 -> node_4 [ arrowhead=none ];
+      node_5 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_2</font></td><td>times<br/><font color='orange'>[char]</font></td><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td></tr></table>>, color="black" ];
       node_3 -> node_5 [ arrowhead=none ];
-      node_6 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_1</font></td><td>plus<br/><font color='orange'>[char]</font></td><td><font point-size='8' color='#555555'>t_0_k_2</font></td></tr></table>>, color="black" ];
+      node_6 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_2 + 1)</font></td><td>formula<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
       node_3 -> node_6 [ arrowhead=none ];
-      node_7 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_2</font></td><td>formula<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
-      node_3 -> node_7 [ arrowhead=none ];
     };
-    subgraph cluster_bar_8 {
+    subgraph cluster_bar_7 {
       peripheries=0;
-      node_8 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
+      node_7 [ label=<<table border='0'><tr><td><font point-size='30'>|</font></td></tr></table>>, shape=plaintext ];
     };
-    subgraph cluster_alt_9 {
+    subgraph cluster_alt_8 {
       peripheries=0;
-      node_9 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>mult<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
+      node_8 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>add<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="green" ];
+      node_9 [ label="maxsize(0)" , fontcolor="magenta" , shape=none ];
+      node_8 -> node_9 [ arrowhead=none, color="magenta" ];
       node_10 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>formula<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_0</font></td></tr></table>>, color="black" ];
-      node_9 -> node_10 [ arrowhead=none ];
-      node_11 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_0</font></td><td>times<br/><font color='orange'>[char]</font></td><td><font point-size='8' color='#555555'>(t_0_k_0 + 1)</font></td></tr></table>>, color="black" ];
-      node_9 -> node_11 [ arrowhead=none ];
-      node_12 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_0 + 1)</font></td><td>formula<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
-      node_9 -> node_12 [ arrowhead=none ];
+      node_8 -> node_10 [ arrowhead=none ];
+      node_11 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_0</font></td><td>plus<br/><font color='orange'>[char]</font></td><td><font point-size='8' color='#555555'>t_0_k_1</font></td></tr></table>>, color="black" ];
+      node_8 -> node_11 [ arrowhead=none ];
+      node_12 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_1</font></td><td>formula<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr></table>>, color="black" ];
+      node_8 -> node_12 [ arrowhead=none ];
     };
     subgraph cluster_bar_13 {
       peripheries=0;
@@ -47,10 +47,10 @@ digraph bill {
     };
     node_15 [ label=<h<br/><font color='orange'>[Sig answer]</font>>, fontcolor="purple", shape=plain ];
     node_16 [ style="invis", shape=box, fixedsize=true, width=0.01, label="" ];
-    { rank=same node_16 node_5 }
+    { rank=same node_16 node_4 }
     node_1:sw -> node_16:nw [style="invis", weight=999 ];
     node_1 -> node_15 [ arrowhead=none, color="purple" ];
-    { rank=same node_1 node_2 node_3 node_8 node_9 node_13 node_14 }
+    { rank=same node_1 node_2 node_3 node_7 node_8 node_13 node_14 }
   }
   node_16:sw -> node_17:nw [ style="invis" ];
   subgraph cluster_2 {

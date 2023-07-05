@@ -115,7 +115,7 @@ digraph gra_nodangle {
     };
     subgraph cluster_alt_38 {
       peripheries=0;
-      node_38 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_5</font></td><td>il<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_7</font></td></tr></table>>, color="green" ];
+      node_38 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_5</font></td><td>il<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_8</font></td></tr></table>>, color="green" ];
       node_39 [ label="basepairing" , fontcolor="magenta" , shape=none ];
       node_38 -> node_39 [ arrowhead=none, color="magenta" ];
       node_40 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_5</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_k_5 + 1)</font></td></tr></table>>, color="blue" ];
@@ -124,25 +124,25 @@ digraph gra_nodangle {
       node_38 -> node_41 [ arrowhead=none ];
       node_42 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_6</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_k_6 + 1)</font></td></tr></table>>, color="blue" ];
       node_38 -> node_42 [ arrowhead=none ];
-      node_43 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_6 + 1)</font></td><td>comp<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_8</font></td></tr></table>>, color="green" ];
+      node_43 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_6 + 1)</font></td><td>comp<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_9</font></td></tr></table>>, color="green" ];
       node_44 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_6 + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>((t_0_k_6 + 1) + 1)</font></td></tr></table>>, color="blue" ];
       node_43 -> node_44 [ arrowhead=none ];
-      node_45 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>((t_0_k_6 + 1) + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(((t_0_k_6 + 1) + 1) + 1)</font></td></tr></table>>, color="blue" ];
+      node_45 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_6 + 2)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>((t_0_k_6 + 2) + 1)</font></td></tr></table>>, color="blue" ];
       node_43 -> node_45 [ arrowhead=none ];
-      node_46 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(((t_0_k_6 + 1) + 1) + 1)</font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_k_9</font></td></tr></table>>, color="blue" ];
+      node_46 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_6 + 3)</font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_k_7</font></td></tr></table>>, color="blue" ];
       node_43 -> node_46 [ arrowhead=none ];
-      node_47 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_9</font></td><td>struct<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_i - 1)</font></td></tr></table>>, color="black" ];
+      node_47 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_7</font></td><td>struct<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>(t_0_i - 1)</font></td></tr></table>>, color="black" ];
       node_43 -> node_47 [ arrowhead=none ];
       node_48 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_i - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_i</font></td></tr></table>>, color="blue" ];
       node_43 -> node_48 [ arrowhead=none ];
-      node_49 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_5</font></td><td>outside_iloop<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_7</font></td></tr></table>>, color="black" ];
+      node_49 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_5</font></td><td>outside_iloop<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_8</font></td></tr></table>>, color="black" ];
       node_43 -> node_49 [ arrowhead=none ];
-      node_50 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_j</font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_k_8</font></td></tr></table>>, color="blue" ];
+      node_50 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_j</font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_k_9</font></td></tr></table>>, color="blue" ];
       node_43 -> node_50 [ arrowhead=none ];
       node_38 -> node_43 [ arrowhead=none ];
-      node_51 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_8</font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_k_7 - 1)</font></td></tr></table>>, color="blue" ];
+      node_51 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_9</font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(t_0_k_8 - 1)</font></td></tr></table>>, color="blue" ];
       node_38 -> node_51 [ arrowhead=none ];
-      node_52 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_7 - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_k_7</font></td></tr></table>>, color="blue" ];
+      node_52 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_8 - 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_k_8</font></td></tr></table>>, color="blue" ];
       node_38 -> node_52 [ arrowhead=none ];
     };
     subgraph cluster_bar_53 {
@@ -163,9 +163,9 @@ digraph gra_nodangle {
       node_59 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_1 + 1)</font></td><td>comp<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_3</font></td></tr></table>>, color="green" ];
       node_60 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_1 + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>((t_0_k_1 + 1) + 1)</font></td></tr></table>>, color="blue" ];
       node_59 -> node_60 [ arrowhead=none ];
-      node_61 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>((t_0_k_1 + 1) + 1)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>(((t_0_k_1 + 1) + 1) + 1)</font></td></tr></table>>, color="blue" ];
+      node_61 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_1 + 2)</font></td><td>BASE<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>((t_0_k_1 + 2) + 1)</font></td></tr></table>>, color="blue" ];
       node_59 -> node_61 [ arrowhead=none ];
-      node_62 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(((t_0_k_1 + 1) + 1) + 1)</font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_i</font></td></tr></table>>, color="blue" ];
+      node_62 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>(t_0_k_1 + 3)</font></td><td>REGION<br/><font color='orange'>&lt;Input-Sub-Sequence-Type&gt;</font></td><td><font point-size='8' color='#555555'>t_0_i</font></td></tr></table>>, color="blue" ];
       node_59 -> node_62 [ arrowhead=none ];
       node_63 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_k_0</font></td><td>outside_iloop<br/><font color='orange'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_k_2</font></td></tr></table>>, color="black" ];
       node_59 -> node_63 [ arrowhead=none ];

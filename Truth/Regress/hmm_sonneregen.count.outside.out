@@ -1,3 +1,111 @@
+start answers state_start(0,0):
+1
+//end answers state_start(0,0)
+start answers state_start(0,1):
+2
+//end answers state_start(0,1)
+start answers state_start(0,2):
+4
+//end answers state_start(0,2)
+start answers state_start(1,1):
+1
+//end answers state_start(1,1)
+start answers state_start(1,2):
+2
+//end answers state_start(1,2)
+start answers state_start(2,2):
+1
+//end answers state_start(2,2)
+start answers outside_state_start(0,0):
+[]
+//end answers outside_state_start(0,0)
+start answers outside_state_start(0,1):
+[]
+//end answers outside_state_start(0,1)
+start answers outside_state_start(0,2):
+1
+//end answers outside_state_start(0,2)
+start answers outside_state_start(1,1):
+[]
+//end answers outside_state_start(1,1)
+start answers outside_state_start(1,2):
+[]
+//end answers outside_state_start(1,2)
+start answers outside_state_start(2,2):
+[]
+//end answers outside_state_start(2,2)
+start answers state_hoch(0,0):
+1
+//end answers state_hoch(0,0)
+start answers state_hoch(0,1):
+2
+//end answers state_hoch(0,1)
+start answers state_hoch(0,2):
+4
+//end answers state_hoch(0,2)
+start answers state_hoch(1,1):
+1
+//end answers state_hoch(1,1)
+start answers state_hoch(1,2):
+2
+//end answers state_hoch(1,2)
+start answers state_hoch(2,2):
+1
+//end answers state_hoch(2,2)
+start answers outside_state_hoch(0,0):
+[]
+//end answers outside_state_hoch(0,0)
+start answers outside_state_hoch(0,1):
+[]
+//end answers outside_state_hoch(0,1)
+start answers outside_state_hoch(0,2):
+[]
+//end answers outside_state_hoch(0,2)
+start answers outside_state_hoch(1,1):
+[]
+//end answers outside_state_hoch(1,1)
+start answers outside_state_hoch(1,2):
+1
+//end answers outside_state_hoch(1,2)
+start answers outside_state_hoch(2,2):
+[]
+//end answers outside_state_hoch(2,2)
+start answers state_tief(0,0):
+1
+//end answers state_tief(0,0)
+start answers state_tief(0,1):
+2
+//end answers state_tief(0,1)
+start answers state_tief(0,2):
+4
+//end answers state_tief(0,2)
+start answers state_tief(1,1):
+1
+//end answers state_tief(1,1)
+start answers state_tief(1,2):
+2
+//end answers state_tief(1,2)
+start answers state_tief(2,2):
+1
+//end answers state_tief(2,2)
+start answers outside_state_tief(0,0):
+[]
+//end answers outside_state_tief(0,0)
+start answers outside_state_tief(0,1):
+[]
+//end answers outside_state_tief(0,1)
+start answers outside_state_tief(0,2):
+[]
+//end answers outside_state_tief(0,2)
+start answers outside_state_tief(1,1):
+[]
+//end answers outside_state_tief(1,1)
+start answers outside_state_tief(1,2):
+1
+//end answers outside_state_tief(1,2)
+start answers outside_state_tief(2,2):
+[]
+//end answers outside_state_tief(2,2)
 start answers emit_hoch(0,0):
 []
 //end answers emit_hoch(0,0)
@@ -70,45 +178,3 @@ start answers outside_emit_tief(1,2):
 start answers outside_emit_tief(2,2):
 []
 //end answers outside_emit_tief(2,2)
-start answers state_hoch(0):
-4
-//end answers state_hoch(0)
-start answers state_hoch(1):
-2
-//end answers state_hoch(1)
-start answers state_hoch(2):
-1
-//end answers state_hoch(2)
-start answers outside_state_hoch(0):
-[]
-//end answers outside_state_hoch(0)
-start answers outside_state_hoch(1):
-1
-//end answers outside_state_hoch(1)
-start answers outside_state_hoch(2):
-[]
-//end answers outside_state_hoch(2)
-start answers state_start():
-4
-//end answers state_start()
-start answers outside_state_start():
-1
-//end answers outside_state_start()
-start answers state_tief(0):
-4
-//end answers state_tief(0)
-start answers state_tief(1):
-2
-//end answers state_tief(1)
-start answers state_tief(2):
-1
-//end answers state_tief(2)
-start answers outside_state_tief(0):
-[]
-//end answers outside_state_tief(0)
-start answers outside_state_tief(1):
-1
-//end answers outside_state_tief(1)
-start answers outside_state_tief(2):
-[]
-//end answers outside_state_tief(2)
