@@ -915,7 +915,7 @@ digraph stefansDangle {
     node_331 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     subgraph cluster_alt_332 {
       peripheries=0;
-      node_332 [ label=<<table border='0'><tr><td>outside_struct</td></tr></table>>, color="black" ];
+      node_332 [ label=<<table border='0'><tr><td>outside_stem</td></tr></table>>, color="black" ];
     };
     subgraph cluster_bar_333 {
       peripheries=0;
@@ -923,7 +923,7 @@ digraph stefansDangle {
     };
     subgraph cluster_alt_334 {
       peripheries=0;
-      node_334 [ label=<<table border='0'><tr><td>outside_stem</td></tr></table>>, color="black" ];
+      node_334 [ label=<<table border='0'><tr><td>outside_struct</td></tr></table>>, color="black" ];
     };
     { rank=same node_330 node_331 node_332 node_333 node_334 }
   }

@@ -807,7 +807,7 @@ digraph fold {
     node_273 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     subgraph cluster_alt_274 {
       peripheries=0;
-      node_274 [ label=<<table border='0'><tr><td>outside_struct</td></tr></table>>, color="black" ];
+      node_274 [ label=<<table border='0'><tr><td>outside_hairpin</td></tr></table>>, color="black" ];
     };
     subgraph cluster_bar_275 {
       peripheries=0;
@@ -815,7 +815,7 @@ digraph fold {
     };
     subgraph cluster_alt_276 {
       peripheries=0;
-      node_276 [ label=<<table border='0'><tr><td>outside_hairpin</td></tr></table>>, color="black" ];
+      node_276 [ label=<<table border='0'><tr><td>outside_struct</td></tr></table>>, color="black" ];
     };
     { rank=same node_272 node_273 node_274 node_275 node_276 }
   }
