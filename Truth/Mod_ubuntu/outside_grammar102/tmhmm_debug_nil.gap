@@ -1913,7 +1913,7 @@ digraph gra_tmhmm {
     node_644 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     subgraph cluster_alt_645 {
       peripheries=0;
-      node_645 [ label=<<table border='0'><tr><td>outside_transitions_outglob11</td></tr></table>>, color="#0c0a0c" ];
+      node_645 [ label=<<table border='0'><tr><td>outside_emissions_in10</td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_646 {
       peripheries=0;
@@ -1921,7 +1921,7 @@ digraph gra_tmhmm {
     };
     subgraph cluster_alt_647 {
       peripheries=0;
-      node_647 [ label=<<table border='0'><tr><td>outside_emissions_outglob10</td></tr></table>>, color="#0c0a0c" ];
+      node_647 [ label=<<table border='0'><tr><td>outside_emissions_ohelixi1</td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_648 {
       peripheries=0;
@@ -1929,7 +1929,7 @@ digraph gra_tmhmm {
     };
     subgraph cluster_alt_649 {
       peripheries=0;
-      node_649 [ label=<<table border='0'><tr><td>outside_transitions_out11</td></tr></table>>, color="#0c0a0c" ];
+      node_649 [ label=<<table border='0'><tr><td>outside_emissions_out10</td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_650 {
       peripheries=0;
@@ -1937,7 +1937,7 @@ digraph gra_tmhmm {
     };
     subgraph cluster_alt_651 {
       peripheries=0;
-      node_651 [ label=<<table border='0'><tr><td>outside_transitions_ohelixi1</td></tr></table>>, color="#0c0a0c" ];
+      node_651 [ label=<<table border='0'><tr><td>outside_emissions_outglob10</td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_652 {
       peripheries=0;
@@ -1945,7 +1945,7 @@ digraph gra_tmhmm {
     };
     subgraph cluster_alt_653 {
       peripheries=0;
-      node_653 [ label=<<table border='0'><tr><td>outside_emissions_ohelixi1</td></tr></table>>, color="#0c0a0c" ];
+      node_653 [ label=<<table border='0'><tr><td>outside_transitions_begin</td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_654 {
       peripheries=0;
@@ -1953,7 +1953,7 @@ digraph gra_tmhmm {
     };
     subgraph cluster_alt_655 {
       peripheries=0;
-      node_655 [ label=<<table border='0'><tr><td>outside_transitions_in11</td></tr></table>>, color="#0c0a0c" ];
+      node_655 [ label=<<table border='0'><tr><td>outside_transitions_ihelixo1</td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_656 {
       peripheries=0;
@@ -1961,7 +1961,7 @@ digraph gra_tmhmm {
     };
     subgraph cluster_alt_657 {
       peripheries=0;
-      node_657 [ label=<<table border='0'><tr><td>outside_emissions_in10</td></tr></table>>, color="#0c0a0c" ];
+      node_657 [ label=<<table border='0'><tr><td>outside_transitions_in11</td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_658 {
       peripheries=0;
@@ -1969,7 +1969,7 @@ digraph gra_tmhmm {
     };
     subgraph cluster_alt_659 {
       peripheries=0;
-      node_659 [ label=<<table border='0'><tr><td>outside_transitions_ihelixo1</td></tr></table>>, color="#0c0a0c" ];
+      node_659 [ label=<<table border='0'><tr><td>outside_transitions_ohelixi1</td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_660 {
       peripheries=0;
@@ -1977,7 +1977,7 @@ digraph gra_tmhmm {
     };
     subgraph cluster_alt_661 {
       peripheries=0;
-      node_661 [ label=<<table border='0'><tr><td>outside_emissions_out10</td></tr></table>>, color="#0c0a0c" ];
+      node_661 [ label=<<table border='0'><tr><td>outside_transitions_out11</td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_662 {
       peripheries=0;
@@ -1985,7 +1985,7 @@ digraph gra_tmhmm {
     };
     subgraph cluster_alt_663 {
       peripheries=0;
-      node_663 [ label=<<table border='0'><tr><td>outside_transitions_begin</td></tr></table>>, color="#0c0a0c" ];
+      node_663 [ label=<<table border='0'><tr><td>outside_transitions_outglob11</td></tr></table>>, color="#0c0a0c" ];
     };
     { rank=same node_643 node_644 node_645 node_646 node_647 node_648 node_649 node_650 node_651 node_652 node_653 node_654 node_655 node_656 node_657 node_658 node_659 node_660 node_661 node_662 node_663 }
   }

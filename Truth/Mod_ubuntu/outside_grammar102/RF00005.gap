@@ -31391,7 +31391,7 @@ digraph gra_cm {
     node_10895 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     subgraph cluster_alt_10896 {
       peripheries=0;
-      node_10896 [ label=<<table border='0'><tr><td>outside_state_E_226</td></tr></table>>, color="#0c0a0c" ];
+      node_10896 [ label=<<table border='0'><tr><td>outside_state_E_120</td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_10897 {
       peripheries=0;
@@ -31407,7 +31407,7 @@ digraph gra_cm {
     };
     subgraph cluster_alt_10900 {
       peripheries=0;
-      node_10900 [ label=<<table border='0'><tr><td>outside_state_E_120</td></tr></table>>, color="#0c0a0c" ];
+      node_10900 [ label=<<table border='0'><tr><td>outside_state_E_226</td></tr></table>>, color="#0c0a0c" ];
     };
     { rank=same node_10894 node_10895 node_10896 node_10897 node_10898 node_10899 node_10900 }
   }

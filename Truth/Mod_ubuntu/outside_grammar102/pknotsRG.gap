@@ -2035,7 +2035,7 @@ digraph pknotsRG {
     node_685 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     subgraph cluster_alt_686 {
       peripheries=0;
-      node_686 [ label=<<table border='0'><tr><td>outside_struct</td></tr></table>>, color="#0c0a0c" ];
+      node_686 [ label=<<table border='0'><tr><td>outside_emptystrand</td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_687 {
       peripheries=0;
@@ -2043,7 +2043,7 @@ digraph pknotsRG {
     };
     subgraph cluster_alt_688 {
       peripheries=0;
-      node_688 [ label=<<table border='0'><tr><td>outside_singlestrand</td></tr></table>>, color="#0c0a0c" ];
+      node_688 [ label=<<table border='0'><tr><td>outside_hairpin</td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_689 {
       peripheries=0;
@@ -2059,7 +2059,7 @@ digraph pknotsRG {
     };
     subgraph cluster_alt_692 {
       peripheries=0;
-      node_692 [ label=<<table border='0'><tr><td>outside_hairpin</td></tr></table>>, color="#0c0a0c" ];
+      node_692 [ label=<<table border='0'><tr><td>outside_singlestrand</td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_693 {
       peripheries=0;
@@ -2067,7 +2067,7 @@ digraph pknotsRG {
     };
     subgraph cluster_alt_694 {
       peripheries=0;
-      node_694 [ label=<<table border='0'><tr><td>outside_emptystrand</td></tr></table>>, color="#0c0a0c" ];
+      node_694 [ label=<<table border='0'><tr><td>outside_struct</td></tr></table>>, color="#0c0a0c" ];
     };
     { rank=same node_684 node_685 node_686 node_687 node_688 node_689 node_690 node_691 node_692 node_693 node_694 }
   }

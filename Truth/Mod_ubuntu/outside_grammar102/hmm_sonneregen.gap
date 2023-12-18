@@ -453,7 +453,7 @@ digraph gra_weather {
     node_150 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     subgraph cluster_alt_151 {
       peripheries=0;
-      node_151 [ label=<<table border='0'><tr><td>outside_state_start</td></tr></table>>, color="#0c0a0c" ];
+      node_151 [ label=<<table border='0'><tr><td>outside_emit_hoch</td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_152 {
       peripheries=0;
@@ -461,7 +461,7 @@ digraph gra_weather {
     };
     subgraph cluster_alt_153 {
       peripheries=0;
-      node_153 [ label=<<table border='0'><tr><td>outside_state_hoch</td></tr></table>>, color="#0c0a0c" ];
+      node_153 [ label=<<table border='0'><tr><td>outside_emit_tief</td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_154 {
       peripheries=0;
@@ -469,7 +469,7 @@ digraph gra_weather {
     };
     subgraph cluster_alt_155 {
       peripheries=0;
-      node_155 [ label=<<table border='0'><tr><td>outside_emit_hoch</td></tr></table>>, color="#0c0a0c" ];
+      node_155 [ label=<<table border='0'><tr><td>outside_state_hoch</td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_156 {
       peripheries=0;
@@ -477,7 +477,7 @@ digraph gra_weather {
     };
     subgraph cluster_alt_157 {
       peripheries=0;
-      node_157 [ label=<<table border='0'><tr><td>outside_state_tief</td></tr></table>>, color="#0c0a0c" ];
+      node_157 [ label=<<table border='0'><tr><td>outside_state_start</td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_158 {
       peripheries=0;
@@ -485,7 +485,7 @@ digraph gra_weather {
     };
     subgraph cluster_alt_159 {
       peripheries=0;
-      node_159 [ label=<<table border='0'><tr><td>outside_emit_tief</td></tr></table>>, color="#0c0a0c" ];
+      node_159 [ label=<<table border='0'><tr><td>outside_state_tief</td></tr></table>>, color="#0c0a0c" ];
     };
     { rank=same node_149 node_150 node_151 node_152 node_153 node_154 node_155 node_156 node_157 node_158 node_159 }
   }
