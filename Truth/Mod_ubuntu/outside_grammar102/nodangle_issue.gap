@@ -129,7 +129,7 @@ digraph gra_nodangle {
     node_40 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     subgraph cluster_alt_41 {
       peripheries=0;
-      node_41 [ label=<<table border='0'><tr><td>outside_struct</td></tr></table>>, color="black" ];
+      node_41 [ label=<<table border='0'><tr><td>outside_hairpin</td></tr></table>>, color="black" ];
     };
     subgraph cluster_bar_42 {
       peripheries=0;
@@ -137,7 +137,7 @@ digraph gra_nodangle {
     };
     subgraph cluster_alt_43 {
       peripheries=0;
-      node_43 [ label=<<table border='0'><tr><td>outside_hairpin</td></tr></table>>, color="black" ];
+      node_43 [ label=<<table border='0'><tr><td>outside_struct</td></tr></table>>, color="black" ];
     };
     { rank=same node_39 node_40 node_41 node_42 node_43 }
   }

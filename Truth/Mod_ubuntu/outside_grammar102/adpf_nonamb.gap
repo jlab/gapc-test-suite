@@ -2513,7 +2513,7 @@ digraph canonicals_nonamb {
     node_866 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     subgraph cluster_alt_867 {
       peripheries=0;
-      node_867 [ label=<<table border='0'><tr><td>outside_left_dangle</td></tr></table>>, color="black" ];
+      node_867 [ label=<<table border='0'><tr><td>outside_hairpin</td></tr></table>>, color="black" ];
     };
     subgraph cluster_bar_868 {
       peripheries=0;
@@ -2521,7 +2521,7 @@ digraph canonicals_nonamb {
     };
     subgraph cluster_alt_869 {
       peripheries=0;
-      node_869 [ label=<<table border='0'><tr><td>outside_hairpin</td></tr></table>>, color="black" ];
+      node_869 [ label=<<table border='0'><tr><td>outside_left_dangle</td></tr></table>>, color="black" ];
     };
     { rank=same node_865 node_866 node_867 node_868 node_869 }
   }
