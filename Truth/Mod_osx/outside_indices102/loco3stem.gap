@@ -8482,7 +8482,7 @@ digraph tdm {
     node_3929 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     subgraph cluster_alt_3930 {
       peripheries=0;
-      node_3930 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_left_most</font></td><td>outside_motif5<br/><font color='#fca604'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr></table>>, color="#0c0a0c" ];
+      node_3930 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_left_most</font></td><td>outside_hairpin1<br/><font color='#fca604'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_3931 {
       peripheries=0;
@@ -8490,7 +8490,7 @@ digraph tdm {
     };
     subgraph cluster_alt_3932 {
       peripheries=0;
-      node_3932 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_left_most</font></td><td>outside_motif2<br/><font color='#fca604'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr></table>>, color="#0c0a0c" ];
+      node_3932 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_left_most</font></td><td>outside_hairpin4<br/><font color='#fca604'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_3933 {
       peripheries=0;
@@ -8506,7 +8506,7 @@ digraph tdm {
     };
     subgraph cluster_alt_3936 {
       peripheries=0;
-      node_3936 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_left_most</font></td><td>outside_hairpin4<br/><font color='#fca604'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr></table>>, color="#0c0a0c" ];
+      node_3936 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_left_most</font></td><td>outside_motif2<br/><font color='#fca604'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr></table>>, color="#0c0a0c" ];
     };
     subgraph cluster_bar_3937 {
       peripheries=0;
@@ -8514,7 +8514,7 @@ digraph tdm {
     };
     subgraph cluster_alt_3938 {
       peripheries=0;
-      node_3938 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_left_most</font></td><td>outside_hairpin1<br/><font color='#fca604'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr></table>>, color="#0c0a0c" ];
+      node_3938 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_left_most</font></td><td>outside_motif5<br/><font color='#fca604'>[Sig comp]</font></td><td><font point-size='8' color='#555555'>t_0_right_most</font></td></tr></table>>, color="#0c0a0c" ];
     };
     { rank=same node_3928 node_3929 node_3930 node_3931 node_3932 node_3933 node_3934 node_3935 node_3936 node_3937 node_3938 }
   }
