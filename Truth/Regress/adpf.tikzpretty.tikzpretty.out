@@ -1,4 +1,18 @@
-Answer: 
-( ( node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} C$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} C$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} G$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} G$} } child { node {\color[HTML]{14fe14} nil} child { node {$\color[HTML]{0402fc} \epsilon $} } } } } } } } }  , sadd( <0,1> sadd( <1,2> sadd( <2,3> sadd( <3,4> sadd( <4,5> sadd( <5,6> sadd( <6,7> nil( 1 ) ) ) ) ) ) ) ) ) , ....... )
-( ( node {\color[HTML]{14fe14} cadd} child { node {\color[HTML]{14fe14} dlr} child { node {$\color[HTML]{0402fc} <0>$} } child { node {\color[HTML]{14fe14} hl} child { node {$\color[HTML]{0402fc} C$} } child { node {$\color[HTML]{0402fc} C$} } child { node {$\color[HTML]{0402fc} AAA$} } child { node {$\color[HTML]{0402fc} G$} } child { node {$\color[HTML]{0402fc} G$} } } child { node {$\color[HTML]{0402fc} <7>$} } } child { node {\color[HTML]{14fe14} nil} child { node {$\color[HTML]{0402fc} \epsilon $} } }  , cadd( dlr( <0,0> hl( <0,1> <1,2> <2,5> <5,6> <6,7> ) <7,7> ) nil( 1 ) ) ) , ((...)) )
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{verbatim}
+\begin{document}
+\begin{tikzpicture}
+  \node {$\begin{aligned} Rank & \ 1 \\ enum & \ sadd( <0,1> sadd( <1,2> sadd( <2,3> sadd( <3,4> sadd( <4,5> sadd( <5,6> sadd( <6,7> nil( 1 ) ) ) ) ) ) ) ) \\ pretty & \ ....... \\ \end{aligned}$} child {node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} C$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} C$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} G$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} G$} } child { node {\color[HTML]{14fe14} nil} child { node {$\color[HTML]{0402fc} \epsilon $} } } } } } } } } };
+\end{tikzpicture}
 
+\begin{tikzpicture}
+  \node {$\begin{aligned} Rank & \ 2 \\ enum & \ cadd( dlr( <0,0> hl( <0,1> <1,2> <2,5> <5,6> <6,7> ) <7,7> ) nil( 1 ) ) \\ pretty & \ ((...)) \\ \end{aligned}$} child {node {\color[HTML]{14fe14} cadd} child { node {\color[HTML]{14fe14} dlr} child { node {$\color[HTML]{0402fc} <0>$} } child { node {\color[HTML]{14fe14} hl} child { node {$\color[HTML]{0402fc} C$} } child { node {$\color[HTML]{0402fc} C$} } child { node {$\color[HTML]{0402fc} AAA$} } child { node {$\color[HTML]{0402fc} G$} } child { node {$\color[HTML]{0402fc} G$} } } child { node {$\color[HTML]{0402fc} <7>$} } } child { node {\color[HTML]{14fe14} nil} child { node {$\color[HTML]{0402fc} \epsilon $} } } };
+\end{tikzpicture}
+
+\end{document}
+
+% You computed an instance containing the automatically generated tikZ algebra.
+% To 'draw' these candidate trees, redirect standard output into a file and execute pdflatex on it OR
+% directly pipe standard output to pdflatex by appending ' | pdflatex' to your previous command.

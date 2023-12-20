@@ -1,9 +1,38 @@
-Answer: 
-node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} H \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} allo \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} nil} child { node {$\begin{aligned} \color[HTML]{0402fc} \epsilon  \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } } } 
-node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} H \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} allo \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} ti} child { node {$\begin{aligned} \color[HTML]{0402fc} \epsilon  \\ \color[HTML]{0402fc} 0\end{aligned}$ } } } } 
-node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} H \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} allo \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} td} child { node {$\begin{aligned} \color[HTML]{0402fc} 0 \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } } } 
-node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} H \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} td} child { node {$\begin{aligned} \color[HTML]{0402fc} 4 \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } } 
-node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} Hall \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} o \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} nil} child { node {$\begin{aligned} \color[HTML]{0402fc} \epsilon  \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } } } 
-node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} Hall \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} o \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} ti} child { node {$\begin{aligned} \color[HTML]{0402fc} \epsilon  \\ \color[HTML]{0402fc} 0\end{aligned}$ } } } } 
-node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} Hall \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} o \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} td} child { node {$\begin{aligned} \color[HTML]{0402fc} 0 \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } } } 
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{verbatim}
+\begin{document}
+\begin{tikzpicture}
+  \node {$\begin{aligned} Rank & \ 1 \\ \end{aligned}$} child {node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} H \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} allo \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} nil} child { node {$\begin{aligned} \color[HTML]{0402fc} \epsilon  \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } } } };
+\end{tikzpicture}
 
+\begin{tikzpicture}
+  \node {$\begin{aligned} Rank & \ 2 \\ \end{aligned}$} child {node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} H \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} allo \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} ti} child { node {$\begin{aligned} \color[HTML]{0402fc} \epsilon  \\ \color[HTML]{0402fc} 0\end{aligned}$ } } } } };
+\end{tikzpicture}
+
+\begin{tikzpicture}
+  \node {$\begin{aligned} Rank & \ 3 \\ \end{aligned}$} child {node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} H \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} allo \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} td} child { node {$\begin{aligned} \color[HTML]{0402fc} 0 \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } } } };
+\end{tikzpicture}
+
+\begin{tikzpicture}
+  \node {$\begin{aligned} Rank & \ 4 \\ \end{aligned}$} child {node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} H \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} td} child { node {$\begin{aligned} \color[HTML]{0402fc} 4 \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } } };
+\end{tikzpicture}
+
+\begin{tikzpicture}
+  \node {$\begin{aligned} Rank & \ 5 \\ \end{aligned}$} child {node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} Hall \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} o \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} nil} child { node {$\begin{aligned} \color[HTML]{0402fc} \epsilon  \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } } } };
+\end{tikzpicture}
+
+\begin{tikzpicture}
+  \node {$\begin{aligned} Rank & \ 6 \\ \end{aligned}$} child {node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} Hall \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} o \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} ti} child { node {$\begin{aligned} \color[HTML]{0402fc} \epsilon  \\ \color[HTML]{0402fc} 0\end{aligned}$ } } } } };
+\end{tikzpicture}
+
+\begin{tikzpicture}
+  \node {$\begin{aligned} Rank & \ 7 \\ \end{aligned}$} child {node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} Hall \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} o \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} td} child { node {$\begin{aligned} \color[HTML]{0402fc} 0 \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } } } };
+\end{tikzpicture}
+
+\end{document}
+
+% You computed an instance containing the automatically generated tikZ algebra.
+% To 'draw' these candidate trees, redirect standard output into a file and execute pdflatex on it OR
+% directly pipe standard output to pdflatex by appending ' | pdflatex' to your previous command.
