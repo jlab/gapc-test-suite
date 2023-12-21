@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{verbatim}
+\begin{document}
+
+\begin{tikzpicture}
+  \node {$\begin{aligned} Rank & \ 1 \\ enforce & \ 0 \\ mfe & \ 0 \\ pretty & \ .................. \\ \end{aligned}$} child {node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} C$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} G$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} U$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} C$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} G$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} U$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} U$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} G$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} C$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} C$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} U$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} U$} } child { node {\color[HTML]{14fe14} nil} child { node {$\color[HTML]{0402fc} \epsilon $} } } } } } } } } } } } } } } } } } } } };
+\end{tikzpicture}
+
+
+\begin{tikzpicture}
+  \node {$\begin{aligned} Rank & \ 2 \\ enforce & \ 1 \\ mfe & \ 590 \\ pretty & \ [[[.{{.....]]]..}} \\ \end{aligned}$} child {node {\color[HTML]{14fe14} cadd} child { node {\color[HTML]{14fe14} pk} child { node {\color[HTML]{14fe14} pknot} child { node {$\color[HTML]{0402fc} CGU$} } child { node {\color[HTML]{14fe14} ul} child { node {\color[HTML]{14fe14} pss} child { node {$\color[HTML]{0402fc} <4>$} } } } child { node {$\color[HTML]{0402fc} GA$} } child { node {\color[HTML]{14fe14} middlr} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} ul} child { node {\color[HTML]{14fe14} pss} child { node {$\color[HTML]{0402fc} AUA$} } } } child { node {$\color[HTML]{0402fc} A$} } child { node {$\color[HTML]{555555} 16$} } child { node {$\color[HTML]{555555} 3$} } } child { node {$\color[HTML]{0402fc} AUG$} } child { node {\color[HTML]{14fe14} ul} child { node {\color[HTML]{14fe14} pss} child { node {$\color[HTML]{0402fc} <14>$} } } } child { node {$\color[HTML]{0402fc} UU$} } child { node {$\color[HTML]{555555} -410$} } } } child { node {\color[HTML]{14fe14} nil} child { node {$\color[HTML]{0402fc} \epsilon $} } } };
+\end{tikzpicture}
+
+
+\begin{tikzpicture}
+  \node {$\begin{aligned} Rank & \ 3 \\ enforce & \ 1 \\ mfe & \ 590 \\ pretty & \ [[[..{{....]]]..}} \\ \end{aligned}$} child {node {\color[HTML]{14fe14} cadd} child { node {\color[HTML]{14fe14} pk} child { node {\color[HTML]{14fe14} pknot} child { node {$\color[HTML]{0402fc} CGU$} } child { node {\color[HTML]{14fe14} frd} child { node {\color[HTML]{14fe14} ul} child { node {\color[HTML]{14fe14} pss} child { node {$\color[HTML]{0402fc} <4>$} } } } child { node {$\color[HTML]{0402fc} G$} } child { node {$\color[HTML]{555555} 18$} } } child { node {$\color[HTML]{0402fc} AA$} } child { node {\color[HTML]{14fe14} middlr} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} ul} child { node {\color[HTML]{14fe14} pss} child { node {$\color[HTML]{0402fc} UA$} } } } child { node {$\color[HTML]{0402fc} A$} } child { node {$\color[HTML]{555555} 16$} } child { node {$\color[HTML]{555555} 3$} } } child { node {$\color[HTML]{0402fc} AUG$} } child { node {\color[HTML]{14fe14} ul} child { node {\color[HTML]{14fe14} pss} child { node {$\color[HTML]{0402fc} <14>$} } } } child { node {$\color[HTML]{0402fc} UU$} } child { node {$\color[HTML]{555555} -370$} } } } child { node {\color[HTML]{14fe14} nil} child { node {$\color[HTML]{0402fc} \epsilon $} } } };
+\end{tikzpicture}
+
+\end{document}
+
+% You computed an instance containing the automatically generated tikZ algebra.
+% To 'draw' these candidate trees, redirect standard output into a file and execute pdflatex on it OR
+% directly pipe standard output to pdflatex by appending ' | pdflatex' to your previous command.
