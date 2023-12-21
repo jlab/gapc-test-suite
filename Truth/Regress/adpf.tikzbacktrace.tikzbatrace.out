@@ -1,0 +1,14 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{verbatim}
+\begin{document}
+\begin{tikzpicture}
+  \node {$\begin{aligned} Rank & \ 1 \\ mfe & \ 0 \\ p_func & \ 0.123288 \\ pretty & \ ....... \\ \end{aligned}$} child {node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} C$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} C$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} G$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} G$} } child { node {\color[HTML]{14fe14} nil} child { node {$\color[HTML]{0402fc} \epsilon $} } } } } } } } } };
+\end{tikzpicture}
+
+\end{document}
+
+% You computed an instance containing the automatically generated tikZ algebra.
+% To 'draw' these candidate trees, redirect standard output into a file and execute pdflatex on it OR
+% directly pipe standard output to pdflatex by appending ' | pdflatex' to your previous command.
