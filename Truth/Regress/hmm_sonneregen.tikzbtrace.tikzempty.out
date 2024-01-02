@@ -2,7 +2,21 @@
 \usepackage{tikz}
 \usepackage{amsmath}
 \usepackage{verbatim}
+\usetikzlibrary{external}
+\tikzexternalize[mode=list and make]
+\tikzset{
+  png export/.style={
+    % First we call ImageMagick; change settings to requirements
+    external/system call/.add={}{; convert -density 300 -transparent white "\image.pdf" "\image.png"},
+    % Now we force the PNG figure to be used instead of the PDF
+    /pgf/images/external info,
+    /pgf/images/include external/.code={
+      \includegraphics[width=\pgfexternalwidth,height=\pgfexternalheight]{##1.png}
+    },
+  }
+}
 \begin{document}
+\tikzset{png export}
 Your result list is empty!\end{document}
 
 % You computed an instance containing the automatically generated tikZ algebra.

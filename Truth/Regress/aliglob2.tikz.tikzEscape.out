@@ -2,7 +2,21 @@
 \usepackage{tikz}
 \usepackage{amsmath}
 \usepackage{verbatim}
+\usetikzlibrary{external}
+\tikzexternalize[mode=list and make]
+\tikzset{
+  png export/.style={
+    % First we call ImageMagick; change settings to requirements
+    external/system call/.add={}{; convert -density 300 -transparent white "\image.pdf" "\image.png"},
+    % Now we force the PNG figure to be used instead of the PDF
+    /pgf/images/external info,
+    /pgf/images/include external/.code={
+      \includegraphics[width=\pgfexternalwidth,height=\pgfexternalheight]{##1.png}
+    },
+  }
+}
 \begin{document}
+\tikzset{png export}
 
 \begin{tikzpicture}
   \node {$\begin{aligned} Rank & \ 1 \\ \end{aligned}$} child {node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} " \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} \# \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} \$ \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} \% \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} \& \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} \backslash \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} \hat{\ } \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} \_ \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} \{ \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} \} \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} \tilde{\ } \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} " \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} ins} child { node {$\begin{aligned} \color[HTML]{0402fc} \epsilon  \\ \color[HTML]{0402fc} X\end{aligned}$ } } child { node {\color[HTML]{14fe14} nil} child { node {$\begin{aligned} \color[HTML]{0402fc} \epsilon  \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } } } } } } } } } } } } } } };

@@ -2,10 +2,26 @@
 \usepackage{tikz}
 \usepackage{amsmath}
 \usepackage{verbatim}
+\usetikzlibrary{external}
+\tikzexternalize[mode=list and make]
+\tikzset{
+  png export/.style={
+    % First we call ImageMagick; change settings to requirements
+    external/system call/.add={}{; convert -density 300 -transparent white "\image.pdf" "\image.png"},
+    % Now we force the PNG figure to be used instead of the PDF
+    /pgf/images/external info,
+    /pgf/images/include external/.code={
+      \includegraphics[width=\pgfexternalwidth,height=\pgfexternalheight]{##1.png}
+    },
+  }
+}
 \begin{document}
+\tikzset{png export}
+
 \begin{tikzpicture}
   \node {$\begin{aligned} Rank & \ 1 \\ mfe & \ (210, <0, 7>, <0, 0>) \\ shape5 & \ [] \\ \end{aligned}$} child {node {\color[HTML]{14fe14} trafo} child { node {\color[HTML]{14fe14} cadd\_Pr\_Pr\_Pr} child { node {\color[HTML]{14fe14} drem} child { node {\color[HTML]{14fe14} is} child { node {\color[HTML]{14fe14} hl} child { node {$\color[HTML]{0402fc} C$} } child { node {$\color[HTML]{0402fc} C$} } child { node {$\color[HTML]{0402fc} AAA$} } child { node {$\color[HTML]{0402fc} G$} } child { node {$\color[HTML]{0402fc} G$} } } } } child { node {\color[HTML]{14fe14} nil\_Pr} child { node {$\color[HTML]{0402fc} <7>$} } } } };
 \end{tikzpicture}
+
 
 \begin{tikzpicture}
   \node {$\begin{aligned} Rank & \ 2 \\ mfe & \ (0, <0, 7>, <0, 0>) \\ shape5 & \  \\ \end{aligned}$} child {node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} C$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} C$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} G$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} G$} } child { node {\color[HTML]{14fe14} nil} child { node {$\color[HTML]{0402fc} <7>$} } } } } } } } } };

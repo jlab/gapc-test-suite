@@ -2,7 +2,21 @@
 \usepackage{tikz}
 \usepackage{amsmath}
 \usepackage{verbatim}
+\usetikzlibrary{external}
+\tikzexternalize[mode=list and make]
+\tikzset{
+  png export/.style={
+    % First we call ImageMagick; change settings to requirements
+    external/system call/.add={}{; convert -density 300 -transparent white "\image.pdf" "\image.png"},
+    % Now we force the PNG figure to be used instead of the PDF
+    /pgf/images/external info,
+    /pgf/images/include external/.code={
+      \includegraphics[width=\pgfexternalwidth,height=\pgfexternalheight]{##1.png}
+    },
+  }
+}
 \begin{document}
+\tikzset{png export}
 
 \begin{tikzpicture}
   \node {$\begin{aligned} Rank & \ 1 \\ p\_func & \ 1.05612 \\ pretty & \ (((....((((.....))))...)))(((........)))..... \\ \end{aligned}$} child {node {\color[HTML]{14fe14} cadd} child { node {\color[HTML]{14fe14} dlr} child { node {$\color[HTML]{0402fc} <0>$} } child { node {\color[HTML]{14fe14} sr} child { node {$\color[HTML]{0402fc} G$} } child { node {\color[HTML]{14fe14} il} child { node {$\color[HTML]{0402fc} U$} } child { node {$\color[HTML]{0402fc} A$} } child { node {$\color[HTML]{0402fc} AAAU$} } child { node {\color[HTML]{14fe14} sr} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sr} child { node {$\color[HTML]{0402fc} G$} } child { node {\color[HTML]{14fe14} hl} child { node {$\color[HTML]{0402fc} G$} } child { node {$\color[HTML]{0402fc} U$} } child { node {$\color[HTML]{0402fc} UUUUU$} } child { node {$\color[HTML]{0402fc} A$} } child { node {$\color[HTML]{0402fc} C$} } } child { node {$\color[HTML]{0402fc} C$} } } child { node {$\color[HTML]{0402fc} U$} } } child { node {$\color[HTML]{0402fc} CGG$} } child { node {$\color[HTML]{0402fc} U$} } child { node {$\color[HTML]{0402fc} A$} } } child { node {$\color[HTML]{0402fc} U$} } } child { node {$\color[HTML]{0402fc} <26>$} } } child { node {\color[HTML]{14fe14} cadd} child { node {\color[HTML]{14fe14} dlr} child { node {$\color[HTML]{0402fc} <26>$} } child { node {\color[HTML]{14fe14} sr} child { node {$\color[HTML]{0402fc} G$} } child { node {\color[HTML]{14fe14} hl} child { node {$\color[HTML]{0402fc} C$} } child { node {$\color[HTML]{0402fc} C$} } child { node {$\color[HTML]{0402fc} UUGUGACU$} } child { node {$\color[HTML]{0402fc} G$} } child { node {$\color[HTML]{0402fc} G$} } } child { node {$\color[HTML]{0402fc} C$} } } child { node {$\color[HTML]{0402fc} <40>$} } } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} U$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} U$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} G$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} C$} } child { node {\color[HTML]{14fe14} nil} child { node {$\color[HTML]{0402fc} \epsilon $} } } } } } } } } };

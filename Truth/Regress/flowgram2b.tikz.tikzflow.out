@@ -2,30 +2,51 @@
 \usepackage{tikz}
 \usepackage{amsmath}
 \usepackage{verbatim}
+\usetikzlibrary{external}
+\tikzexternalize[mode=list and make]
+\tikzset{
+  png export/.style={
+    % First we call ImageMagick; change settings to requirements
+    external/system call/.add={}{; convert -density 300 -transparent white "\image.pdf" "\image.png"},
+    % Now we force the PNG figure to be used instead of the PDF
+    /pgf/images/external info,
+    /pgf/images/include external/.code={
+      \includegraphics[width=\pgfexternalwidth,height=\pgfexternalheight]{##1.png}
+    },
+  }
+}
 \begin{document}
+\tikzset{png export}
+
 \begin{tikzpicture}
   \node {$\begin{aligned} Rank & \ 1 \\ \end{aligned}$} child {node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} H \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} allo \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} nil} child { node {$\begin{aligned} \color[HTML]{0402fc} \epsilon  \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } } } };
 \end{tikzpicture}
+
 
 \begin{tikzpicture}
   \node {$\begin{aligned} Rank & \ 2 \\ \end{aligned}$} child {node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} H \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} allo \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} ti} child { node {$\begin{aligned} \color[HTML]{0402fc} \epsilon  \\ \color[HTML]{0402fc} 0\end{aligned}$ } } } } };
 \end{tikzpicture}
 
+
 \begin{tikzpicture}
   \node {$\begin{aligned} Rank & \ 3 \\ \end{aligned}$} child {node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} H \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} allo \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} td} child { node {$\begin{aligned} \color[HTML]{0402fc} 0 \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } } } };
 \end{tikzpicture}
+
 
 \begin{tikzpicture}
   \node {$\begin{aligned} Rank & \ 4 \\ \end{aligned}$} child {node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} H \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} td} child { node {$\begin{aligned} \color[HTML]{0402fc} 4 \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } } };
 \end{tikzpicture}
 
+
 \begin{tikzpicture}
   \node {$\begin{aligned} Rank & \ 5 \\ \end{aligned}$} child {node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} Hall \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} o \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} nil} child { node {$\begin{aligned} \color[HTML]{0402fc} \epsilon  \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } } } };
 \end{tikzpicture}
 
+
 \begin{tikzpicture}
   \node {$\begin{aligned} Rank & \ 6 \\ \end{aligned}$} child {node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} Hall \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} o \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} ti} child { node {$\begin{aligned} \color[HTML]{0402fc} \epsilon  \\ \color[HTML]{0402fc} 0\end{aligned}$ } } } } };
 \end{tikzpicture}
+
 
 \begin{tikzpicture}
   \node {$\begin{aligned} Rank & \ 7 \\ \end{aligned}$} child {node {\color[HTML]{14fe14} del} child { node {$\begin{aligned} \color[HTML]{0402fc} Hall \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } child { node {\color[HTML]{14fe14} r} child { node {$\begin{aligned} \color[HTML]{0402fc} o \\ \color[HTML]{0402fc} W\end{aligned}$ } } child { node {\color[HTML]{14fe14} td} child { node {$\begin{aligned} \color[HTML]{0402fc} 0 \\ \color[HTML]{0402fc} \epsilon \end{aligned}$ } } } } };

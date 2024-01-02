@@ -2,10 +2,26 @@
 \usepackage{tikz}
 \usepackage{amsmath}
 \usepackage{verbatim}
+\usetikzlibrary{external}
+\tikzexternalize[mode=list and make]
+\tikzset{
+  png export/.style={
+    % First we call ImageMagick; change settings to requirements
+    external/system call/.add={}{; convert -density 300 -transparent white "\image.pdf" "\image.png"},
+    % Now we force the PNG figure to be used instead of the PDF
+    /pgf/images/external info,
+    /pgf/images/include external/.code={
+      \includegraphics[width=\pgfexternalwidth,height=\pgfexternalheight]{##1.png}
+    },
+  }
+}
 \begin{document}
+\tikzset{png export}
+
 \begin{tikzpicture}
   \node {$\begin{aligned} Rank & \ 1 \\ enum & \ sadd( <0,1> sadd( <1,2> sadd( <2,3> sadd( <3,4> sadd( <4,5> sadd( <5,6> sadd( <6,7> nil( 1 ) ) ) ) ) ) ) ) \\ pretty & \ ....... \\ \end{aligned}$} child {node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} C$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} C$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} A$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} G$} } child { node {\color[HTML]{14fe14} sadd} child { node {$\color[HTML]{0402fc} G$} } child { node {\color[HTML]{14fe14} nil} child { node {$\color[HTML]{0402fc} \epsilon $} } } } } } } } } };
 \end{tikzpicture}
+
 
 \begin{tikzpicture}
   \node {$\begin{aligned} Rank & \ 2 \\ enum & \ cadd( dlr( <0,0> hl( <0,1> <1,2> <2,5> <5,6> <6,7> ) <7,7> ) nil( 1 ) ) \\ pretty & \ ((...)) \\ \end{aligned}$} child {node {\color[HTML]{14fe14} cadd} child { node {\color[HTML]{14fe14} dlr} child { node {$\color[HTML]{0402fc} <0>$} } child { node {\color[HTML]{14fe14} hl} child { node {$\color[HTML]{0402fc} C$} } child { node {$\color[HTML]{0402fc} C$} } child { node {$\color[HTML]{0402fc} AAA$} } child { node {$\color[HTML]{0402fc} G$} } child { node {$\color[HTML]{0402fc} G$} } } child { node {$\color[HTML]{0402fc} <7>$} } } child { node {\color[HTML]{14fe14} nil} child { node {$\color[HTML]{0402fc} \epsilon $} } } };
