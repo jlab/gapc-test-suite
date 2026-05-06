@@ -12,8 +12,8 @@
       nt_tabulate_dangleknot((t_0_i - 1), t_0_j);
       nt_tabulate_mldangle((t_0_i - 1), t_0_j);
       nt_tabulate_pk_comps((t_0_i - 1), t_0_j);
-      nt_tabulate_back_Pr((t_0_i - 1), t_0_j);
       nt_tabulate_dangle_Pr((t_0_i - 1), t_0_j);
+      nt_tabulate_front_Pr((t_0_i - 1), t_0_j);
       nt_tabulate_singlestrand((t_0_i - 1), t_0_j);
       nt_tabulate_mid((t_0_i - 1), t_0_j);
       nt_tabulate_ml_comps((t_0_i - 1), t_0_j);
@@ -32,8 +32,8 @@
     nt_tabulate_dangleknot((t_0_i - 1), t_0_j);
     nt_tabulate_mldangle((t_0_i - 1), t_0_j);
     nt_tabulate_pk_comps((t_0_i - 1), t_0_j);
-    nt_tabulate_back_Pr((t_0_i - 1), t_0_j);
     nt_tabulate_dangle_Pr((t_0_i - 1), t_0_j);
+    nt_tabulate_front_Pr((t_0_i - 1), t_0_j);
     nt_tabulate_singlestrand((t_0_i - 1), t_0_j);
     nt_tabulate_mid((t_0_i - 1), t_0_j);
     nt_tabulate_ml_comps((t_0_i - 1), t_0_j);
@@ -53,8 +53,8 @@
     nt_tabulate_dangleknot((t_0_i - 1), t_0_j);
     nt_tabulate_mldangle((t_0_i - 1), t_0_j);
     nt_tabulate_pk_comps((t_0_i - 1), t_0_j);
-    nt_tabulate_back_Pr((t_0_i - 1), t_0_j);
     nt_tabulate_dangle_Pr((t_0_i - 1), t_0_j);
+    nt_tabulate_front_Pr((t_0_i - 1), t_0_j);
     nt_tabulate_singlestrand((t_0_i - 1), t_0_j);
     nt_tabulate_mid((t_0_i - 1), t_0_j);
     nt_tabulate_ml_comps((t_0_i - 1), t_0_j);
@@ -74,8 +74,8 @@
   nt_tabulate_dangleknot((t_0_i - 1), t_0_j);
   nt_tabulate_mldangle((t_0_i - 1), t_0_j);
   nt_tabulate_pk_comps((t_0_i - 1), t_0_j);
-  nt_tabulate_back_Pr((t_0_i - 1), t_0_j);
   nt_tabulate_dangle_Pr((t_0_i - 1), t_0_j);
+  nt_tabulate_front_Pr((t_0_i - 1), t_0_j);
   nt_tabulate_singlestrand((t_0_i - 1), t_0_j);
   nt_tabulate_mid((t_0_i - 1), t_0_j);
   nt_tabulate_ml_comps((t_0_i - 1), t_0_j);
