@@ -236,7 +236,7 @@ digraph Cm {
   subgraph cluster_5 {
     peripheries=1;
     label="";
-    node_79 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>d_4<br/><font color='#fca604'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (0, n)</td></tr><tr><td colspan="3">(quadratic)</td></tr></table>>, color="#0c0a0c", shape="box", style="dotted" ];
+    node_79 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>d_4<br/><font color='#fca604'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (0, n)</td></tr><tr><td colspan="3">(quadratic)</td></tr></table>>, color="#0c0a0c", shape="box" ];
     node_79 -> node_80 [ style="invis", weight=99 ];
     node_80 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     subgraph cluster_alt_81 {
@@ -336,7 +336,7 @@ digraph Cm {
   subgraph cluster_7 {
     peripheries=1;
     label="";
-    node_113 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>ml_6<br/><font color='#fca604'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (0, n)</td></tr><tr><td colspan="3">(quadratic)</td></tr></table>>, color="#0c0a0c", shape="box", style="dotted" ];
+    node_113 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>ml_6<br/><font color='#fca604'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (0, n)</td></tr><tr><td colspan="3">(quadratic)</td></tr></table>>, color="#0c0a0c", shape="box" ];
     node_113 -> node_114 [ style="invis", weight=99 ];
     node_114 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     subgraph cluster_alt_115 {
@@ -1286,7 +1286,7 @@ digraph Cm {
   subgraph cluster_26 {
     peripheries=1;
     label="";
-    node_436 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>d_25<br/><font color='#fca604'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (0, n)</td></tr><tr><td colspan="3">(quadratic)</td></tr></table>>, color="#0c0a0c", shape="box" ];
+    node_436 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>d_25<br/><font color='#fca604'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (0, n)</td></tr><tr><td colspan="3">(quadratic)</td></tr></table>>, color="#0c0a0c", shape="box", style="dotted" ];
     node_436 -> node_437 [ style="invis", weight=99 ];
     node_437 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     subgraph cluster_alt_438 {
@@ -1436,7 +1436,7 @@ digraph Cm {
   subgraph cluster_29 {
     peripheries=1;
     label="";
-    node_487 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>d_28<br/><font color='#fca604'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (0, n)</td></tr><tr><td colspan="3">(quadratic)</td></tr></table>>, color="#0c0a0c", shape="box", style="dotted" ];
+    node_487 [ label=<<table border='0'><tr><td><font point-size='8' color='#555555'>t_0_i</font></td><td>d_28<br/><font color='#fca604'>[Sig answer]</font></td><td><font point-size='8' color='#555555'>t_0_j</font></td></tr><tr><td colspan="3">yield size: (0, n)</td></tr><tr><td colspan="3">(quadratic)</td></tr></table>>, color="#0c0a0c", shape="box" ];
     node_487 -> node_488 [ style="invis", weight=99 ];
     node_488 [ label=<<table border='0'><tr><td><font point-size='30'>&rarr;</font></td></tr></table>>, shape=plaintext ];
     subgraph cluster_alt_489 {
